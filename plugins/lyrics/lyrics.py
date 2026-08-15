@@ -191,6 +191,7 @@ class LyricGrabber(object):
 
 		Supported file formats and lyrics tags:
 		- ogg/vorbis files with "LYRICS" and "SYNCLYRICS" tag
+		- flac files with "UNSYNCEDLYRICS" tag
 		"""
 		tags = info.get_tags()
 		if tags is None:
@@ -213,6 +214,10 @@ class LyricGrabber(object):
 			#ogg/vorbis synchronized lyrics
 			elif exists and value.startswith("SYNCLYRICS"):
 				text = value.replace("SYNCLYRICS=", "")
+				self.lyrics_found(text)
+				return
+			elif exists and value.startswith("UNSYNCEDLYRICS"):
+				text = value.replace("UNSYNCEDLYRICS=", "")
 				self.lyrics_found(text)
 				return
 

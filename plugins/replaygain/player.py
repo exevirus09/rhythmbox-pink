@@ -159,12 +159,13 @@ class ReplayGainPlayer(object):
 		rgvolume = Gst.ElementFactory.make("rgvolume", None)
 		rgvolume.connect("notify::target-gain", self.multi_target_gain_cb)
 		self.set_rgvolume(rgvolume)
+		self.rgvolume = rgvolume
 
 		print("creating rglimiter instance for stream %s" % uri)
 		self.rglimiter = Gst.ElementFactory.make("rglimiter", None)
 		self.rglimiter.props.enabled = self.settings['limiter']
 
-		return [rgvolume, self.rglimiter]
+		return [self.rgvolume, self.rglimiter]
 
 	def limiter_changed_cb(self, settings, key):
 		if self.rglimiter is not None:

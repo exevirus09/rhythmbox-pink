@@ -1827,7 +1827,7 @@ rhythmdb_query_model_remove_entry (RhythmDBQueryModel *model,
  * rhythmdb_query_model_entry_to_iter:
  * @model: a #RhythmDBQueryModel
  * @entry: the #RhythmDBEntry to look up
- * @iter: holds the returned #GtkTreeIter
+ * @iter: (out): holds the returned #GtkTreeIter
  *
  * Creates a #GtkTreeIter pointing to the specified entry in the model.
  *

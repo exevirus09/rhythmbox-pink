@@ -1,3 +1,21 @@
+Overview of changes in Rhythmbox 3.5.1
+======================================
+
+* ReplayGain plugin works with new player backend
+* Improved detection of pygobject/libpeas/girepository compatibility issues
+
+Issues fixed:
+2139 - Build fails with new pygobject and old libpeas
+2142 - Replay Gain prevents Playback with rhythmbox 3.5.0-1
+
+Merge requests:
+208 - add lyric support for bandcamp flacs
+
+Translation updates:
+- be, courtesy of Yuras Shumovich
+- fi, courtesy of Jiri Grönroos
+
+
 Overview of changes in Rhythmbox 3.5.0
 ======================================
 

@@ -43,6 +43,13 @@
     <id>rhythmbox.desktop</id>
   </provides>
   <releases>
+    <release version="3.5.1" date="2026-08-24">
+      <description>
+        <p>
+          This version fixes some issues arising from the previous release.
+	</p>
+      </description>
+    </release>
     <release version="3.5.0" date="2026-08-02">
       <description>
 	<p>

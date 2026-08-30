@@ -1,0 +1,1044 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+<!ENTITY appversion "3.4.4">
+<!ENTITY manrevision "3.4.4">
+<!ENTITY date "January 2020">
+<!ENTITY app "Rhythmbox Music Player">
+<!ENTITY mdash "&#8212;">
+]>
+<!--
+      (Do not remove this comment block.)
+  Version: 0.0.2
+  Last modified: October 02, 2002
+  Maintainers:
+               Mark Finlay <sisob@eircom.net>
+	       Mark Humphreys <marquee@users.sourceforge.net>
+-->
+<!--
+      (Do not remove this comment block.)
+  Version: 0.0.3
+  Last modified: August 08, 2003
+  Maintainers:
+	       Mark Humphreys <marquee@users.sourceforge.net>
+-->
+<!--
+      (Do not remove this comment block.)
+  Version: 0.0.4
+  Last modified: October 01, 2005
+  Maintainers:
+	       Baptiste Mille-Mathias <baptiste.millemathias@gmail.com>
+-->
+<!-- =============Document Header ============================= -->
+<article id="index" lang="id">
+<!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+  <articleinfo>
+    <title>Rhythmbox Pemutar Musik</title>
+	<copyright><year>2002</year> <holder>Mark Finlay</holder></copyright>
+        <copyright><year>2002</year> <holder>Mark Humphreys</holder></copyright>
+	<copyright><year>2005</year> <year>2006</year> <holder>Baptiste Mille-Mathias</holder></copyright>
+	<copyright><year>2006</year> <holder>Victor Osadci</holder></copyright>
+	<copyright><year>2008</year> <holder>Dean Sas</holder></copyright>
+	<copyright><year>2018</year> <year>2020</year> <holder>Andre Klapper</holder></copyright>
+
+<!-- translators: uncomment this:
+  <copyright>
+   <year>2000</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+  -->
+<!-- An address can be added to the publisher information.  If a role is
+     not specified, the publisher/author is the same for all versions of the
+     document.  -->
+	<publisher>
+	 	<publishername>Proyek Dokumentasi GNOME</publishername>
+	</publisher>
+
+   
+   <!-- This file  contains link to license for the documentation (GNU FDL), and
+   other legal stuff such as "NO WARRANTY" statement. Please do not change
+   any of this. -->
+   <authorgroup>
+   		<author><firstname>Mark</firstname> <surname>Finlay</surname> <affiliation> <orgname>GNOME Documentation Project</orgname> <address><email>sisob@eircom.net</email></address> </affiliation></author>
+		<author><firstname>Mark</firstname> <surname>Humphreys</surname> <affiliation> <orgname>GNOME Documentation Project</orgname> <address><email>marquee@users.sourceforge.net</email></address> </affiliation></author>		
+		<author role="maintainer"><firstname>Baptiste</firstname> <surname>Mille-Mathias</surname> <affiliation> <orgname>GNOME Documentation Project</orgname> <address><email>baptiste.millemathias@gmail.com</email></address> </affiliation></author>
+		<author><firstname>Victor</firstname> <surname>Osadci</surname> <affiliation> <orgname>GNOME Documentation Project</orgname> <address><email>Victor.Osadci.GNOME@xhtml.md</email></address> </affiliation></author>
+		<author><firstname>Dean</firstname> <surname>Sas</surname> <affiliation> <orgname>Ubuntu Documentation Project</orgname> <address><email>dean@deansas.org</email></address> </affiliation></author>
+		<author><firstname>Andre</firstname> <surname>Klapper</surname> <affiliation> <orgname>GNOME Documentation Project</orgname> <address><email>ak-47@gmx.net</email></address> </affiliation></author>
+   </authorgroup>
+
+<!-- According to GNU FDL, revision history is mandatory if you are -->
+<!-- modifying/reusing someone else's document.  If not, you can omit it. -->
+   <revhistory>
+      <revision><revnumber>Manual Rhythmbox Pemutar Musik V0.0.2</revnumber> <date>Oktober 2002</date> <revdescription> 
+	  		<para role="author">Mark Finlay</para>
+	  		<para role="publisher">Proyek Dokumentasi GNOME</para>
+		</revdescription></revision> 
+      <revision><revnumber>Manual Rhythmbox Pemutar Musik V0.0.3</revnumber> <date>Agustus 2003</date> <revdescription> 
+	  		<para role="author">Mark Humphreys</para>
+	  		<para role="publisher">Proyek Dokumentasi GNOME</para>
+		</revdescription></revision> 
+      <revision><revnumber>Manual Rhythmbox Pemutar Musik V0.0.4</revnumber> <date>Oktober 2005</date> <revdescription> 
+	  		<para role="author">Baptiste Mille-Mathias</para>
+	  		<para role="publisher">Proyek Dokumentasi GNOME</para>
+		</revdescription></revision> 
+      <revision><revnumber>Manual Rhythmbox Pemutar Musik V2.0.2</revnumber> <date>April 2006</date> <revdescription> 
+	  		<para role="author">Luca Ferretti</para>
+	  		<para role="publisher">Proyek Dokumentasi GNOME</para>
+		</revdescription></revision> 
+	  <revision><revnumber>Manual Rhythmbox Pemutar Musik V2.0.3</revnumber> <date>Mei 2008</date> <revdescription>
+			<para role="author">Dean Sas</para>
+			<para role="publisher">Proyek Dokumentasi GNOME</para>
+        </revdescription></revision>
+	  <revision lang="en">
+		<revnumber>Rhythmbox Music Player Manual V3.4.4</revnumber>
+		<date>January 2020</date>
+		<revdescription>
+			<para role="author" lang="en">Andre Klapper</para>
+			<para role="publisher" lang="en">GNOME Documentation Project</para>
+        </revdescription>
+      </revision>
+    </revhistory> 
+
+    <releaseinfo>Manual ini menjelaskan versi 3.4.4 dari Rhythmbox Pemutar Musik.</releaseinfo> 
+    <legalnotice> 
+      <title>Umpan Balik</title> 
+      <para>Untuk melaporkan kutu atau membuat saran mengenai aplikasi Rhythmbox Pemutar Musik atau manual ini, kunjungi <ulink url="https://gitlab.gnome.org/GNOME/rhythmbox/issues/">Pelacak Masalah GNOME</ulink>.</para>
+<!-- Translators may also add here feedback address for translations -->
+    </legalnotice> 
+
+   <abstract role="description">
+     <para>Rhythmbox adalah pemutar musik berfitur lengkap untuk Desktop GNOME.</para>
+   </abstract>
+
+  
+    <othercredit class="translator">
+      <personname>
+        <firstname>Andika Triwidada</firstname>
+      </personname>
+      <email>andika@gmail.com</email>
+    </othercredit>
+    <copyright>
+      
+        <year>2009</year>
+      
+        <year>2011</year>
+      
+        <year>2016</year>
+      
+        <year>2023</year>
+      
+      <holder>Andika Triwidada</holder>
+    </copyright>
+  </articleinfo> 
+
+
+  <indexterm zone="index"><primary>Rhythmbox</primary></indexterm>
+  <indexterm zone="index"><primary>rhythmbox</primary></indexterm>
+  <indexterm zone="index"><primary>Pemutar Musik</primary></indexterm>
+<!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+  <sect1 id="introduction">
+    <title>Pengantar</title>
+      <para><application>Rhythmbox Pemutar Musik</application> adalah pemutar musik dan perpustakaan untuk berkas yang ditandai yang mendukung berbagai format musik.</para>
+      <para>Fitur <application>Rhythmbox Pemutar Musik</application> saat ini meliputi:</para>
+      	<itemizedlist>
+          <listitem>
+            <para>Memutar berbagai format berkas musik dari perpustakaan terorganisir yang ditandai.</para>
+          </listitem>
+          <listitem>
+            <para>Menampilkan informasi tentang lagu melalui pembacaan meta-data.</para>
+          </listitem>
+          <listitem>
+            <para>Menampilkan lagu dalam tampilan yang terorganisir.</para>
+          </listitem>
+          <listitem>
+            <para>Membuat daftar putar statis dengan menyeret dan menjatuhkan dari tampilan Pustaka.</para>
+          </listitem>
+          <listitem>
+            <para>Membuat daftar putar otomatis dari kriteria.</para>
+          </listitem>
+          <listitem>
+            <para>Mencari lagu di daftar sumber seperti Perpustakaan atau Daftar Putar.</para>
+          </listitem>
+          <listitem>
+            <para>Mendengarkan stasiun radio Internet.</para>
+          </listitem>
+          <listitem>
+            <para>Membaca CD Audio, dan mengambil informasi seperti judul lagu dari Internet.</para>
+          </listitem>
+          <listitem>
+            <para>Membakar CD Audio dari daftar putar.</para>
+          </listitem>
+          <listitem>
+            <para>Menransfer musik ke pemutar musik iPod, MTP, dan Penyimpanan Massal USB.</para>
+          </listitem>
+        </itemizedlist>
+  </sect1>
+  <sect1 id="rb-getting-started">
+  	<title>Memulai</title>
+	
+		<sect2 id="rb-launch">
+			<title>Untuk Meluncurkan <application>Pemutar Musik Rhythmbox</application></title>
+			<para>Anda dapat meluncurkan <application>Rhythmbox Pemutar Musik</application> dengan cara berikut: <variablelist>
+					<varlistentry>
+						<term>Kisi <guimenu>Aplikasi</guimenu></term>
+						<listitem>
+							<para>Klik <guimenuitem>Aktivitas</guimenuitem> di kiri atas layar. Klik tombol kisi di dash. Pilih <guimenuitem>Rhythmbox</guimenuitem>.</para>
+						</listitem>
+					</varlistentry>
+					<varlistentry>
+						<term>Baris Perintah</term>
+						<listitem>
+							<para>Ketikkan <command>rhythmbox</command>, lalu tekan <keycap>Enter</keycap>.</para>
+						</listitem>
+					</varlistentry>
+				</variablelist></para>
+		</sect2>
+		<sect2 id="rb">
+			<title>Menjalankan Asisten</title>
+			<para>Pertama kali Anda meluncurkan <application>Rhythmbox Pemutar Musik</application>, asisten akan membantu Anda mengimpor musik Anda. Pada panel kedua asisten, tekan tombol <guibutton>Ramban</guibutton> dan pilih folder tempat musik Anda disimpan.</para>
+		</sect2>
+  </sect1>
+  <sect1 id="rb-window">
+    <title>Jendela Pemutar Musik Rhythmbox</title>
+    <sect2 id="rb-window-intro">
+      <title>Ringkasan</title>
+      	<para><application>Jendela Rhythmbox Pemutar Musik</application> memungkinkan Anda untuk menelusuri dan memutar musik favorit Anda. <xref linkend="fig-rb-window"/> menunjukkan antarmuka <application>Rhythmbox Pemutar Musik</application> dengan komponen utamanya.</para>
+      	<figure id="fig-rb-window">
+        <title>Jendela <application>Pemutar Musik Rhythmbox</application></title>
+        <screenshot>
+          <mediaobject><imageobject> <imagedata fileref="figures/rb-window.png" format="PNG"/> </imageobject> <textobject> <phrase>Menampilkan jendela <application>Rhythmbox Pemutar Musik</application> yang menunjukkan bagian yang berbeda pada antarmuka <application>Rhythmbox Pemutar Musik</application>. Callout: Area pemutar, Peramban, Panel sisi, Bilah status. </phrase> </textobject></mediaobject>
+        </screenshot>
+      </figure>
+      <para>Tabel 1 menjelaskan komponen jendela <application>Rhythmbox Pemutar Musik</application>.</para>
+      <table frame="topbot" id="table-rb-window">
+        <title>Komponen Jendela <application>Rhythmbox Pemutar Musik</application></title>
+        <tgroup cols="3" colsep="0" rowsep="0">
+          <colspec colname="COLSPEC0"/>
+          <colspec colname="COLSPEC1"/>
+          <colspec colname="COLSPEC2"/>
+          <thead>
+            <row rowsep="1">
+              <entry valign="top">Id</entry>
+              <entry valign="top">Komponen</entry>
+              <entry valign="top">Deskripsi</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry valign="top">1</entry>
+              <entry valign="top">Bilah Alat</entry>
+              <entry valign="top">Menyediakan akses ke fungsi pemutar dan detail tentang trek yang sedang diputar. Termasuk penggeser waktu yang menampilkan posisi pembacaan trek; ini memungkinkan untuk melompat ke bagian lain dari trek. Juga termasuk penggeser volume dan tombol untuk mengakses menu aplikasi.</entry>
+            </row>
+            <row>
+              <entry valign="top">2</entry>
+              <entry valign="top">Panel Sisi</entry>
+              <entry valign="top">Menampilkan daftar sumber yang tersedia. Dapat juga menampilkan antrian putar.</entry>
+
+            </row>
+            <row>
+              <entry valign="top">3</entry>
+              <entry valign="top">Peramban</entry>
+              <entry valign="top">Memungkinkan untuk meramban dan memfilter trek Perpustakaan berdasarkan Genre, Artis, atau nama Album. Peramban juga menyediakan fungsi pencarian untuk menampilkan hanya trek yang sesuai dengan kriteria Anda.</entry>
+            </row>
+            <row>
+              <entry valign="top">4</entry>
+              <entry valign="top">Daftar lagu</entry>
+              <entry valign="top">Mencantumkan trek milik sumber yang dipilih.</entry>
+            </row>
+            <row>
+              <entry valign="top">5</entry>
+              <entry valign="top">Bilah Status</entry>
+              <entry valign="top">Menampilkan informasi tentang sumber yang dipilih di panel samping.</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </sect2>
+    <sect2 id="intro-sourcelist">
+      <title>Panel Sisi</title>
+      <para>Panel samping adalah tempat Anda dapat mengakses perpustakaan musik, radio internet, CD audio daftar putar Anda, dan antrean putar. Panel samping bisa berisi sumber berikut ini: <itemizedlist>
+				  <listitem><para>Perpustakaan <application>Rhythmbox Pemutar Musik</application>, tempat semua trek yang diimpor akan muncul.</para></listitem>
+				  <listitem><para>Podcast.</para></listitem>
+				  <listitem><para>Sumber Radio, dengan semua stasiun radio internet.</para></listitem>
+				  <listitem><para>Semua daftar putar (normal dan cerdas).</para></listitem>
+				  <listitem><para>CD audio yang dimasukkan ke dalam drive CD komputer.</para></listitem>
+				  <listitem><para>Pemutar portabel seperti iPod yang ditancapkan ke komputer Anda.</para></listitem>
+				  <listitem><para>Berbagi pakai DAAP Music ditemukan di jaringan lokal.</para></listitem>
+				  <listitem><para>Toko musik seperti Jamendo dan Magnatune.</para></listitem>
+				  <listitem><para>Situs web berbagi musik seperti SoundCloud.</para></listitem>
+				</itemizedlist></para>
+	<para>Ini juga dapat berisi antrian putar jika Anda menekan tombol menu di sudut kanan atas jendela dan memilih <menuchoice><guimenu>Lihat</guimenu><guimenuitem>Antrian Putar di Panel Samping</guimenuitem></menuchoice>.</para>
+	<para>Tampilan panel samping dapat diaktifkan atau dinonaktifkan jika Anda menekan tombol menu di sudut kanan atas jendela dan memilih <menuchoice><guimenu>Lihat</guimenu> <guimenuitem>Panel Samping</guimenuitem></menuchoice>.</para>
+    </sect2>
+    <sect2 id="player-toolbar">
+      <title>Bilah Alat Pemutar</title>
+      <para>Area bilah alat menyediakan akses ke detail tentang trek yang sedang diputar. Ketika tidak ada trek yang dimainkan, area ini tidak menunjukkan informasi. Saat lagu diputar, nama trek ditampilkan, dan di bawahnya, artis dan nama album.</para>
+      <para>Pelacak yang menunjukkan kemajuan trek yang sedang diputar dan penggeser waktu juga ditampilkan. Ketika penggeser waktu memiliki fokus, tombol panah dapat digunakan untuk Maju Cepat atau Putar Mundur trek yang dimainkan.</para>
+      <tip>
+        <para>Jika Anda menggunakan tetikus dengan roda gulir, Anda dapat menyesuaikan volume dengan menggulir ke atas atau ke bawah saat penunjuk tetikus berada di atas tombol volume di sudut kanan.</para>
+      </tip>
+    </sect2>
+    <sect2 id="status-area">
+      <title>Bilah Status</title>
+      <para>Bilah status berisi informasi tambahan tentang jumlah lagu dan durasi sumber yang dipilih.</para>
+    </sect2>
+  </sect1>
+  <sect1 id="Usage">
+    <title>Menggunakan Rhythmbox Pemutar Musik</title>
+    <sect2 id="Playing">
+      <title>Memutar Musik</title>
+      <para>Untuk memutar trek, pilih trek dan tekan tombol <guibutton>Putar</guibutton> pada bilah alat, atau cukup klik ganda pada trek untuk mulai memutar.</para>
+      <para>Saat trek berakhir, <application>Rhythmbox Pemutar Musik</application> melompat untuk memutar trek berikutnya dalam daftar yang ditampilkan di panel tampilan.</para>
+      <para>Dalam <xref linkend="library"/> Anda dapat memutar semua lagu dari artis atau album tunggal sekadar dengan memilih entri <guilabel>Album</guilabel> atau <guilabel>Artis</guilabel> di peramban perpustakaan.</para>
+      <sect3 id="next-previous">
+        <title>Berikutnya/Putar/Sebelumnya</title>
+        <para>Tombol <guibutton>Berikutnya</guibutton> dan <guibutton>Sebelumnya</guibutton> dapat digunakan untuk melompat di antara trek saat bermain. Jika trek sedang diputar, tombol sebelumnya akan memulai ulang trek. Menekan tombol <guibutton>Putar</guibutton> akan mulai memutar trek saat ini. <screenshot>
+				<mediaobject><imageobject> <imagedata fileref="figures/rb-toolbar-prevplaynext.png" format="PNG"/> </imageobject> <textobject> <phrase>Memperlihatkan tombol <guibutton>Sebelumnya</guibutton>, <guibutton>Putar</guibutton>, dan <guibutton>Berikutnya</guibutton> di bilah alat.</phrase> </textobject></mediaobject>
+			</screenshot></para>
+      </sect3>
+      <sect3 id="repeat">
+        <title>Ulangi</title>
+        <para>Opsi <guibutton>Ulangi</guibutton> membuat <application>Rhythmbox Pemutar Musik</application> memulai ulang memutar trek dari awal daftar saat mencapai trek terakhir.</para>
+        <para>Untuk mengaktifkan pengulangan, tekan tombol <guibutton>Ulangi</guibutton> pada bilah alat. <screenshot>
+				<mediaobject><imageobject> <imagedata fileref="figures/rb-toolbar-repeat.png" format="PNG"/> </imageobject> <textobject> <phrase>Memperlihatkan tombol ulangi di bilah status.</phrase> </textobject></mediaobject>
+			</screenshot></para>
+      </sect3>
+      <sect3 id="shuffle">
+        <title>Acak</title>
+        <para>Opsi <guibutton>Acak</guibutton> membuat <application>Rhythmbox Pemutar Musik</application> memutar trek dalam urutan acak.</para>
+        <para>Untuk mengaktifkan pengacakan, tekan tombol <guibutton>Acak</guibutton> pada bilah alat. <screenshot>
+				<mediaobject><imageobject> <imagedata fileref="figures/rb-toolbar-shuffle.png" format="PNG"/> </imageobject> <textobject> <phrase>Memperlihatkan tombol acak di bilah status.</phrase> </textobject></mediaobject>
+			</screenshot></para>
+      </sect3>
+      <sect3 id="volume">
+        <title>Kontrol Volume</title>
+        <para>Kontrol volume terletak di sebelah kanan bilah alat. Menekan ikon pengeras suara akan menampilkan penggeser volume. Menggeser ini ke atas dan ke bawah akan menambah dan mengurangi volume. Ikon pengeras suara akan berubah untuk mencerminkan volume relatif. <screenshot><mediaobject><imageobject><imagedata fileref="figures/rb-volume-changer.png" format="PNG"/></imageobject><textobject><phrase>Memperlihatkan penggeser volume di bilah alat. </phrase></textobject></mediaobject></screenshot></para>
+        <tip>
+          <para>Anda dapat menyesuaikan volume dengan menggunakan roda gulir tetikus di atas ikon pengeras suara.</para>
+        </tip>
+      </sect3>
+    </sect2>
+  </sect1>
+  <sect1 id="library">
+    <title>Sumber Perpustakaan</title>
+    	<para>Perpustakaan adalah sumber utama yang tersedia di <application>Rhythmbox Pemutar Musik</application>, ini adalah basis data yang berisi semua berkas musik yang Anda impor di <application>Rhythmbox Pemutar Musik</application> (Perpustakaan menyimpan path untuk mengakses berkas musik Anda, bukan berkas itu sendiri).</para>
+    	<para>Perpustakaan tidak hanya dapat berisi berkas musik yang secara fisik ada di komputer Anda (di Direktori HOME Anda misalnya), tetapi juga dapat berisi berkas musik yang tersedia melalui layanan jaringan jarak jauh. Beberapa contoh layanan jaringan yang didukung adalah: <itemizedlist>
+				<listitem>
+					<para>FTP Publik</para>
+				</listitem>
+				<listitem>
+					<para>FTP terautentikasi</para>
+				</listitem>
+				<listitem>
+					<para>NFS</para>
+				</listitem>
+				<listitem>
+					<para>Share Windows</para>
+				</listitem>
+			</itemizedlist></para>
+    	<para>Berkas yang diimpor di Perpustakaan ditampilkan dalam daftar lagu dengan informasi (seperti nama Artis atau nama Album) yang disimpan dalam tag yang disematkan pada trek. <application>Rhythmbox Pemutar Musik</application> menggunakan tag ini untuk menampilkan trek secara terorganisir. <tip>
+				<para>Tag dapat dimodifikasi dengan mengklik kanan, lalu memilih <guimenuitem>Properti</guimenuitem> dan mengisi detail pada jendela yang muncul.</para>
+			</tip></para>
+    <sect2 id="library-tracks-add">
+      <title>Menambahkan trek di Perpustakaan</title>
+      		<para>Untuk menambahkan trek ke Pustaka, Anda dapat mengikuti metode yang berbeda ini: <itemizedlist>
+					<listitem>
+						<para>Jika Anda ingin mengimpor beberapa berkas musik yang terletak di folder, pilih <guimenuitem>Impor</guimenuitem> dari bilah peramban di sebelah bidang pencarian, lalu pilih folder di pemilih berkas dan tekan tombol <guibutton>Buka</guibutton>. Semua berkas musik yang terletak di folder dan sub-foldernya akan diimpor.</para>
+					</listitem>
+					<listitem>
+						<para>Seret dan jatuhkan berkas dari pengelola berkas (seperti <application>Nautilus</application>) melalui jendela Rhythmbox.</para>
+					</listitem>
+				</itemizedlist></para>
+      	<tip>
+       		<para>Jika Anda telah mengaktifkan fungsi pemantauan direktori (lihat <xref linkend="prefs-library"/>), semua berkas musik yang disimpan di bawah direktori yang dipilih akan ditambahkan ke Perpustakaan. Berkas baru yang ditambahkan nanti juga akan ditambahkan.</para>
+      	</tip>
+    </sect2>
+    <sect2 id="library-tracks-del">
+    	<title>Menghapus trek dari Perpustakaan</title>
+      	<para>Untuk menghapus trek dari perpustakaan tetapi membiarkannya di disk, klik kanan pada trek dan pilih <guimenuitem>Hapus</guimenuitem>. Trek dan propertinya (seperti peringkat atau cacah diputar) dihapus dari basis data Rhythmbox.</para>
+      	<para>Untuk menghapus trek dari Perpustakaan dan juga dari disk Anda, klik kanan pada trek dan pilih <guimenuitem>Pindahkan ke Tong Sampah</guimenuitem>. Trek akan dihapus dengan cara yang sama seperti sebelumnya, tetapi berkas akan dipindahkan ke Tong Sampah manajer berkas.</para>
+    </sect2>
+    <sect2 id="library-filter-search">
+    	<title>Menemukan trek menggunakan Pencarian</title>
+      	<para>Rhythmbox dilengkapi dengan fungsi pencarian, yang memungkinkan Anda menemukan dan memfilter trek dengan menggunakan istilah pencarian.</para>
+      	<para>Masukkan beberapa teks dalam entri pencarian, dan saat Anda mengetik, hanya trek yang cocok dengan teks yang dimasukkan yang akan ditampilkan. Fungsi pencarian melakukan pencarian di semua tag trek yang disimpan di Perpustakaan.</para>
+		<para>Untuk melakukan pencarian yang lebih presisi, Anda dapat memilih untuk mencari hanya di tag tertentu <guilabel>Artis</guilabel>, <guilabel>Album</guilabel>, atau <guilabel>Judul</guilabel>.</para>
+    </sect2>
+    <sect2 id="library-filter-browser">
+    	<title>Mencari trek menggunakan Peramban</title>
+      	<para>Peramban adalah cara lain yang nyaman untuk mencari trek. Peramban adalah tampilan dua atau tiga panel yang memungkinkan untuk menavigasi di antara genre musik, artis, dan album dan menampilkan trek yang sesuai dengan kriteria yang dipilih.</para>
+      	<para>Pertama, untuk menampilkan Peramban, pilih <guibutton>Ramban</guibutton> di bilah alat. Pilih artis, album, serta genre, dan saat Anda memilih, hanya trek yang sesuai dengan pilihan Anda yang akan ditampilkan dalam daftar lagu. Kriteria pada kolom berlaku dari kiri ke kanan.</para>
+      	<tip>
+        	<para>Anda dapat memilih beberapa kriteria dari kategori yang sama dengan menggunakan tombol <keycombo><keycap>Ctrl</keycap></keycombo>.</para>
+      	</tip>
+      		<para>Anda juga dapat mencari dari trek yang dipilih dalam daftar lagu, semua trek dengan genre, artis, atau nama album yang sama. Pilih trek di daftar lagu, klik kanan padanya, dan pilih <guilabel>Jelajahi Genre/Artis/Album ini</guilabel>. Kemudian peramban akan memfilter trek menggunakan kriteria yang dipilih.</para>
+  	</sect2>
+  </sect1>
+  <sect1 id="radio">
+  	<title>Sumber Radio</title>
+    <para>Penerima Radio Internet dapat digunakan untuk mendengarkan berkas audio yang dialirkan melalui jaringan, lokal, atau Internet.</para>
+    <figure id="fig-iradio">
+      <title>Radio Internet di <application>Rhythmbox Pemutar Musik</application></title>
+      <screenshot>
+        <mediaobject>
+          <imageobject>
+	    <imagedata format="PNG" fileref="figures/rb-iradio-main.png"/>
+	  </imageobject>
+	</mediaobject>
+      </screenshot>
+    </figure>
+    <sect2 id="iradio-adding">
+      	<title>Menambahkan stasiun</title>
+      	<para>Untuk menambahkan stasiun baru ke penerima Radio Internet, pilih <guibutton>Tambahkan</guibutton> di bilah alat. Kemudian masukkan URL radio Internet, lalu tekan tombol <guibutton>Tambah</guibutton>.</para>
+    </sect2>
+    <sect2 id="iradio-modify">
+      	<title>Melihat dan Mengubah pengaturan stasiun</title>
+      	<para>Anda dapat melihat dan mengedit pengaturan stasiun Radio Internet dengan memilih stasiun dan klik kanan, lalu pilih <guimenuitem>Properti</guimenuitem>.</para>
+      	<para>Saat Anda mengakses properti stream radio, Anda dapat memodifikasi judulnya, genrenya; Anda juga dapat mengubah lokasi stream, dan menetapkan peringkat untuk itu.</para>
+    </sect2>
+    <sect2 id="iradio-delete">
+    	<title>Menghapus stasiun</title>
+      	<para>Untuk menghapus stasiun radio dari daftar stasiun radio, klik kanan pada stasiun dan pilih <guimenuitem>Hapus</guimenuitem>.</para>
+    </sect2>
+  </sect1>
+  <sect1 id="podcast">
+  	<title>Sumber Podcast</title>
+    <para>Podcast adalah cara baru untuk menyiarkan konten audio melalui web; ketika seorang penulis menerbitkan sebuah episode, pelanggan podcast diberi tahu, melalui asupan XML.</para>
+    <para>Rhythmbox Pemutar Musik memungkinkan Anda untuk berlangganan asupan podcast, jadi ketika episode baru tersedia Anda akan diberi tahu, itu akan mengunduh episode ini dan itu akan memutarnya.</para>
+    <tip>
+      	<para>Anda dapat menemukan informasi lebih lanjut tentang podcast dan podcasting dengan mengunjungi definisi <ulink url="https://en.wikipedia.org/wiki/Podcast">Podcast</ulink> di situs <ulink url="https://en.wikipedia.org/">Wikipedia</ulink>.</para>
+    </tip>
+    <para>
+      <figure>
+        <title>Antarmuka Podcast</title>
+        <mediaobject><imageobject> <imagedata fileref="figures/rb-podcast-main.png" format="PNG"/> </imageobject> <textobject> <phrase>Antarmuka Podcast dengan beberapa podcast terdaftar</phrase> </textobject></mediaobject>
+      </figure>
+    </para>
+    <sect2 id="podcast-management">
+      <title>Manajemen Podcast</title>
+      <sect3 id="podcast-feed-add">
+        <title>Menambahkan podcast</title>
+        <para>Untuk mendaftar ke podcast, pilih <guibutton>Tambahkan</guibutton> di bilah alat. Kemudian di jendela baru, masukkan URL asupan podcast. Rhythmbox akan mengambil daftar episode dan episode terbaru akan diunduh ke hard disk Anda.</para>
+      </sect3>
+      <sect3 id="podcast-feed-del">
+        <title>Menghapus podcast</title>
+        <para>Untuk menghapus podcast, klik kanan pada nama asupan podcast di peramban, dan pilih <menuchoice><guimenuitem>Hapus Asupan Podcast</guimenuitem></menuchoice>, lalu pilih <menuchoice><guimenuitem>Hapus Asupan Saja</guimenuitem></menuchoice> jika Anda ingin menyimpan episode podcast, atau pilih <menuchoice><guimenuitem>Hapus Asupan Dan Berkas</guimenuitem></menuchoice> jika Anda ingin menghapus asupan dan semua episode terkait.</para>
+      </sect3>
+      <sect3 id="podcast-feed-update">
+        <title>Perbarui asupan</title>
+        <para>Untuk mengetahui apakah episode baru telah dipublikasikan untuk podcast, klik kanan pada nama podcast di peramban dan pilih <menuchoice><guimenuitem>Perbarui Asupan Podcast</guimenuitem></menuchoice>. Jika episode baru diterbitkan, mereka akan muncul di daftar episode.</para>
+        <tip>
+          <para>Rhythmbox Pemutar Musik memeriksa secara teratur, dengan sendirinya, daftar asupan podcast untuk mengetahui apakah mereka diperbarui.</para>
+        </tip>
+        <para>Anda juga dapat memeriksa semua podcast, dengan mengklik kanan sumber <menuchoice><guimenuitem>Podcast</guimenuitem></menuchoice> dan memilih <menuchoice><guimenuitem>Perbarui Semua Asupan</guimenuitem></menuchoice>.</para>
+      </sect3>
+      <sect3 id="podcast-feed-show">
+        <title>Mengakses properti Asupan Podcast</title>
+        <para>Untuk mengakses properti Asupan, klik kanan pada nama Asupan, dan pilih <menuchoice><guimenuitem>Properti</guimenuitem></menuchoice>. <itemizedlist><listitem><para>Pada tab <guilabel>Dasar</guilabel> Anda dapat melihat <guilabel>Judul</guilabel>, <guilabel>Penulis </guilabel>, tanggal <guilabel>Terakhir Diperbarui</guilabel>, dan <guilabel>Deskripsi</guilabel> podcast.</para></listitem><listitem><para>Pada tab <guilabel>Detail</guilabel>, Anda dapat melihat <guilabel>Sumber</guilabel> asupan, <guilabel>Bahasa </guilabel>, dan properti <guilabel>Hak Cipta</guilabel>.</para></listitem></itemizedlist> Anda dapat melihat properti, dan juga mengedit peringkat.</para>
+      </sect3>
+    </sect2>
+    <sect2 id="episode-management">
+      <title>Manajemen Episode</title>
+      <sect3 id="podcast-episode-download">
+        <title>Mengunduh episode podcast</title>
+        <para>Untuk mengunduh episode ke disk Anda, klik kanan pada episode tersebut, dan pilih <menuchoice><guimenuitem>Unduh Posting</guimenuitem></menuchoice>, Rhythmbox akan mulai mengunduh episode di lokasi yang ditentukan dalam preferensi. Anda dapat melihat kemajuan unduhan episode di kolom <guilabel>Status</guilabel>.</para>
+        <tip>
+          <para>Secara baku, podcast diunduh di folder <filename class="directory">Musik/</filename> di direktori home Anda. Untuk mengubah lokasi, lihat <xref linkend="prefs-podscast"/>.</para>
+        </tip>
+      </sect3>
+      <sect3 id="podcast-episode-read">
+        <title>Membaca episode podcast</title>
+        <para>Untuk memutar episode podcast, pilih episode yang ingin Anda baca, dan tekan tombol <guibutton>Putar</guibutton>.</para>
+        <para>Episode harus diunduh sebelumnya untuk membacanya, lihat <xref linkend="podcast-episode-download"/> untuk mengetahui cara mengunduh episode podcast.</para>
+      </sect3>
+      <sect3 id="podcast-episode-delete">
+        <title>Menghapus episode podcast</title>
+        <para lang="en">
+			To delete an episode from a podcast, right-click on the episode, and
+			choose <menuchoice><guimenuitem>Delete</guimenuitem></menuchoice>,
+			then choose <menuchoice><guimenuitem>Delete Episode
+			Only</guimenuitem></menuchoice> if you want to keep the episode file on
+			your disk, <menuchoice><guimenuitem>Delete File Only</guimenuitem></menuchoice>
+			if you want to keep the episode in the list but remove the corresponding
+			downloaded podcast file, or choose <guibutton>Delete Episode And File</guibutton>
+			if you want to remove the episode from the list and delete the file from your disk.
+			</para>
+        <warning>
+          <para>Setelah Anda menghapus episode, episode tersebut tidak akan lagi tersedia dalam daftar episode, meskipun Anda memperbarui podcast.</para>
+        </warning>
+      </sect3>
+      <sect3>
+        <title>Menampilkan properti Episode Podcast</title>
+        <para>Untuk mengakses properti episode, klik kanan pada episode, dan pilih <menuchoice><guimenuitem>Properti</guimenuitem></menuchoice>. <itemizedlist><listitem><para>Pada tab <guilabel>Dasar</guilabel> Anda dapat melihat <guilabel>Judul</guilabel>, <guilabel>Asupan</guilabel>, <guilabel>Data</guilabel> publikasi, dan <guilabel>Deskripsi</guilabel> podcast.</para></listitem><listitem><para>Pada tab <guilabel>Detail</guilabel>, Anda dapat melihat <guilabel>Sumber</guilabel>, <guilabel>Durasi</guilabel>, <guilabel>Laju bit</guilabel>, <guilabel>Tanggal Diputar Terakhir</guilabel>, <guilabel>Cacah putar</guilabel>, dan <guilabel>Peringkat</guilabel> podcast.</para></listitem></itemizedlist></para>
+      </sect3>
+    </sect2>
+  </sect1>
+  <sect1 id="playqueue">
+  	<title>Sumber Antrean Putar</title>
+	<para>Antrean putar adalah sumber yang dirancang untuk menyimpan sementara trek berikutnya yang ingin Anda putar. Saat Anda menambahkan trek ke Antrean Putar, <application>Rhythmbox Pemutar Musik</application> akan secara otomatis beralih ke sumber ini, setelah trek diputar.</para>
+	<para>Setelah trek diputar, trek akan dihapus secara otomatis dari Sumber Antrean Putar. Setelah Antrean Putar kosong, <application>Rhythmbox Pemutar Musik</application> akan memutar sumber yang telah diputar sebelumnya.</para>
+		<sect2 id="playqueue-track-add">
+			<title>Menambahkan trek ke Antrean Putar</title>
+			<para>Untuk menambahkan trek: <orderedlist>
+					<listitem>
+						<para>Pilih trek yang ingin Anda putar, di sumber mana pun.</para>
+					</listitem>
+					<listitem>
+						<para>Klik kanan dan pilih <guimenuitem>Tambahkan ke Antrean</guimenuitem>.</para>
+					</listitem>
+				</orderedlist></para>
+		</sect2>
+		<sect2 id="playqueue-track-del">
+			<title>Menghapus trek di Antrean Putar</title>
+			<para>Untuk menghapus trek yang disimpan di Antrean Putar: <orderedlist>
+					<listitem>
+						<para>Pilih trek yang ingin Anda hapus di sumber Antrean Putar.</para>
+					</listitem>
+					<listitem>
+						<para>Klik kanan dan pilih <guimenuitem>Hapus dari Antrean Putar</guimenuitem>.</para>
+					</listitem>
+				</orderedlist></para>
+		</sect2>
+  </sect1>
+  
+  <sect1 id="playlist">
+  	<title>Sumber Daftar Putar</title>
+    <para>Daftar putar adalah sumber yang dibuat dari trek yang tersedia di sumber Perpustakaan. Mereka memungkinkan Anda untuk mengumpulkan trek mengikuti 'genre' tertentu, sekelompok artis tertentu, atau bahkan trek yang memiliki 'suasana hati' tertentu, atau apa pun yang Anda inginkan.</para>
+    <para>Rhythmbox Pemutar Musik memiliki 2 jenis daftar putar: <itemizedlist>
+				<listitem>
+					<para>Daftar Putar Statis</para>
+				</listitem>
+				<listitem>
+					<para>Daftar Putar Cerdas</para>
+				</listitem>
+			</itemizedlist></para>
+    <para>Rhythmbox memungkinkan Anda membakar trek daftar putar Anda ke CD Audio.</para>
+    <sect2 id="playlist-static">
+    	<title>Daftar Putar Statis</title>
+      	<para>Daftar putar statis adalah daftar putar yang dibuat dari trek yang diambil dari Perpustakaan.</para>
+      <sect3 id="playlist-static-new">
+        <title>Membuat daftar putar statis</title>
+        <para>Untuk membuat daftar putar baru, klik kanan pada item di perpustakaan. Pilih <menuchoice><guimenu>Tambahkan ke Daftar Putar</guimenu><guimenuitem>Tambahkan ke Daftar Putar Baru</guimenuitem></menuchoice>. Daftar putar kosong tanpa nama muncul di panel samping. Masukkan nama untuk daftar putar dan tekan <keycombo><keycap>Enter</keycap></keycombo>.</para>
+      </sect3>
+      <sect3 id="playlist-static-tracks-add">
+        <title>Menambahkan trek ke daftar putar</title>
+        <para>Untuk menambahkan trek ke daftar putar, pilih trek dari daftar lagu dari pustaka dan seret dan jatuhkan pilihan Anda di atas ikon daftar putar di panel samping.</para>
+        <para>Anda juga dapat menjatuhkan daftar putar genre, artis, atau nama album dari peramban, dan semua trek yang termasuk dalam kategori yang dipilih akan ditambahkan ke daftar putar.</para>
+        <tip>
+          <para>Anda dapat membuat daftar putar dengan trek dalam satu tindakan. Pilih trek dari <guilabel>Daftar Trek</guilabel>, atau langsung satu atau beberapa kategori dari peramban (<guilabel>Genre</guilabel>, <guilabel>Artis</guilabel>, atau <guilabel>Album</guilabel>) dan jatuhkan pilihan di atas <guilabel>Panel samping</guilabel>. Ini akan secara otomatis membuat daftar putar bernama.</para>
+        </tip>
+      </sect3>
+      <sect3 id="playlist-static-tracks-del">
+        <title>Menghapus trek dari daftar putar</title>
+        <para>Untuk menghapus trek dari daftar putar, pertama pilih trek yang akan dihapus. Kemudian, klik kanan pada pilihan dan pilih <guimenuitem>Hapus</guimenuitem>. Operasi ini menghapus trek hanya dari daftar putar dan bukan dari Perpustakaan.</para>
+      </sect3>
+<!--
+      <sect3 id="playlist-static-del">
+        <title>Delete a static playlist</title>
+        <para>
+					To delete a static playlist, select the playlist to delete,
+					then you have two ways to delete it:
+					<itemizedlist><listitem><para>
+								Choose
+								<menuchoice><guimenu>Edit</guimenu><guimenuitem>Delete</guimenuitem></menuchoice>.
+							</para></listitem><listitem><para>
+								Right-click over the playlist and choose <guimenuitem>Delete</guimenuitem>.
+							</para></listitem></itemizedlist>
+					This operation deletes only the playlist and not the tracks
+					stored in the playlist deleted.
+				</para>
+      </sect3>
+-->
+    </sect2>
+    <sect2 id="playlist-smart">
+      <title>Daftar Putar Cerdas</title>
+      <para>Daftar Putar Cerdas adalah daftar putar yang dibuat dari kriteria, sehingga trek ditambahkan ke dalamnya secara dinamis; semua trek yang cocok dengan kriteria akan ditambahkan ke daftar putar.</para>
+      <para>Secara baku, daftar putar <guimenuitem>Peringkat Puncak</guimenuitem>, <guimenuitem>Baru Ditambahkan</guimenuitem>, dan <guimenuitem>Baru Diputar</guimenuitem> tersedia.</para>
+<!--
+      <sect3 id="playlist-smart-new">
+        <title>Create a smart playlist</title>
+        <para>
+					To create a new playlist:
+					<orderedlist><listitem><para>
+								Choose <menuchoice><guimenu>Music</guimenu><guisubmenu>Playlist</guisubmenu><guimenuitem>New
+								Automatic Playlist</guimenuitem></menuchoice>.
+							</para></listitem><listitem><para>
+								Edit the playlist criteria through the query editor.
+							</para></listitem><listitem><para>
+								Once your criteria have been chosen, click <guibutton>New</guibutton> to create the
+								query.
+							</para></listitem></orderedlist>
+				</para>
+      </sect3>
+      <sect3 id="playlist-smart-edit">
+        <title>Edit a smart playlist</title>
+        <para>
+					Editing a smart playlist lets you modify the criteria set
+					for this playlist. To edit a smart playlist, select the
+					smart playlist, choose
+					<menuchoice><guimenu>Music</guimenu><guisubmenu>Playlist</guisubmenu><guimenuitem>Edit</guimenuitem></menuchoice>, and edit the criteria.
+					Once done, choose <guibutton>Close</guibutton>.
+				</para>
+      </sect3>
+      <sect3 id="playlist-smart-del">
+        <title>Delete a smart playlist</title>
+        <para>
+					To delete a smart playlist, select the playlist to delete,
+					then you have two ways to delete it:
+					<itemizedlist><listitem><para>
+								Choose
+								<menuchoice><guimenu>Edit</guimenu><guimenuitem>Delete</guimenuitem></menuchoice>.
+							</para></listitem><listitem><para>
+								Right-click over the playlist and choose <guimenuitem>Delete</guimenuitem>.
+							</para></listitem></itemizedlist>
+				</para>
+      </sect3>
+      <sect3 id="playlist-smart-query-use">
+        <title>Use the query editor</title>
+        <para>
+		Choose the criteria to apply to the rule. If you need one
+		more criteria click on the button
+		<guibutton>Add</guibutton>, a new line appears, and you can
+		set a new criteria.
+		</para>
+        <para>
+		If you want to limit the number of tracks in the playlist,
+		tick <guilabel>Limit to:</guilabel>, and choose how to
+		limit. You can limit by tracks, by total size (in
+		<guilabel>MB</guilabel> or <guilabel>GB</guilabel>), or by
+		duration (expressed in <guilabel>Minutes</guilabel>).
+		</para>
+        <para>
+		Once you finish setting the criteria for the playlist, choose
+		<guibutton>New</guibutton>; the playlist query editor window
+		will close, and the playlist will display the tracks matched by your
+		criteria.
+		</para>
+      </sect3>
+-->
+    </sect2>
+  </sect1>
+  <sect1 id="AudioCD">
+    <title>Sumber CD Audio</title>
+	<para><application>Rhythmbox Pemutar Musik</application> juga dapat menangani CD Audio; itu dapat memutar CD dan juga memungkinkan Anda membakar sendiri.</para>
+    <sect2 id="cd-playing">
+      <title>Memutar</title>
+      <para>Ketika CD Audio dimasukkan, itu akan muncul di panel samping, dan trek di atasnya dapat ditampilkan di jendela utama <application>Rhythmbox Pemutar Musik</application>. Jika Anda terhubung ke Internet, detail CD akan diambil dan ditampilkan.</para>
+      <para>Untuk memutar dan mengistirahatkan pemutaran, atau untuk melewati maju atau mundur, gunakan kontrol yang sama seperti yang digunakan untuk memutar dari perpustakaan.</para>
+    </sect2>
+    <sect2 id="cd-import">
+      <title>Mengimpor CD Audio</title>
+      <para>Jika Anda ingin menyimpan trek CD Audio di komputer Anda, Anda dapat mengimpornya.</para>
+      <para>Untuk mengimpor trek CD Audio, pilih <guibutton>Ekstrak</guibutton> di bilah alat.</para>
+    </sect2>
+    <sect2 id="cd-burning">
+      <title>Membuat CD Audio</title>
+      <para>Rhythmbox memungkinkan Anda untuk membuat CD Audio Anda sendiri dengan musik yang disimpan di Perpustakaan Rhythmbox.</para>
+      <para>Untuk membuat CD Audio: <orderedlist><listitem><para>Buat daftar putar, statis, atau cerdas (lihat <xref linkend="playlist"/>) dan tambahkan trek.</para></listitem>
+                <listitem><para>Pilih <guibutton>Daftar Putar</guibutton> di bilah alat.</para></listitem>
+                <listitem><para>Pilih <guimenuitem>Buat CD Audio</guimenuitem>.</para></listitem>
+                <listitem><para>Masukkan CD kosong.</para></listitem>
+                <listitem><para>Klik tombol <guibutton>Buat</guibutton>, proses pembakaran dimulai.</para></listitem>
+                </orderedlist></para>
+    </sect2>
+  </sect1>
+  <sect1 id="portable-audio-player">
+    <title>Sumber Pemutar Audio Portabel</title>
+    <para><application>Rhythmbox</application> dapat mendeteksi ketika pemutar audio portabel dicolokkan ke komputer Anda, dan dapat membaca trek yang tersimpan di dalamnya. <application>Rhythmbox Pemutar Musik</application> mestinya dapat menangani sebagian besar pemutar audio portabel termasuk Apple iPod, pemutar MTP, dan pemutar Penyimpanan Massal.</para>
+    <para>Saat Anda mencolokkan pemutar audio portabel, ikon untuk Pemutar Audio Portabel ditambahkan ke panel samping. Sumber ini bekerja dengan cara yang sama seperti sumber Perpustakaan.</para>
+	<tip><para>Jika <application>Rhythmbox Pemutar Musik</application> tidak mendeteksi perangkat Anda sebagai pemutar audio portabel, Anda dapat membuat berkas kosong bernama <filename>.is_audio_player</filename> di hierarki tingkat atas sistem berkas pemutar Anda.</para></tip>
+  </sect1>
+  <sect1 id="daap">
+    <title>Sumber Berbagi DAAP</title>
+    <para>DAAP adalah protokol jaringan yang memungkinkan Anda untuk berbagi musik yang disimpan di Rhythmbox. DAAP adalah singkatan dari Digital Audio Access Protocol.</para>
+    <para>Karena DAAP adalah protokol standar untuk berbagi musik, Anda dapat mendengarkan dan berbagi musik tidak hanya dengan pengguna Rhythmbox lainnya, tetapi juga dengan pengguna lain yang menggunakan perangkat lunak yang kompatibel dengan DAAP, seperti iTunes.</para>
+    <para>Ketika Anda memulai Rhythmbox, itu akan mencari semua berbagi pakai DAAP yang dipublikasikan di jaringan lokal Anda (rumah atau kantor Anda, bukan seluruh Internet) oleh pengguna lain dan akan menampilkannya di panel samping. Jika berbagi diaktifkan, pada saat yang sama Rhythmbox akan mempublikasikan perpustakaan dan daftar putar Anda. Dengan cara ini, Anda dapat mendengarkan musik yang disimpan di komputer teman Anda dan mereka dapat mendengarkan musik Anda.</para>
+    <para>Untuk menonaktifkan fitur berbagi DAAP Rhythmbox, lihat <xref linkend="prefs-sharing"/> di preferensi.</para>
+  </sect1>
+  <sect1 id="notification">
+    <title>Area Notifikasi</title>
+    <sect2 id="notification-overview">
+      <title>Ringkasan</title>
+      <para>Area Pemberitahuan memungkinkan Anda untuk mengontrol <application>Rhythmbox Pemutar Musik</application> dan menerima informasi ketika antarmuka <application>Rhythmbox Pemutar Musik</application> tidak terlihat.</para>
+      <figure id="fig-notification-zone">
+        <title><application>Rhythmbox Pemutar Musik</application> di Area Pemberitahuan</title>
+        <screenshot>
+          <mediaobject>
+            <imageobject>
+              <imagedata format="PNG" fileref="figures/rb-notification-zone.png"/>
+	    </imageobject>
+	  </mediaobject>
+        </screenshot>
+      </figure>
+    </sect2>
+    <sect2 id="notification-control">
+      <title>Mengendalikan Rhythmbox</title>
+      <para>Menggunakan ikon <application>Rhythmbox Pemutar Musik</application> di area notifikasi, perintah berikut dapat dikirim ke aplikasi:</para>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para><guibutton>Putar</guibutton> — Jika dipilih, memutar lagu yang saat ini dipilih.</para>
+          </listitem>
+          <listitem>
+            <para><guibutton>Sebelumnya</guibutton> — Lewati ke lagu sebelumnya di sumber yang dipilih.</para>
+          </listitem>
+          <listitem>
+            <para><guibutton>Berikutnya</guibutton> - Lewati ke lagu berikutnya di sumber yang dipilih.</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </sect2>
+  </sect1>
+  <sect1 id="customize">
+    <title>Menyesuaikan Rhythmbox Pemutar Musik</title>
+    <para>Bagian ini menjelaskan cara menyesuaikan <application>Rhythmbox Pemutar Musik</application> agar cocok dengan kebutuhan dan preferensi Anda.</para>
+    <sect2 id="prefs">
+      <title>Mengatur Preferensi Anda</title>
+      <para>Menggunakan dialog <guilabel>Preferensi</guilabel> Anda dapat menyesuaikan bagaimana Anda ingin <application>Rhythmbox Pemutar Musik</application> terlihat dan berperilaku. Untuk menampilkan dialog <guimenuitem>Preferensi</guimenuitem>, tekan tombol menu di sudut kanan atas jendela dan pilih <guilabel>Preferensi</guilabel>.</para>
+      <sect3 id="prefs-general">
+      	<title>Umum</title>
+		<para>Memilih cara <guilabel>Tampilan Peramban</guilabel> akan ditunjukkan. Anda dapat memilih untuk menggunakan tiga atau dua panel dan apa yang harus ditampilkan panel.</para>
+      	<para>Pilih <guilabel>Kolom Terlihat</guilabel> yang ingin Anda tampilkan di <application>Rhythmbox Pemutar Musik</application>. Opsi ini memengaruhi sumber berikut: <itemizedlist>
+				<listitem><para>Pustaka</para></listitem>
+				<listitem><para>CD Audio</para></listitem>
+				<listitem><para>Pemutar Portabel</para></listitem>
+				<listitem><para>Daftar Putar</para></listitem>
+				<listitem><para>Berbagi pakai DAAP Music</para></listitem>
+			</itemizedlist></para>
+      </sect3>
+      <sect3 id="prefs-library">
+        <title>Musik</title>
+        <itemizedlist>
+          <listitem>
+            <para><guilabel>Lokasi Perpustakaan</guilabel> adalah folder yang akan dipantau oleh <application>Rhythmbox Pemutar Musik</application> untuk menemukan lagu baru. Saat Anda menambahkan berkas audio baru di folder ini atau sub-foldernya dengan peramban berkas (seperti Nautilus), <application>Rhythmbox Pemutar Musik</application> akan mendeteksinya dan mereka akan ditambahkan secara otomatis di Perpustakaan.</para>
+            <warning>
+            	<para>Hindari untuk mengatur folder <filename class="directory">Home</filename> Anda sebagai lokasi perpustakaan karena fitur ini memakan CPU.</para>
+            </warning>
+            <para>Untuk menonaktifkan fungsi pemantauan, batalkan pilih <guilabel>Pantau pustaka saya untuk berkas baru</guilabel>.</para>
+            <tip>
+            	<para>Jika Anda ingin menambahkan lebih dari satu folder untuk dipantau, gunakan <application>dconf-editor</application> dan tambahkan ke daftar di /org/gnome/rhythmbox/rhythmboxdb/locations</para>
+            </tip>
+          </listitem>
+        </itemizedlist>
+      </sect3>
+      <sect3 id="prefs-podscast">
+        <title>Podcast</title>
+        <itemizedlist>
+          <listitem>
+            <para><guilabel>Lokasi Unduhan</guilabel> Podcast ditentukan secara baku ke folder <filename class="directory">Podcasts/ </filename> di direktori home Anda.</para>
+            <para>Jika lokasi ini tidak sesuai dengan kebutuhan Anda, pilih folder lain di daftar drop-down atau pilih <guilabel>Lainnya</guilabel> untuk membuat Pemilih Berkas muncul.</para>
+          </listitem>
+          <listitem>
+            <para>Pilih frekuensi <application>Rhythmbox Pemutar Musik</application> akan memeriksa untuk episode podcast baru.</para>
+          </listitem>
+        </itemizedlist>
+      </sect3>
+      <sect3 id="prefs-sharing">
+        <title>Berbagi</title>
+        <para><application>Rhythmbox Pemutar Musik</application> dapat membagikan konten Perpustakaan Anda melalui Jaringan Area Lokal Anda, ke <application>Rhythmbox Pemutar Musik</application> lainnya dan pengguna Apple iTunes.</para>
+        <itemizedlist>
+          <listitem>
+            <para>Pilih <guilabel>Bagikan musik saya</guilabel> untuk memungkinkan pengguna jaringan Anda melihat dan membaca lagu Anda.</para>
+          </listitem>
+          <listitem>
+            <para>Masukkan nama yang Anda inginkan untuk muncul dari jaringan di bidang <guilabel>Nama musik bersama</guilabel>.</para>
+          </listitem>
+        </itemizedlist>
+      </sect3>
+      <sect3 id="prefs-lastfm">
+        <title>Last.fm dan profil Libre.fm</title>
+        <para>Plugin profil Last.fm mengumpulkan informasi tentang lagu yang Anda dengarkan dan mengirimkannya ke situs web <ulink url="https://www.last.fm/">Last.fm</ulink> atau <ulink url="https://www.libre.fm/">Libre.fm</ulink> , membangun profil kebiasaan mendengarkan Anda. Dengan profil ini, Anda dapat: <itemizedlist>
+				<listitem>
+					<para>lihat statistik, seperti lagu yang paling banyak diputar atau artis yang paling sering diputar.</para>
+				</listitem>
+				<listitem>
+					<para>dapatkan rekomendasi tentang artis yang mungkin Anda sukai.</para>
+				</listitem>
+			</itemizedlist></para>
+        <warning>
+          <para>Untuk menggunakan salah satu plugin ini, Anda harus memiliki akun di salah satu situs web ini. Tekan tombol menu di sudut kanan atas jendela dan pilih <guimenuitem>Preferensi</guimenuitem>. Pilih tab <guilabel>Plugin</guilabel>. Pilih item <guimenuitem>Last.fm</guimenuitem> dan tekan tombol <guibutton>Preferensi</guibutton>. Pilih layanan dan tutup dialog. Di bilah samping, pilih layanan. Tekan tombol <guibutton>Masuk</guibutton> di sudut kanan atas dan masukkan detail akun Anda di jendela peramban web.</para>
+        </warning>
+      </sect3>
+    </sect2>
+  </sect1>
+  <sect1 id="shortcuts">
+    <title>Pintasan</title>
+    <sect2 id="keyboard-keys">
+      <title>Pintasan Papan Tik</title>
+      <table frame="topbot" id="rb-shorcuts-1">
+	  	<title>Pintasan Pemutar</title>
+        <tgroup cols="2" colsep="0" rowsep="0">
+          <colspec colname="COLSPEC0" colwidth="30*"/>
+          <colspec colname="COLSPEC1" colwidth="70*"/>
+          <thead>
+            <row>
+              <entry>Pintasan</entry>
+              <entry>Aksi</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry><keycombo> <keycap>Ctrl</keycap> <keycap>P</keycap> </keycombo></entry>
+              <entry>
+                <para>Putar / Jeda</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycombo><keycap>Ctrl</keycap> <keycap>Kiri</keycap> </keycombo></entry>
+              <entry>
+                <para>Melompat ke Trek Sebelumnya / Kembali ke awal trek</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycombo> <keycap>Ctrl</keycap> <keycap>Kanan</keycap> </keycombo></entry>
+              <entry>
+                <para>Melompat ke Trek Berikutnya</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycombo> <keycap>Ctrl</keycap> <keycap>Naik</keycap> </keycombo></entry>
+              <entry>
+                <para>Naikkan volume pemutaran</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycombo> <keycap>Ctrl</keycap> <keycap>Turun</keycap> </keycombo></entry>
+              <entry>
+                <para>Kurangi volume pemutaran</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycombo> <keycap>Ctrl</keycap> <keycap>R</keycap> </keycombo></entry>
+              <entry>
+                <para>Aktifkan / Nonaktifkan Putar ulang</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycombo> <keycap>Ctrl</keycap> <keycap>U</keycap> </keycombo></entry>
+              <entry>
+                <para>Aktifkan / Nonaktifkan Putar Acak</para>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <table frame="topbot" id="rb-shorcuts-2">
+	  	<title>Pintasan Umum</title>
+		<tgroup cols="2" colsep="0" rowsep="0">
+          <colspec colname="COLSPEC0" colwidth="30*"/>
+          <colspec colname="COLSPEC1" colwidth="70*"/>
+          <thead>
+            <row>
+              <entry>Pintasan</entry>
+              <entry>Aksi</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry><keycombo> <keycap>Ctrl</keycap> <keycap>A</keycap> </keycombo></entry>
+              <entry>
+                <para>Pilih Semua</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycombo> <keycap>Shift</keycap> <keycap>Ctrl</keycap> <keycap>A</keycap> </keycombo></entry>
+              <entry>
+                <para>Batal Semua Pilihan</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycombo> <keycap>Ctrl</keycap> <keycap>J</keycap> </keycombo></entry>
+              <entry>
+                <para>Loncat ke lagu yang diputar</para>
+              </entry>
+	    </row>
+	    <!--
+            <row>
+              <entry>
+                <keycombo>
+                  <keycap>Ctrl</keycap>
+                  <keycap>Y</keycap>
+                </keycombo>
+              </entry>
+              <entry>
+                <para>Clear the search field text and remove all filters in the browser</para>
+              </entry>
+	    </row>
+            -->
+            <row>
+              <entry><keycombo> <keycap>Alt</keycap> <keycap>S</keycap> </keycombo></entry>
+              <entry>
+                <para>Loncat ke bidang pencarian</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycombo> <keycap>Alt</keycap> <keycap>Return</keycap> </keycombo></entry>
+              <entry>
+                <para>Menampilkan Properti Trek</para>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <table frame="topbot" id="rb-shorcuts-3">
+	  	<title>Pintasan Jendela</title>
+        <tgroup cols="2" colsep="0" rowsep="0">
+          <colspec colname="COLSPEC0" colwidth="30*"/>
+          <colspec colname="COLSPEC1" colwidth="70*"/>
+          <thead>
+            <row>
+              <entry>Pintasan</entry>
+              <entry>Aksi</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry><keycombo> <keycap>Ctrl</keycap> <keycap>Q</keycap> </keycombo></entry>
+              <entry>
+                <para>Keluar dari <application>Rhythmbox Pemutar Musik</application></para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycombo> <keycap>Ctrl</keycap> <keycap>B</keycap> </keycombo></entry>
+              <entry>
+                <para>Tampilkan / sembunyikan peramban</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycombo> <keycap>F9</keycap> </keycombo></entry>
+              <entry>
+                <para>Tampilkan/sembunyikan panel samping</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycombo> <keycap>Ctrl</keycap> <keycap>K</keycap> </keycombo></entry>
+              <entry>
+                <para>Tampilkan / Sembunyikan Bilah Sisi Antrean</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycombo> <keycap>F11</keycap> </keycombo></entry>
+              <entry>
+                <para>Alihkan / Batalkan modus Layar Penuh</para>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </sect2>
+    <sect2 id="multimedia-keys">
+      <title>Tombol Multimedia</title>
+      <para><application>Rhythmbox Pemutar Musik</application> mendukung tombol pada papan tik multimedia, jika dikonfigurasi di lingkungan desktop Anda.</para>
+      <table frame="none">
+	  	<title>Pintasan Jendela</title>
+        <tgroup cols="2" colsep="0" rowsep="0">
+          <colspec colname="COLSPEC0"/>
+          <colspec colname="COLSPEC1"/>
+          <thead>
+            <row>
+              <entry>Pintasan</entry>
+              <entry>Aksi</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry><keycap>Stop</keycap></entry>
+              <entry>
+                <para>Berhenti</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycap>Pause / Play</keycap></entry>
+              <entry>
+                <para>Jeda / Putar</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycap>Prev</keycap></entry>
+              <entry>
+                <para>Trek yang Dimainkan Sebelumnya</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycap>Depan</keycap></entry>
+              <entry>
+                <para>Trek Selanjutnya</para>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </sect2>
+    <sect2 id="lirc">
+      <title>Pengendali Jauh Infra Merah Linux</title>
+      <para><application>Rhythmbox Pemutar Musik</application> menyertakan plugin untuk dukungan Linux Infrared Remote Control (LIRC). String perintah berikut didukung, menggunakan nama program 'rhythmbox':</para>
+      <table frame="none">
+	  	<title>Pintasan Jendela</title>
+        <tgroup cols="2" colsep="0" rowsep="0">
+          <colspec colname="COLSPEC0"/>
+          <colspec colname="COLSPEC1"/>
+          <thead>
+            <row>
+              <entry>String perintah</entry>
+              <entry>Aksi</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry><keycap>play</keycap></entry>
+              <entry> <para>Mulai pemutaran</para> </entry>
+            </row>
+            <row>
+              <entry><keycap>pause</keycap></entry>
+              <entry> <para>Jeda memutar</para> </entry>
+            </row>
+	    <row>
+	      <entry><keycap>playpause</keycap></entry>
+	      <entry> <para>Beralih antara bermain dan diistirahatkan</para> </entry>
+	    </row>
+            <row>
+              <entry><keycap>shuffle</keycap></entry>
+              <entry> <para>Alihkan urutan putar acak</para> </entry>
+            </row>
+            <row>
+              <entry><keycap>ulangi</keycap></entry>
+              <entry> <para>Alihkan urutan putar berulang</para> </entry>
+            </row>
+            <row>
+              <entry><keycap>selanjutnya</keycap></entry>
+              <entry> <para>Lewati ke trek berikutnya</para> </entry>
+            </row>
+            <row>
+              <entry><keycap>sebelumnya</keycap></entry>
+              <entry> <para>Lewati ke trek sebelumnya</para> </entry>
+            </row>
+            <row>
+              <entry><keycap>seek_forward</keycap></entry>
+              <entry> <para>Lewati 10 detik ke depan di trek yang sedang diputar</para> </entry>
+            </row>
+            <row>
+              <entry><keycap>seek_backward</keycap></entry>
+              <entry> <para>Lewati 10 detik mundur di trek yang sedang diputar</para> </entry>
+            </row>
+            <row>
+              <entry><keycap>volume_up</keycap></entry>
+              <entry> <para>Tingkatkan volume pemutaran sebesar 10%</para> </entry>
+            </row>
+            <row>
+              <entry><keycap>volume_down</keycap></entry>
+              <entry> <para>Kurangi volume pemutaran sebesar 10%</para> </entry>
+            </row>
+            <row>
+              <entry><keycap>mute</keycap></entry>
+              <entry> <para>Bisukan pemutaran</para> </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </sect2>
+  </sect1>
+</article>

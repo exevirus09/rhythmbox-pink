@@ -1,0 +1,209 @@
+[
+  {
+    "cmd": [
+      "/home/h4ydi/.u/rhythmbox2/_build-patch3/plugins/ipod/test-ipod"
+    ],
+    "env": {
+      "LD_LIBRARY_PATH": "/home/h4ydi/.u/rhythmbox2/_build-patch3/shell"
+    },
+    "name": "test-ipod",
+    "workdir": null,
+    "timeout": 30,
+    "suite": [
+      "rhythmbox"
+    ],
+    "is_parallel": true,
+    "priority": 0,
+    "protocol": "exitcode",
+    "depends": [
+      "471a993@@test-ipod@exe"
+    ],
+    "extra_paths": []
+  },
+  {
+    "cmd": [
+      "/home/h4ydi/.u/rhythmbox2/_build-patch3/tests/test-rhythmdb"
+    ],
+    "env": {
+      "G_TEST_SRCDIR": "/home/h4ydi/.u/rhythmbox2/tests",
+      "G_TEST_BUILDDIR": "/home/h4ydi/.u/rhythmbox2/_build-patch3/tests",
+      "GSETTINGS_SCHEMA_DIR": "/home/h4ydi/.u/rhythmbox2/_build-patch3/data",
+      "GSETTINGS_BACKEND": "memory",
+      "CK_DEFAULT_TIMEOUT": "0",
+      "LD_LIBRARY_PATH": "/home/h4ydi/.u/rhythmbox2/_build-patch3/shell"
+    },
+    "name": "test-rhythmdb",
+    "workdir": null,
+    "timeout": 30,
+    "suite": [
+      "rhythmbox"
+    ],
+    "is_parallel": true,
+    "priority": 0,
+    "protocol": "exitcode",
+    "depends": [
+      "3a6eb07@@gschemas.compiled@cus",
+      "59830eb@@test-rhythmdb@exe"
+    ],
+    "extra_paths": []
+  },
+  {
+    "cmd": [
+      "/home/h4ydi/.u/rhythmbox2/_build-patch3/tests/test-rhythmdb-query-model"
+    ],
+    "env": {
+      "G_TEST_SRCDIR": "/home/h4ydi/.u/rhythmbox2/tests",
+      "G_TEST_BUILDDIR": "/home/h4ydi/.u/rhythmbox2/_build-patch3/tests",
+      "GSETTINGS_SCHEMA_DIR": "/home/h4ydi/.u/rhythmbox2/_build-patch3/data",
+      "GSETTINGS_BACKEND": "memory",
+      "CK_DEFAULT_TIMEOUT": "0",
+      "LD_LIBRARY_PATH": "/home/h4ydi/.u/rhythmbox2/_build-patch3/shell"
+    },
+    "name": "test-rhythmdb-query-model",
+    "workdir": null,
+    "timeout": 30,
+    "suite": [
+      "rhythmbox"
+    ],
+    "is_parallel": true,
+    "priority": 0,
+    "protocol": "exitcode",
+    "depends": [
+      "3a6eb07@@gschemas.compiled@cus",
+      "59830eb@@test-rhythmdb-query-model@exe"
+    ],
+    "extra_paths": []
+  },
+  {
+    "cmd": [
+      "/home/h4ydi/.u/rhythmbox2/_build-patch3/tests/test-rhythmdb-property-model"
+    ],
+    "env": {
+      "G_TEST_SRCDIR": "/home/h4ydi/.u/rhythmbox2/tests",
+      "G_TEST_BUILDDIR": "/home/h4ydi/.u/rhythmbox2/_build-patch3/tests",
+      "GSETTINGS_SCHEMA_DIR": "/home/h4ydi/.u/rhythmbox2/_build-patch3/data",
+      "GSETTINGS_BACKEND": "memory",
+      "CK_DEFAULT_TIMEOUT": "0",
+      "LD_LIBRARY_PATH": "/home/h4ydi/.u/rhythmbox2/_build-patch3/shell"
+    },
+    "name": "test-rhythmdb-property-model",
+    "workdir": null,
+    "timeout": 30,
+    "suite": [
+      "rhythmbox"
+    ],
+    "is_parallel": true,
+    "priority": 0,
+    "protocol": "exitcode",
+    "depends": [
+      "3a6eb07@@gschemas.compiled@cus",
+      "59830eb@@test-rhythmdb-property-model@exe"
+    ],
+    "extra_paths": []
+  },
+  {
+    "cmd": [
+      "/home/h4ydi/.u/rhythmbox2/_build-patch3/tests/test-file-helpers"
+    ],
+    "env": {
+      "G_TEST_SRCDIR": "/home/h4ydi/.u/rhythmbox2/tests",
+      "G_TEST_BUILDDIR": "/home/h4ydi/.u/rhythmbox2/_build-patch3/tests",
+      "GSETTINGS_SCHEMA_DIR": "/home/h4ydi/.u/rhythmbox2/_build-patch3/data",
+      "GSETTINGS_BACKEND": "memory",
+      "CK_DEFAULT_TIMEOUT": "0",
+      "LD_LIBRARY_PATH": "/home/h4ydi/.u/rhythmbox2/_build-patch3/shell"
+    },
+    "name": "test-file-helpers",
+    "workdir": null,
+    "timeout": 30,
+    "suite": [
+      "rhythmbox"
+    ],
+    "is_parallel": true,
+    "priority": 0,
+    "protocol": "exitcode",
+    "depends": [
+      "59830eb@@test-file-helpers@exe"
+    ],
+    "extra_paths": []
+  },
+  {
+    "cmd": [
+      "/home/h4ydi/.u/rhythmbox2/_build-patch3/tests/test-rb-lib"
+    ],
+    "env": {
+      "G_TEST_SRCDIR": "/home/h4ydi/.u/rhythmbox2/tests",
+      "G_TEST_BUILDDIR": "/home/h4ydi/.u/rhythmbox2/_build-patch3/tests",
+      "GSETTINGS_SCHEMA_DIR": "/home/h4ydi/.u/rhythmbox2/_build-patch3/data",
+      "GSETTINGS_BACKEND": "memory",
+      "CK_DEFAULT_TIMEOUT": "0",
+      "LD_LIBRARY_PATH": "/home/h4ydi/.u/rhythmbox2/_build-patch3/shell"
+    },
+    "name": "test-rb-lib",
+    "workdir": null,
+    "timeout": 30,
+    "suite": [
+      "rhythmbox"
+    ],
+    "is_parallel": true,
+    "priority": 0,
+    "protocol": "exitcode",
+    "depends": [
+      "59830eb@@test-rb-lib@exe"
+    ],
+    "extra_paths": []
+  },
+  {
+    "cmd": [
+      "/home/h4ydi/.u/rhythmbox2/_build-patch3/tests/test-audioscrobbler"
+    ],
+    "env": {
+      "G_TEST_SRCDIR": "/home/h4ydi/.u/rhythmbox2/tests",
+      "G_TEST_BUILDDIR": "/home/h4ydi/.u/rhythmbox2/_build-patch3/tests",
+      "GSETTINGS_SCHEMA_DIR": "/home/h4ydi/.u/rhythmbox2/_build-patch3/data",
+      "GSETTINGS_BACKEND": "memory",
+      "CK_DEFAULT_TIMEOUT": "0",
+      "LD_LIBRARY_PATH": "/home/h4ydi/.u/rhythmbox2/_build-patch3/plugins/audioscrobbler:/home/h4ydi/.u/rhythmbox2/_build-patch3/shell"
+    },
+    "name": "test-audioscrobbler",
+    "workdir": null,
+    "timeout": 30,
+    "suite": [
+      "rhythmbox"
+    ],
+    "is_parallel": true,
+    "priority": 0,
+    "protocol": "exitcode",
+    "depends": [
+      "59830eb@@test-audioscrobbler@exe"
+    ],
+    "extra_paths": []
+  },
+  {
+    "cmd": [
+      "/home/h4ydi/.u/rhythmbox2/_build-patch3/tests/test-widgets"
+    ],
+    "env": {
+      "G_TEST_SRCDIR": "/home/h4ydi/.u/rhythmbox2/tests",
+      "G_TEST_BUILDDIR": "/home/h4ydi/.u/rhythmbox2/_build-patch3/tests",
+      "GSETTINGS_SCHEMA_DIR": "/home/h4ydi/.u/rhythmbox2/_build-patch3/data",
+      "GSETTINGS_BACKEND": "memory",
+      "CK_DEFAULT_TIMEOUT": "0",
+      "LD_LIBRARY_PATH": "/home/h4ydi/.u/rhythmbox2/_build-patch3/shell"
+    },
+    "name": "test-widgets",
+    "workdir": null,
+    "timeout": 30,
+    "suite": [
+      "rhythmbox"
+    ],
+    "is_parallel": true,
+    "priority": 0,
+    "protocol": "exitcode",
+    "depends": [
+      "3a6eb07@@gschemas.compiled@cus",
+      "59830eb@@test-widgets@exe"
+    ],
+    "extra_paths": []
+  }
+]

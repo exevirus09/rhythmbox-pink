@@ -1,9 +1,0 @@
-[Plugin]
-Loader=python3
-Module=magnatune
-IAge=2
-Depends=rb
-Name=Magnatune Store
-Description=Adds support to Rhythmbox for playing and purchasing from the Magnatune online music store
-Authors=Adam Zimmerman, James Livingston
-Copyright=Copyright © 2006 Adam Zimmerman

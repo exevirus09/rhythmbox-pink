@@ -1,9 +1,0 @@
-[Plugin]
-Loader=python3
-Module=rbzeitgeist
-IAge=2
-Depends=rb
-Name=Zeitgeist
-Description=Inform Zeitgeist about your activity
-Authors=Markus Korn <thekorn@gmx.de>
-Copyright=Copyright © 2009 Markus Korn

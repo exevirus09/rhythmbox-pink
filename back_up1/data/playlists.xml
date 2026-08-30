@@ -1,0 +1,260 @@
+<?xml version="1.0"?>
+<rhythmdb-playlists>
+  <playlist type="automatic" limit-count="0" limit-size="0" limit-time="0" sort-key="FirstSeen" sort-direction="1">
+    <name>Recently Added</name>
+    <name xml:lang="zh-Hant-TW">&#x6700;&#x8FD1;&#x52A0;&#x5165;</name>
+    <name xml:lang="zh-Hant-HK">&#x6700;&#x8FD1;&#x52A0;&#x5165;</name>
+    <name xml:lang="zh-Hans-CN">&#x6700;&#x8FD1;&#x65B0;&#x52A0;</name>
+    <name xml:lang="vi">M&#x1EDB;i th&#xEA;m</name>
+    <name xml:lang="uk">&#x41D;&#x435;&#x449;&#x43E;&#x434;&#x430;&#x432;&#x43D;&#x43E; &#x434;&#x43E;&#x43B;&#x443;&#x447;&#x435;&#x43D;&#x456;</name>
+    <name xml:lang="tr">Son Eklenenler</name>
+    <name xml:lang="th">&#xE40;&#xE1E;&#xE34;&#xE48;&#xE21;&#xE25;&#xE48;&#xE32;&#xE2A;&#xE38;&#xE14;</name>
+    <name xml:lang="te">&#xC07;&#xC1F;&#xC40;&#xC35;&#xC32; &#xC1C;&#xC24;&#xC1A;&#xC47;&#xC38;&#xC3F;&#xC28;&#xC35;&#xC3F;</name>
+    <name xml:lang="ta">&#xB9A;&#xBAE;&#xBC0;&#xBAA;&#xBA4;&#xBCD;&#xBA4;&#xBBF;&#xBB2;&#xBCD; &#xB9A;&#xBC7;&#xBB0;&#xBCD;&#xB95;&#xBCD;&#xB95;&#xBAA;&#xBCD;&#xBAA;&#xB9F;&#xBCD;&#xB9F;&#xBA4;&#xBC1;</name>
+    <name xml:lang="sv">Senast tillagda</name>
+    <name xml:lang="sr-Latn">Skoro dodate</name>
+    <name xml:lang="sr-Cyrl">&#x421;&#x43A;&#x43E;&#x440;&#x43E; &#x434;&#x43E;&#x434;&#x430;&#x442;&#x435;</name>
+    <name xml:lang="sl">Nedavno dodano</name>
+    <name xml:lang="sk">Ned&#xE1;vno pridan&#xE9;</name>
+    <name xml:lang="si">&#xD85;&#xDBD;&#xDD4;&#xDAD; &#xD91;&#xD9A;&#xDAD;&#xDD4;&#xD9A;&#xDC5;</name>
+    <name xml:lang="ru">&#x41D;&#x435;&#x434;&#x430;&#x432;&#x43D;&#x43E; &#x434;&#x43E;&#x431;&#x430;&#x432;&#x43B;&#x435;&#x43D;&#x43D;&#x44B;&#x435;</name>
+    <name xml:lang="ro">Ad&#x103;ugate recent</name>
+    <name xml:lang="pt-BR">Adicionadas recentemente</name>
+    <name xml:lang="pt">Adicionados recentemente</name>
+    <name xml:lang="ps">&#x627;&#x648;&#x633;&#x646;&#x64A; &#x632;&#x64A;&#x627;&#x62A; &#x634;&#x648;&#x64A;</name>
+    <name xml:lang="pl">Ostatnio dodane</name>
+    <name xml:lang="pa">&#xA24;&#xA3E;&#xA1C;&#xA3C;&#xA3E; &#xA38;&#xA3C;&#xA3E;&#xA2E;&#xA32; &#xA15;&#xA40;&#xA24;&#xA47;</name>
+    <name xml:lang="oc">Aponduts recentament</name>
+    <name xml:lang="nn">Nyleg lagt til</name>
+    <name xml:lang="nl">Recentelijk toegevoegd</name>
+    <name xml:lang="ne">&#x939;&#x93E;&#x932;&#x948; &#x925;&#x92A;&#x93F;&#x90F;&#x915;&#x94B;</name>
+    <name xml:lang="nb">Sist lagt til</name>
+    <name xml:lang="mr">&#x905;&#x932;&#x93F;&#x915;&#x921;&#x940;&#x932; &#x938;&#x92E;&#x93E;&#x935;&#x93F;&#x937;&#x94D;&#x91F;&#x940;&#x924;</name>
+    <name xml:lang="mk">&#x414;&#x43E;&#x434;&#x430;&#x434;&#x435;&#x43D;&#x438; &#x43D;&#x435;&#x43E;&#x434;&#x430;&#x43C;&#x43D;&#x430;</name>
+    <name xml:lang="mjw">Nonlom kethap</name>
+    <name xml:lang="lv">Nesen pievienot&#x101;s</name>
+    <name xml:lang="lt">Neseniai prid&#x117;ta</name>
+    <name xml:lang="ko">&#xCD5C;&#xADFC; &#xCD94;&#xAC00;&#xC21C;</name>
+    <name xml:lang="kn">&#xC87;&#xCA4;&#xCCD;&#xCA4;&#xCC0;&#xC9A;&#xCC6;&#xC97;&#xCC6; &#xCB8;&#xCC7;&#xCB0;&#xCBF;&#xCB8;&#xCB2;&#xCBE;&#xC97;&#xCBF;&#xCA6;&#xCCD;&#xCA6;&#xCC1;</name>
+    <name xml:lang="kk-Cyrl">&#x416;&#x430;&#x49B;&#x44B;&#x43D;&#x434;&#x430; &#x49B;&#x43E;&#x441;&#x44B;&#x43B;&#x493;&#x430;&#x43D;</name>
+    <name xml:lang="ka">&#x10D0;&#x10EE;&#x10DA;&#x10D0;&#x10EE;&#x10D0;&#x10DC;&#x10E1; &#x10D3;&#x10D0;&#x10DB;&#x10D0;&#x10E2;&#x10D4;&#x10D1;&#x10E3;&#x10DA;&#x10D8;</name>
+    <name xml:lang="ja">&#x6700;&#x8FD1;&#x8FFD;&#x52A0;&#x3055;&#x308C;&#x305F;&#x9805;&#x76EE;</name>
+    <name xml:lang="it">Aggiunti di recente</name>
+    <name xml:lang="is">N&#xFD;lega b&#xE6;tt vi&#xF0;</name>
+    <name xml:lang="ie">Recentmen adjuntet</name>
+    <name xml:lang="id">Baru Saja Ditambahkan</name>
+    <name xml:lang="hu">Legut&#xF3;bb hozz&#xE1;adott</name>
+    <name xml:lang="hr">Nedavno dodano</name>
+    <name xml:lang="hi">&#x939;&#x93E;&#x932;&#x93F;&#x92F;&#x93E; &#x91C;&#x94B;&#x921;&#x93C;&#x93E; &#x917;&#x92F;&#x93E;</name>
+    <name xml:lang="he">&#x5E0;&#x5D5;&#x5E1;&#x5E4;&#x5D5; &#x5DC;&#x5D0;&#x5D7;&#x5E8;&#x5D5;&#x5E0;&#x5D4;</name>
+    <name xml:lang="gu">&#xAA4;&#xABE;&#xA9C;&#xAC7;&#xAA4;&#xAB0;&#xAAE;&#xABE;&#xA82; &#xA89;&#xAAE;&#xAC7;&#xAB0;&#xABE;&#xAAF;&#xAC7;&#xAB2;</name>
+    <name xml:lang="gl">Engadidos recentemente</name>
+    <name xml:lang="gd">Air a chur ris o chionn goirid</name>
+    <name xml:lang="ga">Curtha Leis le D&#xE9;ana&#xED;</name>
+    <name xml:lang="fur">Zont&#xE2;t di resint</name>
+    <name xml:lang="fr">R&#xE9;cemment ajout&#xE9;</name>
+    <name xml:lang="fi">Viimeksi lis&#xE4;tyt</name>
+    <name xml:lang="fa">&#x628;&#x647;&#x200C;&#x62A;&#x627;&#x632;&#x6AF;&#x6CC; &#x627;&#x636;&#x627;&#x641;&#x647; &#x634;&#x62F;&#x647;</name>
+    <name xml:lang="eu">Azken aldian gehitua</name>
+    <name xml:lang="et">Hiljuti lisatud</name>
+    <name xml:lang="es">A&#xF1;adidos recientemente</name>
+    <name xml:lang="eo">Anta&#x16D;nelonge aldonitaj</name>
+    <name xml:lang="en-GB">Recently Added</name>
+    <name xml:lang="en-CA">Recently Added</name>
+    <name xml:lang="el">&#x3A0;&#x3C1;&#x3CC;&#x3C3;&#x3C6;&#x3B1;&#x3C4;&#x3B5;&#x3C2; &#x3C0;&#x3C1;&#x3BF;&#x3C3;&#x3B8;&#x3AE;&#x3BA;&#x3B5;&#x3C2;</name>
+    <name xml:lang="dz">&#xF60;&#xF55;&#xFB2;&#xF63;&#xF0B;&#xF41;&#xF0B;&#xF66;&#xF90;&#xF7C;&#xF44;&#xF0B;&#xF56;&#xF62;&#xF90;&#xFB1;&#xF56;&#xF0B;&#xF61;&#xF7C;&#xF51;&#xF54;&#xF0B;</name>
+    <name xml:lang="de">Zuletzt hinzugef&#xFC;gt</name>
+    <name xml:lang="da">Tilf&#xF8;jet for nyligt</name>
+    <name xml:lang="cs">Ned&#xE1;vno p&#x159;idan&#xE9;</name>
+    <name xml:lang="ca-valencia">Afegides recentment</name>
+    <name xml:lang="ca">Afegides recentment</name>
+    <name xml:lang="bs-Latn">Nedavno dodane</name>
+    <name xml:lang="br">Nevez-ouzhpennet</name>
+    <name xml:lang="bn-IN">&#x9B8;&#x9AE;&#x9CD;&#x9AA;&#x9CD;&#x9B0;&#x9A4;&#x9BF; &#x9B8;&#x982;&#x9AF;&#x9CB;&#x99C;&#x9BF;&#x9A4;</name>
+    <name xml:lang="bg">&#x41F;&#x43E;&#x441;&#x43B;&#x435;&#x434;&#x43D;&#x43E; &#x434;&#x43E;&#x431;&#x430;&#x432;&#x435;&#x43D;&#x438;</name>
+    <name xml:lang="be-Latn">Niada&#x16D;na dadadzienyja</name>
+    <name xml:lang="be-Cyrl">&#x41D;&#x44F;&#x434;&#x430;&#x45E;&#x43D;&#x430; &#x434;&#x430;&#x434;&#x430;&#x434;&#x437;&#x435;&#x43D;&#x44B;&#x44F;</name>
+    <name xml:lang="as">&#x9B6;&#x9C7;&#x9B9;&#x9A4;&#x9C0;&#x9DF;&#x9BE;&#x9AD;&#x9BE;&#x9AC;&#x9C7; &#x9AF;&#x9CB;&#x997; &#x995;&#x9F0;&#x9BE;</name>
+    <name xml:lang="ar">&#x627;&#x644;&#x645;&#x64F;&#x636;&#x627;&#x641;&#x629; &#x62D;&#x62F;&#x64A;&#x62B;&#x64B;&#x627;</name>
+    <name xml:lang="af">Onlangs bygevoeg</name>
+    <conjunction>
+      <equals prop="type">song</equals>
+      <subquery>
+        <conjunction>
+          <current-time-within prop="first-seen">604800</current-time-within>
+        </conjunction>
+      </subquery>
+    </conjunction>
+  </playlist>
+  <playlist type="automatic" limit-count="0" limit-size="0" limit-time="0" sort-key="LastPlayed" sort-direction="1">
+    <name>Recently Played</name>
+    <name xml:lang="zh-Hant-TW">&#x6700;&#x8FD1;&#x64AD;&#x653E;</name>
+    <name xml:lang="zh-Hant-HK">&#x6700;&#x8FD1;&#x64AD;&#x653E;</name>
+    <name xml:lang="zh-Hans-CN">&#x6700;&#x8FD1;&#x64AD;&#x653E;</name>
+    <name xml:lang="vi">M&#x1EDB;i ph&#xE1;t</name>
+    <name xml:lang="uk">&#x41D;&#x435;&#x449;&#x43E;&#x434;&#x430;&#x432;&#x43D;&#x43E; &#x432;&#x456;&#x434;&#x442;&#x432;&#x43E;&#x440;&#x435;&#x43D;&#x456;</name>
+    <name xml:lang="tr">Son &#xC7;al&#x131;nanlar</name>
+    <name xml:lang="th">&#xE40;&#xE25;&#xE48;&#xE19;&#xE25;&#xE48;&#xE32;&#xE2A;&#xE38;&#xE14;</name>
+    <name xml:lang="te">&#xC07;&#xC1F;&#xC40;&#xC35;&#xC32; &#xC06;&#xC21;&#xC3F;&#xC02;&#xC1A;&#xC3F;&#xC28;&#xC35;&#xC3F;</name>
+    <name xml:lang="ta">&#xB9A;&#xBAE;&#xBC0;&#xBAA;&#xBA4;&#xBCD;&#xBA4;&#xBBF;&#xBB2;&#xBCD; &#xB87;&#xBAF;&#xB95;&#xBCD;&#xB95;&#xBAA;&#xBCD;&#xBAA;&#xB9F;&#xBCD;&#xB9F;&#xBA4;&#xBC1;</name>
+    <name xml:lang="sv">Senast spelade</name>
+    <name xml:lang="sr-Latn">Poslednje slu&#x161;ane</name>
+    <name xml:lang="sr-Cyrl">&#x41F;&#x43E;&#x441;&#x43B;&#x435;&#x434;&#x45A;&#x435; &#x441;&#x43B;&#x443;&#x448;&#x430;&#x43D;&#x435;</name>
+    <name xml:lang="sl">Nedavno predvajano</name>
+    <name xml:lang="sk">Naposledy prehr&#xE1;van&#xE9;</name>
+    <name xml:lang="si">&#xD85;&#xDBD;&#xDD4;&#xDAD; &#xDB0;&#xDCF;&#xDC0;&#xDB1;&#xDBA; &#xD9A;&#xDBD;</name>
+    <name xml:lang="ru">&#x41D;&#x435;&#x434;&#x430;&#x432;&#x43D;&#x43E; &#x43F;&#x440;&#x43E;&#x441;&#x43B;&#x443;&#x448;&#x430;&#x43D;&#x43D;&#x44B;&#x435;</name>
+    <name xml:lang="ro">Ascultate recent</name>
+    <name xml:lang="pt-BR">Reproduzidas recentemente</name>
+    <name xml:lang="pt">Reproduzidos recentemente</name>
+    <name xml:lang="ps">&#x627;&#x648;&#x633;&#x646;&#x64A; &#x63A;&#x696;&#x648;&#x644; &#x634;&#x648;&#x64A;</name>
+    <name xml:lang="pl">Ostatnio odtwarzane</name>
+    <name xml:lang="pa">&#xA24;&#xA3E;&#xA1C;&#xA3C;&#xA3E; &#xA1A;&#xA32;&#xA3E;&#xA0F;</name>
+    <name xml:lang="oc">Legit darri&#xE8;rament</name>
+    <name xml:lang="nn">Nyleg spela</name>
+    <name xml:lang="nl">Recentelijk beluisterd</name>
+    <name xml:lang="ne">&#x939;&#x93E;&#x932;&#x948; &#x92A;&#x94D;&#x932;&#x947; &#x917;&#x930;&#x93F;&#x90F;&#x915;&#x94B;</name>
+    <name xml:lang="nb">Sist spilt</name>
+    <name xml:lang="mr">&#x905;&#x932;&#x93F;&#x915;&#x921;&#x940;&#x932; &#x91A;&#x93E;&#x932;&#x935;&#x932;&#x947;&#x932;&#x947;</name>
+    <name xml:lang="mk">&#x41F;&#x443;&#x448;&#x442;&#x435;&#x43D;&#x438; &#x43D;&#x435;&#x43E;&#x434;&#x430;&#x43C;&#x43D;&#x430;</name>
+    <name xml:lang="mjw">Nonlom kerot</name>
+    <name xml:lang="lv">Nesen atska&#x146;ot&#x101;s</name>
+    <name xml:lang="lt">Neseniai klausyta</name>
+    <name xml:lang="ko">&#xCD5C;&#xADFC; &#xC7AC;&#xC0DD;&#xC21C;</name>
+    <name xml:lang="kn">&#xC87;&#xCA4;&#xCCD;&#xCA4;&#xCC0;&#xC9A;&#xCC6;&#xC97;&#xCC6; &#xC9A;&#xCB2;&#xCBE;&#xCAF;&#xCBF;&#xCB8;&#xCB2;&#xCBE;&#xC97;&#xCBF;&#xCA6;&#xCCD;&#xCA6;&#xCC1;</name>
+    <name xml:lang="kk-Cyrl">&#x416;&#x430;&#x49B;&#x44B;&#x43D;&#x434;&#x430; &#x43E;&#x439;&#x43D;&#x430;&#x442;&#x44B;&#x43B;&#x493;&#x430;&#x43D;</name>
+    <name xml:lang="ka">&#x10D0;&#x10EE;&#x10DA;&#x10D0;&#x10EE;&#x10D0;&#x10DC;&#x10E1; &#x10D3;&#x10D0;&#x10D9;&#x10E0;&#x10E3;&#x10DA;&#x10D8;</name>
+    <name xml:lang="ja">&#x6700;&#x8FD1;&#x518D;&#x751F;&#x3057;&#x305F;&#x9805;&#x76EE;</name>
+    <name xml:lang="it">Ascoltati di recente</name>
+    <name xml:lang="is">N&#xFD;lega spila&#xF0;</name>
+    <name xml:lang="ie">Recentmen reproductet</name>
+    <name xml:lang="id">Baru Saja Diputar</name>
+    <name xml:lang="hu">Legut&#xF3;bb lej&#xE1;tszott</name>
+    <name xml:lang="hr">Nedavno reproducirano</name>
+    <name xml:lang="hi">&#x939;&#x93E;&#x932;&#x93F;&#x92F;&#x93E; &#x92C;&#x91C;&#x93E;&#x92F;&#x93E; &#x917;&#x92F;&#x93E;</name>
+    <name xml:lang="he">&#x5E0;&#x5D5;&#x5D2;&#x5E0;&#x5D5; &#x5DC;&#x5D0;&#x5D7;&#x5E8;&#x5D5;&#x5E0;&#x5D4;</name>
+    <name xml:lang="gu">&#xAA4;&#xABE;&#xA9C;&#xAC7;&#xAA4;&#xAB0;&#xAAE;&#xABE;&#xA82; &#xAB5;&#xA97;&#xABE;&#xAA1;&#xAC7;&#xAB2;</name>
+    <name xml:lang="gl">Reproducidos recentemente</name>
+    <name xml:lang="gd">Air a chluich o chionn goirid</name>
+    <name xml:lang="ga">Seinnte le D&#xE9;ana&#xED;</name>
+    <name xml:lang="fur">Scolt&#xE2;t di resint</name>
+    <name xml:lang="fr">R&#xE9;cemment lu</name>
+    <name xml:lang="fi">Viimeksi soitetut</name>
+    <name xml:lang="fa">&#x628;&#x647;&#x200C;&#x62A;&#x627;&#x632;&#x6AF;&#x6CC; &#x67E;&#x62E;&#x634; &#x634;&#x62F;&#x647;</name>
+    <name xml:lang="eu">Azken aldian erreproduzitua</name>
+    <name xml:lang="et">Hiljuti kuulatud</name>
+    <name xml:lang="es">Reproducidos recientemente</name>
+    <name xml:lang="eo">Anta&#x16D;nelonge luditaj</name>
+    <name xml:lang="en-GB">Recently Played</name>
+    <name xml:lang="en-CA">Recently Played</name>
+    <name xml:lang="el">&#x3A0;&#x3C1;&#x3CC;&#x3C3;&#x3C6;&#x3B1;&#x3C4;&#x3B5;&#x3C2; &#x3B1;&#x3BD;&#x3B1;&#x3C0;&#x3B1;&#x3C1;&#x3B1;&#x3B3;&#x3C9;&#x3B3;&#x3AD;&#x3C2;</name>
+    <name xml:lang="dz">&#xF60;&#xF55;&#xFB2;&#xF63;&#xF0B;&#xF42;&#xF4F;&#xF44;&#xF0B;&#xF61;&#xF7C;&#xF51;&#xF54;&#xF0B;</name>
+    <name xml:lang="de">Zuletzt gespielt</name>
+    <name xml:lang="da">Afspillet for nyligt</name>
+    <name xml:lang="cs">Ned&#xE1;vno p&#x159;ehran&#xE9;</name>
+    <name xml:lang="ca-valencia">Reprodu&#xEF;des recentment</name>
+    <name xml:lang="ca">Reprodu&#xEF;des recentment</name>
+    <name xml:lang="bs-Latn">Nedavno slu&#x161;ane</name>
+    <name xml:lang="br">Nevez-sonet</name>
+    <name xml:lang="bn-IN">&#x9B8;&#x9AE;&#x9CD;&#x9AA;&#x9CD;&#x9B0;&#x9A4;&#x9BF; &#x9B8;&#x99E;&#x9CD;&#x99A;&#x9BE;&#x9B2;&#x9BF;&#x9A4;</name>
+    <name xml:lang="bg">&#x41D;&#x430;&#x441;&#x43A;&#x43E;&#x440;&#x43E; &#x438;&#x437;&#x43F;&#x44A;&#x43B;&#x43D;&#x44F;&#x432;&#x430;&#x43D;&#x438;</name>
+    <name xml:lang="be-Latn">Niada&#x16D;na vykananyja</name>
+    <name xml:lang="be-Cyrl">&#x41D;&#x44F;&#x434;&#x430;&#x45E;&#x43D;&#x430; &#x43F;&#x440;&#x430;&#x439;&#x433;&#x440;&#x430;&#x43D;&#x430;&#x435;</name>
+    <name xml:lang="as">&#x9B6;&#x9C7;&#x9B9;&#x9A4;&#x9C0;&#x9DF;&#x9BE;&#x995;&#x9C7; &#x9AC;&#x99C;&#x9CB;&#x9F1;&#x9BE;</name>
+    <name xml:lang="ar">&#x627;&#x644;&#x645;&#x64F;&#x634;&#x63A;&#x651;&#x644;&#x629; &#x62D;&#x62F;&#x64A;&#x62B;&#x64B;&#x627;</name>
+    <name xml:lang="af">Onlangs gespeel</name>
+    <conjunction>
+      <equals prop="type">song</equals>
+      <subquery>
+        <conjunction>
+          <current-time-within prop="last-played">604800</current-time-within>
+        </conjunction>
+      </subquery>
+    </conjunction>
+  </playlist>
+  <playlist type="automatic" limit-count="0" limit-size="0" limit-time="0" sort-key="Rating" sort-direction="1">
+    <name>My Top Rated</name>
+    <name xml:lang="zh-Hant-TW">&#x6700;&#x9AD8;&#x8A55;&#x50F9;</name>
+    <name xml:lang="zh-Hant-HK">&#x6700;&#x9AD8;&#x8A55;&#x50F9;</name>
+    <name xml:lang="zh-Hans-CN">&#x8BC4;&#x7EA7;&#x6700;&#x9AD8;</name>
+    <name xml:lang="vi">&#x110;i&#x1EC3;m cao</name>
+    <name xml:lang="uk">&#x41C;&#x43E;&#x457; &#x443;&#x43B;&#x44E;&#x431;&#x43B;&#x435;&#x43D;&#x456; &#x43A;&#x43E;&#x43C;&#x43F;&#x43E;&#x437;&#x438;&#x446;&#x456;&#x457;</name>
+    <name xml:lang="tr">En &#x130;yiler</name>
+    <name xml:lang="th">&#xE04;&#xE30;&#xE41;&#xE19;&#xE19;&#xE2A;&#xE39;&#xE07;&#xE2A;&#xE38;&#xE14;</name>
+    <name xml:lang="te">&#xC28;&#xC47;&#xC28;&#xC41; &#xC2C;&#xC3E;&#xC17;&#xC3E; &#xC30;&#xC47;&#xC1F;&#xC41;&#xC2F;&#xC3F;&#xC1A;&#xC4D;&#xC1A;&#xC3F;&#xC28;&#xC35;&#xC3F;</name>
+    <name xml:lang="ta">&#xB8E;&#xBA9;&#xBA4;&#xBC1; &#xB85;&#xBA4;&#xBBF;&#xB95; &#xBAE;&#xBA4;&#xBBF;&#xBAA;&#xBCD;&#xBAA;&#xBC0;&#xB9F;&#xBC1;</name>
+    <name xml:lang="sv">Mina h&#xF6;gst rankade</name>
+    <name xml:lang="sr-Latn">Najbolje ocenjene</name>
+    <name xml:lang="sr-Cyrl">&#x41D;&#x430;&#x458;&#x431;&#x43E;&#x459;&#x435; &#x43E;&#x446;&#x435;&#x45A;&#x435;&#x43D;&#x435;</name>
+    <name xml:lang="sl">Moje najbolj&#x161;e ocenjeno</name>
+    <name xml:lang="sk">Moje najob&#x13E;&#xFA;benej&#x161;ie</name>
+    <name xml:lang="si">&#xDB8;&#xD9C;&#xDDA; &#xD89;&#xDC4;&#xDBD;&#xDB8; &#xDAD;&#xDDA;&#xDBB;&#xDD3;&#xDB8;&#xDCA;</name>
+    <name xml:lang="ru">&#x41B;&#x44E;&#x431;&#x438;&#x43C;&#x44B;&#x435; &#x43A;&#x43E;&#x43C;&#x43F;&#x43E;&#x437;&#x438;&#x446;&#x438;&#x438;</name>
+    <name xml:lang="ro">Preferatele mele</name>
+    <name xml:lang="pt-BR">Minhas preferidas</name>
+    <name xml:lang="pt">Meus melhores classificados</name>
+    <name xml:lang="ps">&#x632;&#x645;&#x627; &#x62C;&#x6AB; &#x6A9;&#x686;&#x648;&#x644; &#x634;&#x648;&#x64A;</name>
+    <name xml:lang="pl">Najwy&#x17C;ej oceniane</name>
+    <name xml:lang="pa">&#xA2E;&#xA47;&#xA30;&#xA47; &#xA1F;&#xA3E;&#xA2A; &#xA30;&#xA47;&#xA1F;</name>
+    <name xml:lang="oc">Mon top</name>
+    <name xml:lang="nn">Mine mest popul&#xE6;re</name>
+    <name xml:lang="nl">Hoogst gewaardeerd</name>
+    <name xml:lang="ne">&#x92E;&#x947;&#x930;&#x94B; &#x92E;&#x93E;&#x925;&#x93F;&#x932;&#x94D;&#x932;&#x94B; &#x926;&#x930;</name>
+    <name xml:lang="nb">Mine mest popul&#xE6;re</name>
+    <name xml:lang="mr">&#x92E;&#x93E;&#x91D;&#x947; &#x909;&#x91A;&#x94D;&#x91A; &#x917;&#x941;&#x923;&#x94B;&#x924;&#x94D;&#x924;&#x930;</name>
+    <name xml:lang="mk">&#x41C;&#x43E;&#x438; &#x43E;&#x43C;&#x438;&#x43B;&#x435;&#x43D;&#x438;</name>
+    <name xml:lang="mjw">Ne karju ver</name>
+    <name xml:lang="lv">Augst&#x101;k nov&#x113;rt&#x113;t&#x101;s</name>
+    <name xml:lang="lt">Geriausiai mano &#x12F;vertinta</name>
+    <name xml:lang="ko">&#xC778;&#xAE30;&#xC21C;</name>
+    <name xml:lang="kn">&#xCA8;&#xCBE;&#xCA8;&#xCC1; &#xC85;&#xCA4;&#xCCD;&#xCAF;&#xCC1;&#xCA4;&#xCCD;&#xCA4;&#xCAE;&#xCB5;&#xCC6;&#xC82;&#xCA6;&#xCC1; &#xCB0;&#xCC7;&#xC9F;&#xCCD; &#xCAE;&#xCBE;&#xCA1;&#xCBF;&#xCA6;&#xCB5;&#xCC1;&#xC97;&#xCB3;&#xCC1;</name>
+    <name xml:lang="kk-Cyrl">&#x41C;&#x435;&#x43D;&#x456;&#x4A3; &#x4AF;&#x437;&#x434;&#x456;&#x43A; &#x431;&#x430;&#x493;&#x430;&#x43B;&#x430;&#x43D;&#x493;&#x430;&#x43D;&#x434;&#x430;&#x440;&#x44B;&#x43C;</name>
+    <name xml:lang="ka">&#x10E9;&#x10D4;&#x10DB;&#x10D8; &#x10E1;&#x10D0;&#x10E3;&#x10D9;&#x10D4;&#x10D7;&#x10D4;&#x10E1;&#x10DD;&#x10D4;&#x10D1;&#x10D8;</name>
+    <name xml:lang="ja">&#x81EA;&#x5206;&#x306E;&#x9AD8;&#x8A55;&#x4FA1;</name>
+    <name xml:lang="it">Miglior giudizio</name>
+    <name xml:lang="is">H&#xE6;sta einkunn m&#xED;n</name>
+    <name xml:lang="ie">Mi tre evaluat</name>
+    <name xml:lang="id">Pilihanku</name>
+    <name xml:lang="hu">Legjobb &#xE9;rt&#xE9;kel&#xE9;s</name>
+    <name xml:lang="hr">Najpopularnije</name>
+    <name xml:lang="hi">&#x92E;&#x947;&#x930;&#x93E; &#x938;&#x930;&#x94D;&#x935;&#x94B;&#x91A;&#x94D;&#x91A; &#x930;&#x947;&#x91F;&#x947;&#x921;</name>
+    <name xml:lang="he">&#x5D4;&#x5DE;&#x5D3;&#x5D5;&#x5E8;&#x5D2;&#x5D9;&#x5DD; &#x5D4;&#x5DB;&#x5D9; &#x5D2;&#x5D1;&#x5D5;&#x5D4;&#x5D9;&#x5DD; &#x5E9;&#x5DC;&#x5D9;</name>
+    <name xml:lang="gu">&#xAAE;&#xABE;&#xAB0;&#xACB; &#xA8A;&#xA82;&#xA9A;&#xACB; &#xA97;&#xAC1;&#xAA3;&#xACB;&#xAA4;&#xACD;&#xAA4;&#xAB0;</name>
+    <name xml:lang="gl">Mellor puntuados por min</name>
+    <name xml:lang="gd">Na gr&#xE0;innean-mullaich agamsa</name>
+    <name xml:lang="ga">Mo Mheastach&#xE1;in is Airde</name>
+    <name xml:lang="fur">I plui vot&#xE2;ts</name>
+    <name xml:lang="fr">Mon top</name>
+    <name xml:lang="fi">Parhaiten arvostellut</name>
+    <name xml:lang="fa">&#x628;&#x6CC;&#x634;&#x62A;&#x631;&#x6CC;&#x646; &#x627;&#x645;&#x62A;&#x6CC;&#x627;&#x632; &#x62A;&#x648;&#x633;&#x637; &#x645;&#x646;</name>
+    <name xml:lang="eu">Gogokoenak</name>
+    <name xml:lang="et">K&#xF5;rgelt hinnatud</name>
+    <name xml:lang="es">Mis mejores puntuados</name>
+    <name xml:lang="eo">Miaj preferataj</name>
+    <name xml:lang="en-GB">My Top Rated</name>
+    <name xml:lang="en-CA">My Top Rated</name>
+    <name xml:lang="el">&#x39A;&#x3BF;&#x3C1;&#x3C5;&#x3C6;&#x3B1;&#x3AF;&#x3B1; &#x3B2;&#x3B1;&#x3B8;&#x3BC;&#x3BF;&#x3BB;&#x3BF;&#x3B3;&#x3B7;&#x3BC;&#x3AD;&#x3BD;&#x3B1; &#x3B1;&#x3C0;&#x3CC; &#x3BC;&#x3AD;&#x3BD;&#x3B1;</name>
+    <name xml:lang="dz">&#xF44;&#xF7A;&#xF66;&#xF0B;&#xF40;&#xFB1;&#xF72;&#xF0B;&#xF42;&#xF7C;&#xF44;&#xF0B;&#xF5A;&#xF51;&#xF0B;&#xF51;&#xFB2;&#xF42;&#xF0B;&#xF64;&#xF7C;&#xF66;&#xF0D;</name>
+    <name xml:lang="de">Beste Bewertung</name>
+    <name xml:lang="da">Mine favoritter</name>
+    <name xml:lang="cs">M&#xE9; nejl&#xE9;pe hodnocen&#xE9;</name>
+    <name xml:lang="ca-valencia">Les millor puntuades</name>
+    <name xml:lang="ca">Les millor puntuades</name>
+    <name xml:lang="bs-Latn">Moje najbolje ocijenjene</name>
+    <name xml:lang="br">Ma zonio&#xF9; gwella&#xF1;</name>
+    <name xml:lang="bg">&#x41B;&#x438;&#x447;&#x43D;&#x43E; &#x43D;&#x430;&#x439;-&#x432;&#x438;&#x441;&#x43E;&#x43A;&#x43E; &#x43E;&#x446;&#x435;&#x43D;&#x435;&#x43D;&#x438;</name>
+    <name xml:lang="be-Latn">Z najbol&#x161;ym ratingam</name>
+    <name xml:lang="be-Cyrl">&#x417; &#x432;&#x44B;&#x441;&#x43E;&#x43A;&#x430;&#x439; &#x430;&#x434;&#x437;&#x43D;&#x430;&#x43A;&#x430;&#x439;</name>
+    <name xml:lang="as">&#x9AE;&#x9CB;&#x9F0; &#x99F;'&#x9AA; &#x9F0;&#x9C7;&#x99F;&#x9C7;&#x9A1;</name>
+    <name xml:lang="ar">&#x627;&#x644;&#x623;&#x639;&#x644;&#x649; &#x62A;&#x642;&#x64A;&#x64A;&#x645;&#x64B;&#x627;</name>
+    <name xml:lang="af">Boaan die ranglys</name>
+    <conjunction>
+      <equals prop="type">song</equals>
+      <subquery>
+        <conjunction>
+          <greater prop="rating">4.000000</greater>
+        </conjunction>
+      </subquery>
+    </conjunction>
+  </playlist>
+</rhythmdb-playlists>

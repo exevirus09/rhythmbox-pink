@@ -1,0 +1,125 @@
+/* Hide menu and toolbar */
+menubar,
+.menu-bar,
+#menubar,
+#menu-bar,
+toolbar,
+.toolbar,
+#toolbar,
+#main-toolbar {
+    opacity: 0;
+    min-height: 0;
+    max-height: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+}
+
+/* Hide song-list containers */
+scrolledwindow,
+.scrolled-window,
+#entry-view,
+#entry_view,
+#song-list,
+#song_list,
+#track-list,
+#track_list,
+#browser,
+#song-browser,
+#song_browser,
+#queue-view,
+#queue_view,
+#property-view,
+#property_view {
+    opacity: 0;
+    min-width: 0;
+    min-height: 0;
+    max-width: 0;
+    max-height: 0;
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+    border-width: 0;
+}
+
+/* Hide list widgets */
+treeview,
+.treeview,
+.view,
+iconview,
+.iconview {
+    opacity: 0;
+    min-width: 0;
+    min-height: 0;
+    max-width: 0;
+    max-height: 0;
+    width: 0;
+    height: 0;
+}
+
+/* Hide sidebar */
+.sidebar,
+.source-list,
+.source-view,
+#sidebar,
+#source-list,
+#source_list,
+#source-view,
+#source_view {
+    opacity: 0;
+    min-width: 0;
+    max-width: 0;
+    width: 0;
+    padding: 0;
+    margin: 0;
+}
+
+/* Hide search controls */
+searchbar,
+.searchbar,
+.search-bar,
+#searchbar,
+#search-bar,
+#search-entry,
+#search_entry,
+#search-button,
+#search_button {
+    opacity: 0;
+    min-width: 0;
+    min-height: 0;
+    max-width: 0;
+    max-height: 0;
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+}
+
+/* Hide bottom/status controls */
+statusbar,
+.statusbar,
+.status-bar,
+#statusbar,
+#status-bar,
+#bottom-bar,
+#bottom_bar,
+.bottom-bar {
+    opacity: 0;
+    min-height: 0;
+    max-height: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+}
+
+/* Hide separators left by removed panels */
+separator,
+.separator,
+paned separator {
+    min-width: 0;
+    min-height: 0;
+    max-width: 0;
+    max-height: 0;
+    opacity: 0;
+}

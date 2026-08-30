@@ -1,4 +1,4 @@
-  % meson setup _build -Dprefix=$PWD/_install    # prepare the build
-  % ninja -C _build                              # build Rhythmbox
-  % ninja -C _build install                      # install Rhythmbox
+meson setup _build -Dprefix=$PWD/_install    # prepare the build
+ninja -C _build                              # build Rhythmbox
+ninja -C _build install                      # install Rhythmbox
 # add python script and bash script to _install/bin after installation.

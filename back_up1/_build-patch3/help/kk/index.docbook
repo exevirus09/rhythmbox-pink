@@ -1,0 +1,1012 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+<!ENTITY appversion "3.4.4">
+<!ENTITY manrevision "3.4.4">
+<!ENTITY date "January 2020">
+<!ENTITY app "Rhythmbox Music Player">
+<!ENTITY mdash "&#8212;">
+]>
+<!--
+      (Do not remove this comment block.)
+  Version: 0.0.2
+  Last modified: October 02, 2002
+  Maintainers:
+               Mark Finlay <sisob@eircom.net>
+	       Mark Humphreys <marquee@users.sourceforge.net>
+-->
+<!--
+      (Do not remove this comment block.)
+  Version: 0.0.3
+  Last modified: August 08, 2003
+  Maintainers:
+	       Mark Humphreys <marquee@users.sourceforge.net>
+-->
+<!--
+      (Do not remove this comment block.)
+  Version: 0.0.4
+  Last modified: October 01, 2005
+  Maintainers:
+	       Baptiste Mille-Mathias <baptiste.millemathias@gmail.com>
+-->
+<!-- =============Document Header ============================= -->
+<article id="index" lang="kk">
+<!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+  <articleinfo>
+    <title>Rhythmbox музыкалық ойнатқышы</title>
+	<copyright><year>2002</year> <holder>Mark Finlay</holder></copyright>
+        <copyright><year>2002</year> <holder>Mark Humphreys</holder></copyright>
+	<copyright><year>2005</year> <year>2006</year> <holder>Baptiste Mille-Mathias</holder></copyright>
+	<copyright><year>2006</year> <holder>Victor Osadci</holder></copyright>
+	<copyright><year>2008</year> <holder>Dean Sas</holder></copyright>
+	<copyright><year>2018</year> <year>2020</year> <holder>Andre Klapper</holder></copyright>
+
+<!-- translators: uncomment this:
+  <copyright>
+   <year>2000</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+  -->
+<!-- An address can be added to the publisher information.  If a role is
+     not specified, the publisher/author is the same for all versions of the
+     document.  -->
+	<publisher>
+	 	<publishername>GNOME құжаттама жобасы</publishername>
+	</publisher>
+
+   
+   <!-- This file  contains link to license for the documentation (GNU FDL), and
+   other legal stuff such as "NO WARRANTY" statement. Please do not change
+   any of this. -->
+   <authorgroup>
+   		<author><firstname>Mark</firstname> <surname>Finlay</surname> <affiliation> <orgname>GNOME құжаттама жобасы</orgname> <address><email>sisob@eircom.net</email></address> </affiliation></author>
+		<author><firstname>Mark</firstname> <surname>Humphreys</surname> <affiliation> <orgname>GNOME құжаттама жобасы</orgname> <address><email>marquee@users.sourceforge.net</email></address> </affiliation></author>		
+		<author role="maintainer"><firstname>Baptiste</firstname> <surname>Mille-Mathias</surname> <affiliation> <orgname>GNOME құжаттама жобасы</orgname> <address><email>baptiste.millemathias@gmail.com</email></address> </affiliation></author>
+		<author><firstname>Victor</firstname> <surname>Osadci</surname> <affiliation> <orgname>GNOME құжаттама жобасы</orgname> <address><email>Victor.Osadci.GNOME@xhtml.md</email></address> </affiliation></author>
+		<author><firstname>Dean</firstname> <surname>Sas</surname> <affiliation> <orgname>Ubuntu құжаттама жобасы</orgname> <address><email>dean@deansas.org</email></address> </affiliation></author>
+		<author><firstname>Andre</firstname> <surname>Klapper</surname> <affiliation> <orgname>GNOME құжаттама жобасы</orgname> <address><email>ak-47@gmx.net</email></address> </affiliation></author>
+   </authorgroup>
+
+<!-- According to GNU FDL, revision history is mandatory if you are -->
+<!-- modifying/reusing someone else's document.  If not, you can omit it. -->
+   <revhistory>
+      <revision><revnumber>Rhythmbox музыкалық ойнатқышының нұсқаулығы, V0.0.2</revnumber> <date>Қазан 2002</date> <revdescription> 
+	  		<para role="author">Mark Finlay</para>
+	  		<para role="publisher">GNOME құжаттама жобасы</para>
+		</revdescription></revision> 
+      <revision><revnumber>Rhythmbox музыкалық ойнатқышының нұсқаулығы, V0.0.3</revnumber> <date>Тамыз 2003</date> <revdescription> 
+	  		<para role="author">Mark Humphreys</para>
+	  		<para role="publisher">GNOME құжаттама жобасы</para>
+		</revdescription></revision> 
+      <revision><revnumber>Rhythmbox музыкалық ойнатқышының нұсқаулығы, V0.0.4</revnumber> <date>Қазан 2005</date> <revdescription> 
+	  		<para role="author">Baptiste Mille-Mathias</para>
+	  		<para role="publisher">GNOME құжаттама жобасы</para>
+		</revdescription></revision> 
+      <revision><revnumber>Rhythmbox музыкалық ойнатқышының нұсқаулығы, V2.0.2</revnumber> <date>Сәуір 2006</date> <revdescription> 
+	  		<para role="author">Luca Ferretti</para>
+	  		<para role="publisher">GNOME құжаттама жобасы</para>
+		</revdescription></revision> 
+	  <revision><revnumber>Rhythmbox музыкалық ойнатқышының нұсқаулығы, V2.0.3</revnumber> <date>Мамыр 2008</date> <revdescription>
+			<para role="author">Dean Sas</para>
+			<para role="publisher">GNOME құжаттама жобасы</para>
+        </revdescription></revision>
+	  <revision><revnumber>Rhythmbox музыкалық ойнатқышының нұсқаулығы, V3.4.4</revnumber> <date>Қаңтар 2020</date> <revdescription>
+			<para role="author">Andre Klapper</para>
+			<para role="publisher">GNOME құжаттама жобасы</para>
+        </revdescription></revision>
+    </revhistory> 
+
+    <releaseinfo>Бұл нұсқаулықта Rhythmbox музыкалық ойнатқышының 3.4.4 нұсқасы сипатталады.</releaseinfo> 
+    <legalnotice> 
+      <title>Кері байланыс</title> 
+      <para>Rhythmbox музыкалық ойнатқышы қолданбасына немесе осы нұсқаулыққа қатысты қате туралы хабарлау немесе ұсыныс жасау үшін <ulink url="https://gitlab.gnome.org/GNOME/rhythmbox/issues/">GNOME мәселелер трекеріне</ulink> өтіңіз.</para>
+<!-- Translators may also add here feedback address for translations -->
+    </legalnotice> 
+
+   <abstract role="description">
+     <para>Rhythmbox — GNOME жұмыс үстеліне арналған толыққанды музыкалық ойнатқыш.</para>
+   </abstract>
+
+  </articleinfo> 
+
+
+  <indexterm zone="index"><primary>Rhythmbox</primary></indexterm>
+  <indexterm zone="index"><primary>rhythmbox</primary></indexterm>
+  <indexterm zone="index"><primary>Музыкалық ойнатқыш</primary></indexterm>
+<!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+  <sect1 id="introduction">
+    <title>Кіріспе</title>
+      <para><application>Rhythmbox музыкалық ойнатқышы</application> — әртүрлі музыка пішімдерін қолдайтын, тегтелген файлдарға арналған музыкалық ойнатқыш және кітапхана.</para>
+      <para>Ағымдағы <application>Rhythmbox музыкалық ойнатқышының</application> мүмкіндіктеріне мыналар кіреді:</para>
+      	<itemizedlist>
+          <listitem>
+            <para>Тегтелген, реттелген кітапханадан әртүрлі пішімдегі музыкалық файлдарды ойнату.</para>
+          </listitem>
+          <listitem>
+            <para>Мета-деректерді оқу арқылы өлеңдер туралы ақпаратты көрсету.</para>
+          </listitem>
+          <listitem>
+            <para>Өлеңдерді реттелген көріністе көрсету.</para>
+          </listitem>
+          <listitem>
+            <para>Кітапхана көрінісінен сүйреп апару арқылы статикалық ойнату тізімдерін жасау.</para>
+          </listitem>
+          <listitem>
+            <para>Критерийлер бойынша автоматты ойнату тізімдерін жасау.</para>
+          </listitem>
+          <listitem>
+            <para>Кітапхана немесе ойнату тізімдері сияқты көздер тізімінен өлеңдерді іздеу.</para>
+          </listitem>
+          <listitem>
+            <para>Интернет-радиостанцияларды тыңдау.</para>
+          </listitem>
+          <listitem>
+            <para>Аудио CD дискілерін оқу және интернеттен трек атауы сияқты ақпаратты алу.</para>
+          </listitem>
+          <listitem>
+            <para>Ойнату тізімдерінен аудио CD дискілерін жазу.</para>
+          </listitem>
+          <listitem>
+            <para>Музыканы iPod, MTP және USB Mass Storage музыкалық ойнатқыштарына тасымалдау.</para>
+          </listitem>
+        </itemizedlist>
+  </sect1>
+  <sect1 id="rb-getting-started">
+  	<title>Жұмысқа кірісу</title>
+	
+		<sect2 id="rb-launch">
+			<title><application>Rhythmbox музыкалық ойнатқышын</application> іске қосу үшін</title>
+			<para><application>Rhythmbox музыкалық ойнатқышын</application> келесі тәсілдермен іске қосуға болады: <variablelist>
+					<varlistentry>
+						<term><guimenu>Қолданбалар</guimenu> торы</term>
+						<listitem>
+							<para>Экранның жоғарғы сол жақ бұрышындағы <guimenuitem>Әрекеттер</guimenuitem> тармағын шертіңіз. Бақылау панеліндегі тор батырмасын шертіңіз. <guimenuitem>Rhythmbox</guimenuitem> таңдаңыз.</para>
+						</listitem>
+					</varlistentry>
+					<varlistentry>
+						<term>Командалық жол</term>
+						<listitem>
+							<para><command>rhythmbox</command> деп теріп, <keycap>Return</keycap> пернесін басыңыз.</para>
+						</listitem>
+					</varlistentry>
+				</variablelist></para>
+		</sect2>
+		<sect2 id="rb">
+			<title>Көмекшіні іске қосу</title>
+			<para><application>Rhythmbox музыкалық ойнатқышын</application> алғаш рет іске қосқанда, көмекші сізге музыканы импорттауға көмектеседі. Көмекшінің екінші панелінде <guibutton>Шолу</guibutton> батырмасын басып, музыка сақталған буманы таңдаңыз.</para>
+		</sect2>
+  </sect1>
+  <sect1 id="rb-window">
+    <title>Rhythmbox музыкалық ойнатқышының терезесі</title>
+    <sect2 id="rb-window-intro">
+      <title>Шолу</title>
+      	<para><application>Rhythmbox музыкалық ойнатқышының</application> терезесі сүйікті музыкаңызды шолуға және ойнатуға мүмкіндік береді. <xref linkend="fig-rb-window"/> суретінде <application>Rhythmbox музыкалық ойнатқышының</application> интерфейсі және оның негізгі құрамдастары көрсетілген.</para>
+      	<figure id="fig-rb-window">
+        <title><application>Rhythmbox музыкалық ойнатқышының</application> терезесі</title>
+        <screenshot>
+          <mediaobject><imageobject> <imagedata fileref="figures/rb-window.png" format="PNG"/> </imageobject> <textobject> <phrase><application>Rhythmbox музыкалық ойнатқышы</application> терезесінің интерфейсіндегі әртүрлі бөліктерді көрсету. Белгілер: Ойнатқыш аймағы, Браузер, Бүйірлік панель, Қалып-күй жолағы. </phrase> </textobject></mediaobject>
+        </screenshot>
+      </figure>
+      <para>1-кестеде <application>Rhythmbox музыкалық ойнатқышы</application> терезесінің құрамдастары сипатталған.</para>
+      <table frame="topbot" id="table-rb-window">
+        <title><application>Rhythmbox музыкалық ойнатқышы</application> терезесінің құрамдастары</title>
+        <tgroup cols="3" colsep="0" rowsep="0">
+          <colspec colname="COLSPEC0"/>
+          <colspec colname="COLSPEC1"/>
+          <colspec colname="COLSPEC2"/>
+          <thead>
+            <row rowsep="1">
+              <entry valign="top">Id</entry>
+              <entry valign="top">Құрамдас</entry>
+              <entry valign="top">Сипаттамасы</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry valign="top">1</entry>
+              <entry valign="top">Сайман панелі</entry>
+              <entry valign="top">Ойнатқыш функцияларына қол жеткізуді және ағымдағы уақытта ойнатылып жатқан трек туралы мәліметтерді ұсынады. Тректің ойнатылу позициясын көрсететін уақыт жүгірткісін қамтиды; ол тректің басқа бөлігіне ауысуға мүмкіндік береді. Сондай-ақ дыбыс деңгейінің жүгірткісі мен қолданба мәзіріне қол жеткізу батырмасын қамтиды.</entry>
+            </row>
+            <row>
+              <entry valign="top">2</entry>
+              <entry valign="top">Бүйірлік панель</entry>
+              <entry valign="top">Қолжетімді көздер тізімін көрсетеді. Сондай-ақ ойнату кезегін көрсете алады.</entry>
+
+            </row>
+            <row>
+              <entry valign="top">3</entry>
+              <entry valign="top">Браузер</entry>
+              <entry valign="top">Кітапхана тректерін жанры, орындаушысы немесе альбом атауы бойынша шолуға және сүзгілеуге мүмкіндік береді. Браузер сонымен қатар тек критерийлеріңізге сәйкес келетін тректерді көрсету үшін іздеу функциясын ұсынады.</entry>
+            </row>
+            <row>
+              <entry valign="top">4</entry>
+              <entry valign="top">Тректер тізімі</entry>
+              <entry valign="top">Таңдалған көзге тиесілі тректерді тізімдейді.</entry>
+            </row>
+            <row>
+              <entry valign="top">5</entry>
+              <entry valign="top">Қалып-күй жолағы</entry>
+              <entry valign="top">Бүйірлік панельде таңдалған көз туралы ақпаратты көрсетеді.</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </sect2>
+    <sect2 id="intro-sourcelist">
+      <title>Бүйірлік панель</title>
+      <para>Бүйірлік панельде музыка кітапханасына, интернет-радиоға, ойнату тізімдеріне, аудио CD дискілеріне және ойнату кезегіне қол жеткізуге болады. Бүйірлік панель келесі көздерді қамтуы мүмкін: <itemizedlist>
+				  <listitem><para>Барлық импортталған тректер пайда болатын <application>Rhythmbox музыкалық ойнатқышының</application> кітапханасы.</para></listitem>
+				  <listitem><para>Подкасттар.</para></listitem>
+				  <listitem><para>Барлық интернет-радиостанциялары бар Радио көзі.</para></listitem>
+				  <listitem><para>Барлық ойнату тізімдері (қарапайым және ақылды).</para></listitem>
+				  <listitem><para>Компьютердің CD диск жетектеріне салынған аудио CD дискілері.</para></listitem>
+				  <listitem><para>Компьютерге қосылған iPod сияқты тасымалы ойнатқыштар.</para></listitem>
+				  <listitem><para>Жергілікті желіден табылған DAAP музыкалық ресурстары.</para></listitem>
+				  <listitem><para>Jamendo және Magnatune сияқты музыкалық дүкендер.</para></listitem>
+				  <listitem><para>SoundCloud сияқты музыкалық сайттар.</para></listitem>
+				</itemizedlist></para>
+	<para>Терезенің жоғарғы оң жақ бұрышындағы мәзір батырмасын басып, <menuchoice><guimenu>Көрініс</guimenu><guimenuitem>Ойнату кезегі бүйірлік панельде</guimenuitem></menuchoice> таңдасаңыз, ол ойнату кезегін де қамти алады.</para>
+	<para>Терезенің жоғарғы оң жақ бұрышындағы мәзір батырмасын басып, <menuchoice><guimenu>Көрініс</guimenu> <guimenuitem>Бүйірлік панель</guimenuitem></menuchoice> таңдау арқылы бүйірлік панельдің көрсетілуін қосуға немесе өшіруге болады.</para>
+    </sect2>
+    <sect2 id="player-toolbar">
+      <title>Ойнатқыштың сайман панелі</title>
+      <para>Сайман панелі аймағы қазіргі уақытта ойнатылып жатқан трек туралы мәліметтерге қол жеткізуді ұсынады. Трек ойнатылмай тұрғанда, бұл аймақта ешқандай ақпарат көрсетілмейді. Трек ойнатылғанда, трек атауы көрсетіледі, ал оның астында орындаушы мен альбом атаулары шығады.</para>
+      <para>Ойнатылып жатқан тректің барысын көрсететін трекер және уақыт жүгірткісі де көрсетіледі. Уақыт жүгірткісі фокуста болғанда, бағытша пернелерін ойнатылып жатқан тректі алға айналдыру немесе артқа қайтару үшін пайдалануға болады.</para>
+      <tip>
+        <para>Егер сіз айналдыру дөңгелегі бар тышқанды пайдалансаңыз, тышқан курсоры оң жақ бұрыштағы дыбыс батырмасының үстінде болғанда, жоғары немесе төмен айналдыру арқылы дыбыс деңгейін реттей аласыз.</para>
+      </tip>
+    </sect2>
+    <sect2 id="status-area">
+      <title>Қалып-күй жолағы</title>
+      <para>Қалып-күй жолағында таңдалған көздің өлеңдер саны мен ұзақтығы туралы қосымша ақпарат бар.</para>
+    </sect2>
+  </sect1>
+  <sect1 id="Usage">
+    <title>Rhythmbox музыкалық ойнатқышын пайдалану</title>
+    <sect2 id="Playing">
+      <title>Музыканы ойнату</title>
+      <para>Тректі ойнату үшін оны таңдап, сайман панеліндегі <guibutton>Ойнату</guibutton> батырмасын басыңыз немесе ойнатуды бастау үшін тректі екі рет шертіңіз.</para>
+      <para>Трек аяқталғанда, <application>Rhythmbox музыкалық ойнатқышы</application> көрініс панелінде көрсетілген тізімдегі келесі тректі ойнатуға көшеді.</para>
+      <para><xref linkend="library"/> ішінде орындаушының барлық өлеңдерін немесе жеке альбомды кітапхана браузеріндегі <guilabel>Альбом</guilabel> немесе <guilabel>Орындаушы</guilabel> жазбасын таңдау арқылы ойнатуға болады.</para>
+      <sect3 id="next-previous">
+        <title>Келесі/Ойнату/Алдыңғы</title>
+        <para><guibutton>Келесі</guibutton> және <guibutton>Алдыңғы</guibutton> батырмаларын ойнату кезінде тректер арасында ауысу үшін пайдалануға болады. Егер трек қазір ойнатылып жатса, алдыңғы батырмасы тректі басынан бастайды. <guibutton>Ойнату</guibutton> батырмасын басу ағымдағы тректі ойнатуды бастайды. <screenshot>
+				<mediaobject><imageobject> <imagedata fileref="figures/rb-toolbar-prevplaynext.png" format="PNG"/> </imageobject> <textobject> <phrase>Сайман панеліндегі <guibutton>Алдыңғы</guibutton>, <guibutton>Ойнату</guibutton> және <guibutton>Келесі</guibutton> батырмаларын көрсетеді.</phrase> </textobject></mediaobject>
+			</screenshot></para>
+      </sect3>
+      <sect3 id="repeat">
+        <title>Қайталау</title>
+        <para><guibutton>Қайталау</guibutton> опциясы <application>Rhythmbox музыкалық ойнатқышын</application> соңғы трекке жеткенде тректерді тізімнің басынан бастап қайта ойнатуға мәжбүр етеді.</para>
+        <para>Қайталауды белсендіру үшін сайман панеліндегі <guibutton>Қайталау</guibutton> батырмасын басыңыз. <screenshot>
+				<mediaobject><imageobject> <imagedata fileref="figures/rb-toolbar-repeat.png" format="PNG"/> </imageobject> <textobject> <phrase>Қалып-күй жолағындағы қайталау батырмасын көрсетеді.</phrase> </textobject></mediaobject>
+			</screenshot></para>
+      </sect3>
+      <sect3 id="shuffle">
+        <title>Кездейсоқ ойнату</title>
+        <para><guibutton>Кездейсоқ ойнату</guibutton> опциясы <application>Rhythmbox музыкалық ойнатқышын</application> тректерді кездейсоқ ретпен ойнатуға мәжбүр етеді.</para>
+        <para>Кездейсоқ ойнатуды белсендіру үшін сайман панеліндегі <guibutton>Кездейсоқ ойнату</guibutton> батырмасын басыңыз. <screenshot>
+				<mediaobject><imageobject> <imagedata fileref="figures/rb-toolbar-shuffle.png" format="PNG"/> </imageobject> <textobject> <phrase>Қалып-күй жолағындағы кездейсоқ ойнату батырмасын көрсетеді.</phrase> </textobject></mediaobject>
+			</screenshot></para>
+      </sect3>
+      <sect3 id="volume">
+        <title>Дыбысты реттеу</title>
+        <para>Дыбысты реттеу тетігі сайман панелінің оң жағында орналасқан. Дауыс күшейткіш таңбашасын басу дыбыс жүгірткісін көрсетеді. Оны жоғары және төмен жылжыту дыбыс деңгейін арттырады және азайтады. Дауыс күшейткіш таңбашасы салыстырмалы дыбыс деңгейін көрсету үшін өзгереді. <screenshot><mediaobject><imageobject><imagedata fileref="figures/rb-volume-changer.png" format="PNG"/></imageobject><textobject><phrase>Сайман панеліндегі дыбыс жүгірткісін көрсетеді. </phrase></textobject></mediaobject></screenshot></para>
+        <tip>
+          <para>Дыбыс деңгейін дауыс күшейткіш таңбашасының үстінде тышқанның айналдыру дөңгелегін пайдаланып реттеуге болады.</para>
+        </tip>
+      </sect3>
+    </sect2>
+  </sect1>
+  <sect1 id="library">
+    <title>Кітапхана көзі</title>
+    	<para>Кітапхана — <application>Rhythmbox музыкалық ойнатқышындағы</application> негізгі қолжетімді көз, ол сіз <application>Rhythmbox музыкалық ойнатқышына</application> импорттайтын барлық музыкалық файлдарды қамтитын дерекқор (Кітапхана музыкалық файлдардың өзін емес, оларға қол жеткізу жолын сақтайды).</para>
+    	<para>Кітапханада тек физикалық түрде компьютерде орналасқан (мысалы, HOME бумасындағы) музыкалық файлдар ғана емес, сонымен қатар қашықтағы желілік қызметтер арқылы қолжетімді музыкалық файлдар да болуы мүмкін. Қолдау көрсетілетін желілік қызметтердің кейбір мысалдары: <itemizedlist>
+				<listitem>
+					<para>Ашық FTP</para>
+				</listitem>
+				<listitem>
+					<para>Аутентификацияланған FTP</para>
+				</listitem>
+				<listitem>
+					<para>NFS</para>
+				</listitem>
+				<listitem>
+					<para>Windows ортақ ресурсы</para>
+				</listitem>
+			</itemizedlist></para>
+    	<para>Кітапханаға импортталған файлдар тректерге енгізілген тегтерде сақталған ақпаратпен (мысалы, орындаушының аты немесе альбом атауы) бірге тректер тізімінде көрсетіледі. <application>Rhythmbox музыкалық ойнатқышы</application> бұл тегтерді тректерді реттелген түрде көрсету үшін пайдаланады. <tip>
+				<para>Тегтерді оң жақ батырмамен шертіп, <guimenuitem>Қасиеттері</guimenuitem> тармағын таңдап, пайда болған терезеде мәліметтерді толтыру арқылы өзгертуге болады.</para>
+			</tip></para>
+    <sect2 id="library-tracks-add">
+      <title>Кітапханаға тректерді қосу</title>
+      		<para>Кітапханаға тректерді қосу үшін келесі әдістерді пайдалануға болады: <itemizedlist>
+					<listitem>
+						<para>Егер сіз бумада орналасқан бірнеше музыкалық файлды импорттағыңыз келсе, іздеу өрісінің жанындағы браузер жолағынан <guimenuitem>Импорттау</guimenuitem> тармағын таңдаңыз, содан кейін файлдарды таңдау терезесінде буманы таңдап, <guibutton>Ашу</guibutton> батырмасын басыңыз. Бумада және оның ішкі бумаларында орналасқан барлық музыкалық файлдар импортталады.</para>
+					</listitem>
+					<listitem>
+						<para>Файлдық менеджерден (мысалы, <application>Nautilus</application>) файлдарды Rhythmbox терезесіне сүйреп апарыңыз.</para>
+					</listitem>
+				</itemizedlist></para>
+      	<tip>
+       		<para>Егер сіз буманы бақылау функциясын іске қоссаңыз (<xref linkend="prefs-library"/> қараңыз), таңдалған бумада сақталған барлық музыкалық файлдар Кітапханаға қосылады. Кейінірек қосылған жаңа файлдар да қосылады.</para>
+      	</tip>
+    </sect2>
+    <sect2 id="library-tracks-del">
+    	<title>Тректерді кітапханадан өшіру</title>
+      	<para>Тректі кітапханадан өшіру, бірақ оны дискіде қалдыру үшін тректі оң жақ батырмамен шертіп, <guimenuitem>Өшіру</guimenuitem> тармағын таңдаңыз. Трек және оның қасиеттері (мысалы, рейтинг немесе ойнату саны) Rhythmbox дерекқорынан өшіріледі.</para>
+      	<para>Тректі кітапханадан, сондай-ақ дискіңізден жою үшін тректі оң жақ батырмамен шертіп, <guimenuitem>Қоқыс шелегіне тастау</guimenuitem> тармағын таңдаңыз. Трек алдыңғыдай өшіріледі, бірақ файл файлдық менеджердің қоқыс шелегіне жылжытылады.</para>
+    </sect2>
+    <sect2 id="library-filter-search">
+    	<title>Іздеу арқылы тректерді табу</title>
+      	<para>Rhythmbox іздеу терминін пайдаланып тректерді табуға және сүзгілеуге мүмкіндік беретін іздеу функциясымен бірге келеді.</para>
+      	<para>Іздеу өрісіне мәтін енгізіңіз, сонда сіз терген кезде тек енгізілген мәтінге сәйкес келетін тректер көрсетіледі. Іздеу функциясы Кітапханада сақталған тректердің барлық тегтері бойынша іздейді.</para>
+		<para>Нақтырақ іздеу жүргізу үшін тек <guilabel>Орындаушылар</guilabel>, <guilabel>Альбомдар</guilabel> немесе <guilabel>Атаулар</guilabel> сияқты арнайы тегтер бойынша іздеуді таңдауға болады.</para>
+    </sect2>
+    <sect2 id="library-filter-browser">
+    	<title>Браузер арқылы тректерді табу</title>
+      	<para>Браузер — тректерді табудың тағы бір ыңғайлы жолы. Браузер — музыкалық жанрлар, орындаушылар мен альбомдар арасында шарлауға және таңдалған критерийлерге сәйкес келетін тректерді көрсетуге мүмкіндік береді.</para>
+      	<para>Алдымен, браузерді көрсету үшін сайман панелінде <guibutton>Шолу</guibutton> тармағын таңдаңыз. Орындаушыны, альбомды және жанрды таңдаңыз, сонда сіз таңдаған кезде тек сіздің таңдауыңызға сәйкес келетін тректер тректер тізімінде көрсетіледі. Бағандардағы критерийлер солдан оңға қарай қолданылады.</para>
+      	<tip>
+        	<para><keycombo><keycap>Ctrl</keycap></keycombo> пернесін пайдаланып, бір санаттың бірнеше критерийін таңдауға болады.</para>
+      	</tip>
+      		<para>Сондай-ақ тректер тізіміндегі таңдалған тректен бірдей жанрлы, орындаушылы немесе альбом атауы бар барлық тректерді табуға болады. Тректер тізімінен тректі таңдап, оны оң жақ батырмамен шертіңіз және <guilabel>Осы жанрды/орындаушыны/альбомды шолу</guilabel> таңдаңыз. Содан кейін браузер таңдалған критерийлерді пайдаланып тректерді сүзгілейді.</para>
+  	</sect2>
+  </sect1>
+  <sect1 id="radio">
+  	<title>Радио көзі</title>
+    <para>Интернет-радио тюнерін жергілікті немесе интернет желісі арқылы таратылатын аудио файлдарды тыңдау үшін пайдалануға болады.</para>
+    <figure id="fig-iradio">
+      <title><application>Rhythmbox музыкалық ойнатқышындағы</application> интернет-радио</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject>
+	    <imagedata format="PNG" fileref="figures/rb-iradio-main.png"/>
+	  </imageobject>
+	</mediaobject>
+      </screenshot>
+    </figure>
+    <sect2 id="iradio-adding">
+      	<title>Станцияны қосу</title>
+      	<para>Интернет-радио тюнеріне жаңа станция қосу үшін сайман панелінде <guibutton>Қосу</guibutton> тармағын таңдаңыз. Содан кейін интернет-радионың URL мекенжайын енгізіп, <guibutton>Қосу</guibutton> батырмасын басыңыз.</para>
+    </sect2>
+    <sect2 id="iradio-modify">
+      	<title>Станцияның параметрлерін көру және өзгерту</title>
+      	<para>Интернет-радио станциясын таңдап, оны оң жақ батырмамен шертіп, <guimenuitem>Қасиеттері</guimenuitem> тармағын таңдау арқылы оның параметрлерін көруге және түзетуге болады.</para>
+      	<para>Радио ағынының қасиеттеріне өткенде, оның атауын, жанрын өзгертуге болады; сонымен қатар ағынның орналасқан жерін өзгертуге және оған рейтинг орнатуға болады.</para>
+    </sect2>
+    <sect2 id="iradio-delete">
+    	<title>Станцияны өшіру</title>
+      	<para>Радиостанциялар тізімінен радиостанцияны өшіру үшін станцияны оң жақ батырмамен шертіп, <guimenuitem>Өшіру</guimenuitem> тармағын таңдаңыз.</para>
+    </sect2>
+  </sect1>
+  <sect1 id="podcast">
+  	<title>Подкаст көзі</title>
+    <para>Подкастинг — бұл интернет арқылы аудио мазмұнды таратудың жаңа тәсілі; автор эпизодты жариялаған кезде, подкастқа жазылушылар XML арнасы арқылы хабардар етіледі.</para>
+    <para>Rhythmbox музыкалық ойнатқышы подкаст арналарына жазылуға мүмкіндік береді, сондықтан жаңа эпизод қолжетімді болғанда, сізге хабарланады, ол бұл эпизодты жүктеп алып, ойнатады.</para>
+    <tip>
+      	<para>Подкасттар мен подкастинг туралы толығырақ ақпаратты <ulink url="https://kk.wikipedia.org/">Wikipedia</ulink> сайтындағы <ulink url="https://en.wikipedia.org/wiki/Podcast">Подкаст</ulink> анықтамасынан таба аласыз.</para>
+    </tip>
+    <para>
+      <figure>
+        <title>Подкаст интерфейсі</title>
+        <mediaobject><imageobject> <imagedata fileref="figures/rb-podcast-main.png" format="PNG"/> </imageobject> <textobject> <phrase>Кейбір тіркелген подкасттары бар подкаст интерфейсі</phrase> </textobject></mediaobject>
+      </figure>
+    </para>
+    <sect2 id="podcast-management">
+      <title>Подкасттарды басқару</title>
+      <sect3 id="podcast-feed-add">
+        <title>Подкаст қосу</title>
+        <para>Подкастқа тіркелу үшін сайман панелінде <guibutton>Қосу</guibutton> тармағын таңдаңыз. Содан кейін жаңа терезеде подкаст арнасының URL мекенжайын енгізіңіз. Rhythmbox эпизодтар тізімін алады және соңғы эпизод дискіңізге жүктеледі.</para>
+      </sect3>
+      <sect3 id="podcast-feed-del">
+        <title>Подкастты өшіру</title>
+        <para>Подкастты өшіру үшін браузердегі подкаст арнасының атауын оң жақ батырмамен шертіп, <menuchoice><guimenuitem>Подкаст арнасын жою</guimenuitem></menuchoice> таңдаңыз, содан кейін подкаст эпизодтарын қалдырғыңыз келсе, <menuchoice><guimenuitem>Тек арнаны өшіру</guimenuitem></menuchoice> таңдаңыз немесе арнаны және оған қатысты барлық эпизодтарды өшіргіңіз келсе, <menuchoice><guimenuitem>Арнаны және файлдарды өшіру</guimenuitem></menuchoice> таңдаңыз.</para>
+      </sect3>
+      <sect3 id="podcast-feed-update">
+        <title>Арналарды жаңарту</title>
+        <para>Подкаст үшін жаңа эпизодтардың жарияланғанын білу үшін браузердегі подкаст атауын оң жақ батырмамен шертіп, <menuchoice><guimenuitem>Подкаст арнасын жаңарту</guimenuitem></menuchoice> таңдаңыз. Егер жаңа эпизодтар жарияланса, олар эпизодтар тізімінде пайда болады.</para>
+        <tip>
+          <para>Rhythmbox музыкалық ойнатқышы жаңартылғанын анықтау үшін подкаст арналарының тізімін үнемі өз бетінше тексеріп тұрады.</para>
+        </tip>
+        <para>Сондай-ақ барлық подкасттарды <menuchoice><guimenuitem>Подкасттар</guimenuitem></menuchoice> көзін оң жақ батырмамен шертіп, <menuchoice><guimenuitem>Барлық арналарды жаңарту</guimenuitem></menuchoice> таңдау арқылы тексеруге болады.</para>
+      </sect3>
+      <sect3 id="podcast-feed-show">
+        <title>Подкаст арнасының қасиеттеріне қол жеткізу</title>
+        <para>Арна қасиеттеріне қол жеткізу үшін Арна атауын оң жақ батырмамен шертіп, <menuchoice><guimenuitem>Қасиеттері</guimenuitem></menuchoice> таңдаңыз. <itemizedlist><listitem><para><guilabel>Негізгі</guilabel> қойындысында подкасттың <guilabel>Атауы</guilabel>, <guilabel>Авторы </guilabel>, <guilabel>Соңғы жаңартылған</guilabel> күні мен <guilabel>Сипаттамасын</guilabel> көруге болады.</para></listitem><listitem><para><guilabel>Мәліметтер</guilabel> қойындысында арнаның <guilabel>Көзі</guilabel>, <guilabel>Тілі </guilabel>және <guilabel>Авторлық құқық</guilabel> қасиеттерін көруге болады.</para></listitem></itemizedlist> Сіз қасиеттерді көре аласыз, сондай-ақ рейтингті түзете аласыз.</para>
+      </sect3>
+    </sect2>
+    <sect2 id="episode-management">
+      <title>Эпизодтарды басқару</title>
+      <sect3 id="podcast-episode-download">
+        <title>Подкаст эпизодын жүктеп алу</title>
+        <para>Эпизодты дискіңізге жүктеп алу үшін эпизодты оң жақ батырмамен шертіп, <menuchoice><guimenuitem>Жазбаны жүктеп алу</guimenuitem></menuchoice> таңдаңыз, Rhythmbox баптауларда көрсетілген жерге эпизодты жүктеп алуды бастайды. Эпизодтың жүктелу барысын <guilabel>Күйі</guilabel> бағанынан көруге болады.</para>
+        <tip>
+          <para>Бастапқыда подкасттар үй бумаңыздағы <filename class="directory">Music/</filename> бумасына жүктеледі. Орналасқан жерді өзгерту үшін <xref linkend="prefs-podscast"/> қараңыз.</para>
+        </tip>
+      </sect3>
+      <sect3 id="podcast-episode-read">
+        <title>Подкаст эпизодын оқу</title>
+        <para>Подкаст эпизодын ойнату үшін оқығыңыз келетін эпизодты таңдап, <guibutton>Ойнату</guibutton> батырмасын басыңыз.</para>
+        <para>Эпизодты оқу алдында оны жүктеп алу керек, подкаст эпизодын қалай жүктеп алу керектігін білу үшін <xref linkend="podcast-episode-download"/> қараңыз.</para>
+      </sect3>
+      <sect3 id="podcast-episode-delete">
+        <title>Подкаст эпизодын өшіру</title>
+        <para>Подкасттан эпизодты өшіру үшін эпизодты оң жақ батырмамен шертіп, <menuchoice><guimenuitem>Өшіру</guimenuitem></menuchoice> таңдаңыз, содан кейін эпизод файлын дискіде қалдырғыңыз келсе, <menuchoice><guimenuitem>Тек эпизодты өшіру</guimenuitem></menuchoice> таңдаңыз, эпизодты тізімде қалдырып, бірақ тиісті жүктелген подкаст файлын өшіргіңіз келсе, <menuchoice><guimenuitem>Тек файлды өшіру</guimenuitem></menuchoice> таңдаңыз немесе эпизодты тізімнен алып тастап, файлды дискіңізден өшіргіңіз келсе, <guibutton>Эпизодты және файлды өшіру</guibutton> батырмасын басыңыз.</para>
+        <warning>
+          <para>Эпизодты өшіргеннен кейін, подкастты жаңартсаңыз да, ол эпизодтар тізімінде қолжетімді болмайды.</para>
+        </warning>
+      </sect3>
+      <sect3>
+        <title>Подкаст эпизодының қасиеттерін көрсету</title>
+        <para>Эпизод қасиеттеріне қол жеткізу үшін эпизодты оң жақ батырмамен шертіп, <menuchoice><guimenuitem>Қасиеттері</guimenuitem></menuchoice> таңдаңыз. <itemizedlist><listitem><para><guilabel>Негізгі</guilabel> қойындысында подкасттың <guilabel>Атауы</guilabel>, <guilabel>Арнасы</guilabel>, жарияланған <guilabel>Күні</guilabel> мен <guilabel>Сипаттамасын</guilabel> көруге болады.</para></listitem><listitem><para><guilabel>Мәліметтер</guilabel> қойындысында подкасттың <guilabel>Көзі</guilabel>, <guilabel>Ұзақтығы</guilabel>, <guilabel>Битрейт</guilabel>, <guilabel>Соңғы ойнатылған күні</guilabel>, <guilabel>Ойнату саны</guilabel> және <guilabel>Рейтингті</guilabel> көруге болады.</para></listitem></itemizedlist></para>
+      </sect3>
+    </sect2>
+  </sect1>
+  <sect1 id="playqueue">
+  	<title>Ойнату кезегінің көзі</title>
+	<para>Ойнату кезегі — сіз ойнатқыңыз келетін келесі тректерді уақытша сақтауға арналған көз. Ойнату кезегіне трек қосқанда, <application>Rhythmbox музыкалық ойнатқышы</application> трек ойнатылғаннан кейін автоматты түрде осы көзге ауысады.</para>
+	<para>Трек ойнатылғаннан кейін ол ойнату кезегінің көзінен автоматты түрде өшіріледі. Ойнату кезегі босағаннан кейін, <application>Rhythmbox музыкалық ойнатқышы</application> бұған дейін ойнатылған көзді ойнатады.</para>
+		<sect2 id="playqueue-track-add">
+			<title>Ойнату кезегіне трек қосу</title>
+			<para>Трек қосу үшін: <orderedlist>
+					<listitem>
+						<para>Кез келген көзден ойнатқыңыз келетін тректі таңдаңыз.</para>
+					</listitem>
+					<listitem>
+						<para>Оң жақ батырмамен шертіп, <guimenuitem>Кезекке қосу</guimenuitem> тармағын таңдаңыз.</para>
+					</listitem>
+				</orderedlist></para>
+		</sect2>
+		<sect2 id="playqueue-track-del">
+			<title>Ойнату кезегіндегі тректі өшіру</title>
+			<para>Ойнату кезегінде сақталған тректі өшіру үшін: <orderedlist>
+					<listitem>
+						<para>Ойнату кезегі көзінен өшіргіңіз келетін тректі таңдаңыз.</para>
+					</listitem>
+					<listitem>
+						<para>Оң жақ батырмамен шертіп, <guimenuitem>Ойнату кезегінен өшіру</guimenuitem> тармағын таңдаңыз.</para>
+					</listitem>
+				</orderedlist></para>
+		</sect2>
+  </sect1>
+  
+  <sect1 id="playlist">
+  	<title>Ойнату тізімдерінің көзі</title>
+    <para>Ойнату тізімдері — Кітапхана көзіндегі қолжетімді тректерден жасалған көздер. Олар сізге белгілі бір «жанрға», орындаушылардың нақты тобына немесе тіпті белгілі бір «көңіл-күйге» сәйкес тректерді немесе қалаған кез келген тректерді жинауға мүмкіндік береді.</para>
+    <para>Rhythmbox музыкалық ойнатқышында ойнату тізімдерінің 2 түрі бар: <itemizedlist>
+				<listitem>
+					<para>Статикалық ойнату тізімдері</para>
+				</listitem>
+				<listitem>
+					<para>Ақылды ойнату тізімдері</para>
+				</listitem>
+			</itemizedlist></para>
+    <para>Rhythmbox ойнату тізімдеріңіздегі тректерді аудио CD дискісіне жазуға мүмкіндік береді.</para>
+    <sect2 id="playlist-static">
+    	<title>Статикалық ойнату тізімдері</title>
+      	<para>Статикалық ойнату тізімдері — Кітапханадан апарылған тректерден жасалған ойнату тізімдері.</para>
+      <sect3 id="playlist-static-new">
+        <title>Статикалық ойнату тізімін жасау</title>
+        <para>Жаңа ойнату тізімін жасау үшін кітапханадағы элементті оң жақ батырмамен шертіңіз. <menuchoice><guimenu>Ойнату тізіміне қосу</guimenu><guimenuitem>Жаңа ойнату тізіміне қосу </guimenuitem></menuchoice> таңдаңыз. Бүйірлік панельде атаусыз бос ойнату тізімі пайда болады. Ойнату тізімінің атауын енгізіп, <keycombo><keycap>Enter</keycap></keycombo> пернесін басыңыз.</para>
+      </sect3>
+      <sect3 id="playlist-static-tracks-add">
+        <title>Ойнату тізіміне тректерді қосу</title>
+        <para>Ойнату тізіміне тректерді қосу үшін кітапханадағы тректер тізімінен тректерді таңдап, таңдауыңызды бүйірлік панельдегі ойнату тізімі таңбашасының үстіне сүйреп апарыңыз.</para>
+        <para>Сондай-ақ браузерден ойнату тізіміне жанрды, орындаушыны немесе альбом атауын тастауға болады, сонда таңдалған санатқа тиесілі барлық тректер ойнату тізіміне қосылады.</para>
+        <tip>
+          <para>Бір әрекетпен тректері бар ойнату тізімін жасауға болады. <guilabel>Тректер тізімінен</guilabel> тректерді немесе тікелей браузерден бір немесе бірнеше санатты (<guilabel>Жанр</guilabel>, <guilabel>Орындаушы</guilabel> немесе <guilabel>Альбом</guilabel>) таңдап, таңдауды <guilabel>Бүйірлік панельге</guilabel> тастаңыз. Ол автоматты түрде аталған ойнату тізімін жасайды.</para>
+        </tip>
+      </sect3>
+      <sect3 id="playlist-static-tracks-del">
+        <title>Ойнату тізімінен тректерді өшіру</title>
+        <para>Ойнату тізімінен тректерді өшіру үшін алдымен өшірілетін тректерді таңдаңыз. Содан кейін таңдауды оң жақ батырмамен шертіп, <guimenuitem>Өшіру</guimenuitem> тармағын таңдаңыз. Бұл әрекет тректі тек ойнату тізімінен өшіреді, Кітапханадан емес.</para>
+      </sect3>
+<!--
+      <sect3 id="playlist-static-del">
+        <title>Delete a static playlist</title>
+        <para>
+					To delete a static playlist, select the playlist to delete,
+					then you have two ways to delete it:
+					<itemizedlist><listitem><para>
+								Choose
+								<menuchoice><guimenu>Edit</guimenu><guimenuitem>Delete</guimenuitem></menuchoice>.
+							</para></listitem><listitem><para>
+								Right-click over the playlist and choose <guimenuitem>Delete</guimenuitem>.
+							</para></listitem></itemizedlist>
+					This operation deletes only the playlist and not the tracks
+					stored in the playlist deleted.
+				</para>
+      </sect3>
+-->
+    </sect2>
+    <sect2 id="playlist-smart">
+      <title>Ақылды ойнату тізімдері</title>
+      <para>Ақылды ойнату тізімдері — критерийлер бойынша жасалған ойнату тізімдері, сондықтан тректер оған динамикалық түрде қосылады; критерийлерге сәйкес келетін барлық тректер ойнату тізіміне қосылады.</para>
+      <para>Бастапқыда <guimenuitem>Менің ең жоғары рейтингтілерім</guimenuitem>, <guimenuitem>Жақында қосылғандар</guimenuitem> және <guimenuitem>Жақында ойнатылғандар</guimenuitem> ойнату тізімдері қолжетімді.</para>
+<!--
+      <sect3 id="playlist-smart-new">
+        <title>Create a smart playlist</title>
+        <para>
+					To create a new playlist:
+					<orderedlist><listitem><para>
+								Choose <menuchoice><guimenu>Music</guimenu><guisubmenu>Playlist</guisubmenu><guimenuitem>New
+								Automatic Playlist</guimenuitem></menuchoice>.
+							</para></listitem><listitem><para>
+								Edit the playlist criteria through the query editor.
+							</para></listitem><listitem><para>
+								Once your criteria have been chosen, click <guibutton>New</guibutton> to create the
+								query.
+							</para></listitem></orderedlist>
+				</para>
+      </sect3>
+      <sect3 id="playlist-smart-edit">
+        <title>Edit a smart playlist</title>
+        <para>
+					Editing a smart playlist lets you modify the criteria set
+					for this playlist. To edit a smart playlist, select the
+					smart playlist, choose
+					<menuchoice><guimenu>Music</guimenu><guisubmenu>Playlist</guisubmenu><guimenuitem>Edit</guimenuitem></menuchoice>, and edit the criteria.
+					Once done, choose <guibutton>Close</guibutton>.
+				</para>
+      </sect3>
+      <sect3 id="playlist-smart-del">
+        <title>Delete a smart playlist</title>
+        <para>
+					To delete a smart playlist, select the playlist to delete,
+					then you have two ways to delete it:
+					<itemizedlist><listitem><para>
+								Choose
+								<menuchoice><guimenu>Edit</guimenu><guimenuitem>Delete</guimenuitem></menuchoice>.
+							</para></listitem><listitem><para>
+								Right-click over the playlist and choose <guimenuitem>Delete</guimenuitem>.
+							</para></listitem></itemizedlist>
+				</para>
+      </sect3>
+      <sect3 id="playlist-smart-query-use">
+        <title>Use the query editor</title>
+        <para>
+		Choose the criteria to apply to the rule. If you need one
+		more criteria click on the button
+		<guibutton>Add</guibutton>, a new line appears, and you can
+		set a new criteria.
+		</para>
+        <para>
+		If you want to limit the number of tracks in the playlist,
+		tick <guilabel>Limit to:</guilabel>, and choose how to
+		limit. You can limit by tracks, by total size (in
+		<guilabel>MB</guilabel> or <guilabel>GB</guilabel>), or by
+		duration (expressed in <guilabel>Minutes</guilabel>).
+		</para>
+        <para>
+		Once you finish setting the criteria for the playlist, choose
+		<guibutton>New</guibutton>; the playlist query editor window
+		will close, and the playlist will display the tracks matched by your
+		criteria.
+		</para>
+      </sect3>
+-->
+    </sect2>
+  </sect1>
+  <sect1 id="AudioCD">
+    <title>Аудио CD көзі</title>
+	<para><application>Rhythmbox музыкалық ойнатқышы</application> сонымен қатар аудио CD дискілерімен жұмыс істей алады; ол CD дискілерін ойната алады, сонымен қатар өз дискілеріңізді жазуға мүмкіндік береді.</para>
+    <sect2 id="cd-playing">
+      <title>Ойнату</title>
+      <para>Аудио CD салынған кезде ол бүйірлік панельде пайда болады және ондағы тректер <application>Rhythmbox музыкалық ойнатқышының</application> негізгі терезесінде көрсетілуі мүмкін. Егер сіз интернетке қосылған болсаңыз, CD мәліметтері алынып, көрсетіледі.</para>
+      <para>Ойнатуды бастау және аялдату немесе алға не артқа өту үшін кітапханадан ойнату үшін пайдаланылатын басқару элементтерін пайдаланыңыз.</para>
+    </sect2>
+    <sect2 id="cd-import">
+      <title>Аудио CD импорттау</title>
+      <para>Егер аудио CD дискілеріңіздің тректерін компьютерде қалдырғыңыз келсе, оларды импорттауға болады.</para>
+      <para>Аудио CD тректерін импорттау үшін сайман панелінен <guibutton>Шығарып алу</guibutton> тармағын таңдаңыз.</para>
+    </sect2>
+    <sect2 id="cd-burning">
+      <title>Аудио CD жасау</title>
+      <para>Rhythmbox Кітапханада сақталған музыкамен жеке аудио CD дискілерін жасауға мүмкіндік береді.</para>
+      <para>Аудио CD жасау үшін: <orderedlist><listitem><para>Ойнату тізімін жасаңыз (статикалық немесе ақылды, <xref linkend="playlist"/> қараңыз) және тректер қосыңыз.</para></listitem>
+                <listitem><para>Сайман панелінде <guibutton>Ойнату тізімі</guibutton> тармағын таңдаңыз.</para></listitem>
+                <listitem><para><guimenuitem>Аудио CD жасау</guimenuitem> тармағын таңдаңыз.</para></listitem>
+                <listitem><para>Бос CD салыңыз.</para></listitem>
+                <listitem><para><guibutton>Жасау</guibutton> батырмасын басыңыз, жазу процесі басталады.</para></listitem>
+                </orderedlist></para>
+    </sect2>
+  </sect1>
+  <sect1 id="portable-audio-player">
+    <title>Тасымалы аудио ойнатқыш көзі</title>
+    <para><application>Rhythmbox</application> компьютерге тасымалы аудио ойнатқыш қосылғанын анықтай алады және онда сақталған тректерді оқи алады. <application>Rhythmbox музыкалық ойнатқышы</application> Apple iPod, MTP ойнатқыштарын және Mass Storage ойнатқыштарын қоса алғанда, тасымалы аудио ойнатқыштардың көпшілігімен жұмыс істей алуы керек.</para>
+    <para>Тасымалы аудио ойнатқышты қосқан кезде бүйірлік панельге тасымалы аудио ойнатқыш таңбашасы қосылады. Бұл көз Кітапхана көзімен бірдей жұмыс істейді.</para>
+	<tip><para>Егер <application>Rhythmbox музыкалық ойнатқышы</application> құрылғыңызды тасымалы аудио ойнатқыш ретінде анықтамаса, ойнатқышыңыздың файлдық жүйесінің ең жоғарғы деңгейінде <filename>.is_audio_player</filename> деп аталатын бос файл жасай аласыз.</para></tip>
+  </sect1>
+  <sect1 id="daap">
+    <title>DAAP ортақ ресурсының көзі</title>
+    <para>DAAP — Rhythmbox-та сақталған музыканы ортақ пайдалануға мүмкіндік беретін желілік хаттама. DAAP — Digital Audio Access Protocol дегенді білдіреді.</para>
+    <para>DAAP музыканы ортақ пайдалануға арналған стандартты хаттама болғандықтан, сіз музыканы тек басқа Rhythmbox пайдаланушыларымен ғана емес, сонымен қатар iTunes сияқты DAAP-үйлесімді бағдарламалық қамтаманы пайдаланатын басқа пайдаланушылармен де тыңдай аласыз және бөлісе аласыз.</para>
+    <para>Rhythmbox-ты іске қосқанда, ол жергілікті желіңізде (бүкіл интернетте емес, үйіңізде немесе кеңсеңізде) басқа пайдаланушылар жариялаған барлық DAAP ресурстарын іздейді және оларды бүйірлік панельде көрсетеді. Егер ортақ пайдалану қосылған болса, Rhythmbox бір уақытта кітапханаңызды және ойнату тізімдеріңізді жариялайды. Осылайша, сіз достарыңыздың компьютерлерінде сақталған музыканы тыңдай аласыз, ал олар сіздің музыкаңызды тыңдай алады.</para>
+    <para>Rhythmbox DAAP ортақ пайдалану мүмкіндігін сөндіру үшін баптаулардан <xref linkend="prefs-sharing"/> қараңыз.</para>
+  </sect1>
+  <sect1 id="notification">
+    <title>Хабарландыру аймағы</title>
+    <sect2 id="notification-overview">
+      <title>Шолу</title>
+      <para>Хабарландыру аймағы <application>Rhythmbox музыкалық ойнатқышының</application> интерфейсі көрінбеген кезде оны басқаруға және ақпарат алуға мүмкіндік береді.</para>
+      <figure id="fig-notification-zone">
+        <title>Хабарландыру аймағындағы <application>Rhythmbox музыкалық ойнатқышы</application></title>
+        <screenshot>
+          <mediaobject>
+            <imageobject>
+              <imagedata format="PNG" fileref="figures/rb-notification-zone.png"/>
+	    </imageobject>
+	  </mediaobject>
+        </screenshot>
+      </figure>
+    </sect2>
+    <sect2 id="notification-control">
+      <title>Rhythmbox-ты басқару</title>
+      <para>Хабарландыру аймағындағы <application>Rhythmbox музыкалық ойнатқышының</application> таңбашасын пайдаланып, қолданбаға келесі командаларды жіберуге болады:</para>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para><guibutton>Ойнату</guibutton> — Таңдалса, ағымдағы таңдалған өлеңді ойнатады.</para>
+          </listitem>
+          <listitem>
+            <para><guibutton>Алдыңғы</guibutton> — Таңдалған көздегі алдыңғы өлеңге өту.</para>
+          </listitem>
+          <listitem>
+            <para><guibutton>Келесі</guibutton> — Таңдалған көздегі келесі өлеңге өту.</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </sect2>
+  </sect1>
+  <sect1 id="customize">
+    <title>Rhythmbox музыкалық ойнатқышын баптау</title>
+    <para>Бұл бөлімде <application>Rhythmbox музыкалық ойнатқышын</application> талаптарыңыз бен қалауларыңызға сай қалай баптау керектігі сипатталған.</para>
+    <sect2 id="prefs">
+      <title>Баптауларды орнату</title>
+      <para><guilabel>Баптаулар</guilabel> сұхбат терезесін пайдаланып, <application>Rhythmbox музыкалық ойнатқышының</application> қалай көрінуін және әрекет етуін баптауға болады. <guilabel>Баптаулар</guilabel> сұхбат терезесін көрсету үшін терезенің жоғарғы оң жақ бұрышындағы мәзір батырмасын басып, <guimenuitem>Баптаулар</guimenuitem> тармағын таңдаңыз.</para>
+      <sect3 id="prefs-general">
+      	<title>Жалпы</title>
+		<para><guilabel>Браузер көрінісінің</guilabel> көрсетілу жолын таңдаңыз. Сіз үш немесе екі панельді пайдалануды және панельдерде не көрсетілуі керектігін таңдай аласыз.</para>
+      	<para><application>Rhythmbox музыкалық ойнатқышында</application> көрсеткіңіз келетін <guilabel>Көрінетін бағандарды</guilabel> таңдаңыз. Бұл опция келесі көздерге әсер етеді: <itemizedlist>
+				<listitem><para>Кітапхана</para></listitem>
+				<listitem><para>Аудио CD</para></listitem>
+				<listitem><para>Тасымалы ойнатқыштар</para></listitem>
+				<listitem><para>Ойнату тізімдері</para></listitem>
+				<listitem><para>DAAP музыкалық ресурстары</para></listitem>
+			</itemizedlist></para>
+      </sect3>
+      <sect3 id="prefs-library">
+        <title>Музыка</title>
+        <itemizedlist>
+          <listitem>
+            <para><guilabel>Кітапхана орналасуы</guilabel> — бұл <application>Rhythmbox музыкалық ойнатқышы</application> жаңа өлеңдерді табу үшін бақылайтын бума. Файлдық браузер (мысалы, Nautilus) арқылы осы бумаға немесе оның ішкі бумаларына жаңа аудио файлдарды қосқанда, <application>Rhythmbox музыкалық ойнатқышы</application> оларды анықтайды және олар Кітапханаға автоматты түрде қосылады.</para>
+            <warning>
+            	<para><filename class="directory">Home</filename> бумаңызды кітапхана орналасуы ретінде орнатпаңыз, себебі бұл мүмкіндік процессор ресурстарын көп тұтынады.</para>
+            </warning>
+            <para>Бақылау функциясын сөндіру үшін <guilabel>Кітапханамды жаңа файлдарға бақылау</guilabel> ұяшығын алып тастаңыз.</para>
+            <tip>
+            	<para>Егер бақылау үшін бірнеше бума қосқыңыз келсе, <application>dconf-editor</application> пайдаланып, оны /org/gnome/rhythmbox/rhythmboxdb/locations мекенжайындағы тізімге қосыңыз</para>
+            </tip>
+          </listitem>
+        </itemizedlist>
+      </sect3>
+      <sect3 id="prefs-podscast">
+        <title>Подкасттар</title>
+        <itemizedlist>
+          <listitem>
+            <para>Подкасттарды <guilabel>Жүктеп алу орны</guilabel> бастапқыда үй бумаңыздағы <filename class="directory">Podcasts/ </filename> бумасына орнатылған.</para>
+            <para>Егер бұл орын қажеттіліктеріңізге сәйкес келмесе, ашылмалы тізімнен басқа буманы таңдаңыз немесе Файл таңдау терезесін шығару үшін <guilabel>Басқа</guilabel> тармағын таңдаңыз.</para>
+          </listitem>
+          <listitem>
+            <para><application>Rhythmbox музыкалық ойнатқышы</application> жаңа подкаст эпизодтарын тексеретін жиілікті таңдаңыз.</para>
+          </listitem>
+        </itemizedlist>
+      </sect3>
+      <sect3 id="prefs-sharing">
+        <title>Ортақ пайдалану</title>
+        <para><application>Rhythmbox музыкалық ойнатқышы</application> Кітапхана мазмұнын жергілікті желі арқылы басқа <application>Rhythmbox музыкалық ойнатқышы</application> және Apple iTunes пайдаланушыларымен бөлісе алады.</para>
+        <itemizedlist>
+          <listitem>
+            <para>Желіңіздің пайдаланушыларына өлеңдеріңізді көруге және оқуға мүмкіндік беру үшін <guilabel>Музыкамды бөлісу</guilabel> ұяшығын таңдаңыз.</para>
+          </listitem>
+          <listitem>
+            <para>Желіде көрсетілетін атауды <guilabel>Бөлісілетін музыка атауы</guilabel> өрісіне енгізіңіз.</para>
+          </listitem>
+        </itemizedlist>
+      </sect3>
+      <sect3 id="prefs-lastfm">
+        <title>Last.fm және Libre.fm профильдері</title>
+        <para>Last.fm профиль плагині сіз тыңдайтын өлеңдер туралы ақпаратты жинайды және оны <ulink url="https://www.last.fm/">Last.fm</ulink> немесе <ulink url="https://www.libre.fm/">Libre.fm</ulink> веб-сайтына жібереді, осылайша тыңдау әдеттеріңіздің профилін жасайды. Осы профиль арқылы сіз: <itemizedlist>
+				<listitem>
+					<para>ең көп ойнатылған өлеңдер немесе ең көп ойнатылған орындаушылар сияқты статистикамен танысу.</para>
+				</listitem>
+				<listitem>
+					<para>сізге ұнауы мүмкін орындаушылар туралы ұсыныстар алу.</para>
+				</listitem>
+			</itemizedlist></para>
+        <warning>
+          <para>Осы плагиндердің бірін пайдалану үшін сізде осы веб-сайттардың бірінде тіркелгіңіз болуы керек. Терезенің жоғарғы оң жақ бұрышындағы мәзір батырмасын басып, <guimenuitem>Баптаулар</guimenuitem> тармағын таңдаңыз. <guilabel>Плагиндер</guilabel> қойындысын таңдаңыз. <guimenuitem>Last.fm</guimenuitem> элементін таңдап, <guibutton>Баптаулар</guibutton> батырмасын басыңыз. Қызметті таңдап, сұхбат терезесін жабыңыз. Бүйірлік панельден қызметті таңдаңыз. Жоғарғы оң жақ бұрыштағы <guibutton>Кіру</guibutton> батырмасын басып, веб-браузер терезесіне тіркелгі мәліметтерін енгізіңіз.</para>
+        </warning>
+      </sect3>
+    </sect2>
+  </sect1>
+  <sect1 id="shortcuts">
+    <title>Жарлықтар</title>
+    <sect2 id="keyboard-keys">
+      <title>Пернетақта жарлықтары</title>
+      <table frame="topbot" id="rb-shorcuts-1">
+	  	<title>Ойнатқыш жарлықтары</title>
+        <tgroup cols="2" colsep="0" rowsep="0">
+          <colspec colname="COLSPEC0" colwidth="30*"/>
+          <colspec colname="COLSPEC1" colwidth="70*"/>
+          <thead>
+            <row>
+              <entry>Жарлықтар</entry>
+              <entry>Әрекеттер</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry><keycombo> <keycap>Ctrl</keycap> <keycap>P</keycap> </keycombo></entry>
+              <entry>
+                <para>Ойнату / Аялдату</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycombo> <keycap>Ctrl</keycap> <keycap>Сол жақ</keycap> </keycombo></entry>
+              <entry>
+                <para>Алдыңғы трекке өту / Тректің басына оралу</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycombo> <keycap>Ctrl</keycap> <keycap>Оң жақ</keycap> </keycombo></entry>
+              <entry>
+                <para>Келесі трекке өту</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycombo> <keycap>Ctrl</keycap> <keycap>Жоғары</keycap> </keycombo></entry>
+              <entry>
+                <para>Ойнату дыбысын арттыру</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycombo> <keycap>Ctrl</keycap> <keycap>Төмен</keycap> </keycombo></entry>
+              <entry>
+                <para>Ойнату дыбысын азайту</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycombo> <keycap>Ctrl</keycap> <keycap>R</keycap> </keycombo></entry>
+              <entry>
+                <para>Қайталап ойнатуды қосу / сөндіру</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycombo> <keycap>Ctrl</keycap> <keycap>U</keycap> </keycombo></entry>
+              <entry>
+                <para>Кездейсоқ ойнатуды қосу / сөндіру</para>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <table frame="topbot" id="rb-shorcuts-2">
+	  	<title>Жалпы жарлықтар</title>
+		<tgroup cols="2" colsep="0" rowsep="0">
+          <colspec colname="COLSPEC0" colwidth="30*"/>
+          <colspec colname="COLSPEC1" colwidth="70*"/>
+          <thead>
+            <row>
+              <entry>Жарлықтар</entry>
+              <entry>Әрекеттер</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry><keycombo> <keycap>Ctrl</keycap> <keycap>A</keycap> </keycombo></entry>
+              <entry>
+                <para>Барлығын таңдау</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycombo> <keycap>Shift</keycap> <keycap>Ctrl</keycap> <keycap>A</keycap> </keycombo></entry>
+              <entry>
+                <para>Барлығынан таңдауды алып тастау</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycombo> <keycap>Ctrl</keycap> <keycap>J</keycap> </keycombo></entry>
+              <entry>
+                <para>Ойнатылып жатқан өлеңге өту</para>
+              </entry>
+	    </row>
+	    <!--
+            <row>
+              <entry>
+                <keycombo>
+                  <keycap>Ctrl</keycap>
+                  <keycap>Y</keycap>
+                </keycombo>
+              </entry>
+              <entry>
+                <para>Clear the search field text and remove all filters in the browser</para>
+              </entry>
+	    </row>
+            -->
+            <row>
+              <entry><keycombo> <keycap>Alt</keycap> <keycap>S</keycap> </keycombo></entry>
+              <entry>
+                <para>Іздеу өрісіне өту</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycombo> <keycap>Alt</keycap> <keycap>Return</keycap> </keycombo></entry>
+              <entry>
+                <para>Трек қасиеттерін көрсету</para>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <table frame="topbot" id="rb-shorcuts-3">
+	  	<title>Терезе жарлықтар</title>
+        <tgroup cols="2" colsep="0" rowsep="0">
+          <colspec colname="COLSPEC0" colwidth="30*"/>
+          <colspec colname="COLSPEC1" colwidth="70*"/>
+          <thead>
+            <row>
+              <entry>Жарлықтар</entry>
+              <entry>Әрекеттер</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry><keycombo> <keycap>Ctrl</keycap> <keycap>Q</keycap> </keycombo></entry>
+              <entry>
+                <para><application>Rhythmbox музыкалық ойнатқышынан</application> шығу</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycombo> <keycap>Ctrl</keycap> <keycap>B</keycap> </keycombo></entry>
+              <entry>
+                <para>Браузерді көрсету / жасыру</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycombo> <keycap>F9</keycap> </keycombo></entry>
+              <entry>
+                <para>Бүйірлік панельді көрсету / жасыру</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycombo> <keycap>Ctrl</keycap> <keycap>K</keycap> </keycombo></entry>
+              <entry>
+                <para>Кезек бүйірлік панелін көрсету / жасыру</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycombo> <keycap>F11</keycap> </keycombo></entry>
+              <entry>
+                <para>Толық экран режимін қосу / сөндіру</para>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </sect2>
+    <sect2 id="multimedia-keys">
+      <title>Мультимедиа пернелері</title>
+      <para><application>Rhythmbox музыкалық ойнатқышы</application> мультимедиа пернетақталарындағы пернелерді, егер олар жұмыс үстелі ортасында бапталған болса, қолдайды.</para>
+      <table frame="none">
+	  	<title>Терезе жарлықтар</title>
+        <tgroup cols="2" colsep="0" rowsep="0">
+          <colspec colname="COLSPEC0"/>
+          <colspec colname="COLSPEC1"/>
+          <thead>
+            <row>
+              <entry>Жарлықтар</entry>
+              <entry>Әрекеттер</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry><keycap>Тоқтату</keycap></entry>
+              <entry>
+                <para>Тоқтату</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycap>Аялдату / Ойнату</keycap></entry>
+              <entry>
+                <para>Аялдату / Ойнату</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycap>Алдыңғы</keycap></entry>
+              <entry>
+                <para>Алдыңғы ойнатылған трек</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycap>Келесі</keycap></entry>
+              <entry>
+                <para>Келесі трек</para>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </sect2>
+    <sect2 id="lirc">
+      <title>Linux инфрақызыл қашықтан басқару пульті</title>
+      <para><application>Rhythmbox музыкалық ойнатқышы</application> Linux инфрақызыл қашықтан басқару пультін (LIRC) қолдауға арналған плагинді қамтиды. 'rhythmbox' бағдарлама атауын пайдаланатын келесі командалық жолдарға қолдау көрсетіледі:</para>
+      <table frame="none">
+	  	<title>Терезе жарлықтар</title>
+        <tgroup cols="2" colsep="0" rowsep="0">
+          <colspec colname="COLSPEC0"/>
+          <colspec colname="COLSPEC1"/>
+          <thead>
+            <row>
+              <entry>Командалық жол</entry>
+              <entry>Әрекет</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry><keycap>play</keycap></entry>
+              <entry> <para>Ойнатуды бастау</para> </entry>
+            </row>
+            <row>
+              <entry><keycap>pause</keycap></entry>
+              <entry> <para>Ойнатуды аялдату</para> </entry>
+            </row>
+	    <row>
+	      <entry><keycap>playpause</keycap></entry>
+	      <entry> <para>Ойнату және аялдату арасында ауысу</para> </entry>
+	    </row>
+            <row>
+              <entry><keycap>shuffle</keycap></entry>
+              <entry> <para>Кездейсоқ ойнату ретін қосу / сөндіру</para> </entry>
+            </row>
+            <row>
+              <entry><keycap>repeat</keycap></entry>
+              <entry> <para>Қайталап ойнату ретін қосу / сөндіру</para> </entry>
+            </row>
+            <row>
+              <entry><keycap>next</keycap></entry>
+              <entry> <para>Келесі трекке өту</para> </entry>
+            </row>
+            <row>
+              <entry><keycap>previous</keycap></entry>
+              <entry> <para>Алдыңғы трекке өту</para> </entry>
+            </row>
+            <row>
+              <entry><keycap>seek_forward</keycap></entry>
+              <entry> <para>Ойнатылып жатқан тректі 10 секунд алға айналдыру</para> </entry>
+            </row>
+            <row>
+              <entry><keycap>seek_backward</keycap></entry>
+              <entry> <para>Ойнатылып жатқан тректі 10 секунд артқа айналдыру</para> </entry>
+            </row>
+            <row>
+              <entry><keycap>volume_up</keycap></entry>
+              <entry> <para>Ойнату дыбысын 10%-ға арттыру</para> </entry>
+            </row>
+            <row>
+              <entry><keycap>volume_down</keycap></entry>
+              <entry> <para>Ойнату дыбысын 10%-ға азайту</para> </entry>
+            </row>
+            <row>
+              <entry><keycap>mute</keycap></entry>
+              <entry> <para>Дыбысты сөндіру</para> </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </sect2>
+  </sect1>
+</article>

@@ -1,0 +1,11 @@
+prefix=/usr/local
+includedir=${prefix}/include
+
+plugin_dir=/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins
+
+Name: rhythmbox
+Description: plugin API for rhythmbox
+Version: 3.5.1
+Requires: glib-2.0 >= 2.66.0, gobject-2.0 >= 2.66.0, gio-2.0 >= 2.66.0, gtk+-3.0 >=  3.16.0, libsoup-3.0 >=  3.0.7, totem-plparser >=  3.2.0, gstreamer-1.0 >=  1.4.0
+Requires.private: libxml-2.0 >=  2.7.8
+Cflags: -I${includedir}

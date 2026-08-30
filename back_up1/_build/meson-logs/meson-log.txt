@@ -1,0 +1,2167 @@
+Build started at 2026-08-30T14:50:06.810738
+Main binary: /usr/bin/python3
+Build Options: 
+Python system: Linux
+The Meson build system
+Version: 1.7.0
+Source dir: /home/h4ydi/.u/rhythmbox2
+Build dir: /home/h4ydi/.u/rhythmbox2/_build
+Build type: native build
+Project name: rhythmbox
+Project version: 3.5.1
+-----------
+Detecting compiler via: `cc --version` -> 0
+stdout:
+cc (Debian 14.2.0-19) 14.2.0
+Copyright (C) 2024 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+-----------
+Running command: -cpp -x c -E -dM -
+-----
+-----------
+Detecting linker via: `cc -Wl,--version` -> 0
+stdout:
+GNU ld (GNU Binutils for Debian) 2.44
+Copyright (C) 2025 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+-----------
+stderr:
+collect2 version 14.2.0
+/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQxK4NS.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/14/../../.. --version -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o
+-----------
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command:  /home/h4ydi/.u/rhythmbox2/_build/meson-private/sanitycheckc.exe
+C compiler for the host machine: cc (gcc 14.2.0 "cc (Debian 14.2.0-19) 14.2.0")
+C linker for the host machine: cc ld.bfd 2.44
+-----------
+Detecting archiver via: `gcc-ar --version` -> 0
+stdout:
+GNU ar (GNU Binutils for Debian) 2.44
+Copyright (C) 2025 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) any later version.
+This program has absolutely no warranty.
+-----------
+-----------
+Detecting compiler via: `cc --version` -> 0
+stdout:
+cc (Debian 14.2.0-19) 14.2.0
+Copyright (C) 2024 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+-----------
+Running command: -cpp -x c -E -dM -
+-----
+-----------
+Detecting linker via: `cc -Wl,--version` -> 0
+stdout:
+GNU ld (GNU Binutils for Debian) 2.44
+Copyright (C) 2025 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+-----------
+stderr:
+collect2 version 14.2.0
+/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdQyPwd.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/14/../../.. --version -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o
+-----------
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command:  /home/h4ydi/.u/rhythmbox2/_build/meson-private/sanitycheckc.exe
+C compiler for the build machine: cc (gcc 14.2.0 "cc (Debian 14.2.0-19) 14.2.0")
+C linker for the build machine: cc ld.bfd 2.44
+-----------
+Detecting archiver via: `gcc-ar --version` -> 0
+stdout:
+GNU ar (GNU Binutils for Debian) 2.44
+Copyright (C) 2025 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) any later version.
+This program has absolutely no warranty.
+-----------
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Running compile:
+Working directory:  /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmpo7ks13ne
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmpo7ks13ne/testfile.c -o /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmpo7ks13ne/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wdeprecated-declarations -Wno-deprecated-declarations` -> 0
+Compiler for C supports arguments -Wno-deprecated-declarations: YES 
+Running compile:
+Working directory:  /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmpdubj4s_7
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmpdubj4s_7/testfile.c -o /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmpdubj4s_7/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wformat=2` -> 0
+Compiler for C supports arguments -Wformat=2: YES 
+Running compile:
+Working directory:  /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmp8u2igfdc
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmp8u2igfdc/testfile.c -o /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmp8u2igfdc/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wformat-nonliteral -Wno-format-nonliteral` -> 0
+Compiler for C supports arguments -Wno-format-nonliteral: YES 
+Running compile:
+Working directory:  /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmpo9b22_ps
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmpo9b22_ps/testfile.c -o /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmpo9b22_ps/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-declarations` -> 0
+Compiler for C supports arguments -Wmissing-declarations: YES 
+Running compile:
+Working directory:  /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmp8hpda8fx
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmp8hpda8fx/testfile.c -o /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmp8hpda8fx/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-prototypes` -> 0
+Compiler for C supports arguments -Wmissing-prototypes: YES 
+Running compile:
+Working directory:  /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmp64o40bt8
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmp64o40bt8/testfile.c -o /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmp64o40bt8/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wnested-externs` -> 0
+Compiler for C supports arguments -Wnested-externs: YES 
+Running compile:
+Working directory:  /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmp7g7ykl3h
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmp7g7ykl3h/testfile.c -o /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmp7g7ykl3h/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wpointer-arith` -> 0
+Compiler for C supports arguments -Wpointer-arith: YES 
+Running compile:
+Working directory:  /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmpnzwxuulv
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmpnzwxuulv/testfile.c -o /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmpnzwxuulv/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wcast-align` -> 0
+Compiler for C supports arguments -Wcast-align: YES 
+Running compile:
+Working directory:  /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmpvdus0uc7
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmpvdus0uc7/testfile.c -o /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmpvdus0uc7/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wstrict-prototypes` -> 0
+Compiler for C supports arguments -Wstrict-prototypes: YES 
+Running compile:
+Working directory:  /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmpiic2pfbt
+Code:
+int main(void) { return 0; }
+
+-----------
+Command line: `cc /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmpiic2pfbt/testfile.c -o /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmpiic2pfbt/output.exe -D_FILE_OFFSET_BITS=64 -O0 -lm -Wl,--allow-shlib-undefined` -> 0
+Library m found: YES
+Running compile:
+Working directory:  /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmpks64a6g1
+Code:
+#include <libintl.h>
+
+int main() {
+    gettext("Hello world");
+}
+-----------
+Command line: `cc /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmpks64a6g1/testfile.c -o /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmpks64a6g1/output.exe -D_FILE_OFFSET_BITS=64 -O0` -> 0
+Run-time dependency intl found: YES
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default Pkg-config fallback at pkg-config
+Found pkg-config: YES (/usr/bin/pkg-config) 1.8.1
+Determining dependency 'cairo' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion cairo` -> 0
+stdout:
+1.18.4
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags cairo` -> 0
+stdout:
+-I/usr/include/cairo -I/usr/include/libpng16 -I/usr/include/freetype2 -I/usr/include/pixman-1
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs cairo` -> 0
+stdout:
+-L/usr/lib/x86_64-linux-gnu -lcairo
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs cairo` -> 0
+stdout:
+-lcairo
+-----------
+Running compile:
+Working directory:  /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmp9iwdbfrk
+Code:
+
+        #include<stddef.h>
+        #include<stdio.h>
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        }
+-----------
+Command line: `cc /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmp9iwdbfrk/testfile.c -o /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmp9iwdbfrk/output.exe -D_FILE_OFFSET_BITS=64 -O0` -> 0
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Running compile:
+Working directory:  /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmpd75t58gr
+Code:
+
+-----------
+Command line: `cc /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmpd75t58gr/testfile.c -o /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmpd75t58gr/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs` -> 0
+stdout:
+install: /usr/lib/gcc/x86_64-linux-gnu/14/
+programs: =/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib/:/lib/x86_64-linux-gnu/14/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/14/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../:/lib/:/usr/lib/
+-----------
+Run-time dependency cairo found: YES 1.18.4
+Determining dependency 'gdk-pixbuf-2.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion gdk-pixbuf-2.0` -> 0
+stdout:
+2.42.12
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags gdk-pixbuf-2.0` -> 0
+stdout:
+-I/usr/include/gdk-pixbuf-2.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/sysprof-6 -I/usr/include/libpng16 -I/usr/include/x86_64-linux-gnu -I/usr/include/webp -I/usr/include/libmount -I/usr/include/blkid -pthread
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs gdk-pixbuf-2.0` -> 0
+stdout:
+-L/usr/lib/x86_64-linux-gnu -lgdk_pixbuf-2.0 -lgobject-2.0 -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs gdk-pixbuf-2.0` -> 0
+stdout:
+-lgdk_pixbuf-2.0 -lgobject-2.0 -lglib-2.0
+-----------
+Run-time dependency gdk-pixbuf-2.0 found: YES 2.42.12
+Determining dependency 'gio-2.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion gio-2.0` -> 0
+stdout:
+2.84.4
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags gio-2.0` -> 0
+stdout:
+-I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/sysprof-6 -I/usr/include/libmount -I/usr/include/blkid -pthread
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs gio-2.0` -> 0
+stdout:
+-L/usr/lib/x86_64-linux-gnu -lgio-2.0 -lgobject-2.0 -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs gio-2.0` -> 0
+stdout:
+-lgio-2.0 -lgobject-2.0 -lglib-2.0
+-----------
+Run-time dependency gio-2.0 found: YES 2.84.4
+Determining dependency 'gio-unix-2.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion gio-unix-2.0` -> 0
+stdout:
+2.84.4
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags gio-unix-2.0` -> 0
+stdout:
+-I/usr/include/gio-unix-2.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/sysprof-6 -I/usr/include/libmount -I/usr/include/blkid -pthread
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs gio-unix-2.0` -> 0
+stdout:
+-L/usr/lib/x86_64-linux-gnu -lgio-2.0 -lgobject-2.0 -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs gio-unix-2.0` -> 0
+stdout:
+-lgio-2.0 -lgobject-2.0 -lglib-2.0
+-----------
+Run-time dependency gio-unix-2.0 found: YES 2.84.4
+Determining dependency 'glib-2.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion glib-2.0` -> 0
+stdout:
+2.84.4
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags glib-2.0` -> 0
+stdout:
+-I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/sysprof-6 -pthread
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs glib-2.0` -> 0
+stdout:
+-L/usr/lib/x86_64-linux-gnu -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs glib-2.0` -> 0
+stdout:
+-lglib-2.0
+-----------
+Run-time dependency glib-2.0 found: YES 2.84.4
+Determining dependency 'gobject-2.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion gobject-2.0` -> 0
+stdout:
+2.84.4
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags gobject-2.0` -> 0
+stdout:
+-I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/sysprof-6 -pthread
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs gobject-2.0` -> 0
+stdout:
+-L/usr/lib/x86_64-linux-gnu -lgobject-2.0 -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs gobject-2.0` -> 0
+stdout:
+-lgobject-2.0 -lglib-2.0
+-----------
+Run-time dependency gobject-2.0 found: YES 2.84.4
+Determining dependency 'girepository-2.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion girepository-2.0` -> 1
+stderr:
+Package girepository-2.0 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `girepository-2.0.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'girepository-2.0', required by 'virtual:world', not found
+-----------
+CMake binary for host machine is not cached
+CMake binary missing from cross or native file, or env var undefined.
+Trying a default CMake fallback at cmake
+Did not find CMake 'cmake'
+Found CMake: NO
+CMake binary for machine host machine not found. Giving up.
+Run-time dependency girepository-2.0 found: NO (tried pkgconfig and cmake)
+Determining dependency 'gobject-introspection-1.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion gobject-introspection-1.0` -> 0
+stdout:
+1.84.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags gobject-introspection-1.0` -> 0
+stdout:
+-I/usr/include/gobject-introspection-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/sysprof-6 -pthread
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs gobject-introspection-1.0` -> 0
+stdout:
+-L/usr/lib/x86_64-linux-gnu -lgirepository-1.0 -lgobject-2.0 -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs gobject-introspection-1.0` -> 0
+stdout:
+-lgirepository-1.0 -lgobject-2.0 -lglib-2.0
+-----------
+Run-time dependency gobject-introspection-1.0 found: YES 1.84.0
+Determining dependency 'gstreamer-1.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion gstreamer-1.0` -> 0
+stdout:
+1.26.2
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags gstreamer-1.0` -> 0
+stdout:
+-I/usr/include/gstreamer-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/sysprof-6 -pthread
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs gstreamer-1.0` -> 0
+stdout:
+-L/usr/lib/x86_64-linux-gnu -lgstreamer-1.0 -lgobject-2.0 -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs gstreamer-1.0` -> 0
+stdout:
+-lgstreamer-1.0 -lgobject-2.0 -lglib-2.0
+-----------
+Run-time dependency gstreamer-1.0 found: YES 1.26.2
+Determining dependency 'gstreamer-audio-1.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion gstreamer-audio-1.0` -> 0
+stdout:
+1.26.2
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags gstreamer-audio-1.0` -> 0
+stdout:
+-I/usr/include/gstreamer-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/sysprof-6 -pthread -I/usr/include/orc-0.4
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs gstreamer-audio-1.0` -> 0
+stdout:
+-L/usr/lib/x86_64-linux-gnu -lgstaudio-1.0 -lgstbase-1.0 -lgstreamer-1.0 -lgobject-2.0 -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs gstreamer-audio-1.0` -> 0
+stdout:
+-lgstaudio-1.0 -lgstbase-1.0 -lgstreamer-1.0 -lgobject-2.0 -lglib-2.0
+-----------
+Run-time dependency gstreamer-audio-1.0 found: YES 1.26.2
+Determining dependency 'gstreamer-base-1.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion gstreamer-base-1.0` -> 0
+stdout:
+1.26.2
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags gstreamer-base-1.0` -> 0
+stdout:
+-I/usr/include/gstreamer-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/sysprof-6 -pthread
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs gstreamer-base-1.0` -> 0
+stdout:
+-L/usr/lib/x86_64-linux-gnu -lgstbase-1.0 -lgstreamer-1.0 -lgobject-2.0 -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs gstreamer-base-1.0` -> 0
+stdout:
+-lgstbase-1.0 -lgstreamer-1.0 -lgobject-2.0 -lglib-2.0
+-----------
+Run-time dependency gstreamer-base-1.0 found: YES 1.26.2
+Determining dependency 'gstreamer-controller-1.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion gstreamer-controller-1.0` -> 0
+stdout:
+1.26.2
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags gstreamer-controller-1.0` -> 0
+stdout:
+-I/usr/include/gstreamer-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/sysprof-6 -pthread
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs gstreamer-controller-1.0` -> 0
+stdout:
+-L/usr/lib/x86_64-linux-gnu -lgstcontroller-1.0 -lgstreamer-1.0 -lgobject-2.0 -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs gstreamer-controller-1.0` -> 0
+stdout:
+-lgstcontroller-1.0 -lgstreamer-1.0 -lgobject-2.0 -lglib-2.0
+-----------
+Run-time dependency gstreamer-controller-1.0 found: YES 1.26.2
+Determining dependency 'gstreamer-plugins-base-1.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion gstreamer-plugins-base-1.0` -> 0
+stdout:
+1.26.2
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags gstreamer-plugins-base-1.0` -> 0
+stdout:
+-I/usr/include/gstreamer-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/sysprof-6 -pthread
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs gstreamer-plugins-base-1.0` -> 0
+stdout:
+-L/usr/lib/x86_64-linux-gnu -lgstreamer-1.0 -lgobject-2.0 -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs gstreamer-plugins-base-1.0` -> 0
+stdout:
+-lgstreamer-1.0 -lgobject-2.0 -lglib-2.0
+-----------
+Run-time dependency gstreamer-plugins-base-1.0 found: YES 1.26.2
+Determining dependency 'gstreamer-pbutils-1.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion gstreamer-pbutils-1.0` -> 0
+stdout:
+1.26.2
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags gstreamer-pbutils-1.0` -> 0
+stdout:
+-I/usr/include/gstreamer-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/sysprof-6 -I/usr/include/orc-0.4 -pthread
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs gstreamer-pbutils-1.0` -> 0
+stdout:
+-L/usr/lib/x86_64-linux-gnu -lgstpbutils-1.0 -lgstvideo-1.0 -lgstaudio-1.0 -lgstbase-1.0 -lgstreamer-1.0 -lgobject-2.0 -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs gstreamer-pbutils-1.0` -> 0
+stdout:
+-lgstpbutils-1.0 -lgstvideo-1.0 -lgstaudio-1.0 -lgstbase-1.0 -lgstreamer-1.0 -lgobject-2.0 -lglib-2.0
+-----------
+Run-time dependency gstreamer-pbutils-1.0 found: YES 1.26.2
+Determining dependency 'gstreamer-tag-1.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion gstreamer-tag-1.0` -> 0
+stdout:
+1.26.2
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags gstreamer-tag-1.0` -> 0
+stdout:
+-I/usr/include/gstreamer-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/sysprof-6 -pthread
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs gstreamer-tag-1.0` -> 0
+stdout:
+-L/usr/lib/x86_64-linux-gnu -lgsttag-1.0 -lgstreamer-1.0 -lgobject-2.0 -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs gstreamer-tag-1.0` -> 0
+stdout:
+-lgsttag-1.0 -lgstreamer-1.0 -lgobject-2.0 -lglib-2.0
+-----------
+Run-time dependency gstreamer-tag-1.0 found: YES 1.26.2
+Determining dependency 'gtk+-3.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion gtk+-3.0` -> 0
+stdout:
+3.24.49
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags gtk+-3.0` -> 0
+stdout:
+-I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/sysprof-6 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/x86_64-linux-gnu -I/usr/include/webp -I/usr/include/gio-unix-2.0 -I/usr/include/cloudproviders -I/usr/include/atk-1.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -pthread
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs gtk+-3.0` -> 0
+stdout:
+-L/usr/lib/x86_64-linux-gnu -lgtk-3 -lgdk-3 -lz -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs gtk+-3.0` -> 0
+stdout:
+-lgtk-3 -lgdk-3 -lz -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+-----------
+Run-time dependency gtk+-3.0 found: YES 3.24.49
+Determining dependency 'json-glib-1.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion json-glib-1.0` -> 0
+stdout:
+1.10.6
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags json-glib-1.0` -> 0
+stdout:
+-I/usr/include/json-glib-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/sysprof-6 -I/usr/include/libmount -I/usr/include/blkid -pthread
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs json-glib-1.0` -> 0
+stdout:
+-L/usr/lib/x86_64-linux-gnu -ljson-glib-1.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs json-glib-1.0` -> 0
+stdout:
+-ljson-glib-1.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+-----------
+Run-time dependency json-glib-1.0 found: YES 1.10.6
+Determining dependency 'libpeas-1.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion libpeas-1.0` -> 0
+stdout:
+1.36.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags libpeas-1.0` -> 0
+stdout:
+-I/usr/include/libpeas-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/sysprof-6 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/gobject-introspection-1.0 -pthread
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs libpeas-1.0` -> 0
+stdout:
+-L/usr/lib/x86_64-linux-gnu -lpeas-1.0 -Wl,--export-dynamic -lgmodule-2.0 -pthread -lglib-2.0 -lgio-2.0 -lgirepository-1.0 -lgobject-2.0 -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs libpeas-1.0` -> 0
+stdout:
+-lpeas-1.0 -Wl,--export-dynamic -lgmodule-2.0 -pthread -lglib-2.0 -lgio-2.0 -lgirepository-1.0 -lgobject-2.0 -lglib-2.0
+-----------
+Run-time dependency libpeas-1.0 found: YES 1.36.0
+Determining dependency 'libpeas-gtk-1.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion libpeas-gtk-1.0` -> 0
+stdout:
+1.36.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags libpeas-gtk-1.0` -> 0
+stdout:
+-I/usr/include/libpeas-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/sysprof-6 -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/x86_64-linux-gnu -I/usr/include/webp -I/usr/include/gio-unix-2.0 -I/usr/include/cloudproviders -I/usr/include/atk-1.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gobject-introspection-1.0 -pthread
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs libpeas-gtk-1.0` -> 0
+stdout:
+-L/usr/lib/x86_64-linux-gnu -lpeas-gtk-1.0 -lgtk-3 -lgdk-3 -lz -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lpeas-1.0 -Wl,--export-dynamic -lgmodule-2.0 -pthread -lglib-2.0 -lgio-2.0 -lgirepository-1.0 -lgobject-2.0 -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs libpeas-gtk-1.0` -> 0
+stdout:
+-lpeas-gtk-1.0 -lgtk-3 -lgdk-3 -lz -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lpeas-1.0 -Wl,--export-dynamic -lgmodule-2.0 -pthread -lglib-2.0 -lgio-2.0 -lgirepository-1.0 -lgobject-2.0 -lglib-2.0
+-----------
+Run-time dependency libpeas-gtk-1.0 found: YES 1.36.0
+Determining dependency 'libsoup-3.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion libsoup-3.0` -> 0
+stdout:
+3.6.5
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags libsoup-3.0` -> 0
+stdout:
+-I/usr/include/libsoup-3.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/sysprof-6 -I/usr/include/libmount -I/usr/include/blkid -pthread -isystem /usr/include/mit-krb5
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs libsoup-3.0` -> 0
+stdout:
+-L/usr/lib/x86_64-linux-gnu -lsoup-3.0 -lgmodule-2.0 -pthread -lglib-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs libsoup-3.0` -> 0
+stdout:
+-lsoup-3.0 -lgmodule-2.0 -pthread -lglib-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+-----------
+Run-time dependency libsoup-3.0 found: YES 3.6.5
+Determining dependency 'libxml-2.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion libxml-2.0` -> 0
+stdout:
+2.9.14
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags libxml-2.0` -> 0
+stdout:
+-I/usr/include/libxml2
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs libxml-2.0` -> 0
+stdout:
+-L/usr/lib/x86_64-linux-gnu -lxml2
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs libxml-2.0` -> 0
+stdout:
+-lxml2
+-----------
+Run-time dependency libxml-2.0 found: YES 2.9.14
+Determining dependency 'pango' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion pango` -> 0
+stdout:
+1.56.3
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags pango` -> 0
+stdout:
+-I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/sysprof-6 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/cairo -I/usr/include/pixman-1 -pthread
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs pango` -> 0
+stdout:
+-L/usr/lib/x86_64-linux-gnu -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lharfbuzz
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs pango` -> 0
+stdout:
+-lpango-1.0 -lgobject-2.0 -lglib-2.0 -lharfbuzz
+-----------
+Run-time dependency pango found: YES 1.56.3
+Determining dependency 'tdb' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion tdb` -> 0
+stdout:
+1.4.13
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags tdb` -> 0
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs tdb` -> 0
+stdout:
+-L/usr/lib/x86_64-linux-gnu -ltdb
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs tdb` -> 0
+stdout:
+-ltdb
+-----------
+Run-time dependency tdb found: YES 1.4.13
+Determining dependency 'totem-plparser' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion totem-plparser` -> 0
+stdout:
+3.26.6
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags totem-plparser` -> 0
+stdout:
+-I/usr/include/totem-pl-parser/1/plparser -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/sysprof-6 -I/usr/include/libmount -I/usr/include/blkid -pthread -I/usr/include/libxml2
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs totem-plparser` -> 0
+stdout:
+-L/usr/lib/x86_64-linux-gnu -ltotem-plparser -lgio-2.0 -lgobject-2.0 -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs totem-plparser` -> 0
+stdout:
+-ltotem-plparser -lgio-2.0 -lgobject-2.0 -lglib-2.0
+-----------
+Run-time dependency totem-plparser found: YES 3.26.6
+Determining dependency 'gudev-1.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion gudev-1.0` -> 0
+stdout:
+238
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags gudev-1.0` -> 0
+stdout:
+-I/usr/include/gudev-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/sysprof-6 -pthread
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs gudev-1.0` -> 0
+stdout:
+-L/usr/lib/x86_64-linux-gnu -lgudev-1.0 -lgobject-2.0 -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs gudev-1.0` -> 0
+stdout:
+-lgudev-1.0 -lgobject-2.0 -lglib-2.0
+-----------
+Run-time dependency gudev-1.0 found: YES 238
+Determining dependency 'check' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion check` -> 0
+stdout:
+0.15.2
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags check` -> 0
+stdout:
+-pthread
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs check` -> 0
+stdout:
+-L/usr/lib/x86_64-linux-gnu -lcheck_pic -lrt -lm -lsubunit
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs check` -> 0
+stdout:
+-lcheck_pic -lrt -lm -lsubunit
+-----------
+Running compile:
+Working directory:  /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmplj0nrgyy
+Code:
+int main(void) { return 0; }
+
+-----------
+Command line: `cc /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmplj0nrgyy/testfile.c -o /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmplj0nrgyy/output.exe -D_FILE_OFFSET_BITS=64 -O0 -lrt -Wl,--allow-shlib-undefined` -> 0
+Running compile:
+Working directory:  /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmpuqgozrlq
+Code:
+int main(void) { return 0; }
+
+-----------
+Command line: `cc /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmpuqgozrlq/testfile.c -o /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmpuqgozrlq/output.exe -D_FILE_OFFSET_BITS=64 -O0 -lm -Wl,--allow-shlib-undefined` -> 0
+Run-time dependency check found: YES 0.15.2
+Determining dependency 'libsecret-1' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion libsecret-1` -> 0
+stdout:
+0.21.7
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags libsecret-1` -> 0
+stdout:
+-I/usr/include/libsecret-1 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/sysprof-6 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/gio-unix-2.0 -pthread
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs libsecret-1` -> 0
+stdout:
+-L/usr/lib/x86_64-linux-gnu -lsecret-1 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs libsecret-1` -> 0
+stdout:
+-lsecret-1 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+-----------
+Run-time dependency libsecret-1 found: YES 0.21.7
+Running compile:
+Working directory:  /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmp86kliefo
+Code:
+
+        #define fwrite_unlocked meson_disable_define_of_fwrite_unlocked
+        
+        #include <limits.h>
+        #undef fwrite_unlocked
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char fwrite_unlocked (void);
+        
+        #if defined __stub_fwrite_unlocked || defined __stub___fwrite_unlocked
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return fwrite_unlocked ();
+        }
+-----------
+Command line: `cc /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmp86kliefo/testfile.c -o /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmp86kliefo/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89` -> 0
+stderr:
+/home/h4ydi/.u/rhythmbox2/_build/meson-private/tmp86kliefo/testfile.c:10:14: warning: conflicting types for built-in function 'fwrite_unlocked'; expected 'long unsigned int(const void *, long unsigned int,  long unsigned int,  void *)' [-Wbuiltin-declaration-mismatch]
+   10 |         char fwrite_unlocked (void);
+      |              ^~~~~~~~~~~~~~~
+-----------
+Checking for function "fwrite_unlocked" : YES 
+Running compile:
+Working directory:  /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmpjlqkvs_4
+Code:
+
+        #include <stdio.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef fwrite_unlocked
+                fwrite_unlocked;
+            #endif
+            return 0;
+        }
+-----------
+Command line: `cc /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmpjlqkvs_4/testfile.c -o /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmpjlqkvs_4/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89` -> 0
+Header "stdio.h" has symbol "fwrite_unlocked" : YES 
+Running compile:
+Working directory:  /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmp0gtgsucl
+Code:
+#include <termios.h>
+#include <limits.h>
+
+        #if defined __stub_cfmakeraw || defined __stub___cfmakeraw
+        fail fail fail this function is not going to work
+        #endif
+        
+int main(void) {
+            void *a = (void*) &cfmakeraw;
+            long long b = (long long) a;
+            return (int) b;
+        }
+-----------
+Command line: `cc /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmp0gtgsucl/testfile.c -o /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmp0gtgsucl/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89` -> 0
+Checking for function "cfmakeraw" : YES 
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --variable=targets gtk+-3.0` -> 0
+stdout:
+broadway wayland x11
+-----------
+Got pkg-config variable targets : broadway wayland x11
+Determining dependency 'x11' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion x11` -> 0
+stdout:
+1.8.12
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags x11` -> 0
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs x11` -> 0
+stdout:
+-L/usr/lib/x86_64-linux-gnu -lX11
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs x11` -> 0
+stdout:
+-lX11
+-----------
+Run-time dependency x11 found: YES 1.8.12
+Running compile:
+Working directory:  /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmpxn449fnq
+Code:
+#include <sys/prctl.h>
+#include <limits.h>
+
+        #if defined __stub_prctl || defined __stub___prctl
+        fail fail fail this function is not going to work
+        #endif
+        
+int main(void) {
+            void *a = (void*) &prctl;
+            long long b = (long long) a;
+            return (int) b;
+        }
+-----------
+Command line: `cc /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmpxn449fnq/testfile.c -o /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmpxn449fnq/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89` -> 0
+Checking for function "prctl" : YES 
+Running compile:
+Working directory:  /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmpa59g96mj
+Code:
+
+  #define _GNU_SOURCE
+  #include <pthread.h>
+  int main() {
+    char nm[17];
+    pthread_getname_np(pthread_self(), nm, sizeof(nm));
+  }
+-----------
+Command line: `cc /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmpa59g96mj/testfile.c -o /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmpa59g96mj/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu89` -> 0
+Checking if "pthread_getname_np" links: YES 
+Running compile:
+Working directory:  /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmpgkpc8mfy
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmpgkpc8mfy/testfile.c -o /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmpgkpc8mfy/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -fno-strict-aliasing` -> 0
+Compiler for C supports arguments -fno-strict-aliasing: YES 
+Program python3 found: YES (/usr/bin/python3)
+Determining dependency 'pygobject-3.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion pygobject-3.0` -> 0
+stdout:
+3.50.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags pygobject-3.0` -> 0
+stdout:
+-I/usr/include/pygobject-3.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/sysprof-6 -pthread
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs pygobject-3.0` -> 0
+stdout:
+-L/usr/lib/x86_64-linux-gnu -lgobject-2.0 -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs pygobject-3.0` -> 0
+stdout:
+-lgobject-2.0 -lglib-2.0
+-----------
+Run-time dependency pygobject-3.0 found: YES 3.50.0
+-----------
+Detecting compiler via: `valac --version` -> [Errno 2] No such file or directory: 'valac'
+Compiler for language vala for the host machine not found.
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Determining dependency 'libgpod-1.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion libgpod-1.0` -> 0
+stdout:
+0.8.3
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags libgpod-1.0` -> 0
+stdout:
+-I/usr/include/gpod-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/sysprof-6 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/x86_64-linux-gnu -I/usr/include/webp -I/usr/include/libmount -I/usr/include/blkid -pthread
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs libgpod-1.0` -> 0
+stdout:
+-L/usr/lib/x86_64-linux-gnu -lgpod -lgdk_pixbuf-2.0 -lgobject-2.0 -lglib-2.0 -limobiledevice-1.0 -lplist-2.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs libgpod-1.0` -> 0
+stdout:
+-lgpod -lgdk_pixbuf-2.0 -lgobject-2.0 -lglib-2.0 -limobiledevice-1.0 -lplist-2.0
+-----------
+Run-time dependency libgpod-1.0 found: YES 0.8.3
+Determining dependency 'libmtp' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion libmtp` -> 0
+stdout:
+1.1.22
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags libmtp` -> 0
+stdout:
+-I/usr/include/libusb-1.0
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs libmtp` -> 0
+stdout:
+-L/usr/lib/x86_64-linux-gnu -lmtp
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs libmtp` -> 0
+stdout:
+-lmtp
+-----------
+Run-time dependency libmtp found: YES 1.1.22
+Determining dependency 'libnotify' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion libnotify` -> 0
+stdout:
+0.8.6
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags libnotify` -> 0
+stdout:
+-I/usr/include/gdk-pixbuf-2.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/sysprof-6 -I/usr/include/libpng16 -I/usr/include/x86_64-linux-gnu -I/usr/include/webp -I/usr/include/libmount -I/usr/include/blkid -pthread
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs libnotify` -> 0
+stdout:
+-L/usr/lib/x86_64-linux-gnu -lnotify -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs libnotify` -> 0
+stdout:
+-lnotify -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+-----------
+Run-time dependency libnotify found: YES 0.8.6
+Determining dependency 'lirc' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion lirc` -> 0
+stdout:
+0.10.2
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags lirc` -> 0
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs lirc` -> 0
+stdout:
+-L/usr/lib/x86_64-linux-gnu -llirc_client
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs lirc` -> 0
+stdout:
+-llirc_client
+-----------
+Run-time dependency lirc found: YES 0.10.2
+Determining dependency 'libbrasero-media3' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion libbrasero-media3` -> 0
+stdout:
+3.12.3
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags libbrasero-media3` -> 0
+stdout:
+-I/usr/include/brasero3 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/sysprof-6 -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/x86_64-linux-gnu -I/usr/include/webp -I/usr/include/gio-unix-2.0 -I/usr/include/cloudproviders -I/usr/include/atk-1.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -pthread
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs libbrasero-media3` -> 0
+stdout:
+-L/usr/lib/x86_64-linux-gnu -lbrasero-media3 -lgthread-2.0 -pthread -lglib-2.0 -lgtk-3 -lgdk-3 -lz -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs libbrasero-media3` -> 0
+stdout:
+-lbrasero-media3 -lgthread-2.0 -pthread -lglib-2.0 -lgtk-3 -lgdk-3 -lz -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+-----------
+Run-time dependency libbrasero-media3 found: YES 3.12.3
+Running compile:
+Working directory:  /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmpe0o8nzs8
+Code:
+
+        #ifdef __has_include
+         #if !__has_include("linux/videodev2.h")
+          #error "Header 'linux/videodev2.h' could not be found"
+         #endif
+        #else
+         #include <linux/videodev2.h>
+        #endif
+-----------
+Command line: `cc /home/h4ydi/.u/rhythmbox2/_build/meson-private/tmpe0o8nzs8/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu89` -> 0
+Has header "linux/videodev2.h" : YES 
+Determining dependency 'grilo-0.3' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion grilo-0.3` -> 0
+stdout:
+0.3.16
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags grilo-0.3` -> 0
+stdout:
+-I/usr/include/grilo-0.3 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/sysprof-6 -I/usr/include/libmount -I/usr/include/blkid -pthread -I/usr/include/libxml2
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs grilo-0.3` -> 0
+stdout:
+-L/usr/lib/x86_64-linux-gnu -lgrilo-0.3 -Wl,--export-dynamic -lgmodule-2.0 -pthread -lglib-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lxml2
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs grilo-0.3` -> 0
+stdout:
+-lgrilo-0.3 -Wl,--export-dynamic -lgmodule-2.0 -pthread -lglib-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lxml2
+-----------
+Run-time dependency grilo-0.3 found: YES 0.3.16
+Determining dependency 'grilo-net-0.3' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion grilo-net-0.3` -> 0
+stdout:
+0.3.16
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags grilo-net-0.3` -> 0
+stdout:
+-I/usr/include/grilo-0.3 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/sysprof-6 -I/usr/include/libmount -I/usr/include/blkid -pthread -I/usr/include/libxml2
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs grilo-net-0.3` -> 0
+stdout:
+-L/usr/lib/x86_64-linux-gnu -lgrlnet-0.3 -lgrilo-0.3 -Wl,--export-dynamic -lgmodule-2.0 -pthread -lglib-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lxml2
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs grilo-net-0.3` -> 0
+stdout:
+-lgrlnet-0.3 -lgrilo-0.3 -Wl,--export-dynamic -lgmodule-2.0 -pthread -lglib-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lxml2
+-----------
+Run-time dependency grilo-net-0.3 found: YES 0.3.16
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --variable=soupapiversion grilo-net-0.3` -> 0
+stdout:
+3.0
+-----------
+Got pkg-config variable soupapiversion : 3.0
+Program check-news.sh found: YES (/home/h4ydi/.u/rhythmbox2/check-news.sh)
+Dependency gio-2.0 found: YES 2.84.4 (cached)
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --variable=glib_compile_schemas gio-2.0` -> 0
+stdout:
+/usr/lib/x86_64-linux-gnu/glib-2.0/glib-compile-schemas
+-----------
+Got pkg-config variable glib_compile_schemas : /usr/lib/x86_64-linux-gnu/glib-2.0/glib-compile-schemas
+Program /usr/lib/x86_64-linux-gnu/glib-2.0/glib-compile-schemas found: YES (/usr/lib/x86_64-linux-gnu/glib-2.0/glib-compile-schemas)
+Program gtk4-update-icon-cache found: YES (/usr/bin/gtk4-update-icon-cache)
+Program update-desktop-database found: YES (/usr/bin/update-desktop-database)
+Configuring config.h using configuration
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Configuring org.gnome.Rhythmbox3.service using configuration
+Program glib-compile-schemas found: YES (/usr/bin/glib-compile-schemas)
+Program appstreamcli found: NO
+Dependency gobject-introspection-1.0 found: YES 1.84.0 (cached)
+Dependency gobject-introspection-1.0 found: YES 1.84.0 (cached)
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --variable=g_ir_scanner gobject-introspection-1.0` -> 0
+stdout:
+/usr/bin/x86_64-linux-gnu-g-ir-scanner
+-----------
+Got pkg-config variable g_ir_scanner : /usr/bin/x86_64-linux-gnu-g-ir-scanner
+Program /usr/bin/x86_64-linux-gnu-g-ir-scanner found: YES (/usr/bin/x86_64-linux-gnu-g-ir-scanner)
+Dependency gobject-introspection-1.0 found: YES 1.84.0 (cached)
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --variable=g_ir_compiler gobject-introspection-1.0` -> 0
+stdout:
+/usr/bin/x86_64-linux-gnu-g-ir-compiler
+-----------
+Got pkg-config variable g_ir_compiler : /usr/bin/x86_64-linux-gnu-g-ir-compiler
+Program /usr/bin/x86_64-linux-gnu-g-ir-compiler found: YES (/usr/bin/x86_64-linux-gnu-g-ir-compiler)
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --variable=girdir glib-2.0` -> 0
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --print-variables glib-2.0` -> 0
+stdout:
+glib_valgrind_suppressions
+glib_mkenums
+gobject_query
+glib_genmarshal
+libdir
+includedir
+datadir
+bindir
+prefix
+pcfiledir
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --variable=girdir gobject-2.0` -> 0
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --print-variables gobject-2.0` -> 0
+stdout:
+libdir
+includedir
+prefix
+pcfiledir
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --variable=girdir gio-2.0` -> 0
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --print-variables gio-2.0` -> 0
+stdout:
+gsettings
+gresource
+gdbus_codegen
+gdbus
+glib_compile_resources
+glib_compile_schemas
+gio_querymodules
+gio
+giomoduledir
+dtdsdir
+schemasdir
+libdir
+includedir
+datadir
+bindir
+prefix
+pcfiledir
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --variable=girdir gio-unix-2.0` -> 0
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --print-variables gio-unix-2.0` -> 0
+stdout:
+includedir
+prefix
+pcfiledir
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --variable=girdir cairo` -> 0
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --print-variables cairo` -> 0
+stdout:
+libdir
+includedir
+prefix
+pcfiledir
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --variable=girdir pango` -> 0
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --print-variables pango` -> 0
+stdout:
+libdir
+includedir
+prefix
+pcfiledir
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --variable=girdir gdk-pixbuf-2.0` -> 0
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --print-variables gdk-pixbuf-2.0` -> 0
+stdout:
+gdk_pixbuf_query_loaders
+gdk_pixbuf_pixdata
+gdk_pixbuf_csource
+gdk_pixbuf_cache_file
+gdk_pixbuf_moduledir
+gdk_pixbuf_binarydir
+gdk_pixbuf_binary_version
+bindir
+libdir
+includedir
+prefix
+pcfiledir
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --variable=girdir gtk+-3.0` -> 0
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --print-variables gtk+-3.0` -> 0
+stdout:
+gtk_host
+gtk_binary_version
+targets
+includedir
+libdir
+exec_prefix
+prefix
+pcfiledir
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --variable=girdir gstreamer-1.0` -> 0
+stdout:
+/usr/share/gir-1.0
+-----------
+Got pkg-config variable girdir : /usr/share/gir-1.0
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --variable=girdir gstreamer-audio-1.0` -> 0
+stdout:
+/usr/share/gir-1.0
+-----------
+Got pkg-config variable girdir : /usr/share/gir-1.0
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --variable=girdir gstreamer-base-1.0` -> 0
+stdout:
+/usr/share/gir-1.0
+-----------
+Got pkg-config variable girdir : /usr/share/gir-1.0
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --variable=girdir gstreamer-controller-1.0` -> 0
+stdout:
+/usr/share/gir-1.0
+-----------
+Got pkg-config variable girdir : /usr/share/gir-1.0
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --variable=girdir gstreamer-plugins-base-1.0` -> 0
+stdout:
+/usr/share/gir-1.0
+-----------
+Got pkg-config variable girdir : /usr/share/gir-1.0
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --variable=girdir gstreamer-pbutils-1.0` -> 0
+stdout:
+/usr/share/gir-1.0
+-----------
+Got pkg-config variable girdir : /usr/share/gir-1.0
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --variable=girdir gstreamer-tag-1.0` -> 0
+stdout:
+/usr/share/gir-1.0
+-----------
+Got pkg-config variable girdir : /usr/share/gir-1.0
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --variable=girdir json-glib-1.0` -> 0
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --print-variables json-glib-1.0` -> 0
+stdout:
+libdir
+includedir
+prefix
+pcfiledir
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --variable=girdir libsoup-3.0` -> 0
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --print-variables libsoup-3.0` -> 0
+stdout:
+exec_prefix
+libdir
+includedir
+prefix
+pcfiledir
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --variable=girdir libxml-2.0` -> 0
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --print-variables libxml-2.0` -> 0
+stdout:
+modules
+includedir
+libdir
+exec_prefix
+prefix
+pcfiledir
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --variable=girdir tdb` -> 0
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --print-variables tdb` -> 0
+stdout:
+includedir
+libdir
+exec_prefix
+prefix
+pcfiledir
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --variable=girdir totem-plparser` -> 0
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --print-variables totem-plparser` -> 0
+stdout:
+uselibcamel
+includedir
+libdir
+exec_prefix
+prefix
+pcfiledir
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --variable=girdir libpeas-1.0` -> 0
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --print-variables libpeas-1.0` -> 0
+stdout:
+libdir
+includedir
+prefix
+pcfiledir
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --variable=girdir libpeas-gtk-1.0` -> 0
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --print-variables libpeas-gtk-1.0` -> 0
+stdout:
+libdir
+includedir
+prefix
+pcfiledir
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --variable=girdir gudev-1.0` -> 0
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --print-variables gudev-1.0` -> 0
+stdout:
+exec_prefix
+libdir
+includedir
+prefix
+pcfiledir
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --variable=girdir x11` -> 0
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --print-variables x11` -> 0
+stdout:
+xthreadlib
+includedir
+libdir
+exec_prefix
+prefix
+pcfiledir
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --variable=girdir gobject-introspection-1.0` -> 0
+stdout:
+/usr/share/gir-1.0
+-----------
+Got pkg-config variable girdir : /usr/share/gir-1.0
+Dependency gio-2.0 found: YES 2.84.4 (cached)
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --variable=glib_compile_resources gio-2.0` -> 0
+stdout:
+/usr/bin/glib-compile-resources
+-----------
+Got pkg-config variable glib_compile_resources : /usr/bin/glib-compile-resources
+Program /usr/bin/glib-compile-resources found: YES (/usr/bin/glib-compile-resources)
+Dependency gio-2.0 found: YES 2.84.4 (cached)
+Program /usr/bin/glib-compile-resources found: YES (/usr/bin/glib-compile-resources)
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --variable=girdir libmtp` -> 0
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --print-variables libmtp` -> 0
+stdout:
+includedir
+libdir
+exec_prefix
+prefix
+pcfiledir
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --variable=girdir pygobject-3.0` -> 0
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --print-variables pygobject-3.0` -> 0
+stdout:
+pygobjectincludedir
+datadir
+datarootdir
+includedir
+exec_prefix
+prefix
+pcfiledir
+-----------
+Program realpath found: YES (/usr/bin/realpath)
+Running command: /usr/bin/realpath /usr/local
+--- stdout ---
+/usr/local
+
+--- stderr ---
+
+
+Dependency gio-2.0 found: YES 2.84.4 (cached)
+Program /usr/bin/glib-compile-resources found: YES (/usr/bin/glib-compile-resources)
+Dependency gio-2.0 found: YES 2.84.4 (cached)
+Program /usr/bin/glib-compile-resources found: YES (/usr/bin/glib-compile-resources)
+Dependency gio-2.0 found: YES 2.84.4 (cached)
+Program /usr/bin/glib-compile-resources found: YES (/usr/bin/glib-compile-resources)
+Configuring rbconfig.py using configuration
+Dependency gio-2.0 found: YES 2.84.4 (cached)
+Program /usr/bin/glib-compile-resources found: YES (/usr/bin/glib-compile-resources)
+Adding test "test-ipod"
+Dependency gio-2.0 found: YES 2.84.4 (cached)
+Program /usr/bin/glib-compile-resources found: YES (/usr/bin/glib-compile-resources)
+Dependency gio-2.0 found: YES 2.84.4 (cached)
+Program /usr/bin/glib-compile-resources found: YES (/usr/bin/glib-compile-resources)
+Dependency gio-2.0 found: YES 2.84.4 (cached)
+Program /usr/bin/glib-compile-resources found: YES (/usr/bin/glib-compile-resources)
+Adding test "test-rhythmdb"
+Adding test "test-rhythmdb-query-model"
+Adding test "test-rhythmdb-property-model"
+Adding test "test-file-helpers"
+Adding test "test-rb-lib"
+Adding test "test-audioscrobbler"
+Dependency gio-2.0 found: YES 2.84.4 (cached)
+Program /usr/bin/glib-compile-resources found: YES (/usr/bin/glib-compile-resources)
+Adding test "test-widgets"
+Program msginit found: YES (/usr/bin/msginit)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program xgettext found: YES (/usr/bin/xgettext)
+Program itstool found: YES (/usr/bin/itstool)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Build targets in project: 261
+
+rhythmbox 3.5.1
+
+  General
+    Tests                       : YES
+    Help                        : YES
+    API documentation           : NO
+
+  Plugins
+    iPod integration            : YES
+    MTP integration             : YES
+    CD burning support          : YES
+    DAAP (music sharing) support: NO
+    libnotify support           : YES
+    GUdev support               : YES
+    Python plugin support       : YES
+    Use girepository 2.0        : NO
+    Vala plugin support         : NO
+    Libsecret keyring support   : YES
+    FM radio support            : YES
+    Grilo support               : YES
+    Sample plugins              : NO
+
+Found ninja-1.12.1 at /usr/bin/ninja
+Failed to guess install tag for /usr/local/share/applications/org.gnome.Rhythmbox3.desktop
+Failed to guess install tag for /usr/local/share/applications/org.gnome.Rhythmbox3.device.desktop
+Failed to guess install tag for /usr/local/share/metainfo/org.gnome.Rhythmbox3.metainfo.xml
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/audiocd/audiocd.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/audioscrobbler/audioscrobbler.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/dbus-media-server/dbus-media-server.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/generic-player/generic-player.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/iradio/iradio.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/mpris/mpris.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/power-manager/power-manager.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/artsearch/artsearch.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/gpodder/gpodder.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/im-status/im-status.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/listenbrainz/listenbrainz.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/lyrics/lyrics.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/magnatune/magnatune.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/python-console/pythonconsole.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/rbzeitgeist/rbzeitgeist.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/replaygain/replaygain.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/webremote/webremote.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/ipod/ipod.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/mtpdevice/mtpdevice.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/android/android.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/notification/notification.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/rblirc/rblirc.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/cd-recorder/cd-recorder.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/fmradio/fmradio.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/grilo/grilo.plugin
+Failed to guess install tag for /usr/local/share/dbus-1/services/org.gnome.Rhythmbox3.service
+Failed to guess install tag for /usr/local/share/glib-2.0/schemas/org.gnome.rhythmbox.gschema.xml
+Failed to guess install tag for /usr/local/share/rhythmbox/rhythmbox.gep
+Failed to guess install tag for /usr/local/share/icons/hicolor/scalable/apps/org.gnome.Rhythmbox3.svg
+Failed to guess install tag for /usr/local/share/icons/hicolor/scalable/apps/org.gnome.Rhythmbox3-symbolic.svg
+Failed to guess install tag for /usr/local/share/rhythmbox/plugins/audioscrobbler/icons/hicolor/scalable/places/Last.fm-symbolic.svg
+Failed to guess install tag for /usr/local/share/rhythmbox/plugins/audioscrobbler/audioscrobbler-preferences.ui
+Failed to guess install tag for /usr/local/share/rhythmbox/plugins/audioscrobbler/audioscrobbler-profile.ui
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/rb/rbconfig.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/rb/Loader.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/rb/Coroutine.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/rb/URLCache.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/rb/stringmatch.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/rb/rb.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/rb/rb.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/artsearch/artsearch.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/artsearch/songinfo.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/artsearch/embedded.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/artsearch/lastfm.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/artsearch/local.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/artsearch/musicbrainz.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/artsearch/oldcache.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/gpodder/gpodder.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/gpodder/sync.py
+Failed to guess install tag for /usr/local/share/rhythmbox/plugins/gpodder/gpodder-prefs.ui
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/im-status/im-status.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/listenbrainz/client.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/listenbrainz/listenbrainz.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/listenbrainz/queue.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/listenbrainz/settings.py
+Failed to guess install tag for /usr/local/share/rhythmbox/plugins/listenbrainz/settings.ui
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/lyrics/LrclibParser.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/lyrics/LyricsParse.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/lyrics/LyricsSites.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/lyrics/LyricsConfigureDialog.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/lyrics/lyrics.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/lyrics/TerraParser.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/lyrics/DarkLyricsParser.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/lyrics/JlyricParser.py
+Failed to guess install tag for /usr/local/share/rhythmbox/plugins/lyrics/lyrics-prefs.ui
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/magnatune/MagnatuneSource.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/magnatune/DownloadAlbumHandler.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/magnatune/TrackListHandler.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/magnatune/MagnatuneAccount.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/magnatune/magnatune.py
+Failed to guess install tag for /usr/local/share/rhythmbox/plugins/magnatune/magnatune-loading.ui
+Failed to guess install tag for /usr/local/share/rhythmbox/plugins/magnatune/magnatune-popup.ui
+Failed to guess install tag for /usr/local/share/rhythmbox/plugins/magnatune/magnatune-prefs.ui
+Failed to guess install tag for /usr/local/share/rhythmbox/plugins/magnatune/magnatune-toolbar.ui
+Failed to guess install tag for /usr/local/share/rhythmbox/plugins/magnatune/magnatune_logo_color_small.png
+Failed to guess install tag for /usr/local/share/rhythmbox/plugins/magnatune/magnatune_logo_color_tiny.png
+Failed to guess install tag for /usr/local/share/rhythmbox/plugins/magnatune/icons/hicolor/scalable/places/magnatune-symbolic.svg
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/python-console/pythonconsole.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/rbzeitgeist/rbzeitgeist.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/replaygain/replaygain.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/replaygain/player.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/replaygain/config.py
+Failed to guess install tag for /usr/local/share/rhythmbox/plugins/replaygain/replaygain-prefs.ui
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/webremote/webremote.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/webremote/siphash.py
+Failed to guess install tag for /usr/local/share/rhythmbox/plugins/webremote/css/grids-responsive-min.css
+Failed to guess install tag for /usr/local/share/rhythmbox/plugins/webremote/css/pure-min.css
+Failed to guess install tag for /usr/local/share/rhythmbox/plugins/webremote/css/webremote.css
+Failed to guess install tag for /usr/local/share/rhythmbox/plugins/webremote/js/webremote.js
+Failed to guess install tag for /usr/local/share/rhythmbox/plugins/webremote/webremote.html
+Failed to guess install tag for /usr/local/share/rhythmbox/plugins/webremote/webremote-config.ui
+Failed to guess install tag for /usr/local/share/rhythmbox/plugins/rblirc/rhythmbox_lirc_default
+Failed to guess install tag for install script: /usr/lib/x86_64-linux-gnu/glib-2.0/glib-compile-schemas /usr/local/share/glib-2.0/schemas
+Failed to guess install tag for install script: /usr/bin/gtk4-update-icon-cache -q -t -f /usr/local/share/icons/hicolor
+Failed to guess install tag for install script: /usr/bin/update-desktop-database -q /usr/local/share/applications
+Failed to guess install tag for /usr/local/share/applications/org.gnome.Rhythmbox3.desktop
+Failed to guess install tag for /usr/local/share/applications/org.gnome.Rhythmbox3.device.desktop
+Failed to guess install tag for /usr/local/share/metainfo/org.gnome.Rhythmbox3.metainfo.xml
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/audiocd/audiocd.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/audioscrobbler/audioscrobbler.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/dbus-media-server/dbus-media-server.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/generic-player/generic-player.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/iradio/iradio.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/mpris/mpris.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/power-manager/power-manager.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/artsearch/artsearch.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/gpodder/gpodder.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/im-status/im-status.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/listenbrainz/listenbrainz.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/lyrics/lyrics.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/magnatune/magnatune.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/python-console/pythonconsole.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/rbzeitgeist/rbzeitgeist.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/replaygain/replaygain.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/webremote/webremote.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/ipod/ipod.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/mtpdevice/mtpdevice.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/android/android.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/notification/notification.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/rblirc/rblirc.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/cd-recorder/cd-recorder.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/fmradio/fmradio.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/grilo/grilo.plugin
+Failed to guess install tag for /usr/local/share/dbus-1/services/org.gnome.Rhythmbox3.service
+Failed to guess install tag for /usr/local/share/glib-2.0/schemas/org.gnome.rhythmbox.gschema.xml
+Failed to guess install tag for /usr/local/share/rhythmbox/rhythmbox.gep
+Failed to guess install tag for /usr/local/share/icons/hicolor/scalable/apps/org.gnome.Rhythmbox3.svg
+Failed to guess install tag for /usr/local/share/icons/hicolor/scalable/apps/org.gnome.Rhythmbox3-symbolic.svg
+Failed to guess install tag for /usr/local/share/rhythmbox/plugins/audioscrobbler/icons/hicolor/scalable/places/Last.fm-symbolic.svg
+Failed to guess install tag for /usr/local/share/rhythmbox/plugins/audioscrobbler/audioscrobbler-preferences.ui
+Failed to guess install tag for /usr/local/share/rhythmbox/plugins/audioscrobbler/audioscrobbler-profile.ui
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/rb/rbconfig.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/rb/Loader.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/rb/Coroutine.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/rb/URLCache.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/rb/stringmatch.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/rb/rb.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/rb/rb.plugin
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/artsearch/artsearch.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/artsearch/songinfo.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/artsearch/embedded.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/artsearch/lastfm.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/artsearch/local.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/artsearch/musicbrainz.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/artsearch/oldcache.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/gpodder/gpodder.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/gpodder/sync.py
+Failed to guess install tag for /usr/local/share/rhythmbox/plugins/gpodder/gpodder-prefs.ui
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/im-status/im-status.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/listenbrainz/client.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/listenbrainz/listenbrainz.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/listenbrainz/queue.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/listenbrainz/settings.py
+Failed to guess install tag for /usr/local/share/rhythmbox/plugins/listenbrainz/settings.ui
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/lyrics/LrclibParser.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/lyrics/LyricsParse.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/lyrics/LyricsSites.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/lyrics/LyricsConfigureDialog.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/lyrics/lyrics.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/lyrics/TerraParser.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/lyrics/DarkLyricsParser.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/lyrics/JlyricParser.py
+Failed to guess install tag for /usr/local/share/rhythmbox/plugins/lyrics/lyrics-prefs.ui
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/magnatune/MagnatuneSource.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/magnatune/DownloadAlbumHandler.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/magnatune/TrackListHandler.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/magnatune/MagnatuneAccount.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/magnatune/magnatune.py
+Failed to guess install tag for /usr/local/share/rhythmbox/plugins/magnatune/magnatune-loading.ui
+Failed to guess install tag for /usr/local/share/rhythmbox/plugins/magnatune/magnatune-popup.ui
+Failed to guess install tag for /usr/local/share/rhythmbox/plugins/magnatune/magnatune-prefs.ui
+Failed to guess install tag for /usr/local/share/rhythmbox/plugins/magnatune/magnatune-toolbar.ui
+Failed to guess install tag for /usr/local/share/rhythmbox/plugins/magnatune/magnatune_logo_color_small.png
+Failed to guess install tag for /usr/local/share/rhythmbox/plugins/magnatune/magnatune_logo_color_tiny.png
+Failed to guess install tag for /usr/local/share/rhythmbox/plugins/magnatune/icons/hicolor/scalable/places/magnatune-symbolic.svg
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/python-console/pythonconsole.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/rbzeitgeist/rbzeitgeist.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/replaygain/replaygain.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/replaygain/player.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/replaygain/config.py
+Failed to guess install tag for /usr/local/share/rhythmbox/plugins/replaygain/replaygain-prefs.ui
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/webremote/webremote.py
+Failed to guess install tag for /usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/webremote/siphash.py
+Failed to guess install tag for /usr/local/share/rhythmbox/plugins/webremote/css/grids-responsive-min.css
+Failed to guess install tag for /usr/local/share/rhythmbox/plugins/webremote/css/pure-min.css
+Failed to guess install tag for /usr/local/share/rhythmbox/plugins/webremote/css/webremote.css
+Failed to guess install tag for /usr/local/share/rhythmbox/plugins/webremote/js/webremote.js
+Failed to guess install tag for /usr/local/share/rhythmbox/plugins/webremote/webremote.html
+Failed to guess install tag for /usr/local/share/rhythmbox/plugins/webremote/webremote-config.ui
+Failed to guess install tag for /usr/local/share/rhythmbox/plugins/rblirc/rhythmbox_lirc_default
+Failed to guess install tag for install script: /usr/lib/x86_64-linux-gnu/glib-2.0/glib-compile-schemas /usr/local/share/glib-2.0/schemas
+Failed to guess install tag for install script: /usr/bin/gtk4-update-icon-cache -q -t -f /usr/local/share/icons/hicolor
+Failed to guess install tag for install script: /usr/bin/update-desktop-database -q /usr/local/share/applications

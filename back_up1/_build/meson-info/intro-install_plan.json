@@ -1,0 +1,1908 @@
+{
+  "targets": {
+    "/home/h4ydi/.u/rhythmbox2/_build/data/org.gnome.Rhythmbox3.desktop": {
+      "destination": "{prefix}/share/applications/org.gnome.Rhythmbox3.desktop",
+      "tag": null,
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/data/org.gnome.Rhythmbox3.device.desktop": {
+      "destination": "{prefix}/share/applications/org.gnome.Rhythmbox3.device.desktop",
+      "tag": null,
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/data/org.gnome.Rhythmbox3.metainfo.xml": {
+      "destination": "{prefix}/share/metainfo/org.gnome.Rhythmbox3.metainfo.xml",
+      "tag": null,
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/lib/libmediaplayerid/MPID-3.0.gir": {
+      "destination": "{prefix}/share/gir-1.0/MPID-3.0.gir",
+      "tag": "devel",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/lib/libmediaplayerid/MPID-3.0.typelib": {
+      "destination": "{prefix}/lib/x86_64-linux-gnu/girepository-1.0/MPID-3.0.typelib",
+      "tag": "typelib",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/metadata/rhythmbox-metadata": {
+      "destination": "{libexecdir}/rhythmbox-metadata",
+      "tag": "runtime",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/shell/librhythmbox-core.so.10.0.0": {
+      "destination": "{libdir_shared}/librhythmbox-core.so.10.0.0",
+      "tag": "runtime",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/shell/RB-3.0.gir": {
+      "destination": "{prefix}/share/gir-1.0/RB-3.0.gir",
+      "tag": "devel",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/shell/RB-3.0.typelib": {
+      "destination": "{prefix}/lib/x86_64-linux-gnu/girepository-1.0/RB-3.0.typelib",
+      "tag": "typelib",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/shell/rhythmbox": {
+      "destination": "{bindir}/rhythmbox",
+      "tag": "runtime",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/plugins/audiocd/libaudiocd.so": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/audiocd/libaudiocd.so",
+      "tag": "runtime",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/plugins/audiocd/audiocd.plugin": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/audiocd/audiocd.plugin",
+      "tag": null,
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/plugins/audioscrobbler/libaudioscrobbler.so": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/audioscrobbler/libaudioscrobbler.so",
+      "tag": "runtime",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/plugins/audioscrobbler/audioscrobbler.plugin": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/audioscrobbler/audioscrobbler.plugin",
+      "tag": null,
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/plugins/dbus-media-server/libdbus-media-server.so": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/dbus-media-server/libdbus-media-server.so",
+      "tag": "runtime",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/plugins/dbus-media-server/dbus-media-server.plugin": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/dbus-media-server/dbus-media-server.plugin",
+      "tag": null,
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/plugins/generic-player/libgeneric-player.so": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/generic-player/libgeneric-player.so",
+      "tag": "runtime",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/plugins/generic-player/generic-player.plugin": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/generic-player/generic-player.plugin",
+      "tag": null,
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/plugins/iradio/libiradio.so": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/iradio/libiradio.so",
+      "tag": "runtime",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/plugins/iradio/iradio.plugin": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/iradio/iradio.plugin",
+      "tag": null,
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/plugins/mpris/libmpris.so": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/mpris/libmpris.so",
+      "tag": "runtime",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/plugins/mpris/mpris.plugin": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/mpris/mpris.plugin",
+      "tag": null,
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/plugins/power-manager/libpower-manager.so": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/power-manager/libpower-manager.so",
+      "tag": "runtime",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/plugins/power-manager/power-manager.plugin": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/power-manager/power-manager.plugin",
+      "tag": null,
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/plugins/artsearch/artsearch.plugin": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/artsearch/artsearch.plugin",
+      "tag": null,
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/plugins/gpodder/gpodder.plugin": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/gpodder/gpodder.plugin",
+      "tag": null,
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/plugins/im-status/im-status.plugin": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/im-status/im-status.plugin",
+      "tag": null,
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/plugins/listenbrainz/listenbrainz.plugin": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/listenbrainz/listenbrainz.plugin",
+      "tag": null,
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/plugins/lyrics/lyrics.plugin": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/lyrics/lyrics.plugin",
+      "tag": null,
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/plugins/magnatune/magnatune.plugin": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/magnatune/magnatune.plugin",
+      "tag": null,
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/plugins/pythonconsole/pythonconsole.plugin": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/python-console/pythonconsole.plugin",
+      "tag": null,
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/plugins/rbzeitgeist/rbzeitgeist.plugin": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/rbzeitgeist/rbzeitgeist.plugin",
+      "tag": null,
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/plugins/replaygain/replaygain.plugin": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/replaygain/replaygain.plugin",
+      "tag": null,
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/plugins/webremote/webremote.plugin": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/webremote/webremote.plugin",
+      "tag": null,
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/plugins/ipod/libipod.so": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/ipod/libipod.so",
+      "tag": "runtime",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/plugins/ipod/ipod.plugin": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/ipod/ipod.plugin",
+      "tag": null,
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/plugins/mtpdevice/libmtpdevice.so": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/mtpdevice/libmtpdevice.so",
+      "tag": "runtime",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/plugins/mtpdevice/mtpdevice.plugin": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/mtpdevice/mtpdevice.plugin",
+      "tag": null,
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/plugins/android/libandroid.so": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/android/libandroid.so",
+      "tag": "runtime",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/plugins/android/android.plugin": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/android/android.plugin",
+      "tag": null,
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/plugins/notification/libnotification.so": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/notification/libnotification.so",
+      "tag": "runtime",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/plugins/notification/notification.plugin": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/notification/notification.plugin",
+      "tag": null,
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/plugins/lirc/librblirc.so": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/rblirc/librblirc.so",
+      "tag": "runtime",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/plugins/lirc/rblirc.plugin": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/rblirc/rblirc.plugin",
+      "tag": null,
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/plugins/brasero-disc-recorder/libcd-recorder.so": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/cd-recorder/libcd-recorder.so",
+      "tag": "runtime",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/plugins/brasero-disc-recorder/cd-recorder.plugin": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/cd-recorder/cd-recorder.plugin",
+      "tag": null,
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/plugins/fmradio/libfmradio.so": {
+      "destination": "{prefix}/lib/x86_64-linux-gnu/rhythmbox/plugins/fmradio/libfmradio.so",
+      "tag": "runtime",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/plugins/fmradio/fmradio.plugin": {
+      "destination": "{prefix}/lib/x86_64-linux-gnu/rhythmbox/plugins/fmradio/fmradio.plugin",
+      "tag": null,
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/plugins/grilo/libgrilo.so": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/grilo/libgrilo.so",
+      "tag": "runtime",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/plugins/grilo/grilo.plugin": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/grilo/grilo.plugin",
+      "tag": null,
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/remote/dbus/rhythmbox-client": {
+      "destination": "{bindir}/rhythmbox-client",
+      "tag": "runtime",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/af/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/af/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/am/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/am/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/ar/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/ar/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/as/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/as/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/az/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/az/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/be/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/be/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/be@latin/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/be@latin/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/bg/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/bg/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/bn_IN/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/bn_IN/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/br/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/br/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/bs/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/bs/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/ca/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/ca/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/ca@valencia/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/ca@valencia/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/cs/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/cs/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/cy/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/cy/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/da/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/da/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/de/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/de/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/dz/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/dz/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/el/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/el/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/en_CA/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/en_CA/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/en_GB/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/en_GB/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/eo/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/eo/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/es/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/es/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/et/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/et/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/eu/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/eu/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/fa/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/fa/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/fi/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/fi/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/fr/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/fr/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/fur/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/fur/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/ga/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/ga/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/gd/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/gd/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/gl/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/gl/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/gu/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/gu/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/he/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/he/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/hi/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/hi/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/hr/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/hr/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/hu/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/hu/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/id/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/id/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/ie/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/ie/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/is/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/is/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/it/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/it/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/ja/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/ja/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/ka/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/ka/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/kk/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/kk/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/kn/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/kn/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/ko/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/ko/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/lt/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/lt/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/lv/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/lv/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/mjw/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/mjw/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/mk/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/mk/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/ml/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/ml/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/mn/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/mn/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/mr/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/mr/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/ms/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/ms/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/nb/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/nb/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/nds/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/nds/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/ne/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/ne/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/nl/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/nl/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/nn/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/nn/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/oc/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/oc/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/or/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/or/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/pa/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/pa/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/pl/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/pl/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/ps/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/ps/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/pt/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/pt/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/pt_BR/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/pt_BR/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/ro/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/ro/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/ru/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/ru/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/rw/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/rw/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/si/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/si/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/sk/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/sk/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/sl/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/sl/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/sr/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/sr/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/sr@latin/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/sr@latin/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/sv/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/sv/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/ta/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/ta/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/te/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/te/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/th/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/th/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/tr/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/tr/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/uk/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/uk/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/vi/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/vi/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/zh_CN/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/zh_CN/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/zh_HK/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/zh_HK/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/po/zh_TW/LC_MESSAGES/rhythmbox.mo": {
+      "destination": "{prefix}/share/locale/zh_TW/LC_MESSAGES/rhythmbox.mo",
+      "tag": "i18n",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/ca/index.docbook": {
+      "destination": "{prefix}/share/help/ca/rhythmbox/index.docbook",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/ca/legal.xml": {
+      "destination": "{prefix}/share/help/ca/rhythmbox/legal.xml",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/cs/index.docbook": {
+      "destination": "{prefix}/share/help/cs/rhythmbox/index.docbook",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/cs/legal.xml": {
+      "destination": "{prefix}/share/help/cs/rhythmbox/legal.xml",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/da/index.docbook": {
+      "destination": "{prefix}/share/help/da/rhythmbox/index.docbook",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/da/legal.xml": {
+      "destination": "{prefix}/share/help/da/rhythmbox/legal.xml",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/de/index.docbook": {
+      "destination": "{prefix}/share/help/de/rhythmbox/index.docbook",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/de/legal.xml": {
+      "destination": "{prefix}/share/help/de/rhythmbox/legal.xml",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/es/index.docbook": {
+      "destination": "{prefix}/share/help/es/rhythmbox/index.docbook",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/es/legal.xml": {
+      "destination": "{prefix}/share/help/es/rhythmbox/legal.xml",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/el/index.docbook": {
+      "destination": "{prefix}/share/help/el/rhythmbox/index.docbook",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/el/legal.xml": {
+      "destination": "{prefix}/share/help/el/rhythmbox/legal.xml",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/eu/index.docbook": {
+      "destination": "{prefix}/share/help/eu/rhythmbox/index.docbook",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/eu/legal.xml": {
+      "destination": "{prefix}/share/help/eu/rhythmbox/legal.xml",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/fr/index.docbook": {
+      "destination": "{prefix}/share/help/fr/rhythmbox/index.docbook",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/fr/legal.xml": {
+      "destination": "{prefix}/share/help/fr/rhythmbox/legal.xml",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/gl/index.docbook": {
+      "destination": "{prefix}/share/help/gl/rhythmbox/index.docbook",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/gl/legal.xml": {
+      "destination": "{prefix}/share/help/gl/rhythmbox/legal.xml",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/id/index.docbook": {
+      "destination": "{prefix}/share/help/id/rhythmbox/index.docbook",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/id/legal.xml": {
+      "destination": "{prefix}/share/help/id/rhythmbox/legal.xml",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/it/index.docbook": {
+      "destination": "{prefix}/share/help/it/rhythmbox/index.docbook",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/it/legal.xml": {
+      "destination": "{prefix}/share/help/it/rhythmbox/legal.xml",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/ja/index.docbook": {
+      "destination": "{prefix}/share/help/ja/rhythmbox/index.docbook",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/ja/legal.xml": {
+      "destination": "{prefix}/share/help/ja/rhythmbox/legal.xml",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/kk/index.docbook": {
+      "destination": "{prefix}/share/help/kk/rhythmbox/index.docbook",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/kk/legal.xml": {
+      "destination": "{prefix}/share/help/kk/rhythmbox/legal.xml",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/oc/index.docbook": {
+      "destination": "{prefix}/share/help/oc/rhythmbox/index.docbook",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/oc/legal.xml": {
+      "destination": "{prefix}/share/help/oc/rhythmbox/legal.xml",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/pt/index.docbook": {
+      "destination": "{prefix}/share/help/pt/rhythmbox/index.docbook",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/pt/legal.xml": {
+      "destination": "{prefix}/share/help/pt/rhythmbox/legal.xml",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/pt_BR/index.docbook": {
+      "destination": "{prefix}/share/help/pt_BR/rhythmbox/index.docbook",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/pt_BR/legal.xml": {
+      "destination": "{prefix}/share/help/pt_BR/rhythmbox/legal.xml",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/ro/index.docbook": {
+      "destination": "{prefix}/share/help/ro/rhythmbox/index.docbook",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/ro/legal.xml": {
+      "destination": "{prefix}/share/help/ro/rhythmbox/legal.xml",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/ru/index.docbook": {
+      "destination": "{prefix}/share/help/ru/rhythmbox/index.docbook",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/ru/legal.xml": {
+      "destination": "{prefix}/share/help/ru/rhythmbox/legal.xml",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/sl/index.docbook": {
+      "destination": "{prefix}/share/help/sl/rhythmbox/index.docbook",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/sl/legal.xml": {
+      "destination": "{prefix}/share/help/sl/rhythmbox/legal.xml",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/sr/index.docbook": {
+      "destination": "{prefix}/share/help/sr/rhythmbox/index.docbook",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/sr/legal.xml": {
+      "destination": "{prefix}/share/help/sr/rhythmbox/legal.xml",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/sv/index.docbook": {
+      "destination": "{prefix}/share/help/sv/rhythmbox/index.docbook",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/sv/legal.xml": {
+      "destination": "{prefix}/share/help/sv/rhythmbox/legal.xml",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/uk/index.docbook": {
+      "destination": "{prefix}/share/help/uk/rhythmbox/index.docbook",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/uk/legal.xml": {
+      "destination": "{prefix}/share/help/uk/rhythmbox/legal.xml",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/zh_CN/index.docbook": {
+      "destination": "{prefix}/share/help/zh_CN/rhythmbox/index.docbook",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/help/zh_CN/legal.xml": {
+      "destination": "{prefix}/share/help/zh_CN/rhythmbox/legal.xml",
+      "tag": "doc",
+      "subproject": null,
+      "install_rpath": null
+    }
+  },
+  "data": {
+    "/home/h4ydi/.u/rhythmbox2/_build/meson-private/rhythmbox.pc": {
+      "destination": "{libdir}/pkgconfig/rhythmbox.pc",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/data/org.gnome.rhythmbox.gschema.xml": {
+      "destination": "{prefix}/share/glib-2.0/schemas/org.gnome.rhythmbox.gschema.xml",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/data/rhythmbox.gep": {
+      "destination": "{prefix}/share/rhythmbox/rhythmbox.gep",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/data/icons/hicolor/scalable/apps/org.gnome.Rhythmbox3.svg": {
+      "destination": "{prefix}/share/icons/hicolor/scalable/apps/org.gnome.Rhythmbox3.svg",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/data/icons/hicolor/scalable/apps/org.gnome.Rhythmbox3-symbolic.svg": {
+      "destination": "{prefix}/share/icons/hicolor/scalable/apps/org.gnome.Rhythmbox3-symbolic.svg",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/audioscrobbler/Last.fm-symbolic.svg": {
+      "destination": "/usr/local/share/rhythmbox/plugins/audioscrobbler/icons/hicolor/scalable/places/Last.fm-symbolic.svg",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/audioscrobbler/audioscrobbler-preferences.ui": {
+      "destination": "/usr/local/share/rhythmbox/plugins/audioscrobbler/audioscrobbler-preferences.ui",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/audioscrobbler/audioscrobbler-profile.ui": {
+      "destination": "/usr/local/share/rhythmbox/plugins/audioscrobbler/audioscrobbler-profile.ui",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/rb/Loader.py": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/rb/Loader.py",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/rb/Coroutine.py": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/rb/Coroutine.py",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/rb/URLCache.py": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/rb/URLCache.py",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/rb/stringmatch.py": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/rb/stringmatch.py",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/rb/rb.py": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/rb/rb.py",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/rb/rb.plugin": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/rb/rb.plugin",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/artsearch/artsearch.py": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/artsearch/artsearch.py",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/artsearch/songinfo.py": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/artsearch/songinfo.py",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/artsearch/embedded.py": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/artsearch/embedded.py",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/artsearch/lastfm.py": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/artsearch/lastfm.py",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/artsearch/local.py": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/artsearch/local.py",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/artsearch/musicbrainz.py": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/artsearch/musicbrainz.py",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/artsearch/oldcache.py": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/artsearch/oldcache.py",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/gpodder/gpodder.py": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/gpodder/gpodder.py",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/gpodder/sync.py": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/gpodder/sync.py",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/gpodder/gpodder-prefs.ui": {
+      "destination": "/usr/local/share/rhythmbox/plugins/gpodder/gpodder-prefs.ui",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/im-status/im-status.py": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/im-status/im-status.py",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/listenbrainz/client.py": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/listenbrainz/client.py",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/listenbrainz/listenbrainz.py": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/listenbrainz/listenbrainz.py",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/listenbrainz/queue.py": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/listenbrainz/queue.py",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/listenbrainz/settings.py": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/listenbrainz/settings.py",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/listenbrainz/settings.ui": {
+      "destination": "/usr/local/share/rhythmbox/plugins/listenbrainz/settings.ui",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/lyrics/LrclibParser.py": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/lyrics/LrclibParser.py",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/lyrics/LyricsParse.py": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/lyrics/LyricsParse.py",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/lyrics/LyricsSites.py": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/lyrics/LyricsSites.py",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/lyrics/LyricsConfigureDialog.py": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/lyrics/LyricsConfigureDialog.py",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/lyrics/lyrics.py": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/lyrics/lyrics.py",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/lyrics/TerraParser.py": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/lyrics/TerraParser.py",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/lyrics/DarkLyricsParser.py": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/lyrics/DarkLyricsParser.py",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/lyrics/JlyricParser.py": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/lyrics/JlyricParser.py",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/lyrics/lyrics-prefs.ui": {
+      "destination": "/usr/local/share/rhythmbox/plugins/lyrics/lyrics-prefs.ui",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/magnatune/MagnatuneSource.py": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/magnatune/MagnatuneSource.py",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/magnatune/DownloadAlbumHandler.py": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/magnatune/DownloadAlbumHandler.py",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/magnatune/TrackListHandler.py": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/magnatune/TrackListHandler.py",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/magnatune/MagnatuneAccount.py": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/magnatune/MagnatuneAccount.py",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/magnatune/magnatune.py": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/magnatune/magnatune.py",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/magnatune/magnatune-loading.ui": {
+      "destination": "/usr/local/share/rhythmbox/plugins/magnatune/magnatune-loading.ui",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/magnatune/magnatune-popup.ui": {
+      "destination": "/usr/local/share/rhythmbox/plugins/magnatune/magnatune-popup.ui",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/magnatune/magnatune-prefs.ui": {
+      "destination": "/usr/local/share/rhythmbox/plugins/magnatune/magnatune-prefs.ui",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/magnatune/magnatune-toolbar.ui": {
+      "destination": "/usr/local/share/rhythmbox/plugins/magnatune/magnatune-toolbar.ui",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/magnatune/magnatune_logo_color_small.png": {
+      "destination": "/usr/local/share/rhythmbox/plugins/magnatune/magnatune_logo_color_small.png",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/magnatune/magnatune_logo_color_tiny.png": {
+      "destination": "/usr/local/share/rhythmbox/plugins/magnatune/magnatune_logo_color_tiny.png",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/magnatune/magnatune-symbolic.svg": {
+      "destination": "/usr/local/share/rhythmbox/plugins/magnatune/icons/hicolor/scalable/places/magnatune-symbolic.svg",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/pythonconsole/pythonconsole.py": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/python-console/pythonconsole.py",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/rbzeitgeist/rbzeitgeist.py": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/rbzeitgeist/rbzeitgeist.py",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/replaygain/replaygain.py": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/replaygain/replaygain.py",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/replaygain/player.py": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/replaygain/player.py",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/replaygain/config.py": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/replaygain/config.py",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/replaygain/replaygain-prefs.ui": {
+      "destination": "/usr/local/share/rhythmbox/plugins/replaygain/replaygain-prefs.ui",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/webremote/webremote.py": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/webremote/webremote.py",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/webremote/siphash.py": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/webremote/siphash.py",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/webremote/css/grids-responsive-min.css": {
+      "destination": "/usr/local/share/rhythmbox/plugins/webremote/css/grids-responsive-min.css",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/webremote/css/pure-min.css": {
+      "destination": "/usr/local/share/rhythmbox/plugins/webremote/css/pure-min.css",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/webremote/css/webremote.css": {
+      "destination": "/usr/local/share/rhythmbox/plugins/webremote/css/webremote.css",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/webremote/js/webremote.js": {
+      "destination": "/usr/local/share/rhythmbox/plugins/webremote/js/webremote.js",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/webremote/webremote.html": {
+      "destination": "/usr/local/share/rhythmbox/plugins/webremote/webremote.html",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/webremote/webremote-config.ui": {
+      "destination": "/usr/local/share/rhythmbox/plugins/webremote/webremote-config.ui",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/plugins/lirc/rhythmbox_lirc_default": {
+      "destination": "/usr/local/share/rhythmbox/plugins/rblirc/rhythmbox_lirc_default",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/help/C/index.docbook": {
+      "destination": "share/help/C/rhythmbox/index.docbook",
+      "tag": "doc",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/help/C/legal.xml": {
+      "destination": "share/help/C/rhythmbox/legal.xml",
+      "tag": "doc",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/help/C/figures/rb-iradio-main.png": {
+      "destination": "share/help/C/rhythmbox/figures/rb-iradio-main.png",
+      "tag": "doc",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/help/C/figures/rb-notification-zone.png": {
+      "destination": "share/help/C/rhythmbox/figures/rb-notification-zone.png",
+      "tag": "doc",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/help/C/figures/rb-podcast-main.png": {
+      "destination": "share/help/C/rhythmbox/figures/rb-podcast-main.png",
+      "tag": "doc",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/help/C/figures/rb-toolbar-prevplaynext.png": {
+      "destination": "share/help/C/rhythmbox/figures/rb-toolbar-prevplaynext.png",
+      "tag": "doc",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/help/C/figures/rb-toolbar-repeat.png": {
+      "destination": "share/help/C/rhythmbox/figures/rb-toolbar-repeat.png",
+      "tag": "doc",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/help/C/figures/rb-toolbar-shuffle.png": {
+      "destination": "share/help/C/rhythmbox/figures/rb-toolbar-shuffle.png",
+      "tag": "doc",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/help/C/figures/rb-volume-changer.png": {
+      "destination": "share/help/C/rhythmbox/figures/rb-volume-changer.png",
+      "tag": "doc",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/help/C/figures/rb-window.png": {
+      "destination": "share/help/C/rhythmbox/figures/rb-window.png",
+      "tag": "doc",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/help/de/figures/rb-iradio-main.png": {
+      "destination": "share/help/de/rhythmbox/figures/rb-iradio-main.png",
+      "tag": "doc",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/help/de/figures/rb-notification-zone.png": {
+      "destination": "share/help/de/rhythmbox/figures/rb-notification-zone.png",
+      "tag": "doc",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/help/de/figures/rb-podcast-main.png": {
+      "destination": "share/help/de/rhythmbox/figures/rb-podcast-main.png",
+      "tag": "doc",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/help/de/figures/rb-window.png": {
+      "destination": "share/help/de/rhythmbox/figures/rb-window.png",
+      "tag": "doc",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/help/sv/figures/rb-iradio-main.png": {
+      "destination": "share/help/sv/rhythmbox/figures/rb-iradio-main.png",
+      "tag": "doc",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/help/sv/figures/rb-notification-zone.png": {
+      "destination": "share/help/sv/rhythmbox/figures/rb-notification-zone.png",
+      "tag": "doc",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/help/sv/figures/rb-podcast-main.png": {
+      "destination": "share/help/sv/rhythmbox/figures/rb-podcast-main.png",
+      "tag": "doc",
+      "subproject": null
+    }
+  },
+  "configure": {
+    "/home/h4ydi/.u/rhythmbox2/_build/data/org.gnome.Rhythmbox3.service": {
+      "destination": "{prefix}/share/dbus-1/services/org.gnome.Rhythmbox3.service",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/_build/plugins/rb/rbconfig.py": {
+      "destination": "/usr/local/lib/x86_64-linux-gnu/rhythmbox/plugins/rb/rbconfig.py",
+      "tag": null,
+      "subproject": null
+    }
+  },
+  "man": {
+    "/home/h4ydi/.u/rhythmbox2/data/rhythmbox.1": {
+      "destination": "{mandir}/man1/rhythmbox.1",
+      "tag": "man",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/data/rhythmbox-client.1": {
+      "destination": "{mandir}/man1/rhythmbox-client.1",
+      "tag": "man",
+      "subproject": null
+    }
+  },
+  "headers": {
+    "/home/h4ydi/.u/rhythmbox2/plugins/rb-plugin-macros.h": {
+      "destination": "{includedir}/rhythmbox/plugins/rb-plugin-macros.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/lib/rb-async-copy.h": {
+      "destination": "{includedir}/rhythmbox/lib/rb-async-copy.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/lib/rb-builder-helpers.h": {
+      "destination": "{includedir}/rhythmbox/lib/rb-builder-helpers.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/lib/rb-chunk-loader.h": {
+      "destination": "{includedir}/rhythmbox/lib/rb-chunk-loader.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/lib/rb-debug.h": {
+      "destination": "{includedir}/rhythmbox/lib/rb-debug.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/lib/rb-file-helpers.h": {
+      "destination": "{includedir}/rhythmbox/lib/rb-file-helpers.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/lib/rb-gst-media-types.h": {
+      "destination": "{includedir}/rhythmbox/lib/rb-gst-media-types.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/lib/rb-list-model.h": {
+      "destination": "{includedir}/rhythmbox/lib/rb-list-model.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/lib/rb-stock-icons.h": {
+      "destination": "{includedir}/rhythmbox/lib/rb-stock-icons.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/lib/rb-string-value-map.h": {
+      "destination": "{includedir}/rhythmbox/lib/rb-string-value-map.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/lib/rb-task-progress.h": {
+      "destination": "{includedir}/rhythmbox/lib/rb-task-progress.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/lib/rb-task-progress-simple.h": {
+      "destination": "{includedir}/rhythmbox/lib/rb-task-progress-simple.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/lib/rb-util.h": {
+      "destination": "{includedir}/rhythmbox/lib/rb-util.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/lib/libmediaplayerid/mediaplayerid.h": {
+      "destination": "{includedir}/rhythmbox/lib/libmediaplayerid/mediaplayerid.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/metadata/rb-ext-db-key.h": {
+      "destination": "{includedir}/rhythmbox/metadata/rb-ext-db-key.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/metadata/rb-ext-db.h": {
+      "destination": "{includedir}/rhythmbox/metadata/rb-ext-db.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/metadata/rb-metadata.h": {
+      "destination": "{includedir}/rhythmbox/metadata/rb-metadata.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/rhythmdb/rb-refstring.h": {
+      "destination": "{includedir}/rhythmbox/rhythmdb/rb-refstring.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/rhythmdb/rhythmdb.h": {
+      "destination": "{includedir}/rhythmbox/rhythmdb/rhythmdb.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/rhythmdb/rhythmdb-entry.h": {
+      "destination": "{includedir}/rhythmbox/rhythmdb/rhythmdb-entry.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/rhythmdb/rhythmdb-entry-type.h": {
+      "destination": "{includedir}/rhythmbox/rhythmdb/rhythmdb-entry-type.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/rhythmdb/rhythmdb-import-job.h": {
+      "destination": "{includedir}/rhythmbox/rhythmdb/rhythmdb-import-job.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/rhythmdb/rhythmdb-property-model.h": {
+      "destination": "{includedir}/rhythmbox/rhythmdb/rhythmdb-property-model.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/rhythmdb/rhythmdb-query-model.h": {
+      "destination": "{includedir}/rhythmbox/rhythmdb/rhythmdb-query-model.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/rhythmdb/rhythmdb-query-result-list.h": {
+      "destination": "{includedir}/rhythmbox/rhythmdb/rhythmdb-query-result-list.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/rhythmdb/rhythmdb-query-results.h": {
+      "destination": "{includedir}/rhythmbox/rhythmdb/rhythmdb-query-results.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/backends/rb-encoder.h": {
+      "destination": "{includedir}/rhythmbox/backends/rb-encoder.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/backends/rb-player.h": {
+      "destination": "{includedir}/rhythmbox/backends/rb-player.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/backends/rb-player-gst-filter.h": {
+      "destination": "{includedir}/rhythmbox/backends/rb-player-gst-filter.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/backends/rb-player-gst-tee.h": {
+      "destination": "{includedir}/rhythmbox/backends/rb-player-gst-tee.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/backends/gstreamer/rb-player-gst-helper.h": {
+      "destination": "{includedir}/rhythmbox/backends/rb-player-gst-helper.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/podcast/rb-podcast-parse.h": {
+      "destination": "{includedir}/rhythmbox/podcast/rb-podcast-parse.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/podcast/rb-podcast-manager.h": {
+      "destination": "{includedir}/rhythmbox/podcast/rb-podcast-manager.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/podcast/rb-podcast-search.h": {
+      "destination": "{includedir}/rhythmbox/podcast/rb-podcast-search.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/sources/rb-auto-playlist-source.h": {
+      "destination": "{includedir}/rhythmbox/sources/rb-auto-playlist-source.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/sources/rb-browser-source.h": {
+      "destination": "{includedir}/rhythmbox/sources/rb-browser-source.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/sources/rb-device-source.h": {
+      "destination": "{includedir}/rhythmbox/sources/rb-device-source.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/sources/rb-display-page-group.h": {
+      "destination": "{includedir}/rhythmbox/sources/rb-display-page-group.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/sources/rb-display-page-model.h": {
+      "destination": "{includedir}/rhythmbox/sources/rb-display-page-model.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/sources/rb-display-page-tree.h": {
+      "destination": "{includedir}/rhythmbox/sources/rb-display-page-tree.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/sources/rb-display-page.h": {
+      "destination": "{includedir}/rhythmbox/sources/rb-display-page.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/sources/rb-media-player-source.h": {
+      "destination": "{includedir}/rhythmbox/sources/rb-media-player-source.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/sources/rb-playlist-source.h": {
+      "destination": "{includedir}/rhythmbox/sources/rb-playlist-source.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/sources/rb-playlist-xml.h": {
+      "destination": "{includedir}/rhythmbox/sources/rb-playlist-xml.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/sources/rb-source-search-basic.h": {
+      "destination": "{includedir}/rhythmbox/sources/rb-source-search-basic.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/sources/rb-source-search.h": {
+      "destination": "{includedir}/rhythmbox/sources/rb-source-search.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/sources/rb-source.h": {
+      "destination": "{includedir}/rhythmbox/sources/rb-source.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/sources/rb-static-playlist-source.h": {
+      "destination": "{includedir}/rhythmbox/sources/rb-static-playlist-source.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/sources/rb-streaming-source.h": {
+      "destination": "{includedir}/rhythmbox/sources/rb-streaming-source.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/sources/rb-transfer-target.h": {
+      "destination": "{includedir}/rhythmbox/sources/rb-transfer-target.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/widgets/rb-button-bar.h": {
+      "destination": "{includedir}/rhythmbox/widgets/rb-button-bar.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/widgets/rb-cell-renderer-pixbuf.h": {
+      "destination": "{includedir}/rhythmbox/widgets/rb-cell-renderer-pixbuf.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/widgets/rb-cell-renderer-rating.h": {
+      "destination": "{includedir}/rhythmbox/widgets/rb-cell-renderer-rating.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/widgets/rb-dialog.h": {
+      "destination": "{includedir}/rhythmbox/widgets/rb-dialog.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/widgets/rb-entry-view.h": {
+      "destination": "{includedir}/rhythmbox/widgets/rb-entry-view.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/widgets/rb-fading-image.h": {
+      "destination": "{includedir}/rhythmbox/widgets/rb-fading-image.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/widgets/rb-library-browser.h": {
+      "destination": "{includedir}/rhythmbox/widgets/rb-library-browser.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/widgets/rb-property-view.h": {
+      "destination": "{includedir}/rhythmbox/widgets/rb-property-view.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/widgets/rb-rating.h": {
+      "destination": "{includedir}/rhythmbox/widgets/rb-rating.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/widgets/rb-search-entry.h": {
+      "destination": "{includedir}/rhythmbox/widgets/rb-search-entry.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/widgets/rb-segmented-bar.h": {
+      "destination": "{includedir}/rhythmbox/widgets/rb-segmented-bar.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/widgets/rb-song-info.h": {
+      "destination": "{includedir}/rhythmbox/widgets/rb-song-info.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/widgets/rb-source-toolbar.h": {
+      "destination": "{includedir}/rhythmbox/widgets/rb-source-toolbar.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/widgets/rb-uri-dialog.h": {
+      "destination": "{includedir}/rhythmbox/widgets/rb-uri-dialog.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/shell/rb-application.h": {
+      "destination": "{includedir}/rhythmbox/shell/rb-application.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/shell/rb-shell.h": {
+      "destination": "{includedir}/rhythmbox/shell/rb-shell.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/shell/rb-shell-player.h": {
+      "destination": "{includedir}/rhythmbox/shell/rb-shell-player.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/shell/rb-shell-preferences.h": {
+      "destination": "{includedir}/rhythmbox/shell/rb-shell-preferences.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/shell/rb-playlist-manager.h": {
+      "destination": "{includedir}/rhythmbox/shell/rb-playlist-manager.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/shell/rb-removable-media-manager.h": {
+      "destination": "{includedir}/rhythmbox/shell/rb-removable-media-manager.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/shell/rb-history.h": {
+      "destination": "{includedir}/rhythmbox/shell/rb-history.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/shell/rb-play-order.h": {
+      "destination": "{includedir}/rhythmbox/shell/rb-play-order.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/shell/rb-task-list.h": {
+      "destination": "{includedir}/rhythmbox/shell/rb-task-list.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/shell/rb-track-transfer-batch.h": {
+      "destination": "{includedir}/rhythmbox/shell/rb-track-transfer-batch.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/h4ydi/.u/rhythmbox2/shell/rb-track-transfer-queue.h": {
+      "destination": "{includedir}/rhythmbox/shell/rb-track-transfer-queue.h",
+      "tag": "devel",
+      "subproject": null
+    }
+  }
+}

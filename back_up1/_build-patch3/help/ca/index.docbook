@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+<!ENTITY appversion "3.4.4">
+<!ENTITY manrevision "3.4.4">
+<!ENTITY date "January 2020">
+<!ENTITY app "Rhythmbox Music Player">
+<!ENTITY mdash "&#8212;">
+]>
+<!--
+      (Do not remove this comment block.)
+  Version: 0.0.2
+  Last modified: October 02, 2002
+  Maintainers:
+               Mark Finlay <sisob@eircom.net>
+	       Mark Humphreys <marquee@users.sourceforge.net>
+-->
+<!--
+      (Do not remove this comment block.)
+  Version: 0.0.3
+  Last modified: August 08, 2003
+  Maintainers:
+	       Mark Humphreys <marquee@users.sourceforge.net>
+-->
+<!--
+      (Do not remove this comment block.)
+  Version: 0.0.4
+  Last modified: October 01, 2005
+  Maintainers:
+	       Baptiste Mille-Mathias <baptiste.millemathias@gmail.com>
+-->
+<!-- =============Document Header ============================= -->
+<article id="index" lang="ca">
+<!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+  <articleinfo>
+    <title>Reproductor de música Rhythmbox</title>
+	<copyright><year>2002</year> <holder>Mark Finlay</holder></copyright>
+        <copyright><year>2002</year> <holder>Mark Humphreys</holder></copyright>
+	<copyright><year>2005</year> <year>2006</year> <holder>Baptiste Mille-Mathias</holder></copyright>
+	<copyright><year>2006</year> <holder>Victor Osadci</holder></copyright>
+	<copyright><year>2008</year> <holder>Dean Sas</holder></copyright>
+	<copyright><year>2018</year> <year>2020</year> <holder>Andre Klapper</holder></copyright>
+
+<!-- translators: uncomment this:
+  <copyright>
+   <year>2000</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+  -->
+<!-- An address can be added to the publisher information.  If a role is
+     not specified, the publisher/author is the same for all versions of the
+     document.  -->
+	<publisher>
+	 	<publishername>Projecte de documentació del GNOME</publishername>
+	</publisher>
+
+   
+   <!-- This file  contains link to license for the documentation (GNU FDL), and
+   other legal stuff such as "NO WARRANTY" statement. Please do not change
+   any of this. -->
+   <authorgroup>
+   		<author><firstname>Mark</firstname> <surname>Finlay</surname> <affiliation> <orgname>Projecte de documentació del GNOME</orgname> <address><email>sisob@eircom.net</email></address> </affiliation></author>
+		<author><firstname>Mark</firstname> <surname>Humphreys</surname> <affiliation> <orgname>Projecte de documentació del GNOME</orgname> <address><email>marquee@users.sourceforge.net</email></address> </affiliation></author>		
+		<author role="maintainer"><firstname>Baptiste</firstname> <surname>Mille-Mathias</surname> <affiliation> <orgname>Projecte de documentació del GNOME</orgname> <address><email>baptiste.millemathias@gmail.com</email></address> </affiliation></author>
+		<author><firstname>Victor</firstname> <surname>Osadci</surname> <affiliation> <orgname>Projecte de documentació del GNOME</orgname> <address><email>Victor.Osadci.GNOME@xhtml.md</email></address> </affiliation></author>
+		<author><firstname>Dean</firstname> <surname>Sas</surname> <affiliation> <orgname>Projecte de documentació d'Ubuntu</orgname> <address><email>dean@deansas.org</email></address> </affiliation></author>
+		<author><firstname>Andre</firstname> <surname>Klapper</surname> <affiliation> <orgname>Documentació del projecte GNOME </orgname> <address><email>ak-47@gmx.net</email></address> </affiliation></author>
+   </authorgroup>
+
+<!-- According to GNU FDL, revision history is mandatory if you are -->
+<!-- modifying/reusing someone else's document.  If not, you can omit it. -->
+   <revhistory>
+      <revision><revnumber>Manual del reproductor de música Rhythmbox versió 0.0.2</revnumber> <date>Octubre de 2002</date> <revdescription> 
+	  		<para role="author">Mark Finlay</para>
+	  		<para role="publisher">Projecte de documentació del GNOME</para>
+		</revdescription></revision> 
+      <revision><revnumber>Manual del reproductor de música Rhythmbox versió 0.0.3</revnumber> <date>Agost de 2003</date> <revdescription> 
+	  		<para role="author">Mark Humphreys</para>
+	  		<para role="publisher">Projecte de documentació del GNOME</para>
+		</revdescription></revision> 
+      <revision><revnumber>Manual del reproductor de música Rhythmbox versió 0.0.4</revnumber> <date>Octubre de 2005</date> <revdescription> 
+	  		<para role="author">Baptiste Mille-Mathias</para>
+	  		<para role="publisher">Projecte de documentació del GNOME</para>
+		</revdescription></revision> 
+      <revision><revnumber>Manual del reproductor de música Rhythmbox versió 2.0.2</revnumber> <date>Abril de 2006</date> <revdescription> 
+	  		<para role="author">Luca Ferretti</para>
+	  		<para role="publisher">Projecte de documentació del GNOME</para>
+		</revdescription></revision> 
+	  <revision><revnumber>Manual del reproductor de música Rhythmbox versió 2.0.3</revnumber> <date>Maig de 2008</date> <revdescription>
+			<para role="author">Dean Sas</para>
+			<para role="publisher">Projecte de documentació del GNOME</para>
+        </revdescription></revision>
+	  <revision><revnumber>Manual del reproductor de música Rhythmbox versió 3.4.4</revnumber> <date>Gener de 2020</date> <revdescription>
+			<para role="author">Andre Klapper</para>
+			<para role="publisher">Projecte de documentació del GNOME</para>
+        </revdescription></revision>
+    </revhistory> 
+
+    <releaseinfo>Aquest manual descriu la versió 3.4.4 del reproductor de música Rhythmbox.</releaseinfo> 
+    <legalnotice> 
+      <title>Comentaris</title> 
+      <para>Per a informar d'un error o fer un suggeriment en relació amb el reproductor de música Rhythmbox o aquest manual, consulteu l'<ulink url="https://gitlab.gnome.org/GNOME/rhythmbox/issues/" type="help">eina de seguiment d'incidències de GNOME</ulink>.</para>
+<!-- Translators may also add here feedback address for translations -->
+    </legalnotice> 
+
+   <abstract role="description">
+     <para>El Rhythmbox és el reproductor de música per l'escriptori GNOME.</para>
+   </abstract>
+
+  
+    <othercredit class="translator">
+      <personname>
+        <firstname>Javi Ribera</firstname>
+      </personname>
+      <email>javiribera@gmail.com</email>
+    </othercredit>
+    <copyright>
+      
+        <year>2013</year>
+      
+      <holder>Javi Ribera</holder>
+    </copyright>
+  </articleinfo> 
+
+
+  <indexterm zone="index"><primary>Rhythmbox</primary></indexterm>
+  <indexterm zone="index"><primary>rhythmbox</primary></indexterm>
+  <indexterm zone="index"><primary>Reproductor de música</primary></indexterm>
+<!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+  <sect1 id="introduction">
+    <title>Introducció</title>
+      <para>El <application>Reproductor de música Rhythmbox</application> és un reproductor de música i una biblioteca de fitxers etiquetats que admet diversos formats de música.</para>
+      <para>Les característiques actuals del <application>Reproductor de música Rhythmbox</application> inclouen:</para>
+      	<itemizedlist>
+          <listitem>
+            <para>Reprodueix fitxers de música de diversos formats de la biblioteca organitzada per etiquetes.</para>
+          </listitem>
+          <listitem>
+            <para>Mostra informació sobre les cançons mitjançant la lectura de les metadades.</para>
+          </listitem>
+          <listitem>
+            <para>Mostra cançons en una vista organitzada.</para>
+          </listitem>
+          <listitem>
+            <para>Creeu llistes de reproducció estàtiques, arrossegant i deixant anar des de la vista de Biblioteca.</para>
+          </listitem>
+          <listitem>
+            <para>Creeu llistes de reproducció automàtiques a partir de criteris.</para>
+          </listitem>
+          <listitem>
+            <para>Cerqueu cançons a la llista de fonts, com ara la biblioteca o les llistes de reproducció.</para>
+          </listitem>
+          <listitem>
+            <para>Escolteu estacions de ràdio per Internet.</para>
+          </listitem>
+          <listitem>
+            <para>Llegiu CD d’àudio i recupereu informació com el títol de la pista des d’Internet.</para>
+          </listitem>
+          <listitem>
+            <para>Graveu CD d'àudio des de llistes de reproducció.</para>
+          </listitem>
+          <listitem>
+            <para>Transferiu música a reproductors de música d’emmagatzematge massiu com iPods, MTPs i USBs.</para>
+          </listitem>
+        </itemizedlist>
+  </sect1>
+  <sect1 id="rb-getting-started">
+  	<title>Primers passos</title>
+	
+		<sect2 id="rb-launch">
+			<title>Per a arrencar el <application>Reproductor de música Rhythmbox </application></title>
+			<para>Podeu iniciar el <application>Reproductor de música Rhythmbox</application> de les maneres següents:<variablelist>
+					<varlistentry>
+						<term>Graella d'<guimenu>Aplicacions</guimenu></term>
+						<listitem>
+							<para>Feu clic a <guimenuitem>Activitats</guimenuitem> a la part superior esquerra de la pantalla. Feu clic al botó quadrícula del tauler. Seleccioneu <guimenuitem>Rhythmbox</guimenuitem>.</para>
+						</listitem>
+					</varlistentry>
+					<varlistentry>
+						<term>Línia d'ordres</term>
+						<listitem>
+							<para>Escriviu <command>rhythmbox</command>, i premeu <keycap>Retorn</keycap>.</para>
+						</listitem>
+					</varlistentry>
+				</variablelist></para>
+		</sect2>
+		<sect2 id="rb">
+			<title>Executant l'Assistent</title>
+			<para>El primer cop que inicieu el <application>Reproductor de música Rhythmbox</application>, un assistent us ajudarà a importar la vostra música. Al segon tauler de l'assistent, premeu el botó <guibutton>Navega</guibutton> i seleccioneu la carpeta on teniu la música emmagatzemada.</para>
+		</sect2>
+  </sect1>
+  <sect1 id="rb-window">
+    <title>Finestra del Reproductor de música Rhythmbox</title>
+    <sect2 id="rb-window-intro">
+      <title>Visió general</title>
+      	<para>La finestra del <application>Reproductor de música Rhythmbox</application> us permet navegar per la vostra música preferida i reproduir-la. <xref linkend="fig-rb-window"/>mostra la interfície del <application>Reproductor de música Rhythmbox</application> amb els seus components principals.</para>
+      	<figure id="fig-rb-window">
+        <title>La finestra <application>Reproductor de música Rhythmbox</application></title>
+        <screenshot>
+          <mediaobject><imageobject><imagedata fileref="figures/rb-window.png" format="PNG"/></imageobject><textobject><phrase>Mostra la finestra del <application>Reproductor de música Rhythmbox</application> mostrant els diversos components a la interfície del <application>Reproductor de música Rhythmbox</application>. Textos destacats: Àrea del reproductor, Navegador, Tauler lateral, Barra d'estat. </phrase></textobject></mediaobject>
+        </screenshot>
+      </figure>
+      <para>La taula 1 descriu els components de la finestra del <application>Reproductor de música Rhythmbox</application>.</para>
+      <table frame="topbot" id="table-rb-window">
+        <title>Components de la finestra del <application>Reproductor de música Rhythmbox</application></title>
+        <tgroup cols="3" colsep="0" rowsep="0">
+          <colspec colname="COLSPEC0"/>
+          <colspec colname="COLSPEC1"/>
+          <colspec colname="COLSPEC2"/>
+          <thead>
+            <row rowsep="1">
+              <entry valign="top">Id</entry>
+              <entry valign="top">Component</entry>
+              <entry valign="top">Descripció</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry valign="top">1</entry>
+              <entry valign="top">Barra d'eines</entry>
+              <entry valign="top">Dona accés a les funcions del reproductor i als detalls sobre la pista que sona. Inclou el control lliscant de temps que mostra la posició de la lectura d'una pista; permet saltar a una altra part d'una pista. També inclou el control lliscant del volum i el botó per a accedir al menú d'aplicacions.</entry>
+            </row>
+            <row>
+              <entry valign="top">2</entry>
+              <entry valign="top">Panell lateral</entry>
+              <entry valign="top">Mostra una llista de fonts disponibles. També pot mostrar la cua de reproducció.</entry>
+
+            </row>
+            <row>
+              <entry valign="top">3</entry>
+              <entry valign="top">Navegador</entry>
+              <entry valign="top">Permet veure i filtrar les pistes de la Biblioteca per Gènere, Artista o Nom d'àlbum. El navegador també té una funció de cerca perquè només es mostrin les pistes que coincideixin amb els teus criteris.</entry>
+            </row>
+            <row>
+              <entry valign="top">4</entry>
+              <entry valign="top">Llista de pistes</entry>
+              <entry valign="top">Fa una llista de les pistes que pertanyen a la font seleccionada.</entry>
+            </row>
+            <row>
+              <entry valign="top">5</entry>
+              <entry valign="top">Barra d'estat</entry>
+              <entry valign="top">Mostra informació sobre la font seleccionada a la subfinestra lateral.</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </sect2>
+    <sect2 id="intro-sourcelist">
+      <title>La subfinestra lateral</title>
+      <para>A la subfinestra lateral podeu accedir a la vostra biblioteca de música, a la ràdio per Internet, a les vostres llistes de reproducció i CD d'àudio i a la cua de reproducció. La subfinestra lateral pot contenir les fonts següents: <itemizedlist>
+				  <listitem><para>La biblioteca del <application>Reproductor de música Rhythmbox</application>, on apareixeran totes les pistes importades.</para></listitem>
+				  <listitem><para>Podcasts.</para></listitem>
+				  <listitem><para>La font de Ràdio, amb totes les emissores de ràdio d'Internet.</para></listitem>
+				  <listitem><para>Totes les llistes de reproducció (normals i intel·ligents).</para></listitem>
+				  <listitem><para>CD d'àudio inserits a les unitats de CD de l'ordinador.</para></listitem>
+				  <listitem><para>Reproductors portàtils com l'iPod connectats a l'ordinador.</para></listitem>
+				  <listitem><para>DAAP Music comparteix música descoberta a la xarxa local.</para></listitem>
+				  <listitem><para>Botigues de música com Jamendo i Magnatune.</para></listitem>
+				  <listitem><para>Llocs web de compartir música com SoundCloud.</para></listitem>
+				</itemizedlist></para>
+	<para>També pot contenir la cua de reproducció si premeu el botó de menú a la part superior dreta de la finestra i seleccioneu <menuchoice><guimenu>Vista</guimenu><guimenuitem>Reprodueix la cua de la subfinestra lateral</guimenuitem></menuchoice>.</para>
+	<para>Podeu mostrar o amagar la visualització de la subfinestra lateral si premeu el botó de menú a la part superior dreta de la finestra i seleccioneu <menuchoice><guimenu>Vista</guimenu><guimenuitem>Subfinestra lateral</guimenuitem></menuchoice>.</para>
+    </sect2>
+    <sect2 id="player-toolbar">
+      <title>La barra d'eines del reproductor</title>
+      <para>L'àrea de la barra d'eines proporciona accés als detalls sobre la pista que sona actualment. Quan no es reprodueix cap pista, aquesta àrea no mostra cap informació. Quan es reprodueix una pista, es mostra el nom de la pista i, a sota, els noms de l'artista i de l'àlbum.</para>
+      <para>També es mostra un rastrejador que mostra el progrés de la pista que està sonant i un control llistant del temps, Quan el control lliscant del temps està ressaltat, les tecles de fletxa es poden utilitzar per a avançar ràpidament o rebobinar la pista que està sonant.</para>
+      <tip>
+        <para>Si utilitzeu un ratolí amb rodeta, podeu ajustar el volum desplaçant-la cap amunt o cap avall mentre el punter del ratolí sigui a sobre el botó del volum a la cantonada dreta.</para>
+      </tip>
+    </sect2>
+    <sect2 id="status-area">
+      <title>La barra d'estat</title>
+      <para>La barra d'estat conté informació addicional sobre el nombre de cançons i la durada de la font seleccionada.</para>
+    </sect2>
+  </sect1>
+  <sect1 id="Usage">
+    <title>Utilitzar el Reproductor de música Rhythmbox</title>
+    <sect2 id="Playing">
+      <title>Reproduir música</title>
+      <para>Per a reproduir una pista, seleccioneu-la i premeu el botó <guibutton>Reprodueix</guibutton> a la barra d'eines, o simplement feu doble clic a la pista per a iniciar la reproducció.</para>
+      <para>Quan la pista s'acaba, el <application>Reproductor de música Rhythmbox</application> salta per a reproduir la pista següent a la llista que es mostra a la subfinestra de visualització.</para>
+      <para>A la <xref linkend="library"/> podeu reproduir totes les cançons d'un artista o d'un sol àlbum simplement seleccionant l'entrada <guilabel>Àlbum</guilabel> o <guilabel>Artista</guilabel> al navegador de la biblioteca.</para>
+      <sect3 id="next-previous">
+        <title>Següent/Reproduir/Anterior</title>
+        <para>Els botons <guibutton>Següent</guibutton> i <guibutton>Anterior</guibutton> es poden fer servir per a anar d'una pista a l'altra mentre es reprodueix. Si s'està reproduint una pista, el botó Anterior reinicia la pista. Si es prem el botó <guibutton>Reprodueix</guibutton> es comença a reproduir la pista actual. <screenshot>
+				<mediaobject><imageobject> <imagedata fileref="figures/rb-toolbar-prevplaynext.png" format="PNG"/> </imageobject> <textobject> <phrase>Mostra botons <guibutton>Previ</guibutton>, <guibutton>Reprodueix</guibutton> i <guibutton>Següent</guibutton> a la barra de tasques.</phrase> </textobject></mediaobject>
+			</screenshot></para>
+      </sect3>
+      <sect3 id="repeat">
+        <title>Repeteix</title>
+        <para>L'opció <guibutton>Repeteix</guibutton> fa que el <application>Reproductor de música Rhythmbox</application> es reiniciï per a reproduir les pistes des del principi de la llista quan arriba a l'última pista.</para>
+        <para>Per a activar la repetició, premeu el botó <guibutton>Repeteix</guibutton> a la barra d'eines.<screenshot>
+				<mediaobject><imageobject><imagedata fileref="figures/rb-toolbar-repeat.png" format="PNG"/></imageobject><textobject><phrase>Mostra el botó Repeteix a la barra d'estat.</phrase></textobject></mediaobject>
+			</screenshot></para>
+      </sect3>
+      <sect3 id="shuffle">
+        <title>Reprodueix aleatòriament</title>
+        <para>L'opció <guibutton>Reprodueix aleatòriament</guibutton> fa que el <application>Reproductor de música Rhythmbox</application> reprodueixi les pistes per ordre aleatori.</para>
+        <para>Per a activar la reproducció aleatòria, premeu el botó <guibutton>Reprodueix aleatòriament</guibutton> a la barra d'eines.<screenshot>
+				<mediaobject><imageobject><imagedata fileref="figures/rb-toolbar-repeat.png" format="PNG"/></imageobject><textobject><phrase>Mostra el botó Reprodueix aleatòriament a la barra d'estat.</phrase></textobject></mediaobject>
+			</screenshot></para>
+      </sect3>
+      <sect3 id="volume">
+        <title>Control de volum</title>
+        <para>El control de volum està situat a la dreta de la barra d'eines. Si premeu la icona de l'altaveu es mostrarà el control lliscant de volum. Fent-lo lliscar amunt i avall s'apuja i s'abaixa el volum. La icona de l'altaveu canviarà per a reflectir el volum relatiu. <screenshot><mediaobject><imageobject><imagedata fileref="figures/rb-volume-changer.png" format="PNG"/></imageobject><textobject><phrase>Mostra el control lliscant de volum a la barra d'eines.</phrase></textobject></mediaobject></screenshot></para>
+        <tip>
+          <para>Podeu ajustar el volum amb la rodeta del ratolí al damunt de la icona de l'altaveu.</para>
+        </tip>
+      </sect3>
+    </sect2>
+  </sect1>
+  <sect1 id="library">
+    <title>Font de la biblioteca</title>
+    	<para>La biblioteca és la font principal disponible al <application>Reproductor de música Rhythmbox</application>. És la base de dades que conté tots els fitxers de música que importes al <application>Reproductor de música Rhythmbox</application> (la biblioteca emmagatzema el camí per a accedir als fitxers de música, no els fitxers).</para>
+    	<para>La Biblioteca només pot contenir fitxers de música que siguin físicament al teu ordinador (al directori d'INICI per exemple), però també pot contenir fitxers de música disponibles a través de serveis de xarxa remots. Alguns exemples de serveis de xarxa compatibles són: <itemizedlist>
+				<listitem>
+					<para>FTP públic</para>
+				</listitem>
+				<listitem>
+					<para>FTP autenticat</para>
+				</listitem>
+				<listitem>
+					<para>NFS</para>
+				</listitem>
+				<listitem>
+					<para>Recurs compartit de Windows</para>
+				</listitem>
+			</itemizedlist></para>
+    	<para>Els fitxers importats a la Biblioteca es mostren a la llista de pistes amb la informació emmagatzemada a les etiquetes inserides a les pistes. El <application>Reproductor de música Rhythmbox</application> utilitza aquestes etiquetes per a mostrar les pistes d'una manera organitzada. <tip>
+				<para>Les etiquetes es poden modificar fent clic amb el botó dret i, a continuació, triant <guimenuitem>Propietats</guimenuitem> i omplint les dades de la finestra que apareix.</para>
+			</tip></para>
+    <sect2 id="library-tracks-add">
+      <title>Afegir pistes a la biblioteca</title>
+      		<para>Per a afegir pistes a la biblioteca, podeu seguir els diversos mètodes que s'expliquen a continuació: <itemizedlist>
+					<listitem>
+						<para>Si voleu importar diversos fitxers de música ubicats en una carpeta, trieu <guimenuitem>Importa</guimenuitem> a la barra del navegador del costat del camp de cerca. A continuació, seleccioneu la carpeta al selector de fitxers i premeu el botó <guibutton>Obre</guibutton>. S'importaran tots els fitxers de música ubicats a la carpeta i a les seves subcarpetes.</para>
+					</listitem>
+					<listitem>
+						<para>Arrossegueu i deixeu anar fitxers des del gestor de fitxers (com ara <application>Nautilus</application>) per sobre de la finestra del Rhythmbox.</para>
+					</listitem>
+				</itemizedlist></para>
+      	<tip>
+       		<para>Si heu activat la funció de vigilància del directori (consulteu <xref linkend="prefs-library"/>), tots els fitxers de música emmagatzemats al directori escollit s'afegiran a la Biblioteca. Els fitxers nous que s'afegeixin posteriorment també s'hi afegiran.</para>
+      	</tip>
+    </sect2>
+    <sect2 id="library-tracks-del">
+    	<title>Treure pistes de la biblioteca</title>
+      	<para>Per a suprimir una pista de la biblioteca, però deixant-la al disc, feu clic amb el botó dret a la pista i trieu <guimenuitem>Suprimeix</guimenuitem>. La pista i les seves propietats (com ara la puntuació o el nombre de reproduccions) se suprimeixen de la base de dades del Rhythmbox.</para>
+      	<para>Per a suprimir una pista de la biblioteca i també del disc, feu clic amb el botó dret a la pista i trieu <guimenuitem>Mou a la paperera</guimenuitem>. La pista se suprimirà igual que l'anterior, però el fitxer es mourà a la paperera del gestor de fitxers.</para>
+    </sect2>
+    <sect2 id="library-filter-search">
+    	<title>Trobar pistes mitjançant Search</title>
+      	<para>El Rhythmbox inclou una funció de cerca, que us permet trobar i filtrar pistes mitjançant un terme de cerca.</para>
+      	<para>Introduïu algun text a l'entrada de la cerca i, mentre escriviu, només es mostraran les pistes que coincideixin amb el text introduït. La funció de cerca busca en totes les etiquetes de les pistes emmagatzemades a la biblioteca.</para>
+		<para>Per a fer una cerca més precisa, podeu triar que busqui només en etiquetes concretes <guilabel>Artistes</guilabel>, <guilabel>Àlbums</guilabel> o <guilabel>Títols</guilabel>.</para>
+    </sect2>
+    <sect2 id="library-filter-browser">
+    	<title>Trobar pistes mitjançant el navegador</title>
+      	<para>El navegador és una altra manera pràctica de buscar pistes. El navegador té una vista amb dues o tres subfinestres que permeten navegar entre gèneres musicals, artistes i àlbums i mostrar pistes que coincideixin amb els criteris escollits.</para>
+      	<para>Primer, perquè es mostri el navegador, seleccioneu <guibutton>Navega</guibutton> a la barra d'eines. Seleccioneu artista, àlbum i gènere i, mentre trieu, a la llista de pistes només s'hi mostraran les pistes que coincideixin amb la vostra selecció. Els criteris de les columnes s'apliquen d'esquerra a dreta.</para>
+      	<tip>
+        	<para>Podeu triar diversos criteris de la mateixa categoria mitjançant la tecla <keycombo><keycap>Ctrl</keycap></keycombo>.</para>
+      	</tip>
+      		<para>També podeu trobar a partir d'una llista seleccionada a la llista de pistes, totes les pistes del mateix gènere, nom d'artista o d'àlbum. Seleccioneu una pista a la llista de pistes, feu-hi clic amb el botó dret, i trieu <guilabel>Navega aquest Gènere/Artista/Àlbum</guilabel>. A continuació, el navegador filtrarà les pistes amb els criteris seleccionats.</para>
+  	</sect2>
+  </sect1>
+  <sect1 id="radio">
+  	<title>Font de ràdio</title>
+    <para>El sintonitzador de Ràdio per Internet es pot fer servir per a escoltar fitxers d'àudio reproduïts en temps real mitjançant una xarxa, local o Internet.</para>
+    <figure id="fig-iradio">
+      <title>Ràdio per Internet al <application>Reproductor de música Rhythmbox </application></title>
+      <screenshot>
+        <mediaobject>
+          <imageobject>
+	    <imagedata format="PNG" fileref="figures/rb-iradio-main.png"/>
+	  </imageobject>
+	</mediaobject>
+      </screenshot>
+    </figure>
+    <sect2 id="iradio-adding">
+      	<title>Afegir una emissora</title>
+      	<para>Per a afegir una emissora nova al sintonitzador de Ràdio per Internet, seleccioneu <guibutton>Afegeix</guibutton> a la barra d'eines. A continuació introduïu l'URL de la ràdio per internet i premeu el botó <guibutton>Afegeix</guibutton>.</para>
+    </sect2>
+    <sect2 id="iradio-modify">
+      	<title>Veure i canviar la configuració d'una emissora</title>
+      	<para>Podeu veure i editar la configuració d'una emissora de Ràdio per Internet seleccionant l'emissora i fent clic amb el botó dret. A continuació, seleccioneu <guimenuitem>Propietats</guimenuitem>.</para>
+      	<para>Quan accediu a les propietats d'una transmissió de ràdio, podeu modificar el títol i el gènere. També podeu modificar la ubicació de la transmissió i puntuar-la.</para>
+    </sect2>
+    <sect2 id="iradio-delete">
+    	<title>Suprimir una emissora</title>
+      	<para>Per a suprimir una emissora de ràdio de la llista, feu clic amb el botó dret a l'emissora i seleccioneu <guimenuitem>Suprimeix</guimenuitem>.</para>
+    </sect2>
+  </sect1>
+  <sect1 id="podcast">
+  	<title>Font de podcasts</title>
+    <para>El podcàsting és una nova manera d'emetre continguts d'àudio pel web; quan un autor publica un episodi, se n'informa els subscriptors del podcast mitjançant un canal XML.</para>
+    <para>El Reproductor de música Rhythmbox us permet subscriure-us als canals de podcasts, de manera que quan un episodi nou estigui disponible us n'informarà, baixarà aquest episodi i el reproduirà.</para>
+    <tip>
+      	<para>Podeu trobar més informació sobre els podcasts i el podcàsting consultant la definició de <ulink url="https://en.wikipedia.org/wiki/Podcast">Podcast</ulink> al lloc web <ulink url="https://en.wikipedia.org/">Wikipedia</ulink>.</para>
+    </tip>
+    <para>
+      <figure>
+        <title>La interfície de Podcasts</title>
+        <mediaobject><imageobject><imagedata fileref="figures/rb-podcast-main.png" format="PNG"/></imageobject><textobject><phrase>La interfície de Podcasts amb alguns podcasts registrats</phrase></textobject></mediaobject>
+      </figure>
+    </para>
+    <sect2 id="podcast-management">
+      <title>Gestió dels podcasts</title>
+      <sect3 id="podcast-feed-add">
+        <title>Afegir un podcast</title>
+        <para>Per a registrar un podcast, seleccioneu <guibutton>Afegeix</guibutton> a la barra d'eines. A continuació, a la finestra nova, introduïu l'URL del canal del podcast. Rythmbox recuperarà la llista d'episodis i l'episodi més recent es baixarà al vostre disc dur.</para>
+      </sect3>
+      <sect3 id="podcast-feed-del">
+        <title>Suprimir un podcast</title>
+        <para>Per a suprimir un podcast, feu clic amb el botó dret al nom del canal del podcast al navegador i trieu <menuchoice><guimenuitem>Suprimeix el canal del podcast</guimenuitem></menuchoice>. A continuació, trieu <menuchoice><guimenuitem>Suprimeix només el canal</guimenuitem></menuchoice> si voleu conservar els episodis del podcast, o trieu <menuchoice><guimenuitem>Suprimeix canal i fitxers</guimenuitem></menuchoice> si voleu suprimir el canal i tots els episodis corresponents.</para>
+      </sect3>
+      <sect3 id="podcast-feed-update">
+        <title>Actualitzar els canals</title>
+        <para>Per a saber si s'han publicat episodis nous per a un podcast, feu clic amb el botó dret a sobre el nom del podcast al navegador i trieu <menuchoice><guimenuitem>Actualitza el canal del podcast</guimenuitem></menuchoice>. Si t'han publicat episodis nous, apareixeran a la llista d'episodis.</para>
+        <tip>
+          <para>El Reproductor de música Rhythmbox revisa regularment, pel seu compte, la llista de canals de podcasts per a comprovar si s'han actualitzat.</para>
+        </tip>
+        <para>També podeu revisar tots els podcasts, fent clic amb el botó dret a la font dels <menuchoice><guimenuitem>Podcasts</guimenuitem></menuchoice> i triant <menuchoice><guimenuitem>Actualitza tots els canals</guimenuitem></menuchoice>.</para>
+      </sect3>
+      <sect3 id="podcast-feed-show">
+        <title>Accedir a les propietats del canal de podcasts</title>
+        <para>Per a accedir a les propietats del canal, feu clic amb el botó dret al nom del canal, i trieu <menuchoice><guimenuitem>Propietats</guimenuitem></menuchoice>. <itemizedlist><listitem><para>A la pestanya <guilabel>Bàsic</guilabel> podeu veure el <guilabel>Títol</guilabel>, l'<guilabel>Autor</guilabel>, la data de l'<guilabel>Última actualització</guilabel> i la <guilabel>Descripció</guilabel> del podcast.</para></listitem><listitem><para>A la pestanya <guilabel>Detalls</guilabel> podeu veure les propietats <guilabel>Font</guilabel>, <guilabel>Idioma</guilabel> i <guilabel>Copyright</guilabel> del canal.</para></listitem></itemizedlist> Podreu veure les propietats i editar la valoració.</para>
+      </sect3>
+    </sect2>
+    <sect2 id="episode-management">
+      <title>Gestió d'episodis</title>
+      <sect3 id="podcast-episode-download">
+        <title>Baixar un episodi d'un podcast</title>
+        <para>Per a baixar un episodi al disc, feu clic amb el botó dret a l'episodi, i trieu <menuchoice><guimenuitem>Baixa la publicació</guimenuitem></menuchoice>. El Rhytmbox començarà a baixa l'episodi a la ubicació definida a les preferències. Podeu veure el progrés de la baixada d'un episodi a la columna <guilabel>Estat</guilabel>.</para>
+        <tip>
+          <para>Per defecte, els podcasts que es baixen es desen a la carpeta <filename class="directory">Música/</filename> al directori personal. Per a canviar la ubicació, consulteu <xref linkend="prefs-podscast"/>.</para>
+        </tip>
+      </sect3>
+      <sect3 id="podcast-episode-read">
+        <title>Escoltar un episodi d'un podcast</title>
+        <para>Per a reproduir un episodi d'un podcast, seleccioneu l'episodi que vulgueu escoltar, i premeu el botó <guibutton>Reprodueix</guibutton>.</para>
+        <para>Els episodis s'han de baixar abans de poder ser llegits. Consulteu<xref linkend="podcast-episode-download"/> per a saber com podeu descarregar un episodi d'un podcast.</para>
+      </sect3>
+      <sect3 id="podcast-episode-delete">
+        <title>Suprimir un episodi d'un podcast</title>
+        <para lang="en">
+			To delete an episode from a podcast, right-click on the episode, and
+			choose <menuchoice><guimenuitem>Delete</guimenuitem></menuchoice>,
+			then choose <menuchoice><guimenuitem>Delete Episode
+			Only</guimenuitem></menuchoice> if you want to keep the episode file on
+			your disk, <menuchoice><guimenuitem>Delete File Only</guimenuitem></menuchoice>
+			if you want to keep the episode in the list but remove the corresponding
+			downloaded podcast file, or choose <guibutton>Delete Episode And File</guibutton>
+			if you want to remove the episode from the list and delete the file from your disk.
+			</para>
+        <warning>
+          <para>Quan s'ha suprimit un episodi, deixa d'estar disponible a la llista d'episodis, fins i tot si s'actualitza el podcast.</para>
+        </warning>
+      </sect3>
+      <sect3>
+        <title>Veure les propietats de l'episodi del podcast</title>
+        <para>Per a accedir a les propietats de l'episodi, feu clic a l'episodi i trieu <menuchoice><guimenuitem>Propietats</guimenuitem></menuchoice>.<itemizedlist><listitem><para>A la pestanya <guilabel>Bàsic</guilabel> podeu veure el <guilabel>Títol</guilabel>, el <guilabel>Canal</guilabel>, la <guilabel>Data</guilabel> de la publicació i la <guilabel>Descripció</guilabel> del podcast.</para></listitem><listitem><para>A la pestanya <guilabel>Detalls</guilabel> podeu veure la <guilabel>Font</guilabel>, la <guilabel>Durada</guilabel>, la <guilabel>Velocitat de transmissió</guilabel>, la <guilabel>Data de l'última reproducció</guilabel>, el <guilabel>Nombre de reproduccions</guilabel> i la <guilabel>Valoració</guilabel> del podcast.</para></listitem></itemizedlist></para>
+      </sect3>
+    </sect2>
+  </sect1>
+  <sect1 id="playqueue">
+  	<title>Font de la cua de reproducció</title>
+	<para>La cua de reproducció és una font dissenyada per a emmagatzemar temporalment les pistes que voleu reproduir a continuació. Quan afegiu una pista a la cua de reproducció, el <application>Reproductor de música Rhythmbox</application> canviarà automàticament a aquesta font quan la pista s'hagi reproduït.</para>
+	<para>Quan s'hagi reproduït una pista, se suprimirà automàticament de la font de la cua de reproducció. Quan la cua de reproducció estigui buida, el <application>Reproductor de música Rhythmbox</application> reproduirà la font que s'hagi reproduït anteriorment.</para>
+		<sect2 id="playqueue-track-add">
+			<title>Afegir una pista a la cua de reproducció</title>
+			<para>Per a afegir una pista: <orderedlist>
+					<listitem>
+						<para>Seleccioneu una pista que vulgueu reproduir, en qualsevol font.</para>
+					</listitem>
+					<listitem>
+						<para>Feu clic amb el botó dret i trieu <guimenuitem>Afegeix a la cua</guimenuitem>.</para>
+					</listitem>
+				</orderedlist></para>
+		</sect2>
+		<sect2 id="playqueue-track-del">
+			<title>Suprimir una pista a la cua de reproducció</title>
+			<para>Per a suprimir una pista emmagatzemada a la cua de reproducció: <orderedlist>
+					<listitem>
+						<para>Seleccioneu la pista que vulgueu suprimir a la font de la cua de reproducció.</para>
+					</listitem>
+					<listitem>
+						<para>Feu clic amb el botó dret i trieu <guimenuitem>Suprimeix de la cua de reproducció</guimenuitem>.</para>
+					</listitem>
+				</orderedlist></para>
+		</sect2>
+  </sect1>
+  
+  <sect1 id="playlist">
+  	<title>Font de les llistes de reproducció</title>
+    <para>Les llistes de reproducció són fonts que es creen a partir de les pistes disponibles a la font de la biblioteca. Us permeten agrupar pistes segons un «gènere» concret, un grup d'artistes específic o fins i tot pistes que tinguin un «to» particular, o el que vulgueu.</para>
+    <para>El Reproductor de música Rhythmbox té 2 tipus de llistes de reproducció: <itemizedlist>
+				<listitem>
+					<para>Llistes de reproducció estàtiques</para>
+				</listitem>
+				<listitem>
+					<para>Llistes de reproducció intel·ligents</para>
+				</listitem>
+			</itemizedlist></para>
+    <para>Rhythmbox us deixa gravar les pistes de les llistes de reproducció en un CD d'àudio.</para>
+    <sect2 id="playlist-static">
+    	<title>Llistes de reproducció estàtiques</title>
+      	<para>Les llistes de reproducció estàtiques són llistes gravades a partir de pistes deixades anar des de la biblioteca.</para>
+      <sect3 id="playlist-static-new">
+        <title>Crear una llista de reproducció estàtica</title>
+        <para>Per a crear una llista de reproducció nova, feu clic amb el botó dret sobre un element de la biblioteca. Seleccioneu <menuchoice><guimenu>Afegeix a la llista de reproducció</guimenu><guimenuitem>Afegeix a una llista de reproducció nova</guimenuitem></menuchoice>. Apareixerà una llista de reproducció buida i sense nom a la subfinestra lateral. Introduïu un nom per a la llista de reproducció i premeu <keycombo><keycap>Retorn</keycap></keycombo>.</para>
+      </sect3>
+      <sect3 id="playlist-static-tracks-add">
+        <title>Afegir pistes a una llista de reproducció</title>
+        <para>Per a afegir pistes a una llista de reproducció, seleccioneu les pistes de la llista a la biblioteca i arrossegueu i deixeu anar les que seleccioneu a damunt de la icona de la llista de reproducció de la subfinestra lateral.</para>
+        <para>També podeu deixar anar al damunt d'una llista de reproducció un gènere, un artista o un nom d'àlbum des del navegador, i totes les pistes que siguin de la categoria escollida s'afegiran a la llista de reproducció.</para>
+        <tip>
+          <para>Podeu crear una llista de reproducció amb pistes amb una sola acció. Seleccioneu les pistes des de la <guilabel>Llista de pistes</guilabel>, o directament una o més categories des del navegador (<guilabel>Gènere</guilabel>, <guilabel>Artista</guilabel> o <guilabel>Àlbum</guilabel>) i deixeu anar els elements seleccionats damunt de la <guilabel>Subfinestra lateral</guilabel>. Automàticament, es crearà una llista de reproducció amb nom.</para>
+        </tip>
+      </sect3>
+      <sect3 id="playlist-static-tracks-del">
+        <title>Suprimir pistes d'una llista de reproducció</title>
+        <para>Per a suprimir pistes d'una llista de reproducció, seleccioneu primer les pistes que voleu suprimir. A continuació, feu clic amb el botó dret a l'element seleccionat i trieu <guimenuitem>Suprimeix</guimenuitem>. Aquesta operació només suprimeix la pista a la llista de reproducció i no a la biblioteca.</para>
+      </sect3>
+<!--
+      <sect3 id="playlist-static-del">
+        <title>Delete a static playlist</title>
+        <para>
+					To delete a static playlist, select the playlist to delete,
+					then you have two ways to delete it:
+					<itemizedlist><listitem><para>
+								Choose
+								<menuchoice><guimenu>Edit</guimenu><guimenuitem>Delete</guimenuitem></menuchoice>.
+							</para></listitem><listitem><para>
+								Right-click over the playlist and choose <guimenuitem>Delete</guimenuitem>.
+							</para></listitem></itemizedlist>
+					This operation deletes only the playlist and not the tracks
+					stored in the playlist deleted.
+				</para>
+      </sect3>
+-->
+    </sect2>
+    <sect2 id="playlist-smart">
+      <title>Llistes de reproducció intel·ligents</title>
+      <para>Les Llistes de reproducció intel·ligents són llistes creades a partir de criteris, de manera que les pistes s'hi afegeixen dinàmicament; totes les pistes que coincideixin amb els criteris s'afegiran a la llista de reproducció.</para>
+      <para>Per defecte, estan disponibles les llistes de reproducció <guimenuitem>Les millor puntuades</guimenuitem>, <guimenuitem>Afegides recentment</guimenuitem>, i <guimenuitem>Reproduïdes recentment</guimenuitem>.</para>
+<!--
+      <sect3 id="playlist-smart-new">
+        <title>Create a smart playlist</title>
+        <para>
+					To create a new playlist:
+					<orderedlist><listitem><para>
+								Choose <menuchoice><guimenu>Music</guimenu><guisubmenu>Playlist</guisubmenu><guimenuitem>New
+								Automatic Playlist</guimenuitem></menuchoice>.
+							</para></listitem><listitem><para>
+								Edit the playlist criteria through the query editor.
+							</para></listitem><listitem><para>
+								Once your criteria have been chosen, click <guibutton>New</guibutton> to create the
+								query.
+							</para></listitem></orderedlist>
+				</para>
+      </sect3>
+      <sect3 id="playlist-smart-edit">
+        <title>Edit a smart playlist</title>
+        <para>
+					Editing a smart playlist lets you modify the criteria set
+					for this playlist. To edit a smart playlist, select the
+					smart playlist, choose
+					<menuchoice><guimenu>Music</guimenu><guisubmenu>Playlist</guisubmenu><guimenuitem>Edit</guimenuitem></menuchoice>, and edit the criteria.
+					Once done, choose <guibutton>Close</guibutton>.
+				</para>
+      </sect3>
+      <sect3 id="playlist-smart-del">
+        <title>Delete a smart playlist</title>
+        <para>
+					To delete a smart playlist, select the playlist to delete,
+					then you have two ways to delete it:
+					<itemizedlist><listitem><para>
+								Choose
+								<menuchoice><guimenu>Edit</guimenu><guimenuitem>Delete</guimenuitem></menuchoice>.
+							</para></listitem><listitem><para>
+								Right-click over the playlist and choose <guimenuitem>Delete</guimenuitem>.
+							</para></listitem></itemizedlist>
+				</para>
+      </sect3>
+      <sect3 id="playlist-smart-query-use">
+        <title>Use the query editor</title>
+        <para>
+		Choose the criteria to apply to the rule. If you need one
+		more criteria click on the button
+		<guibutton>Add</guibutton>, a new line appears, and you can
+		set a new criteria.
+		</para>
+        <para>
+		If you want to limit the number of tracks in the playlist,
+		tick <guilabel>Limit to:</guilabel>, and choose how to
+		limit. You can limit by tracks, by total size (in
+		<guilabel>MB</guilabel> or <guilabel>GB</guilabel>), or by
+		duration (expressed in <guilabel>Minutes</guilabel>).
+		</para>
+        <para>
+		Once you finish setting the criteria for the playlist, choose
+		<guibutton>New</guibutton>; the playlist query editor window
+		will close, and the playlist will display the tracks matched by your
+		criteria.
+		</para>
+      </sect3>
+-->
+    </sect2>
+  </sect1>
+  <sect1 id="AudioCD">
+    <title>Font de CD d'àudio</title>
+	<para>El <application>Reproductor de música Rhythmbox</application> també pot gestionar CD d'àudio, ja que et permet reproduir i gravar els teus CD.</para>
+    <sect2 id="cd-playing">
+      <title>Reproducció</title>
+      <para>Quan s'insereix un CD d'àudio, es mostra a la subfinestra lateral, i les pistes que conté es poden veure a la finestra principal del <application>Reproductor de Música Rhythmbox</application>. Si ho feu amb connexió a internet, s'obriran i es mostraran els detalls del CD.</para>
+      <para>Per a reproduir i posar en pausa, o per a saltar endavant o endarrere, feu servir els mateixos controls que els que es fan servir per a reproduir des de la biblioteca.</para>
+    </sect2>
+    <sect2 id="cd-import">
+      <title>Importar un CD d'àudio</title>
+      <para>Si voleu conservar les pistes dels vostres CD d'àudio a l'ordinador, les podeu importar.</para>
+      <para>Per a importar pistes dels CD d'àudio, trieu <guibutton>Extreu</guibutton> a la barra d'eines.</para>
+    </sect2>
+    <sect2 id="cd-burning">
+      <title>Crear un CD d'àudio</title>
+      <para>Rhythmbox us permet crear CD d'àudio amb la música emmagatzemada a la biblioteca del Rhythmbox.</para>
+      <para>Per a crear un CD d'àudio: <orderedlist><listitem><para>Creeu una llista de reproducció, estàtica o intel·ligent (consulteu <xref linkend="playlist"/>) i afegiu-hi pistes.</para></listitem>
+                <listitem><para>Trieu <guibutton>Llista de reproducció</guibutton> a la barra d'eines.</para></listitem>
+                <listitem><para>Seleccioneu <guimenuitem>Crea un CD d'àudio</guimenuitem>.</para></listitem>
+                <listitem><para>Inseriu un CD buit.</para></listitem>
+                <listitem><para>Feu clic al botó <guibutton>Crea</guibutton> per a iniciar el procés de gravació.</para></listitem>
+                </orderedlist></para>
+    </sect2>
+  </sect1>
+  <sect1 id="portable-audio-player">
+    <title>Font de reproductor d'àudio portàtil</title>
+    <para>El <application>Rhythmbox</application> pot detectar quan hi ha un reproductor d'àudio portàtil connectat al teu ordinador i pot llegir les pistes que té emmagatzemades. El <application>Reproductor de Música Rhythmbox</application> hauria de ser compatible amb la majoria de reproductors d'àudio portàtils, com ara l'Apple iPod, els reproductors MTP i els reproductors d'emmagatzematge massiu.</para>
+    <para>Quan connectes un reproductor d'àudio portàtil, s'afegeix una icona del Reproductor d'àudio portàtil a la subfinestra lateral. Aquesta font funciona igual que la font de la Biblioteca.</para>
+	<tip><para>Si el <application>Reproductor de Música Rhythmbox</application> no detecta el teu dispositiu com a reproductor d'àudio portàtil, pots crear un fitxer buit anomenat <filename>.is_audio_player</filename> a la jerarquia superior del sistema de fitxers del vostre ordinador.</para></tip>
+  </sect1>
+  <sect1 id="daap">
+    <title>Font de compartició DAAP</title>
+    <para>El DAAP és un protocol de xarxa que et permet compartir la música emmagatzemada al Rhythmbox. DAAP és l'acrònim de Protocol d'accés a àudio digital.</para>
+    <para>Com que el DAAP és un protocol estàndard per a compartir música, pots escoltar i compartir música no només amb els usuaris del Rhytmbox, sinó també amb altres usuaris que facin servir programari compatible amb el DAAP, com ara l'iTunes.</para>
+    <para>Quan inicieu el Rhythmboxm cercarà totes les comparticions de DAAP publicades per altres usuaris a la vostra xarxa local (de casa o de la feina, no de tot Internet) i les mostrarà a la subfinestra lateral. Si la compartició està activada, al mateix temps el Rhythmbox publicarà la vostra biblioteca i les vostres llistes de reproducció. D'aquesta manera, podeu escoltar la música emmagatzemada als ordinadors dels vostres amics i ells poden escoltar la vostra música.</para>
+    <para>Per a desactivar la funció de compartició del DAAP, consulteu <xref linkend="prefs-sharing"/> a les preferències.</para>
+  </sect1>
+  <sect1 id="notification">
+    <title>Àrea de notificacions</title>
+    <sect2 id="notification-overview">
+      <title>Visió general</title>
+      <para>L'Àrea de notificacions us permet controlar el <application>Reproductor de música Rhythmbox</application> i rebre informació quan la interfície del <application>Reproductor de música Rhythmbox</application> no és visible.</para>
+      <figure id="fig-notification-zone">
+        <title><application>Reproductor de música Rhythmbox</application> a l'Àrea de notificacions</title>
+        <screenshot>
+          <mediaobject>
+            <imageobject>
+              <imagedata format="PNG" fileref="figures/rb-notification-zone.png"/>
+	    </imageobject>
+	  </mediaobject>
+        </screenshot>
+      </figure>
+    </sect2>
+    <sect2 id="notification-control">
+      <title>Controlar el Rhythmbox</title>
+      <para>Mitjançant la icona del <application>Reproductor de música Rhythmbox</application> de l'àrea de notificacions, es poden enviar les ordres següents a l'aplicació:</para>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para><guibutton>Reprodueix</guibutton>: si se selecciona aquesta opció, es reprodueix la cançó seleccionada actualment.</para>
+          </listitem>
+          <listitem>
+            <para><guibutton>Anterior</guibutton>: salta a la cançó anterior de la font seleccionada.</para>
+          </listitem>
+          <listitem>
+            <para><guibutton>Següent</guibutton>: salta a la cançó següent de la font seleccionada.</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </sect2>
+  </sect1>
+  <sect1 id="customize">
+    <title>Personalitzar el Reproductor de música Rhythmbox</title>
+    <para>Aquesta secció descriu com es pot personalitzar el <application>Reproductor de música Rhythmbox</application> per a adaptar-lo als vostres requeriments i preferències.</para>
+    <sect2 id="prefs">
+      <title>Configuració de les preferències</title>
+      <para>Amb el diàleg <guilabel>Preferències</guilabel> podeu personalitzar l'aspecte i el comportament del <application>Reproductor de música Rhythmbox</application>. Perquè es mostri el diàleg <guilabel>Preferències</guilabel>, premeu el botó de menú de la part superior dreta de la finestra i seleccioneu <guimenuitem>Preferències</guimenuitem>.</para>
+      <sect3 id="prefs-general">
+      	<title>General</title>
+		<para>Trieu com voleu que es mostri la <guilabel>Vista de l'explorador</guilabel>. Podeu triar entre tres o dues subfinestres i què haurien de mostrar.</para>
+      	<para>Trieu les <guilabel>Columnes visibles</guilabel> que voleu que es mostrin al <application> Reproductor de música Rhythmbox</application>. Aquesta opció afecta les fonts següents: <itemizedlist>
+				<listitem><para>Biblioteca</para></listitem>
+				<listitem><para>CD d'àudio</para></listitem>
+				<listitem><para>Reproductors portàtils</para></listitem>
+				<listitem><para>Llistes de reproducció</para></listitem>
+				<listitem><para>Música compartida amb DAAP</para></listitem>
+			</itemizedlist></para>
+      </sect3>
+      <sect3 id="prefs-library">
+        <title>Música</title>
+        <itemizedlist>
+          <listitem>
+            <para>La <guilabel>Ubicació de la biblioteca</guilabel> és una carpeta que el <application> Reproductor de música Rhythmbox</application> monitorarà per a trobar cançons noves. Quan afegiu fitxers d'àudio nous en aquesta carpeta o a les seves subcarpetes amb el navegador de fitxers (com Nautilus), el <application> Reproductor de música Rhythmbox</application> els detectarà i s'afegiran a la biblioteca automàticament.</para>
+            <warning>
+            	<para>Millor que no establiu la carpeta <filename class="directory">Inici</filename> com a ubicació de la biblioteca perquè aquesta funció consumeix CPU.</para>
+            </warning>
+            <para>Per a desactivar la funció de control, desseleccioneu <guilabel>Vigila si hi  ha fitxers nous a la meva biblioteca</guilabel>.</para>
+            <tip>
+            	<para>Si voleu afegir més d'una carpeta per a controlar, feu servir el <application>dconf-editor </application> i afegiu-lo a la llista d'/org/gnome/rhythmbox/rhythmboxdb/locations</para>
+            </tip>
+          </listitem>
+        </itemizedlist>
+      </sect3>
+      <sect3 id="prefs-podscast">
+        <title>Poscasts</title>
+        <itemizedlist>
+          <listitem>
+            <para>La <guilabel>Ubicació de baixada</guilabel> dels podcasts està definida per defecte a la carpeta <filename class="directory">Podcasts/</filename> del directori d'inici.</para>
+            <para>Si aquesta ubicació no us va bé, seleccioneu una altra carpeta a la llista desplegable o trieu <guilabel>Altres</guilabel> perquè aparegui el Selector de fitxers.</para>
+          </listitem>
+          <listitem>
+            <para>Trieu la freqüència amb què el <application>Reproductor de música Rhythmbox</application> ha de comprovar si hi ha episodis de podcasts nous.</para>
+          </listitem>
+        </itemizedlist>
+      </sect3>
+      <sect3 id="prefs-sharing">
+        <title>Compartició</title>
+        <para>El <application>Reproductor de música Rhythmbox</application> pot compartir el contingut de la biblioteca a través de la vostra xarxa d'àrea local amb altres usuaris del <application>Reproductor de música Rhythmbox</application> i de l'Apple iTunes.</para>
+        <itemizedlist>
+          <listitem>
+            <para>Seleccioneu <guilabel>Comparteix la meva música</guilabel> per a permetre que els usuaris de la vostra xarxa vegin i llegeixin les vostres cançons.</para>
+          </listitem>
+          <listitem>
+            <para>Introduïu el nom que vulgueu que aparegui a la xarxa al camp <guilabel>Nom de la música compartida</guilabel>.</para>
+          </listitem>
+        </itemizedlist>
+      </sect3>
+      <sect3 id="prefs-lastfm">
+        <title>Perfils de Last.fm i Libre.fm</title>
+        <para>El connector del perfil de Last.fm recull informació sobre les cançons que escolteu i les envia al lloc web de <ulink url="https://www.last.fm/">Last.fm</ulink> o <ulink url="https://www.libre.fm/">Libre.fm </ulink> per tal de crear un perfil dels vostres hàbits d'escolta. Amb aquest perfil podeu: <itemizedlist>
+				<listitem>
+					<para>consultar estadístiques, com ara de les cançons o els artistes més reproduïts.</para>
+				</listitem>
+				<listitem>
+					<para>rebre recomanacions sobre artistes que us podrien agradar.</para>
+				</listitem>
+			</itemizedlist></para>
+        <warning>
+          <para>Per a poder utilitzar aquests perfils, heu de tenir un compte en un d'aquests llocs web. Premeu el botó del menú de l'extrem superior dret de la finestra i seleccioneu <guimenuitem>Preferències</guimenuitem>. Seleccioneu la pestanya <guilabel>Connectors</guilabel>. Seleccioneu l'element <guimenuitem>Last.fm</guimenuitem> i premeu el botó <guibutton>Preferències</guibutton>. Seleccioneu un servei i tanqueu el diàleg. A la barra lateral, seleccioneu el servei. Premeu el botó <guibutton>Inicia la sessió</guibutton> de l'extrem superior dret i introduïu els detalls del vostre compte a la finestra del navegador web.</para>
+        </warning>
+      </sect3>
+    </sect2>
+  </sect1>
+  <sect1 id="shortcuts">
+    <title>Dreceres</title>
+    <sect2 id="keyboard-keys">
+      <title>Dreceres de teclat</title>
+      <table frame="topbot" id="rb-shorcuts-1">
+	  	<title>Dreceres del reproductor</title>
+        <tgroup cols="2" colsep="0" rowsep="0">
+          <colspec colname="COLSPEC0" colwidth="30*"/>
+          <colspec colname="COLSPEC1" colwidth="70*"/>
+          <thead>
+            <row>
+              <entry>Dreceres</entry>
+              <entry>Accions</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry><keycombo> <keycap>Ctrl</keycap> <keycap>P</keycap> </keycombo></entry>
+              <entry>
+                <para>Reprodueix / Posa en pausa</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycombo> <keycap>Ctrl</keycap> <keycap>Fletxa esquerra</keycap> </keycombo></entry>
+              <entry>
+                <para>Salta a la pista anterior / Torna al principi de la pista</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycombo> <keycap>Ctrl</keycap> <keycap>Fletxa dreta</keycap> </keycombo></entry>
+              <entry>
+                <para>Salta a la pista següent</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycombo> <keycap>Ctrl</keycap> <keycap>Fletxa amunt</keycap> </keycombo></entry>
+              <entry>
+                <para>Apuja el volum de reproducció</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycombo> <keycap>Ctrl</keycap> <keycap>Fletxa avall</keycap> </keycombo></entry>
+              <entry>
+                <para>Abaixa el volum de reproducció</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycombo> <keycap>Ctrl</keycap> <keycap>R</keycap> </keycombo></entry>
+              <entry>
+                <para>Activa / Desactiva Repeteix la reproducció</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycombo> <keycap>Ctrl</keycap> <keycap>U</keycap> </keycombo></entry>
+              <entry>
+                <para>Activa / Desactiva la reproducció aleatòria</para>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <table frame="topbot" id="rb-shorcuts-2">
+	  	<title>Dreceres generals</title>
+		<tgroup cols="2" colsep="0" rowsep="0">
+          <colspec colname="COLSPEC0" colwidth="30*"/>
+          <colspec colname="COLSPEC1" colwidth="70*"/>
+          <thead>
+            <row>
+              <entry>Dreceres</entry>
+              <entry>Accions</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry><keycombo> <keycap>Ctrl</keycap> <keycap>A</keycap> </keycombo></entry>
+              <entry>
+                <para>Selecciona tot</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycombo> <keycap>Maj</keycap> <keycap>Ctrl</keycap> <keycap>A</keycap> </keycombo></entry>
+              <entry>
+                <para>Anul·la la selecció</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycombo> <keycap>Ctrl</keycap> <keycap>J</keycap> </keycombo></entry>
+              <entry>
+                <para>Salta a la cançó que es reprodueix</para>
+              </entry>
+	    </row>
+	    <!--
+            <row>
+              <entry>
+                <keycombo>
+                  <keycap>Ctrl</keycap>
+                  <keycap>Y</keycap>
+                </keycombo>
+              </entry>
+              <entry>
+                <para>Clear the search field text and remove all filters in the browser</para>
+              </entry>
+	    </row>
+            -->
+            <row>
+              <entry><keycombo> <keycap>Alt</keycap> <keycap>S</keycap> </keycombo></entry>
+              <entry>
+                <para>Salta al camp de cerca</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycombo> <keycap>Alt</keycap> <keycap>Retorn</keycap> </keycombo></entry>
+              <entry>
+                <para>Mostra les propietats de la pista</para>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <table frame="topbot" id="rb-shorcuts-3">
+	  	<title>Dreceres de finestra</title>
+        <tgroup cols="2" colsep="0" rowsep="0">
+          <colspec colname="COLSPEC0" colwidth="30*"/>
+          <colspec colname="COLSPEC1" colwidth="70*"/>
+          <thead>
+            <row>
+              <entry>Dreceres</entry>
+              <entry>Accions</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry><keycombo> <keycap>Ctrl</keycap> <keycap>Q</keycap> </keycombo></entry>
+              <entry>
+                <para>Surt del <application>Reproductor de música Rhythmbox</application></para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycombo> <keycap>Ctrl</keycap> <keycap>B</keycap> </keycombo></entry>
+              <entry>
+                <para>Mostra / Amaga el navegador</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycombo> <keycap>F9</keycap> </keycombo></entry>
+              <entry>
+                <para>Mostra / Amaga la subfinestra lateral</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycombo> <keycap>Ctrl</keycap> <keycap>K</keycap> </keycombo></entry>
+              <entry>
+                <para>Mostra / Amaga la barra lateral de la cua</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycombo> <keycap>F11</keycap> </keycombo></entry>
+              <entry>
+                <para>Commuta / Anul·la la commutació del mode pantalla sencera</para>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </sect2>
+    <sect2 id="multimedia-keys">
+      <title>Tecles multimèdia</title>
+      <para>El <application>Reproductor de música Rhythmbox</application> admet les tecles dels teclats multimèdia si està configurat a l'entorn del vostre escriptori.</para>
+      <table frame="none">
+	  	<title>Dreceres de finestra</title>
+        <tgroup cols="2" colsep="0" rowsep="0">
+          <colspec colname="COLSPEC0"/>
+          <colspec colname="COLSPEC1"/>
+          <thead>
+            <row>
+              <entry>Dreceres</entry>
+              <entry>Accions</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry><keycap>Atura</keycap></entry>
+              <entry>
+                <para>Atura</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycap>Posa en pausa / Reprodueix</keycap></entry>
+              <entry>
+                <para>Posa en pausa / Reprodueix</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycap>Ant</keycap></entry>
+              <entry>
+                <para>Pista reproduïda anteriorment</para>
+              </entry>
+            </row>
+            <row>
+              <entry><keycap>Següent</keycap></entry>
+              <entry>
+                <para>Pista següent</para>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </sect2>
+    <sect2 id="lirc">
+      <title>Linux Infrared Remote Control</title>
+      <para>El <application>Reproductor de música Rhythmbox</application> inclou un connector per a la compatibilitat amb el Control remot per infraroigs del Linux (LIRC). És compatible amb les cadenes d'ordres següents, utilitzant el nom de programa «rhythmbox»:</para>
+      <table frame="none">
+	  	<title>Dreceres de finestra</title>
+        <tgroup cols="2" colsep="0" rowsep="0">
+          <colspec colname="COLSPEC0"/>
+          <colspec colname="COLSPEC1"/>
+          <thead>
+            <row>
+              <entry>Cadena d'ordre</entry>
+              <entry>Acció</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry><keycap>reprodueix</keycap></entry>
+              <entry> <para>Inicia la reproducció</para> </entry>
+            </row>
+            <row>
+              <entry><keycap>posa en pausa</keycap></entry>
+              <entry> <para>Posa en pausa la reproducció</para> </entry>
+            </row>
+	    <row>
+	      <entry><keycap>reprodueixpausa</keycap></entry>
+	      <entry> <para>Commuta entre reproducció i pausa</para> </entry>
+	    </row>
+            <row>
+              <entry><keycap>aleatori</keycap></entry>
+              <entry> <para>Commuta l'ordre de reproducció aleatòria</para> </entry>
+            </row>
+            <row>
+              <entry><keycap>repeteix</keycap></entry>
+              <entry> <para>Commuta l'ordre de reproducció repetida</para> </entry>
+            </row>
+            <row>
+              <entry><keycap>següent</keycap></entry>
+              <entry> <para>Ves a la pista següent</para> </entry>
+            </row>
+            <row>
+              <entry><keycap>anterior</keycap></entry>
+              <entry> <para>Ves a la pista anterior</para> </entry>
+            </row>
+            <row>
+              <entry><keycap>cerca_endavant</keycap></entry>
+              <entry> <para>Ves 10 segons endavant a la pista de reproducció</para> </entry>
+            </row>
+            <row>
+              <entry><keycap>cerca_endarrere</keycap></entry>
+              <entry> <para>Ves 10 segons endarrere a la pista de reproducció</para> </entry>
+            </row>
+            <row>
+              <entry><keycap>apuja_volum</keycap></entry>
+              <entry> <para>Apuja el volum de reproducció un 10%</para> </entry>
+            </row>
+            <row>
+              <entry><keycap>abaixa_volum</keycap></entry>
+              <entry> <para>Abaixa el volum de reproducció un 10%</para> </entry>
+            </row>
+            <row>
+              <entry><keycap>silencia</keycap></entry>
+              <entry> <para>Silencia la reproducció</para> </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </sect2>
+  </sect1>
+</article>

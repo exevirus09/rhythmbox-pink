@@ -1,0 +1,122 @@
+#!/usr/bin/env bash
+set -Eeuo pipefail
+
+BIN_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+RB_BIN="$BIN_DIR/rhythmbox"
+PROJECT_ROOT="$(cd -- "$BIN_DIR/../.." && pwd)"
+GUI="$BIN_DIR/rhythmbox-controls.py"
+LOG="/tmp/rhythmbox-player.log"
+
+HIDE_RHYTHMBOX="${HIDE_RHYTHMBOX:-1}"
+RB_PLAYER_NAME="${RB_PLAYER_NAME:-}"
+
+if [[ ! -x "$RB_BIN" ]]; then
+    echo "[!] Rhythmbox executable not found:"
+    echo "    $RB_BIN"
+    exit 1
+fi
+
+if [[ ! -f "$GUI" ]]; then
+    echo "[!] GUI file not found:"
+    echo "    $GUI"
+    exit 1
+fi
+
+if [[ -z "${DISPLAY:-}" && -z "${WAYLAND_DISPLAY:-}" ]]; then
+    echo "[!] No graphical display detected."
+    exit 1
+fi
+
+for program in playerctl wmctrl python3; do
+    if ! command -v "$program" >/dev/null 2>&1; then
+        echo "[!] Required program not found: $program"
+        exit 1
+    fi
+done
+
+if ! python3 -c 'import PyQt5' >/dev/null 2>&1; then
+    echo "[!] PyQt5 is not installed."
+    exit 1
+fi
+
+echo "[*] Starting Rhythmbox"
+
+: > "$LOG"
+
+"$RB_BIN" >"$LOG" 2>&1 &
+RB_PID=$!
+
+cleanup() {
+    echo
+    echo "[*] Closing Rhythmbox"
+
+    if kill -0 "$RB_PID" 2>/dev/null; then
+        kill "$RB_PID" 2>/dev/null || true
+    fi
+
+    wait "$RB_PID" 2>/dev/null || true
+}
+
+trap cleanup EXIT INT TERM
+
+echo "[*] Waiting for the Rhythmbox MPRIS player"
+
+RB_PLAYER=""
+
+if [[ -n "$RB_PLAYER_NAME" ]]; then
+    RB_PLAYER="$RB_PLAYER_NAME"
+else
+    for attempt in {1..30}; do
+        if ! kill -0 "$RB_PID" 2>/dev/null; then
+            echo "[!] Rhythmbox stopped unexpectedly."
+            cat "$LOG" 2>/dev/null || true
+            exit 1
+        fi
+
+        RB_PLAYER="$(
+            playerctl -l 2>/dev/null |
+            grep -i rhythmbox |
+            head -n 1 ||
+            true
+        )"
+
+        if [[ -n "$RB_PLAYER" ]]; then
+            break
+        fi
+
+        sleep 1
+    done
+fi
+
+if [[ -z "$RB_PLAYER" ]]; then
+    echo "[!] Rhythmbox MPRIS player was not found."
+    cat "$LOG" 2>/dev/null || true
+    exit 1
+fi
+
+if [[ "$HIDE_RHYTHMBOX" == "1" ]]; then
+    echo "[*] Hiding the main Rhythmbox window"
+
+    for attempt in {1..30}; do
+        WINDOW_ID="$(
+            wmctrl -l 2>/dev/null |
+            grep -i rhythmbox |
+            awk 'NR == 1 { print $1 }' ||
+            true
+        )"
+
+        if [[ -n "$WINDOW_ID" ]]; then
+            wmctrl -i -r "$WINDOW_ID" -b add,hidden || true
+            break
+        fi
+
+        sleep 1
+    done
+fi
+
+export RB_PLAYER
+
+echo "[*] Using MPRIS player: $RB_PLAYER"
+echo "[*] Starting compact controls"
+
+python3 -u "$GUI"

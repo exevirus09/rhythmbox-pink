@@ -1,0 +1,1501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+<!ENTITY appversion "3.4.4">
+<!ENTITY manrevision "3.4.4">
+<!ENTITY date "January 2020">
+<!ENTITY app "Rhythmbox Music Player">
+<!ENTITY mdash "&#8212;">
+]>
+<!--
+      (Do not remove this comment block.)
+  Version: 0.0.2
+  Last modified: October 02, 2002
+  Maintainers:
+               Mark Finlay <sisob@eircom.net>
+	       Mark Humphreys <marquee@users.sourceforge.net>
+-->
+<!--
+      (Do not remove this comment block.)
+  Version: 0.0.3
+  Last modified: August 08, 2003
+  Maintainers:
+	       Mark Humphreys <marquee@users.sourceforge.net>
+-->
+<!--
+      (Do not remove this comment block.)
+  Version: 0.0.4
+  Last modified: October 01, 2005
+  Maintainers:
+	       Baptiste Mille-Mathias <baptiste.millemathias@gmail.com>
+-->
+<!-- =============Document Header ============================= -->
+<article id="index" lang="ja">
+<!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+  <articleinfo>
+    <title>Rhythmbox ミュージック・プレイヤー</title>
+	<copyright lang="en">
+		<year>2002</year>
+		<holder>Mark Finlay</holder>
+	</copyright>
+        <copyright lang="en">
+                <year>2002</year>
+                <holder>Mark Humphreys</holder>
+        </copyright>
+	<copyright lang="en">
+		<year>2005</year>
+		<year>2006</year>
+		<holder>Baptiste Mille-Mathias</holder>
+	</copyright>
+	<copyright lang="en">
+		<year>2006</year>
+		<holder>Victor Osadci</holder>
+	</copyright>
+	<copyright lang="en">
+		<year>2008</year>
+		<holder>Dean Sas</holder>
+	</copyright>
+	<copyright lang="en">
+		<year>2018</year>
+		<year>2020</year>
+		<holder>Andre Klapper</holder>
+	</copyright>
+
+<!-- translators: uncomment this:
+  <copyright>
+   <year>2000</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+  -->
+<!-- An address can be added to the publisher information.  If a role is
+     not specified, the publisher/author is the same for all versions of the
+     document.  -->
+	<publisher>
+	 	<publishername>GNOME ドキュメンテーション プロジェクト</publishername>
+	</publisher>
+
+   
+   <!-- This file  contains link to license for the documentation (GNU FDL), and
+   other legal stuff such as "NO WARRANTY" statement. Please do not change
+   any of this. -->
+   <authorgroup>
+   		<author lang="en">
+			<firstname>Mark</firstname>
+			<surname>Finlay</surname>
+			<affiliation>
+				<orgname>GNOME Documentation Project</orgname>
+				<address><email>sisob@eircom.net</email></address>
+			</affiliation>
+		</author>
+		<author lang="en">
+			<firstname>Mark</firstname>
+			<surname>Humphreys</surname>
+			<affiliation>
+				<orgname>GNOME Documentation Project</orgname>
+				<address><email>marquee@users.sourceforge.net</email></address>
+			</affiliation>
+		</author>		
+		<author role="maintainer" lang="en">
+			<firstname>Baptiste</firstname>
+			<surname>Mille-Mathias</surname>
+			<affiliation>
+				<orgname>GNOME Documentation Project</orgname>
+				<address><email>baptiste.millemathias@gmail.com</email></address>
+			</affiliation>
+		</author>
+		<author lang="en">
+			<firstname>Victor</firstname>
+			<surname>Osadci</surname>
+			<affiliation>
+				<orgname>GNOME Documentation Project</orgname>
+				<address><email>Victor.Osadci.GNOME@xhtml.md</email></address>
+			</affiliation>
+		</author>
+		<author lang="en">
+			<firstname>Dean</firstname>
+			<surname>Sas</surname>
+			<affiliation>
+				<orgname>Ubuntu Documentation Project</orgname>
+				<address><email>dean@deansas.org</email></address>
+			</affiliation>
+		</author>
+		<author lang="en">
+			<firstname>Andre</firstname>
+			<surname>Klapper</surname>
+			<affiliation>
+				<orgname>GNOME Documentation Project</orgname>
+				<address><email>ak-47@gmx.net</email></address>
+			</affiliation>
+		</author>
+   </authorgroup>
+
+<!-- According to GNU FDL, revision history is mandatory if you are -->
+<!-- modifying/reusing someone else's document.  If not, you can omit it. -->
+   <revhistory>
+      <revision lang="en"> 
+		<revnumber>Rhythmbox Music Player Manual V0.0.2</revnumber>
+		<date>October 2002</date> 
+		<revdescription> 
+	  		<para role="author" lang="en">Mark Finlay
+	  		</para>
+	  		<para role="publisher" lang="en">GNOME Documentation Project</para>
+		</revdescription> 
+      </revision> 
+      <revision lang="en"> 
+		<revnumber>Rhythmbox Music Player Manual V0.0.3</revnumber>
+		<date>August 2003</date> 
+		<revdescription> 
+	  		<para role="author" lang="en">Mark Humphreys
+	  		</para>
+	  		<para role="publisher" lang="en">GNOME Documentation Project</para>
+		</revdescription> 
+      </revision> 
+      <revision lang="en"> 
+		<revnumber>Rhythmbox Music Player Manual V0.0.4</revnumber>
+		<date>October 2005</date> 
+		<revdescription> 
+	  		<para role="author" lang="en">Baptiste Mille-Mathias
+	  		</para>
+	  		<para role="publisher" lang="en">GNOME Documentation Project</para>
+		</revdescription> 
+      </revision> 
+      <revision lang="en"> 
+		<revnumber>Rhythmbox Music Player Manual V2.0.2</revnumber>
+		<date>April 2006</date>
+		<revdescription> 
+	  		<para role="author" lang="en">Luca Ferretti
+	  		</para>
+	  		<para role="publisher" lang="en">GNOME Documentation Project</para>
+		</revdescription> 
+      </revision> 
+	  <revision lang="en">
+		<revnumber>Rhythmbox Music Player Manual V2.0.3</revnumber>
+		<date>May 2008</date>
+		<revdescription>
+			<para role="author" lang="en">Dean Sas</para>
+			<para role="publisher" lang="en">GNOME Documentation Project</para>
+        </revdescription>
+      </revision>
+	  <revision lang="en">
+		<revnumber>Rhythmbox Music Player Manual V3.4.4</revnumber>
+		<date>January 2020</date>
+		<revdescription>
+			<para role="author" lang="en">Andre Klapper</para>
+			<para role="publisher" lang="en">GNOME Documentation Project</para>
+        </revdescription>
+      </revision>
+    </revhistory> 
+
+    <releaseinfo lang="en">This manual describes version 3.4.4 of Rhythmbox Music Player.
+    </releaseinfo> 
+    <legalnotice> 
+      <title>フィードバック</title> 
+      <para lang="en">To report a bug or make a suggestion regarding the Rhythmbox Music Player application or this manual, visit
+      the <ulink url="https://gitlab.gnome.org/GNOME/rhythmbox/issues/">GNOME Issue Tracker</ulink>. 
+      </para>
+<!-- Translators may also add here feedback address for translations -->
+    </legalnotice> 
+
+   <abstract role="description">
+     <para>Rhythmbox は GNOME デスクトップ向けの フル機能の ミュージック・プレイヤーです。</para>
+   </abstract>
+
+  </articleinfo> 
+
+
+  <indexterm zone="index" lang="en">
+    <primary>Rhythmbox</primary>
+  </indexterm>
+  <indexterm zone="index" lang="en">
+    <primary>rhythmbox</primary>
+  </indexterm>
+  <indexterm zone="index" lang="en">
+    <primary>Music Player</primary>
+  </indexterm>
+<!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+  <sect1 id="introduction">
+    <title>はじめに</title>
+      <para lang="en">
+        <application>Rhythmbox Music Player</application> is a music player and library for
+        tagged files that supports various music formats.
+      </para>
+      <para>現在の <application>Rhythmbox ミュージック・プレイヤー</application> には以下の機能が含まれます:</para>
+      	<itemizedlist>
+          <listitem>
+            <para>あなたのタグ付けされて組織化されたライブラリから、さまざまなフォーマットの音楽を再生します。</para>
+          </listitem>
+          <listitem>
+            <para>メタデータを読み込むことにより音楽の情報を表示します。</para>
+          </listitem>
+          <listitem>
+            <para>音楽を組織化されたビューで表示します。</para>
+          </listitem>
+          <listitem>
+            <para>ライブラリ ビューからのドラッグ アンド ドロップにより静的なプレイリストを作成します。</para>
+          </listitem>
+          <listitem>
+            <para>条件から自動的にプレイリストを作成します。</para>
+          </listitem>
+          <listitem>
+            <para>ライブラリやプレイリストから検索するときと同様にソースから音楽を検索します。</para>
+          </listitem>
+          <listitem>
+            <para>インターネット ラジオを聴くことができます。</para>
+          </listitem>
+          <listitem>
+            <para>オーディオ CD を読み込んで、インターネットからトラックの情報などを取得します。</para>
+          </listitem>
+          <listitem>
+            <para>プレイリストからオーディオ CD を作成します。</para>
+          </listitem>
+          <listitem>
+            <para lang="en">Transfer music to iPod, MTP and USB Mass Storage music players.</para>
+          </listitem>
+        </itemizedlist>
+  </sect1>
+  <sect1 id="rb-getting-started">
+  	<title>さあ、はじめましょう</title>
+	
+		<sect2 id="rb-launch">
+			<title><application>Rhythmbox ミュージック・プレイヤーを起動する</application></title>
+			<para lang="en">
+				You can launch the <application>Rhythmbox Music Player</application> in the following ways:
+				<variablelist>
+					<varlistentry>
+						<term lang="en"><guimenu>Applications</guimenu> grid</term>
+						<listitem>
+							<para lang="en">
+						 		Click <guimenuitem>Activities</guimenuitem> at the top left of the screen.
+								Click the grid button in the dash.
+						 		Choose <guimenuitem>Rhythmbox</guimenuitem>.
+							</para>
+						</listitem>
+					</varlistentry>
+					<varlistentry>
+						<term lang="en">Command Line</term>
+						<listitem>
+							<para lang="en">
+								Type <command>rhythmbox</command>, then press
+								<keycap>Return</keycap>.
+							</para>
+						</listitem>
+					</varlistentry>
+				</variablelist>
+			</para>
+		</sect2>
+		<sect2 id="rb">
+			<title>アシスタントの実行</title>
+			<para>最初に <application>Rhythmbox ミュージック・プレイヤー</application> を実行したときは、アシスタントが音楽をインポートする手助けをします。アシスタントの2番目のパネルで <guibutton>参照</guibutton> ボタンを押して、音楽が保存されているフォルダーを選択します。</para>
+		</sect2>
+  </sect1>
+  <sect1 id="rb-window">
+    <title>Rhythmbox ミュージック・プレイヤー ウィンドウ</title>
+    <sect2 id="rb-window-intro">
+      <title>概要</title>
+      	<para><application>Rhythmbox ミュージック・プレイヤー</application> ウィンドウでは、あなたのお気に入りの音楽の参照、再生ができます。<xref linkend="fig-rb-window"/> は、<application>Rhythmbox ミュージック・プレイヤー</application> のインターフェースと主要なコンポーネントです。</para>
+      	<figure id="fig-rb-window">
+        <title><application>Rhythmbox ミュージック・プレイヤー</application> ウィンドウ</title>
+        <screenshot>
+          <mediaobject lang="en">
+            <imageobject>
+              <imagedata fileref="figures/rb-window.png" format="PNG"/>
+            </imageobject>
+            <textobject>
+              <phrase>Show the <application>Rhythmbox Music Player</application> window showing 
+                the different parts on the <application>Rhythmbox Music Player</application> interface.
+                Callouts: Player area, Browser, Side pane, Statusbar.
+              </phrase>
+            </textobject>
+          </mediaobject>
+        </screenshot>
+      </figure>
+      <para>表1 は<application>Rhythmbox ミュージック・プレイヤー</application> ウィンドウのコンポーネントについての説明です。</para>
+      <table frame="topbot" id="table-rb-window">
+        <title><application>Rhythmbox ミュージック・プレイヤー</application> ウィンドウのコンポーネント</title>
+        <tgroup cols="3" colsep="0" rowsep="0">
+          <colspec colname="COLSPEC0"/>
+          <colspec colname="COLSPEC1"/>
+          <colspec colname="COLSPEC2"/>
+          <thead>
+            <row rowsep="1">
+              <entry valign="top">Id</entry>
+              <entry valign="top">コンポーネント</entry>
+              <entry valign="top">説明</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry valign="top">1</entry>
+              <entry valign="top">ツールバー</entry>
+              <entry valign="top" lang="en">Provides access to player
+							functions and details about the currently playing track.
+							Includes the time slider which displays the position of the read
+							of a track; it enables to jump to another part of a track. Also
+							includes the volume slider and the button to access the application menu.</entry>
+            </row>
+            <row>
+              <entry valign="top">2</entry>
+              <entry valign="top">サイド ペイン</entry>
+              <entry valign="top" lang="en">Displays a list of available
+							sources. Can also display the play queue.</entry>
+
+            </row>
+            <row>
+              <entry valign="top">3</entry>
+              <entry valign="top">ブラウザー</entry>
+              <entry valign="top">ライブラリのトラックをジャンル、アーティスト、アルバム名で表示、フィルターすることができます。</entry>
+            </row>
+            <row>
+              <entry valign="top">4</entry>
+              <entry valign="top">トラック リスト</entry>
+              <entry valign="top">選択されたソースに属するトラックを一覧します。</entry>
+            </row>
+            <row>
+              <entry valign="top">5</entry>
+              <entry valign="top">ステータスバー</entry>
+              <entry valign="top" lang="en">Displays information about the
+							source selected in the side pane.</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </sect2>
+    <sect2 id="intro-sourcelist">
+      <title>サイド ペイン</title>
+      <para lang="en">The side pane is where you can access your music library,
+			internet radio,	your playlists audio CDs, and the play queue. The side pane can contain
+			the following sources:
+				<itemizedlist>
+				  <listitem><para lang="en">The <application>Rhythmbox Music Player</application> library, where 
+				  all of the imported tracks will appear.</para></listitem>
+				  <listitem><para lang="en">Podcasts.</para></listitem>
+				  <listitem><para lang="en">The Radio source, with all internet radio stations.
+				  </para></listitem>
+				  <listitem><para lang="en">All playlists (normal and smart).</para></listitem>
+				  <listitem><para lang="en">Audio CD's inserted into the computer's CD drives.
+				  </para></listitem>
+				  <listitem><para lang="en">Portable players like iPod plugged to your computer.
+				  </para></listitem>
+				  <listitem><para lang="en">The DAAP Music shares discovered on the local network.
+				  </para></listitem>
+				  <listitem><para lang="en">Music stores like Jamendo and Magnatune.
+				  </para></listitem>
+				  <listitem><para lang="en">Music sharing websites like SoundCloud.
+				  </para></listitem>
+				</itemizedlist>
+		</para>
+	<para lang="en">It can also contain the play queue if you press the menu button in the top-right corner of the window and
+		select <menuchoice><guimenu>View</guimenu><guimenuitem>Play Queue in Side Pane</guimenuitem></menuchoice>.
+		</para>
+	<para lang="en">
+				The display of the side pane can be toggled on or off if you press the menu button in
+				the top-right corner of the window and select <menuchoice><guimenu>View</guimenu>
+				<guimenuitem>Side Pane</guimenuitem></menuchoice>.
+			</para>
+    </sect2>
+    <sect2 id="player-toolbar">
+      <title>プレイヤー ツールバー</title>
+      <para>ツールバー領域は、現在再生中のトラックの詳細へのアクセスを提供します。トラックがなにも再生されていない場合、この領域には何も表示されません。トラックの再生中はトラック名と、その下にアーティスト名とアルバム名が表示されます。</para>
+      <para lang="en">
+				A tracker which shows the progress of the playing track and a time slider
+				are also displayed. When the time slider has focus, the arrow keys can be used to
+				Fast-Forward or Rewind the playing track.
+			</para>
+      <tip>
+        <para lang="en">
+					If you are using a mouse with a scroll wheel, you can 
+					adjust the volume by scrolling up or down while the mouse pointer 
+					is over the volume button in the right corner.
+				</para>
+      </tip>
+    </sect2>
+    <sect2 id="status-area">
+      <title>ステータスバー</title>
+      <para lang="en">
+				The statusbar contains additional information about the number
+				of songs and the duration of the source selected.
+			</para>
+    </sect2>
+  </sect1>
+  <sect1 id="Usage">
+    <title>Rhythmbox ミュージック・プレイヤー を使用する</title>
+    <sect2 id="Playing">
+      <title>音楽を再生する</title>
+      <para lang="en">To play a track, select the track and 
+      press the <guibutton>Play</guibutton> button on the toolbar, or simply 
+      double-click on the track to start playing.
+		</para>
+      <para>トラックが終了したら、<application>Rhythmbox ミュージック・プレイヤー</application> は、ビュー ペインのリストの次のトラックジャンプします。</para>
+      <para lang="en">In the <xref linkend="library"/> you can play all songs from an artist or a single 
+      album simply selecting <guilabel>Album</guilabel> or <guilabel>Artist</guilabel> 
+      entry in the library browser.
+		</para>
+      <sect3 id="next-previous">
+        <title>次へ/再生/前へ</title>
+        <para lang="en">The <guibutton>Next</guibutton> and <guibutton>Previous</guibutton> 
+        buttons can be used to skip between tracks while playing. If a track is 
+        currently playing, the previous button will restart the	track. Pressing 
+        the <guibutton>Play</guibutton> button will start playing the current track. 
+			<screenshot>
+				<mediaobject lang="en">
+					<imageobject>
+						<imagedata fileref="figures/rb-toolbar-prevplaynext.png" format="PNG"/>
+					</imageobject>
+					<textobject>
+						<phrase>Shows buttons <guibutton>Previous</guibutton>,
+						<guibutton>Play</guibutton> and <guibutton>Next</guibutton> in toolbar.</phrase>
+					</textobject>
+				</mediaobject>
+			</screenshot>
+		</para>
+      </sect3>
+      <sect3 id="repeat">
+        <title>リピート</title>
+        <para><guibutton>リピート</guibutton> オプションにより、リストの最後のトラックが終わったら再び最初から再生するように <application>Rhythmbox ミュージック・プレイヤー</application> を設定することができます。</para>
+        <para lang="en">To activate repeat, press the button 
+        <guibutton>Repeat</guibutton> on the toolbar.
+			<screenshot>
+				<mediaobject lang="en">
+					<imageobject>
+						<imagedata fileref="figures/rb-toolbar-repeat.png" format="PNG"/>
+					</imageobject>
+					<textobject>
+						<phrase>Shows repeat button in the statusbar.</phrase>
+					</textobject>
+				</mediaobject>
+			</screenshot>
+		</para>
+      </sect3>
+      <sect3 id="shuffle">
+        <title>シャッフル</title>
+        <para><guibutton>シャッフル</guibutton> オプションにより、トラックをランダムな順番で再生するように <application>Rhythmbox ミュージック・プレイヤー</application> を設定することができます。</para>
+        <para lang="en">To activate shuffle, press the button 
+        <guibutton>Shuffle</guibutton> on the toolbar.
+			<screenshot>
+				<mediaobject lang="en">
+					<imageobject>
+						<imagedata fileref="figures/rb-toolbar-shuffle.png" format="PNG"/>
+					</imageobject>
+					<textobject>
+						<phrase>Shows shuffle button in the statusbar.</phrase>
+					</textobject>
+				</mediaobject>
+			</screenshot>
+		</para>
+      </sect3>
+      <sect3 id="volume">
+        <title>音量コントロール</title>
+        <para lang="en">
+				The volume control is located in the right hand of the toolbar.
+				Pressing the loudspeaker icon will show the volume slider.
+				Sliding this up and down will increase and decrease the volume.
+				The loudspeaker icon will change to reflect the relative volume.
+			<screenshot><mediaobject lang="en"><imageobject><imagedata fileref="figures/rb-volume-changer.png" format="PNG"/></imageobject><textobject><phrase>Shows volume slider in toolbar.
+				</phrase></textobject></mediaobject></screenshot>
+
+			</para>
+        <tip>
+          <para>スピーカー アイコンの上でマウスのホイールをスクロールして、音量の調整ができます。</para>
+        </tip>
+      </sect3>
+    </sect2>
+  </sect1>
+  <sect1 id="library">
+    <title>ライブラリのソース</title>
+    	<para>ライブラリは <application>Rhythmbox ミュージック・プレイヤー</application> で利用可能なソースのメインとなるものであり、<application>Rhythmbox ミュージック・プレイヤー</application> にインポートしたすべての音楽が含まれるデータベースです(ライブラリには音楽ファイルへのパスが保存されます。ファイル自身が保存される訳ではありません)。</para>
+    	<para lang="en">
+			The Library can not only contain music files which are physically 
+			on your computer (in your HOME Directory for instance), but it can
+			also contain music files available over remote network services. 
+			Some examples of supported network services are:
+			<itemizedlist>
+				<listitem>
+					<para lang="en">Public FTP</para>
+				</listitem>
+				<listitem>
+					<para lang="en">Authenticated FTP</para>
+				</listitem>
+				<listitem>
+					<para lang="en">NFS</para>
+				</listitem>
+				<listitem>
+					<para lang="en">Windows Share</para>
+				</listitem>
+			</itemizedlist>
+		</para>
+    	<para lang="en">
+			The files imported in the Library are displayed in the track list
+			with the information (like the Artist name or the Album name) stored 
+			in the tags embedded on the tracks. <application>Rhythmbox Music Player</application> uses 
+			these tags to display the tracks in an organized manner.
+			<tip>
+				<para lang="en">Tags can be modified by right-clicking, then choosing <guimenuitem>Properties</guimenuitem>
+				and filling in the details on the window that appears.</para>
+			</tip>
+		</para>
+    <sect2 id="library-tracks-add">
+      <title>ライブラリへのトラックの追加</title>
+      		<para lang="en">
+				To add tracks to the Library, you can follow these different
+				methods:
+				<itemizedlist>
+					<listitem>
+						<para lang="en">
+							If you want to import several music files located in a
+							folder, choose <guimenuitem>Import</guimenuitem> from the
+							browser bar next to the search field, then select the
+							folder in the file selector and press the 
+							<guibutton>Open</guibutton> button. All the music files located
+							in the folder and its sub-folders will be imported.
+						</para>
+					</listitem>
+					<listitem>
+						<para lang="en">
+							Drag and drop files from the file manager (like
+							<application>Nautilus</application>) over the Rhythmbox window.
+						</para>
+					</listitem>
+				</itemizedlist>
+			</para>
+      	<tip>
+       		<para>もしディレクトリの監視機能(<xref linkend="prefs-library"/> を参照) を有効にしている場合、選択されたディレクトリ配下に保存されたすべての音楽ファイルがライブラリに追加されます。後で追加されたファイルも同様に追加されます。</para>
+      	</tip>
+    </sect2>
+    <sect2 id="library-tracks-del">
+    	<title>ライブラリからのトラックの削除</title>
+      	<para lang="en">
+			To remove a track from the library but leave it on the disk, right-click
+			on the track and choose <guimenuitem>Remove</guimenuitem>.
+			The track and its properties (like rating or the play count) are
+			removed from the Rhythmbox database.
+		</para>
+      	<para lang="en">
+			To delete a track from the Library and also from your disk, right-click
+			on the track and choose <guimenuitem>Move to
+			Trash</guimenuitem>. The track will be removed in the
+			same way as previous, but the file will be moved in to the file
+			manager Trash.
+		</para>
+    </sect2>
+    <sect2 id="library-filter-search">
+    	<title>検索を使用してトラックを探す</title>
+      	<para>Rhythmbox には検索機能があります。これにより検索文字列を使用したトラックの検索と抽出が可能になります。</para>
+      	<para>検索ボックスに適当な文字列を入力すると、入力された文字列に一致するトラックのみが表示されます。検索機能はライブラリに保存されたトラックのすべてのタグを検索します。</para>
+		<para>より正確な検索を行うためには、<guilabel>アーティスト</guilabel>、<guilabel>アルバム名</guilabel>、<guilabel>タイトル</guilabel> から特定のタグを選んで検索することができます。</para>
+    </sect2>
+    <sect2 id="library-filter-browser">
+    	<title>ブラウザーを使用してトラックを探す</title>
+      	<para>ブラウザーによる検索は、トラックを探す別の便利な方法です。ブラウザーは検索文字列と、音楽のジャンル、アーティスト、アルバムから条件に一致するトラックを表示します。</para>
+      	<para lang="en">
+			First, to display the Browser, select <guibutton>Browse</guibutton>
+			in the tool bar. Select artist, album 
+			and genre, and as you choose, only the tracks that match your choice will 
+			be displayed in the track list. The criteria on the columns apply
+			from the left to the right.
+		</para>
+      	<tip>
+        	<para><keycombo><keycap>Ctrl</keycap></keycombo> キーを使用することにより、同じカテゴリで複数の条件を選択することができます。</para>
+      	</tip>
+      		<para>トラックリストで選択したトラックから、そのトラックと同じジャンル、アーティスト、アルバム名を検索することもできます。トラックリストからトラックを選択して右クリックし、<guilabel>このジャンル(またはアーティスト、アルバム)だけ表示する</guilabel> を選択します。これにより、選択された条件にしたがってブラウザーのトラックが抽出されます。</para>
+  	</sect2>
+  </sect1>
+  <sect1 id="radio">
+  	<title>ラジオ ソース</title>
+    <para>ネットワーク、ローカル、またはインターネットのストリームによるオーディオ ファイルを聞くために、インターネット ラジオ チューナーが使用できます。</para>
+    <figure id="fig-iradio">
+      <title><application>Rhythmbox ミュージック・プレイヤー</application> のインターネット ラジオ</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject>
+	    <imagedata format="PNG" fileref="figures/rb-iradio-main.png"/>
+	  </imageobject>
+	</mediaobject>
+      </screenshot>
+    </figure>
+    <sect2 id="iradio-adding">
+      	<title>ラジオ局の追加</title>
+      	<para lang="en">
+			To add a new station to the Internet Radio tuner, select
+			<guibutton>Add</guibutton> in the tool bar. Then enter the URL of
+			the Internet radio, then press the button <guibutton>Add</guibutton>.
+		</para>
+    </sect2>
+    <sect2 id="iradio-modify">
+      	<title>ラジオ局の設定の表示と変更</title>
+      	<para lang="en">
+			You can view and edit the settings of an Internet Radio station by selecting the
+			station and right-click, then choose <guimenuitem>Properties</guimenuitem>.
+		</para>
+      	<para>ラジオ ストリームのプロパティで、タイトル、ジャンル、および場所や評価も変更することができます。</para>
+    </sect2>
+    <sect2 id="iradio-delete">
+    	<title>ラジオ局の削除</title>
+      	<para lang="en">
+			To remove a radio station from the radio stations list, right-click on the station and select
+			<guimenuitem>Remove</guimenuitem>.
+		</para>
+    </sect2>
+  </sect1>
+  <sect1 id="podcast">
+  	<title>Podcast ソース</title>
+    <para lang="en">
+		Podcasting is a new way to broadcast audio content over the web; when an
+		author publishes an episode, podcast subscribers are informed, through an
+		XML feed.
+	</para>
+    <para>Rhythmbox ミュージック・プレイヤーで Podcast の配信を購読することができるので、新しいエピソードが利用可能になったと通知されたときは、それをダウンロードして再生することができます。</para>
+    <tip>
+      	<para lang="en">
+		You can find more information about podcasts and podcasting by visiting the
+		definition of <ulink url="https://en.wikipedia.org/wiki/Podcast">Podcast</ulink> on the 
+		site <ulink url="https://en.wikipedia.org/">Wikipedia</ulink>.
+		</para>
+    </tip>
+    <para>
+      <figure>
+        <title>Podcast インターフェース</title>
+        <mediaobject lang="en">
+          <imageobject>
+            <imagedata fileref="figures/rb-podcast-main.png" format="PNG"/>
+          </imageobject>
+          <textobject>
+            <phrase>The Podcast interface with some registered podcasts</phrase>
+          </textobject>
+        </mediaobject>
+      </figure>
+    </para>
+    <sect2 id="podcast-management">
+      <title>Podcast の管理</title>
+      <sect3 id="podcast-feed-add">
+        <title>Podcast の追加</title>
+        <para lang="en">
+			To register to a podcast, select <guibutton>Add</guibutton>
+			in the tool bar. Then in the new window, enter the URL of
+			the podcast feed. Rhythmbox will retrieve the list of episodes and the 
+			latest episode will be downloaded on your hard disk.
+			</para>
+      </sect3>
+      <sect3 id="podcast-feed-del">
+        <title>Podcast の削除</title>
+        <para lang="en">
+			To delete a podcast, right-click on the podcast feed's name in the browser, and choose
+			<menuchoice><guimenuitem>Delete Podcast
+			Feed</guimenuitem></menuchoice>, then choose
+			<menuchoice><guimenuitem>Delete Feed Only</guimenuitem></menuchoice> if you want to keep the
+			podcast's episodes, or choose <menuchoice><guimenuitem>Delete Feed And
+			Files</guimenuitem></menuchoice> if you want to delete the feed and all its
+			related episodes.
+			</para>
+      </sect3>
+      <sect3 id="podcast-feed-update">
+        <title>配信元の更新</title>
+        <para>Podcast に新しいエピソードが発行されたか知るには、ブラウザーの Podcast の名前を右クリックして <menuchoice><guimenuitem>Podcast の配信元の更新</guimenuitem></menuchoice> を選択します。これにより、新しいエピソードが発行されていた場合は、エピソードの一覧に表示されます。</para>
+        <tip>
+          <para>Rhythmbox ミュージック・プレイヤーは、自分で Podcast 配信元のリストが更新されているかどうかを定期的にチェックします。</para>
+        </tip>
+        <para><menuchoice><guimenuitem>Podcast</guimenuitem></menuchoice> のソースの上で右クリックして <menuchoice><guimenuitem>すべての配信元の更新</guimenuitem></menuchoice> を選択することにより、すべての Podcast をチェックすることもできます。</para>
+      </sect3>
+      <sect3 id="podcast-feed-show">
+        <title>Podcast 配信元のプロパティへのアクセス</title>
+        <para lang="en">
+			To access to the Feed properties, right-click on the Feed name, and
+			choose
+			<menuchoice><guimenuitem>Properties</guimenuitem></menuchoice>.
+			<itemizedlist><listitem><para lang="en">
+					On the <guilabel>Basic</guilabel> tab you can view the
+					podcast <guilabel>Title</guilabel>, <guilabel>Author
+					</guilabel>, the <guilabel>Last Updated</guilabel>
+					date and the <guilabel>Description</guilabel>.
+				</para></listitem><listitem><para lang="en">
+					On the <guilabel>Details</guilabel> tab you can view the
+					feed <guilabel>Source</guilabel>, <guilabel>Language
+					</guilabel>and the <guilabel>Copyright</guilabel>
+					properties.
+				</para></listitem></itemizedlist>
+			You can view the properties, and also edit the rating.
+			</para>
+      </sect3>
+    </sect2>
+    <sect2 id="episode-management">
+      <title>エピソードの管理</title>
+      <sect3 id="podcast-episode-download">
+        <title>Podcast のエピソードのダウンロード</title>
+        <para>エピソードをディスクにダウンロードするには、エピソードを右クリックして、<menuchoice><guimenuitem>エピソードのダウンロード</guimenuitem></menuchoice> を選択します。これにより Rhythmbox は、設定で定義された場所からエピソードのダウンロードを開始します。エピソードのダウンロードの進行状況は <guilabel>状態</guilabel> 列で確認することができます。</para>
+        <tip>
+          <para lang="en">
+			<!-- Update once https://gitlab.gnome.org/GNOME/rhythmbox/-/issues/1625 is fixed -->
+			By default, podcasts are downloaded in folder <filename class="directory">Music/</filename> in your home directory. To change location, 
+			see <xref linkend="prefs-podscast"/>.
+			</para>
+        </tip>
+      </sect3>
+      <sect3 id="podcast-episode-read">
+        <title>Podcast のエピソードを読み込む</title>
+        <para lang="en">
+			To play a podcast episode, select the episode you want to read, and
+			press the button <guibutton>Play</guibutton>.</para>
+        <para>エピソードを読み込む前に、まずダウンロードする必要があります。Podcast のエピソードをダウンロードする方法については、<xref linkend="podcast-episode-download"/> を参照してください。</para>
+      </sect3>
+      <sect3 id="podcast-episode-delete">
+        <title>Podcast のエピソードの削除</title>
+        <para lang="en">
+			To delete an episode from a podcast, right-click on the episode, and
+			choose <menuchoice><guimenuitem>Delete</guimenuitem></menuchoice>,
+			then choose <menuchoice><guimenuitem>Delete Episode
+			Only</guimenuitem></menuchoice> if you want to keep the episode file on
+			your disk, <menuchoice><guimenuitem>Delete File Only</guimenuitem></menuchoice>
+			if you want to keep the episode in the list but remove the corresponding
+			downloaded podcast file, or choose <guibutton>Delete Episode And File</guibutton>
+			if you want to remove the episode from the list and delete the file from your disk.
+			</para>
+        <warning>
+          <para>エピソードの削除後は、Podcast を更新しても、エピソードは一覧から利用できなくなります。</para>
+        </warning>
+      </sect3>
+      <sect3>
+        <title>Podcast のエピソードのプロパティを表示する</title>
+        <para lang="en">
+			To access to the episode properties, right-click on the episode, and
+			choose
+			<menuchoice><guimenuitem>Properties</guimenuitem></menuchoice>.
+			<itemizedlist><listitem><para lang="en">
+					On the <guilabel>Basic</guilabel> tab you can view the podcast
+					<guilabel>Title</guilabel>, <guilabel>Feed</guilabel>, the
+					publication <guilabel>Data</guilabel> and the
+					<guilabel>Description</guilabel>.
+				</para></listitem><listitem><para lang="en">
+					On the <guilabel>Details</guilabel> tab you can view the podcast
+					<guilabel>Source</guilabel>, <guilabel>Duration</guilabel>, the
+					<guilabel>Bitrate</guilabel>, the <guilabel>Last Played
+					Date</guilabel>, the <guilabel>Play count</guilabel> and
+					the <guilabel>Rating</guilabel>.
+				</para></listitem></itemizedlist>
+			</para>
+      </sect3>
+    </sect2>
+  </sect1>
+  <sect1 id="playqueue">
+  	<title>再生キューのソース</title>
+	<para>再生キューは、あなたが次に再生したいトラックを一時的に保存するためにデザインされたソースです。再生キューにトラックを追加すると、<application>Rhythmbox ミュージック・プレイヤー</application> は再生が終了したとき、自動的にこのソースに切り替えます。</para>
+	<para>トラックの再生が終了すると、トラックは自動的に再生キューのソースから取り除かれます。再生キューが空になると、<application>Rhythmbox ミュージック・プレイヤー</application> は、その前に再生していたソースを再生します。</para>
+		<sect2 id="playqueue-track-add">
+			<title>再生キューへのトラックの追加</title>
+			<para lang="en">To add a track:
+				<orderedlist>
+					<listitem>
+						<para lang="en">
+							Select the track you want to play, in any
+							source.
+						</para>
+					</listitem>
+					<listitem>
+						<para lang="en">Right-click and choose
+						<guimenuitem>Add to Queue</guimenuitem>.</para>
+					</listitem>
+				</orderedlist>
+			</para>
+		</sect2>
+		<sect2 id="playqueue-track-del">
+			<title>再生キューからトラックを削除する</title>
+			<para lang="en">To remove a track stored in Play Queue:
+				<orderedlist>
+					<listitem>
+						<para lang="en">Select the track you want to remove in Play Queue
+						source.</para>
+					</listitem>
+					<listitem>
+						<para lang="en">Right-click and choose
+							<guimenuitem>Remove from Play Queue</guimenuitem>.
+						</para>
+					</listitem>
+				</orderedlist>
+			</para>
+		</sect2>
+  </sect1>
+  
+  <sect1 id="playlist">
+  	<title>プレイリスト ソース</title>
+    <para>プレイリストはライブラリ ソースで利用可能なトラックから作るソースです。プレイリストで、特定の 'ジャンル'、指定した 'アーティスト'、あるいは特定の 'ムード'など、あなたのお好みのトラックを集めることができます。</para>
+    <para lang="en">
+			Rhythmbox Music Player has 2 kinds of playlists:
+			<itemizedlist>
+				<listitem>
+					<para lang="en">Static Playlists</para>
+				</listitem>
+				<listitem>
+					<para lang="en">Smart Playlists</para>
+				</listitem>
+			</itemizedlist>
+		</para>
+    <para>Rhythmbox であなたのプレイリストをオーディオ CDに書き込むことができます。</para>
+    <sect2 id="playlist-static">
+    	<title>静的なプレイリスト</title>
+      	<para>静的なプレイリストはライブラリからトラックをドロップして構築します。</para>
+      <sect3 id="playlist-static-new">
+        <title>静的プレイリストの作成</title>
+        <para lang="en">
+			To create a new playlist, right-click on an item in the library. Select
+			<menuchoice><guimenu>Add to Playlist</guimenu><guimenuitem>Add to New Playlist
+			</guimenuitem></menuchoice>. An empty playlist without name 
+			appears in the side pane. Enter a name for the playlist and press
+			<keycombo><keycap>Enter</keycap></keycombo>.
+		</para>
+      </sect3>
+      <sect3 id="playlist-static-tracks-add">
+        <title>プレイリストへのトラックの追加</title>
+        <para>プレイリストにトラックを追加するにはライブラリのトラック リストからトラックを選択して、サイド ペインのプレイリスト アイコンにドラッグ アンド ドロップします。</para>
+        <para>ブラウザーからジャンル、アーティスト、アルバムをプレイリストにドロップすることもできます。これによりそのカテゴリに属するすべてのトラックがプレイリストに追加されます。</para>
+        <tip>
+          <para>複数のトラックからプレイリストを一度の操作で作成することができます。<guilabel>トラック リスト</guilabel> からトラックを選択するか、ブラウザーから1つ、または複数のカテゴリ(<guilabel>ジャンル</guilabel>、<guilabel>アーティスト</guilabel>、または<guilabel>アルバム</guilabel>) を直接選択して<guilabel>サイド ペイン</guilabel>にドロップします。これにより自動的に名前付きのプレイリストが作成されます。</para>
+        </tip>
+      </sect3>
+      <sect3 id="playlist-static-tracks-del">
+        <title>プレイリストからのトラックの削除</title>
+        <para lang="en">
+					To remove tracks from a playlist, first select the tracks to
+					remove. Then, right-click over the selection and choose <guimenuitem>Delete</guimenuitem>.
+					This operation deletes the track only from playlist and not
+					from the Library.
+				</para>
+      </sect3>
+<!--
+      <sect3 id="playlist-static-del">
+        <title>Delete a static playlist</title>
+        <para>
+					To delete a static playlist, select the playlist to delete,
+					then you have two ways to delete it:
+					<itemizedlist><listitem><para>
+								Choose
+								<menuchoice><guimenu>Edit</guimenu><guimenuitem>Delete</guimenuitem></menuchoice>.
+							</para></listitem><listitem><para>
+								Right-click over the playlist and choose <guimenuitem>Delete</guimenuitem>.
+							</para></listitem></itemizedlist>
+					This operation deletes only the playlist and not the tracks
+					stored in the playlist deleted.
+				</para>
+      </sect3>
+-->
+    </sect2>
+    <sect2 id="playlist-smart">
+      <title>スマート プレイリスト</title>
+      <para>スマート プレイリストは、指定した条件から構築されるため、トラックは動的に追加されます; 条件に一致したすべてのトラックはプレイリストに追加されます。</para>
+      <para lang="en">
+				By default, the playlists <guimenuitem>My Top Rated</guimenuitem>,
+				<guimenuitem>Recently Added</guimenuitem>, and
+				<guimenuitem>Recently played</guimenuitem> are available.
+			</para>
+<!--
+      <sect3 id="playlist-smart-new">
+        <title>Create a smart playlist</title>
+        <para>
+					To create a new playlist:
+					<orderedlist><listitem><para>
+								Choose <menuchoice><guimenu>Music</guimenu><guisubmenu>Playlist</guisubmenu><guimenuitem>New
+								Automatic Playlist</guimenuitem></menuchoice>.
+							</para></listitem><listitem><para>
+								Edit the playlist criteria through the query editor.
+							</para></listitem><listitem><para>
+								Once your criteria have been chosen, click <guibutton>New</guibutton> to create the
+								query.
+							</para></listitem></orderedlist>
+				</para>
+      </sect3>
+      <sect3 id="playlist-smart-edit">
+        <title>Edit a smart playlist</title>
+        <para>
+					Editing a smart playlist lets you modify the criteria set
+					for this playlist. To edit a smart playlist, select the
+					smart playlist, choose
+					<menuchoice><guimenu>Music</guimenu><guisubmenu>Playlist</guisubmenu><guimenuitem>Edit</guimenuitem></menuchoice>, and edit the criteria.
+					Once done, choose <guibutton>Close</guibutton>.
+				</para>
+      </sect3>
+      <sect3 id="playlist-smart-del">
+        <title>Delete a smart playlist</title>
+        <para>
+					To delete a smart playlist, select the playlist to delete,
+					then you have two ways to delete it:
+					<itemizedlist><listitem><para>
+								Choose
+								<menuchoice><guimenu>Edit</guimenu><guimenuitem>Delete</guimenuitem></menuchoice>.
+							</para></listitem><listitem><para>
+								Right-click over the playlist and choose <guimenuitem>Delete</guimenuitem>.
+							</para></listitem></itemizedlist>
+				</para>
+      </sect3>
+      <sect3 id="playlist-smart-query-use">
+        <title>Use the query editor</title>
+        <para>
+		Choose the criteria to apply to the rule. If you need one
+		more criteria click on the button
+		<guibutton>Add</guibutton>, a new line appears, and you can
+		set a new criteria.
+		</para>
+        <para>
+		If you want to limit the number of tracks in the playlist,
+		tick <guilabel>Limit to:</guilabel>, and choose how to
+		limit. You can limit by tracks, by total size (in
+		<guilabel>MB</guilabel> or <guilabel>GB</guilabel>), or by
+		duration (expressed in <guilabel>Minutes</guilabel>).
+		</para>
+        <para>
+		Once you finish setting the criteria for the playlist, choose
+		<guibutton>New</guibutton>; the playlist query editor window
+		will close, and the playlist will display the tracks matched by your
+		criteria.
+		</para>
+      </sect3>
+-->
+    </sect2>
+  </sect1>
+  <sect1 id="AudioCD">
+    <title>オーディオ CD ソース</title>
+	<para><application>Rhythmbox ミュージック・プレイヤー</application> はオーディオ CD を取り扱うこともできます; CD を再生したり、あなた自身で書き込むこともできます。</para>
+    <sect2 id="cd-playing">
+      <title>再生</title>
+      <para>オーディオ CD が挿入されると、その CD がサイド ペインに表示され、CD のトラックが <application>Rhythmbox ミュージック・プレイヤー</application> のメイン ウィンドウに表示されます。</para>
+      <para>再生と一時停止、または前方、後方へのスキップは、ライブラリの再生と同じ方法で操作します。</para>
+    </sect2>
+    <sect2 id="cd-import">
+      <title>オーディオ CD のインポート</title>
+      <para>オーディオ CD のトラックをコンピューターに残したい場合は、それらをインポートすることができます。</para>
+      <para lang="en">To import Audio CD tracks, choose <guibutton>Extract</guibutton>
+	  in the tool bar.</para>
+    </sect2>
+    <sect2 id="cd-burning">
+      <title>オーディオ CD の作成</title>
+      <para>Rhythmbox を使用して、Rhythmbox ライブラリの音楽から、あなた自身のオーディオ CD を作成できます。</para>
+      <para lang="en">To create an Audio CD: 
+				<orderedlist><listitem><para lang="en">Create a playlist, static or smart
+				(see <xref linkend="playlist"/>) and add tracks.</para></listitem>
+                <listitem><para lang="en">Choose <guibutton>Playlist</guibutton> in the tool bar.</para></listitem>
+                <listitem><para lang="en">Select <guimenuitem>Create Audio CD</guimenuitem>.</para></listitem>
+                <listitem><para lang="en">Insert a blank CD.</para></listitem>
+                <listitem><para lang="en">Click the button <guibutton>Create</guibutton>, the burning process starts.</para></listitem>
+                </orderedlist>
+			</para>
+    </sect2>
+  </sect1>
+  <sect1 id="portable-audio-player">
+    <title>携帯オーディオ プレーヤー ソース</title>
+    <para><application>Rhythmbox</application> はコンピューターに接続された携帯オーディオ プレイヤーを認識して、それに保存されているトラックを読み込むことができます。<application>Rhythmbox ミュージック・プレイヤー</application> はApple iPod、MTP プレイヤー、そして Mass Storage プレイヤーを含む、ほとんどの携帯オーディオ プレイヤーに対応しています。</para>
+    <para>携帯オーディオ プレイヤーを接続すると、携帯オーディオ プレイヤーのアイコンがサイド ペインに追加されます。このソースはライブラリ ソースと同様に取り扱うことができます。</para>
+	<tip><para>もし <application>Rhythmbox ミュージック・プレイヤー</application> がデバイスを携帯オーディオ プレイヤーと認識しなかった場合、プレイヤーのファイルシステムの最上位階層に <filename>.is_audio_player</filename> という名前の空のファイルを作成することができます。</para></tip>
+  </sect1>
+  <sect1 id="daap">
+    <title>DAAP 共有 ソース</title>
+    <para>DAAP とはネットワークのプロトコルの1種で、Rhythmbox に保存された音楽の共有を可能にします。DAAP とは デジタル オーディオ アクセス プロトコル の略です。</para>
+    <para>DAAP は音楽を共有するための標準的なプロトコルなので、他の Rhythmbox ユーザーだけではなく、iTunes のような DAAP と互換性のあるソフトウェアを使用しているユーザーとも音楽を聞いたり共有することができます。</para>
+    <para>Rhythmbox を起動すると、ローカル ネットワーク(インターネット全体ではなく家庭やオフィス)より、他のユーザーが提供するすべての DAAP 共有を検索して、サイド ペインに表示します。もし共有が利用可能ならば、同時に Rhythmbox はあなたのライブラリとプレイリストを公開します。これにより、あなたは友達のコンピューターを聞くことができるとともに、彼らもあなたの音楽を聞くことができます。</para>
+    <para>Rhythmbox の DAAP 共有機能を無効にする方法については、<xref linkend="prefs-sharing"/> を参照してください。</para>
+  </sect1>
+  <sect1 id="notification">
+    <title>通知スペース(Notification Area)</title>
+    <sect2 id="notification-overview">
+      <title>概要</title>
+      <para lang="en">The Notification Area allows you to control 
+      <application>Rhythmbox Music Player</application> and receive information 
+      when the <application>Rhythmbox Music Player</application> interface is not visible.
+		</para>
+      <figure id="fig-notification-zone">
+        <title>通知スペース の <application>Rhythmbox ミュージック・プレイヤー</application></title>
+        <screenshot>
+          <mediaobject>
+            <imageobject>
+              <imagedata format="PNG" fileref="figures/rb-notification-zone.png"/>
+	    </imageobject>
+	  </mediaobject>
+        </screenshot>
+      </figure>
+    </sect2>
+    <sect2 id="notification-control">
+      <title>Rhythmbox の制御</title>
+      <para>通知スペース の <application>Rhythmbox ミュージック・プレイヤー</application> アイコンを通じて、以下のコマンドをアプリケーションに送信することができます:</para>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para lang="en"><guibutton>Play</guibutton> — If selected, plays the 
+            currently selected song.</para>
+          </listitem>
+          <listitem>
+            <para lang="en"><guibutton>Previous</guibutton> — Skip to previous song 
+            in the selected source.</para>
+          </listitem>
+          <listitem>
+            <para lang="en"><guibutton>Next</guibutton> — Skip to next song in the 
+            selected source.</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </sect2>
+  </sect1>
+  <sect1 id="customize">
+    <title>Rhythmbox ミュージック・プレイヤーのカスタマイズ</title>
+    <para>この節では <application>Rhythmbox ミュージック・プレイヤー</application> を、あなたの好みや用途に合わせてカスタマイズする方法について説明します。</para>
+    <sect2 id="prefs">
+      <title>環境を設定する</title>
+      <para lang="en">
+		Using the <guilabel>Preferences</guilabel> dialog you can customize how
+		you want <application>Rhythmbox Music Player</application> to look and behave. To display
+		the <guilabel>Preferences</guilabel> dialog, press the menu button in the
+		top-right corner of the window and select <guimenuitem>Preferences</guimenuitem>.
+		</para>
+      <sect3 id="prefs-general">
+      	<title>全般</title>
+		<para><guilabel>ブラウザー ビュー</guilabel> をどのように表示するかを選択します。3つ、または2つのペインを表示するか、それらのペインに何を表示するかを選択することができます。</para>
+      	<para lang="en">
+			Choose the <guilabel>Visible Columns</guilabel> you want to
+			display in <application>Rhythmbox Music Player</application>. This option affects
+			the following sources:
+			<itemizedlist>
+				<listitem><para lang="en">Library</para></listitem>
+				<listitem><para lang="en">Audio CD</para></listitem>
+				<listitem><para lang="en">Portable Players</para></listitem>
+				<listitem><para lang="en">Playlists</para></listitem>
+				<listitem><para lang="en">DAAP Music shares</para></listitem>
+			</itemizedlist>
+		</para>
+      </sect3>
+      <sect3 id="prefs-library">
+        <title>ミュージック</title>
+        <itemizedlist>
+          <listitem>
+            <para><guilabel>ライブラリの場所</guilabel> は <application>Rhythmbox ミュージック・プレイヤー</application> が新しい曲を監視する場所です。あたらしいオーディオ ファイルをファイル ブラウザー(Nautilusなど)から、このフォルダー(またはサブフォルダー)に追加すると、<application>Rhythmbox ミュージック・プレイヤー</application> はそれを認識して自動的にライブラリに追加します。</para>
+            <warning>
+            	<para>この機能は CPU を消費するため、ライブラリの場所を、あなたの <filename class="directory">Home</filename> フォルダーに設定するのは避けてください。</para>
+            </warning>
+            <para>監視機能を無効にするには、<guilabel>ライブラリを監視する</guilabel> のチェックを外します。</para>
+            <tip>
+            	<para lang="en">If you want to add more than one folder to watch, 
+            	use <application>dconf-editor</application> and add it to the list at
+            	/org/gnome/rhythmbox/rhythmboxdb/locations
+				</para>
+            </tip>
+          </listitem>
+        </itemizedlist>
+      </sect3>
+      <sect3 id="prefs-podscast">
+        <title>Podcast</title>
+        <itemizedlist>
+          <listitem>
+            <para>Podcast の <guilabel>ダウンロードする場所</guilabel> は、デフォルトではホーム ディレクトリ配下の <filename class="directory">Podcasts/ </filename> に設定されています。</para>
+            <para>もしこの場所があなたの用途に適さない場合は、ドロップダウン リストで <guilabel>その他</guilabel> をクリックして フォルダー選択 ダイアログを表示し、他のフォルダーを選択してください。</para>
+          </listitem>
+          <listitem>
+            <para><application>Rhythmbox ミュージック・プレイヤー</application> が、Podcast の新しいエピソードをチェックする周期を選択します。</para>
+          </listitem>
+        </itemizedlist>
+      </sect3>
+      <sect3 id="prefs-sharing">
+        <title>共有</title>
+        <para><application>Rhythmbox ミュージック・プレイヤー</application> は、ローカル ネットワークを通じて、あなたのライブラリのコンテンツを、他の <application>Rhythmbox ミュージック・プレイヤー</application> や Apple iTunes のユーザーと共有することができます。</para>
+        <itemizedlist>
+          <listitem>
+            <para><guilabel>お気に入りの楽曲を共有する</guilabel> を選択することにより、ネットワーク上のユーザーがあなたの楽曲を参照、読み込むことが可能になります。</para>
+          </listitem>
+          <listitem>
+            <para>ネットワークに表示したい共有の名前を <guilabel>共有する楽曲名</guilabel> に入力します。</para>
+          </listitem>
+        </itemizedlist>
+      </sect3>
+      <sect3 id="prefs-lastfm">
+        <title lang="en">Last.fm and Libre.fm profiles</title>
+        <para lang="en">
+			The Last.fm profile plugin collects information about the songs you listen to
+			and sends it to the <ulink url="https://www.last.fm/">Last.fm</ulink> or
+			<ulink url="https://www.libre.fm/">Libre.fm</ulink> website,
+			building up a profile of your listening habits.  With this profile, you can:
+			<itemizedlist>
+				<listitem>
+					<para lang="en">consult statistics, such as most played songs or most played artists.</para>
+				</listitem>
+				<listitem>
+					<para lang="en">receive recommendations about artists that you might like.</para>
+				</listitem>
+			</itemizedlist>
+		</para>
+        <warning>
+          <para lang="en">
+		    In order to use one of these plugins, you must have an account on one of these websites. Press the
+			menu button in the top-right corner of the window and select <guimenuitem>Preferences</guimenuitem>.
+			Select the <guilabel>Plugins</guilabel> tab. Select the <guimenuitem>Last.fm</guimenuitem> item
+			and press the <guibutton>Preferences</guibutton> button. Select a service and close the dialog.
+			In the sidebar, select the service. Press the <guibutton>Log in</guibutton> button in the upper
+			right corner and enter your account details in the web browser window.
+		  </para>
+        </warning>
+      </sect3>
+    </sect2>
+  </sect1>
+  <sect1 id="shortcuts">
+    <title>ショートカット</title>
+    <sect2 id="keyboard-keys">
+      <title>キーボード ショートカット</title>
+      <table frame="topbot" id="rb-shorcuts-1">
+	  	<title>プレイヤーのショートカット</title>
+        <tgroup cols="2" colsep="0" rowsep="0">
+          <colspec colname="COLSPEC0" colwidth="30*"/>
+          <colspec colname="COLSPEC1" colwidth="70*"/>
+          <thead>
+            <row>
+              <entry>ショートカット</entry>
+              <entry>動作</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry lang="en">
+                <keycombo>
+                  <keycap>Ctrl</keycap>
+                  <keycap>P</keycap>
+                </keycombo>
+              </entry>
+              <entry>
+                <para>再生 / 一時停止</para>
+              </entry>
+            </row>
+            <row>
+              <entry lang="en">
+                <keycombo>
+                  <keycap>Ctrl</keycap>
+                  <keycap>Left</keycap>
+                </keycombo>
+              </entry>
+              <entry>
+                <para>前のトラックにジャンプ / トラックの先頭へ戻る</para>
+              </entry>
+            </row>
+            <row>
+              <entry lang="en">
+                <keycombo>
+                  <keycap>Ctrl</keycap>
+                  <keycap>Right</keycap>
+                </keycombo>
+              </entry>
+              <entry>
+                <para>次のトラックにジャンプ</para>
+              </entry>
+            </row>
+            <row>
+              <entry lang="en">
+                <keycombo>
+                  <keycap>Ctrl</keycap>
+                  <keycap>Up</keycap>
+                </keycombo>
+              </entry>
+              <entry>
+                <para lang="en">Increase playback volume</para>
+              </entry>
+            </row>
+            <row>
+              <entry lang="en">
+                <keycombo>
+                  <keycap>Ctrl</keycap>
+                  <keycap>Down</keycap>
+                </keycombo>
+              </entry>
+              <entry>
+                <para lang="en">Decrease playback volume</para>
+              </entry>
+            </row>
+            <row>
+              <entry lang="en">
+                <keycombo>
+                  <keycap>Ctrl</keycap>
+                  <keycap>R</keycap>
+                </keycombo>
+              </entry>
+              <entry>
+                <para>リピート再生の 有効 / 無効</para>
+              </entry>
+            </row>
+            <row>
+              <entry lang="en">
+                <keycombo>
+                  <keycap>Ctrl</keycap>
+                  <keycap>U</keycap>
+                </keycombo>
+              </entry>
+              <entry>
+                <para>シャッフル再生の 有効 / 無効</para>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <table frame="topbot" id="rb-shorcuts-2">
+	  	<title>一般的なショートカット</title>
+		<tgroup cols="2" colsep="0" rowsep="0">
+          <colspec colname="COLSPEC0" colwidth="30*"/>
+          <colspec colname="COLSPEC1" colwidth="70*"/>
+          <thead>
+            <row>
+              <entry>ショートカット</entry>
+              <entry>動作</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry lang="en">
+                <keycombo>
+                  <keycap>Ctrl</keycap>
+                  <keycap>A</keycap>
+                </keycombo>
+              </entry>
+              <entry>
+                <para>すべて選択</para>
+              </entry>
+            </row>
+            <row>
+              <entry lang="en">
+                <keycombo>
+                  <keycap>Shift</keycap>
+                  <keycap>Ctrl</keycap>
+                  <keycap>A</keycap>
+                </keycombo>
+              </entry>
+              <entry>
+                <para>すべて選択解除</para>
+              </entry>
+            </row>
+            <row>
+              <entry lang="en">
+                <keycombo>
+                  <keycap>Ctrl</keycap>
+                  <keycap>J</keycap>
+                </keycombo>
+              </entry>
+              <entry>
+                <para>再生中の曲へジャンプ</para>
+              </entry>
+	    </row>
+	    <!--
+            <row>
+              <entry>
+                <keycombo>
+                  <keycap>Ctrl</keycap>
+                  <keycap>Y</keycap>
+                </keycombo>
+              </entry>
+              <entry>
+                <para>Clear the search field text and remove all filters in the browser</para>
+              </entry>
+	    </row>
+            -->
+            <row>
+              <entry lang="en">
+                <keycombo>
+                  <keycap>Alt</keycap>
+                  <keycap>S</keycap>
+                </keycombo>
+              </entry>
+              <entry>
+                <para lang="en">Jump to search field</para>
+              </entry>
+            </row>
+            <row>
+              <entry lang="en">
+                <keycombo>
+                  <keycap>Alt</keycap>
+                  <keycap>Return</keycap>
+                </keycombo>
+              </entry>
+              <entry>
+                <para>トラックのプロパティを表示</para>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <table frame="topbot" id="rb-shorcuts-3">
+	  	<title>ウィンドウのショートカット</title>
+        <tgroup cols="2" colsep="0" rowsep="0">
+          <colspec colname="COLSPEC0" colwidth="30*"/>
+          <colspec colname="COLSPEC1" colwidth="70*"/>
+          <thead>
+            <row>
+              <entry>ショートカット</entry>
+              <entry>動作</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry lang="en">
+                <keycombo>
+                  <keycap>Ctrl</keycap>
+                  <keycap>Q</keycap>
+                </keycombo>
+              </entry>
+              <entry>
+                <para><application>Rhythmbox ミュージック・プレイヤー</application> を終了する</para>
+              </entry>
+            </row>
+            <row>
+              <entry lang="en">
+                <keycombo>
+                  <keycap>Ctrl</keycap>
+                  <keycap>B</keycap>
+                </keycombo>
+              </entry>
+              <entry>
+                <para>ブラウザーの 表示 / 非表示</para>
+              </entry>
+            </row>
+            <row>
+              <entry lang="en">
+                <keycombo>
+                  <keycap>F9</keycap>
+                </keycombo>
+              </entry>
+              <entry>
+                <para>サイド ペインの 表示 / 非表示</para>
+              </entry>
+            </row>
+            <row>
+              <entry lang="en">
+                <keycombo>
+                  <keycap>Ctrl</keycap>
+                  <keycap>K</keycap>
+                </keycombo>
+              </entry>
+              <entry>
+                <para>キュー サイドバーの 表示 / 非表示</para>
+              </entry>
+            </row>
+            <row>
+              <entry lang="en">
+                <keycombo>
+                  <keycap>F11</keycap>
+                </keycombo>
+              </entry>
+              <entry>
+                <para>フルスクリーン モードの オン / オフ</para>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </sect2>
+    <sect2 id="multimedia-keys">
+      <title>マルチメディア キー</title>
+      <para><application>Rhythmbox ミュージック・プレイヤー</application> はデスクトップ環境で設定されている場合、マルチメディア キーボードをサポートします。</para>
+      <table frame="none">
+	  	<title>ウィンドウのショートカット</title>
+        <tgroup cols="2" colsep="0" rowsep="0">
+          <colspec colname="COLSPEC0"/>
+          <colspec colname="COLSPEC1"/>
+          <thead>
+            <row>
+              <entry>ショートカット</entry>
+              <entry>動作</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry lang="en">
+                <keycap>Stop</keycap>
+              </entry>
+              <entry>
+                <para>Stop</para>
+              </entry>
+            </row>
+            <row>
+              <entry lang="en">
+                <keycap>Pause / Play</keycap>
+              </entry>
+              <entry>
+                <para>Pause / Play</para>
+              </entry>
+            </row>
+            <row>
+              <entry lang="en">
+                <keycap>Prev</keycap>
+              </entry>
+              <entry>
+                <para>前に再生したトラック</para>
+              </entry>
+            </row>
+            <row>
+              <entry lang="en">
+                <keycap>Next</keycap>
+              </entry>
+              <entry>
+                <para>次のトラック</para>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </sect2>
+    <sect2 id="lirc">
+      <title>Linux 赤外線リモコン(Linux Infrared Remote Control)</title>
+      <para><application>Rhythmbox ミュージック・プレイヤー</application> には Linux 赤外線リモコン(LIRC: Linux Infrared Remote Control) をサポートするためのプラグインが含まれています。プログラム名 'rhythmbox' を使用して以下のコマンド文字列がサポートされます:</para>
+      <table frame="none">
+	  	<title>ウィンドウのショートカット</title>
+        <tgroup cols="2" colsep="0" rowsep="0">
+          <colspec colname="COLSPEC0"/>
+          <colspec colname="COLSPEC1"/>
+          <thead>
+            <row>
+              <entry>コマンド文字列</entry>
+              <entry>動作</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry lang="en"> <keycap>play</keycap> </entry>
+              <entry> <para>再生を開始します</para> </entry>
+            </row>
+            <row>
+              <entry lang="en"> <keycap>pause</keycap> </entry>
+              <entry> <para>再生を一時停止</para> </entry>
+            </row>
+	    <row>
+	      <entry lang="en"> <keycap>playpause</keycap> </entry>
+	      <entry> <para>再生と一時停止の切り替え</para> </entry>
+	    </row>
+            <row>
+              <entry lang="en"> <keycap>shuffle</keycap> </entry>
+              <entry> <para>シャッフル再生の切り替え</para> </entry>
+            </row>
+            <row>
+              <entry lang="en"> <keycap>repeat</keycap> </entry>
+              <entry> <para>リピート再生の切り替え</para> </entry>
+            </row>
+            <row>
+              <entry lang="en"> <keycap>next</keycap> </entry>
+              <entry> <para>次のトラックにスキップ</para> </entry>
+            </row>
+            <row>
+              <entry lang="en"> <keycap>previous</keycap> </entry>
+              <entry> <para>前のトラックにスキップ</para> </entry>
+            </row>
+            <row>
+              <entry lang="en"> <keycap>seek_forward</keycap> </entry>
+              <entry> <para>再生中のトラックを前方向に10秒スキップ</para> </entry>
+            </row>
+            <row>
+              <entry lang="en"> <keycap>seek_backward</keycap> </entry>
+              <entry> <para>再生中のトラックを後方向に10秒スキップ</para> </entry>
+            </row>
+            <row>
+              <entry lang="en"> <keycap>volume_up</keycap> </entry>
+              <entry> <para>再生音量を10%アップ</para> </entry>
+            </row>
+            <row>
+              <entry lang="en"> <keycap>volume_down</keycap> </entry>
+              <entry> <para>再生音量を10%ダウン</para> </entry>
+            </row>
+            <row>
+              <entry lang="en"> <keycap>mute</keycap> </entry>
+              <entry> <para>ミュート再生</para> </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </sect2>
+  </sect1>
+</article>

@@ -1,0 +1,1501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+<!ENTITY appversion "3.4.4">
+<!ENTITY manrevision "3.4.4">
+<!ENTITY date "January 2020">
+<!ENTITY app "Rhythmbox Music Player">
+<!ENTITY mdash "&#8212;">
+]>
+<!--
+      (Do not remove this comment block.)
+  Version: 0.0.2
+  Last modified: October 02, 2002
+  Maintainers:
+               Mark Finlay <sisob@eircom.net>
+	       Mark Humphreys <marquee@users.sourceforge.net>
+-->
+<!--
+      (Do not remove this comment block.)
+  Version: 0.0.3
+  Last modified: August 08, 2003
+  Maintainers:
+	       Mark Humphreys <marquee@users.sourceforge.net>
+-->
+<!--
+      (Do not remove this comment block.)
+  Version: 0.0.4
+  Last modified: October 01, 2005
+  Maintainers:
+	       Baptiste Mille-Mathias <baptiste.millemathias@gmail.com>
+-->
+<!-- =============Document Header ============================= -->
+<article id="index" lang="eu">
+<!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+  <articleinfo>
+    <title>Rhythmbox musika-erreproduzitzailea</title>
+	<copyright lang="en">
+		<year>2002</year>
+		<holder>Mark Finlay</holder>
+	</copyright>
+        <copyright lang="en">
+                <year>2002</year>
+                <holder>Mark Humphreys</holder>
+        </copyright>
+	<copyright lang="en">
+		<year>2005</year>
+		<year>2006</year>
+		<holder>Baptiste Mille-Mathias</holder>
+	</copyright>
+	<copyright lang="en">
+		<year>2006</year>
+		<holder>Victor Osadci</holder>
+	</copyright>
+	<copyright lang="en">
+		<year>2008</year>
+		<holder>Dean Sas</holder>
+	</copyright>
+	<copyright lang="en">
+		<year>2018</year>
+		<year>2020</year>
+		<holder>Andre Klapper</holder>
+	</copyright>
+
+<!-- translators: uncomment this:
+  <copyright>
+   <year>2000</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+  -->
+<!-- An address can be added to the publisher information.  If a role is
+     not specified, the publisher/author is the same for all versions of the
+     document.  -->
+	<publisher>
+	 	<publishername>GNOME dokumentazio-proiektua</publishername>
+	</publisher>
+
+   
+   <!-- This file  contains link to license for the documentation (GNU FDL), and
+   other legal stuff such as "NO WARRANTY" statement. Please do not change
+   any of this. -->
+   <authorgroup>
+   		<author lang="en">
+			<firstname>Mark</firstname>
+			<surname>Finlay</surname>
+			<affiliation>
+				<orgname>GNOME Documentation Project</orgname>
+				<address><email>sisob@eircom.net</email></address>
+			</affiliation>
+		</author>
+		<author lang="en">
+			<firstname>Mark</firstname>
+			<surname>Humphreys</surname>
+			<affiliation>
+				<orgname>GNOME Documentation Project</orgname>
+				<address><email>marquee@users.sourceforge.net</email></address>
+			</affiliation>
+		</author>		
+		<author role="maintainer" lang="en">
+			<firstname>Baptiste</firstname>
+			<surname>Mille-Mathias</surname>
+			<affiliation>
+				<orgname>GNOME Documentation Project</orgname>
+				<address><email>baptiste.millemathias@gmail.com</email></address>
+			</affiliation>
+		</author>
+		<author lang="en">
+			<firstname>Victor</firstname>
+			<surname>Osadci</surname>
+			<affiliation>
+				<orgname>GNOME Documentation Project</orgname>
+				<address><email>Victor.Osadci.GNOME@xhtml.md</email></address>
+			</affiliation>
+		</author>
+		<author lang="en">
+			<firstname>Dean</firstname>
+			<surname>Sas</surname>
+			<affiliation>
+				<orgname>Ubuntu Documentation Project</orgname>
+				<address><email>dean@deansas.org</email></address>
+			</affiliation>
+		</author>
+		<author lang="en">
+			<firstname>Andre</firstname>
+			<surname>Klapper</surname>
+			<affiliation>
+				<orgname>GNOME Documentation Project</orgname>
+				<address><email>ak-47@gmx.net</email></address>
+			</affiliation>
+		</author>
+   </authorgroup>
+
+<!-- According to GNU FDL, revision history is mandatory if you are -->
+<!-- modifying/reusing someone else's document.  If not, you can omit it. -->
+   <revhistory>
+      <revision lang="en"> 
+		<revnumber>Rhythmbox Music Player Manual V0.0.2</revnumber>
+		<date>October 2002</date> 
+		<revdescription> 
+	  		<para role="author" lang="en">Mark Finlay
+	  		</para>
+	  		<para role="publisher" lang="en">GNOME Documentation Project</para>
+		</revdescription> 
+      </revision> 
+      <revision lang="en"> 
+		<revnumber>Rhythmbox Music Player Manual V0.0.3</revnumber>
+		<date>August 2003</date> 
+		<revdescription> 
+	  		<para role="author" lang="en">Mark Humphreys
+	  		</para>
+	  		<para role="publisher" lang="en">GNOME Documentation Project</para>
+		</revdescription> 
+      </revision> 
+      <revision lang="en"> 
+		<revnumber>Rhythmbox Music Player Manual V0.0.4</revnumber>
+		<date>October 2005</date> 
+		<revdescription> 
+	  		<para role="author" lang="en">Baptiste Mille-Mathias
+	  		</para>
+	  		<para role="publisher" lang="en">GNOME Documentation Project</para>
+		</revdescription> 
+      </revision> 
+      <revision lang="en"> 
+		<revnumber>Rhythmbox Music Player Manual V2.0.2</revnumber>
+		<date>April 2006</date>
+		<revdescription> 
+	  		<para role="author" lang="en">Luca Ferretti
+	  		</para>
+	  		<para role="publisher" lang="en">GNOME Documentation Project</para>
+		</revdescription> 
+      </revision> 
+	  <revision lang="en">
+		<revnumber>Rhythmbox Music Player Manual V2.0.3</revnumber>
+		<date>May 2008</date>
+		<revdescription>
+			<para role="author" lang="en">Dean Sas</para>
+			<para role="publisher" lang="en">GNOME Documentation Project</para>
+        </revdescription>
+      </revision>
+	  <revision lang="en">
+		<revnumber>Rhythmbox Music Player Manual V3.4.4</revnumber>
+		<date>January 2020</date>
+		<revdescription>
+			<para role="author" lang="en">Andre Klapper</para>
+			<para role="publisher" lang="en">GNOME Documentation Project</para>
+        </revdescription>
+      </revision>
+    </revhistory> 
+
+    <releaseinfo lang="en">This manual describes version 3.4.4 of Rhythmbox Music Player.
+    </releaseinfo> 
+    <legalnotice> 
+      <title>Oharra</title> 
+      <para lang="en">To report a bug or make a suggestion regarding the Rhythmbox Music Player application or this manual, visit
+      the <ulink url="https://gitlab.gnome.org/GNOME/rhythmbox/issues/">GNOME Issue Tracker</ulink>. 
+      </para>
+<!-- Translators may also add here feedback address for translations -->
+    </legalnotice> 
+
+   <abstract role="description">
+     <para>Rhythmbox GNOME mahaigainerako eginbide askoko musika-erreproduzitzailea da.</para>
+   </abstract>
+
+  </articleinfo> 
+
+
+  <indexterm zone="index" lang="en">
+    <primary>Rhythmbox</primary>
+  </indexterm>
+  <indexterm zone="index" lang="en">
+    <primary>rhythmbox</primary>
+  </indexterm>
+  <indexterm zone="index" lang="en">
+    <primary>Music Player</primary>
+  </indexterm>
+<!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+  <sect1 id="introduction">
+    <title>Sarrera</title>
+      <para lang="en">
+        <application>Rhythmbox Music Player</application> is a music player and library for
+        tagged files that supports various music formats.
+      </para>
+      <para>Gaur egun, <application>Rhythmbox musika-erreproduzitzailea</application> eginbideak ondokoak egiten ditu:</para>
+      	<itemizedlist>
+          <listitem>
+            <para>Hainbat formatutako musika-fitxategi erreproduzitu etiketatutako eta antolatutako zure liburutegitik.</para>
+          </listitem>
+          <listitem>
+            <para>Abestiei buruzko informazioa bistaratu, metadatuen irakurketaren bidez.</para>
+          </listitem>
+          <listitem>
+            <para>Abestiak ikuspegi antolatu batean bistaratu.</para>
+          </listitem>
+          <listitem>
+            <para>Erreprodukzio-zerrenda estatikoak sortu, Liburutegiaren ikuspegitik arrastatuz eta jareginez.</para>
+          </listitem>
+          <listitem>
+            <para>Erreprodukzio-zerrenda automatikoak sortu, irizpideetatik.</para>
+          </listitem>
+          <listitem>
+            <para>Abestiak iturburuetan bilatu, Liburutegian edo Erreprodukzio-zerrendetan, adibidez.</para>
+          </listitem>
+          <listitem>
+            <para>Interneteko irrati-estazioak entzun.</para>
+          </listitem>
+          <listitem>
+            <para>Audio CDak irakurri, eta Internetetik informazioa lortu (pisataren izena, etab.).</para>
+          </listitem>
+          <listitem>
+            <para>Audio-CDak grabatu erreprodukzio-zerrendetatik.</para>
+          </listitem>
+          <listitem>
+            <para lang="en">Transfer music to iPod, MTP and USB Mass Storage music players.</para>
+          </listitem>
+        </itemizedlist>
+  </sect1>
+  <sect1 id="rb-getting-started">
+  	<title>Erabiltzen hasteko</title>
+	
+		<sect2 id="rb-launch">
+			<title><application>Rhythmbox musika-erreproduzitzailea</application> abiarazteko</title>
+			<para lang="en">
+				You can launch the <application>Rhythmbox Music Player</application> in the following ways:
+				<variablelist>
+					<varlistentry>
+						<term lang="en"><guimenu>Applications</guimenu> grid</term>
+						<listitem>
+							<para lang="en">
+						 		Click <guimenuitem>Activities</guimenuitem> at the top left of the screen.
+								Click the grid button in the dash.
+						 		Choose <guimenuitem>Rhythmbox</guimenuitem>.
+							</para>
+						</listitem>
+					</varlistentry>
+					<varlistentry>
+						<term lang="en">Command Line</term>
+						<listitem>
+							<para lang="en">
+								Type <command>rhythmbox</command>, then press
+								<keycap>Return</keycap>.
+							</para>
+						</listitem>
+					</varlistentry>
+				</variablelist>
+			</para>
+		</sect2>
+		<sect2 id="rb">
+			<title>Laguntzailea exekutatzea</title>
+			<para><application>Rhythmbox musika-erreproduzitzailea</application> abiarazten duzun lehen aldian, laguntzaile batek zure musika inportatzen lagunduko dizu. Laguntzailearen bigarren panelean, sakatu <guibutton>Arakatu</guibutton> botoia, eta hautatu zure musika dagoen karpeta.</para>
+		</sect2>
+  </sect1>
+  <sect1 id="rb-window">
+    <title>Rhythmbox musika-erreproduzitzailearen leihoa</title>
+    <sect2 id="rb-window-intro">
+      <title>Ikuspegi orokorra</title>
+      	<para><application>Rhythmbox musika-erreproduzitzailea</application>ren leihoak zure musika gogokoena arakatzeko eta erreproduzitzeko aukera ematen dizu. <xref linkend="fig-rb-window"/> leihoak <application>Rhythmbox musika-erreproduzitzailea</application>ren interfazea bistaratzen du, haren osagai nagusiekin.</para>
+      	<figure id="fig-rb-window">
+        <title><application>Rhythmbox musika-erreproduzitzailea</application>ren leihoa</title>
+        <screenshot>
+          <mediaobject lang="en">
+            <imageobject>
+              <imagedata fileref="figures/rb-window.png" format="PNG"/>
+            </imageobject>
+            <textobject>
+              <phrase>Show the <application>Rhythmbox Music Player</application> window showing 
+                the different parts on the <application>Rhythmbox Music Player</application> interface.
+                Callouts: Player area, Browser, Side pane, Statusbar.
+              </phrase>
+            </textobject>
+          </mediaobject>
+        </screenshot>
+      </figure>
+      <para>1. taulak <application>Rhythmbox musika-erreproduzitzailea</application>ren leihoaren osagaiak deskribatzen ditu.</para>
+      <table frame="topbot" id="table-rb-window">
+        <title><application>Rhythmbox musika-erreproduzitzailea</application>ren leihoaren osagaiak</title>
+        <tgroup cols="3" colsep="0" rowsep="0">
+          <colspec colname="COLSPEC0"/>
+          <colspec colname="COLSPEC1"/>
+          <colspec colname="COLSPEC2"/>
+          <thead>
+            <row rowsep="1">
+              <entry valign="top">Id</entry>
+              <entry valign="top">Osagaia</entry>
+              <entry valign="top">Azalpena</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry valign="top">1</entry>
+              <entry valign="top">Tresna-barra</entry>
+              <entry valign="top" lang="en">Provides access to player
+							functions and details about the currently playing track.
+							Includes the time slider which displays the position of the read
+							of a track; it enables to jump to another part of a track. Also
+							includes the volume slider and the button to access the application menu.</entry>
+            </row>
+            <row>
+              <entry valign="top">2</entry>
+              <entry valign="top">Albo-panela</entry>
+              <entry valign="top" lang="en">Displays a list of available
+							sources. Can also display the play queue.</entry>
+
+            </row>
+            <row>
+              <entry valign="top">3</entry>
+              <entry valign="top">Arakatzailea</entry>
+              <entry valign="top">Aukera ematen du liburutegiko pistak generoaren, artistaren nahiz album-izenaren arabera arakatzeko eta iragazteko. Arakatzaileak, halaber, bilatzeko funtzio bat hornitzen du, zure irizpideekin bat datozen pistak bakarrik bistaratzeko.</entry>
+            </row>
+            <row>
+              <entry valign="top">4</entry>
+              <entry valign="top">Pista-zerrenda</entry>
+              <entry valign="top">Hautatutako iturburuari dagozkion pistak zerrendatzen ditu.</entry>
+            </row>
+            <row>
+              <entry valign="top">5</entry>
+              <entry valign="top">Egoera-barra</entry>
+              <entry valign="top" lang="en">Displays information about the
+							source selected in the side pane.</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </sect2>
+    <sect2 id="intro-sourcelist">
+      <title>Albo-panela</title>
+      <para lang="en">The side pane is where you can access your music library,
+			internet radio,	your playlists audio CDs, and the play queue. The side pane can contain
+			the following sources:
+				<itemizedlist>
+				  <listitem><para lang="en">The <application>Rhythmbox Music Player</application> library, where 
+				  all of the imported tracks will appear.</para></listitem>
+				  <listitem><para lang="en">Podcasts.</para></listitem>
+				  <listitem><para lang="en">The Radio source, with all internet radio stations.
+				  </para></listitem>
+				  <listitem><para lang="en">All playlists (normal and smart).</para></listitem>
+				  <listitem><para lang="en">Audio CD's inserted into the computer's CD drives.
+				  </para></listitem>
+				  <listitem><para lang="en">Portable players like iPod plugged to your computer.
+				  </para></listitem>
+				  <listitem><para lang="en">The DAAP Music shares discovered on the local network.
+				  </para></listitem>
+				  <listitem><para lang="en">Music stores like Jamendo and Magnatune.
+				  </para></listitem>
+				  <listitem><para lang="en">Music sharing websites like SoundCloud.
+				  </para></listitem>
+				</itemizedlist>
+		</para>
+	<para lang="en">It can also contain the play queue if you press the menu button in the top-right corner of the window and
+		select <menuchoice><guimenu>View</guimenu><guimenuitem>Play Queue in Side Pane</guimenuitem></menuchoice>.
+		</para>
+	<para lang="en">
+				The display of the side pane can be toggled on or off if you press the menu button in
+				the top-right corner of the window and select <menuchoice><guimenu>View</guimenu>
+				<guimenuitem>Side Pane</guimenuitem></menuchoice>.
+			</para>
+    </sect2>
+    <sect2 id="player-toolbar">
+      <title>erreproduzitzailearen tresna-barra</title>
+      <para>Tresna-barraren areak unean erreproduzitzen ari den pistari buruzko xehetasunetarako sarbidea hornitzen du. Ez bada pistarik erreproduzitzen ari, area honek ez du informaziorik bistaratuko. Pista bat erreproduzitzen ari denean, pistaren izena bistaratzen da, eta, haren azpian, artistaren eta albumaren izenak.</para>
+      <para lang="en">
+				A tracker which shows the progress of the playing track and a time slider
+				are also displayed. When the time slider has focus, the arrow keys can be used to
+				Fast-Forward or Rewind the playing track.
+			</para>
+      <tip>
+        <para lang="en">
+					If you are using a mouse with a scroll wheel, you can 
+					adjust the volume by scrolling up or down while the mouse pointer 
+					is over the volume button in the right corner.
+				</para>
+      </tip>
+    </sect2>
+    <sect2 id="status-area">
+      <title>Egoera-barra</title>
+      <para lang="en">
+				The statusbar contains additional information about the number
+				of songs and the duration of the source selected.
+			</para>
+    </sect2>
+  </sect1>
+  <sect1 id="Usage">
+    <title>Rhythmbox musika-erreproduzitzailea erabiltzea</title>
+    <sect2 id="Playing">
+      <title>Musika erreproduzitzea</title>
+      <para lang="en">To play a track, select the track and 
+      press the <guibutton>Play</guibutton> button on the toolbar, or simply 
+      double-click on the track to start playing.
+		</para>
+      <para>Pista amaitutakoan, <application>Rhythmbox musika-erreproduzitzaileak</application> jauzi egingo du ikusteko panelean erakutsitako zerrendako hurrengo pistara.</para>
+      <para lang="en">In the <xref linkend="library"/> you can play all songs from an artist or a single 
+      album simply selecting <guilabel>Album</guilabel> or <guilabel>Artist</guilabel> 
+      entry in the library browser.
+		</para>
+      <sect3 id="next-previous">
+        <title>Hurrengoa/Erreproduzitu/Aurrekoa</title>
+        <para lang="en">The <guibutton>Next</guibutton> and <guibutton>Previous</guibutton> 
+        buttons can be used to skip between tracks while playing. If a track is 
+        currently playing, the previous button will restart the	track. Pressing 
+        the <guibutton>Play</guibutton> button will start playing the current track. 
+			<screenshot>
+				<mediaobject lang="en">
+					<imageobject>
+						<imagedata fileref="figures/rb-toolbar-prevplaynext.png" format="PNG"/>
+					</imageobject>
+					<textobject>
+						<phrase>Shows buttons <guibutton>Previous</guibutton>,
+						<guibutton>Play</guibutton> and <guibutton>Next</guibutton> in toolbar.</phrase>
+					</textobject>
+				</mediaobject>
+			</screenshot>
+		</para>
+      </sect3>
+      <sect3 id="repeat">
+        <title>Errepikatu</title>
+        <para><guibutton>Errepikatu</guibutton> aukerarekin, <application>Rhythmbox musika-erreproduzitzailea</application> hasiko da pistak berriro erreproduzitzen zerrenda-hasieratik.</para>
+        <para lang="en">To activate repeat, press the button 
+        <guibutton>Repeat</guibutton> on the toolbar.
+			<screenshot>
+				<mediaobject lang="en">
+					<imageobject>
+						<imagedata fileref="figures/rb-toolbar-repeat.png" format="PNG"/>
+					</imageobject>
+					<textobject>
+						<phrase>Shows repeat button in the statusbar.</phrase>
+					</textobject>
+				</mediaobject>
+			</screenshot>
+		</para>
+      </sect3>
+      <sect3 id="shuffle">
+        <title>Ausaz</title>
+        <para><guibutton>Ausaz</guibutton> aukerarekin, <application>Rhythmbox musika-erreproduzitzaileak</application> ausazko hurrenkeran erreproduzituko ditu pistak.</para>
+        <para lang="en">To activate shuffle, press the button 
+        <guibutton>Shuffle</guibutton> on the toolbar.
+			<screenshot>
+				<mediaobject lang="en">
+					<imageobject>
+						<imagedata fileref="figures/rb-toolbar-shuffle.png" format="PNG"/>
+					</imageobject>
+					<textobject>
+						<phrase>Shows shuffle button in the statusbar.</phrase>
+					</textobject>
+				</mediaobject>
+			</screenshot>
+		</para>
+      </sect3>
+      <sect3 id="volume">
+        <title>Bolumen-kontrola</title>
+        <para lang="en">
+				The volume control is located in the right hand of the toolbar.
+				Pressing the loudspeaker icon will show the volume slider.
+				Sliding this up and down will increase and decrease the volume.
+				The loudspeaker icon will change to reflect the relative volume.
+			<screenshot><mediaobject lang="en"><imageobject><imagedata fileref="figures/rb-volume-changer.png" format="PNG"/></imageobject><textobject><phrase>Shows volume slider in toolbar.
+				</phrase></textobject></mediaobject></screenshot>
+
+			</para>
+        <tip>
+          <para>Bolumena doitzeko, erabili saguaren gurpila bozgorailuaren ikonoaren gainean zaudela.</para>
+        </tip>
+      </sect3>
+    </sect2>
+  </sect1>
+  <sect1 id="library">
+    <title>Liburutegi-iturburua</title>
+    	<para>Liburutegia <application>Rhythmbox musika-erreproduzitzailearen</application> iturburu nagusia da, zuk <application>Rhythmbox musika-erreproduzitzailera</application> inportatutako musika-fitxategi guztiak dauzkan datu-basea (Liburutegiak zure musika-fitxategietarako bide-izena gordetzen du, ez fitxategiak berak).</para>
+    	<para lang="en">
+			The Library can not only contain music files which are physically 
+			on your computer (in your HOME Directory for instance), but it can
+			also contain music files available over remote network services. 
+			Some examples of supported network services are:
+			<itemizedlist>
+				<listitem>
+					<para lang="en">Public FTP</para>
+				</listitem>
+				<listitem>
+					<para lang="en">Authenticated FTP</para>
+				</listitem>
+				<listitem>
+					<para lang="en">NFS</para>
+				</listitem>
+				<listitem>
+					<para lang="en">Windows Share</para>
+				</listitem>
+			</itemizedlist>
+		</para>
+    	<para lang="en">
+			The files imported in the Library are displayed in the track list
+			with the information (like the Artist name or the Album name) stored 
+			in the tags embedded on the tracks. <application>Rhythmbox Music Player</application> uses 
+			these tags to display the tracks in an organized manner.
+			<tip>
+				<para lang="en">Tags can be modified by right-clicking, then choosing <guimenuitem>Properties</guimenuitem>
+				and filling in the details on the window that appears.</para>
+			</tip>
+		</para>
+    <sect2 id="library-tracks-add">
+      <title>Gehitu pistak Liburutegian</title>
+      		<para lang="en">
+				To add tracks to the Library, you can follow these different
+				methods:
+				<itemizedlist>
+					<listitem>
+						<para lang="en">
+							If you want to import several music files located in a
+							folder, choose <guimenuitem>Import</guimenuitem> from the
+							browser bar next to the search field, then select the
+							folder in the file selector and press the 
+							<guibutton>Open</guibutton> button. All the music files located
+							in the folder and its sub-folders will be imported.
+						</para>
+					</listitem>
+					<listitem>
+						<para lang="en">
+							Drag and drop files from the file manager (like
+							<application>Nautilus</application>) over the Rhythmbox window.
+						</para>
+					</listitem>
+				</itemizedlist>
+			</para>
+      	<tip>
+       		<para>Direktorioak behatzeko funtzioa gaitu baduzu (ikus <xref linkend="prefs-library"/>), aukeratutako direktorioan gordetako musika-fitxategi guztiak gehituko dira Liburutegian. Geroago gehitutako fitxategi berriak ere gehituko dira.</para>
+      	</tip>
+    </sect2>
+    <sect2 id="library-tracks-del">
+    	<title>Kendu pistak Liburutegitik</title>
+      	<para lang="en">
+			To remove a track from the library but leave it on the disk, right-click
+			on the track and choose <guimenuitem>Remove</guimenuitem>.
+			The track and its properties (like rating or the play count) are
+			removed from the Rhythmbox database.
+		</para>
+      	<para lang="en">
+			To delete a track from the Library and also from your disk, right-click
+			on the track and choose <guimenuitem>Move to
+			Trash</guimenuitem>. The track will be removed in the
+			same way as previous, but the file will be moved in to the file
+			manager Trash.
+		</para>
+    </sect2>
+    <sect2 id="library-filter-search">
+    	<title>Aurkitu pistak bilaketa bidez</title>
+      	<para>Rhythmbox aplikazioak bilatzeko funtzio bat du, zuk pistak bilaketa-termino batzuen bidez aurkitu eta iragazi ahal izan ditzazun.</para>
+      	<para>Sartu testua bilaketa-koadroan, eta, idatzi ahala, sartutako testuarekin bat datozen pistak bakarrik bistaratuko dira. Bilatzeko funtzioak Liburutegian gordetako pista guztien etiketa guztietan bilatzen du.</para>
+		<para>Bilaketa zehatzagoa egiteko, etiketa jakin batzuetan bakarrik bilatzea aukera dezakezu (<guilabel>Artistak</guilabel>, <guilabel>Albumak</guilabel> edo <guilabel>Tituluak</guilabel>).</para>
+    </sect2>
+    <sect2 id="library-filter-browser">
+    	<title>Aurkitu pistak arakatzailearekin</title>
+      	<para>Arakatzailearekin ere aurki daitezke pistak. Arakatzailea bi edo hiru paneleko ikuspegia da; aukera ematen du musika-generoetan, artistetan eta albumetan nabigatzeko, eta aukeratutako irizpideak betetzen dituzten pistak bistaratzen dituzte.</para>
+      	<para lang="en">
+			First, to display the Browser, select <guibutton>Browse</guibutton>
+			in the tool bar. Select artist, album 
+			and genre, and as you choose, only the tracks that match your choice will 
+			be displayed in the track list. The criteria on the columns apply
+			from the left to the right.
+		</para>
+      	<tip>
+        	<para>Kategoria bereko hainbat irizpide batera aukeratzeko, erabili <keycombo><keycap>Ktrl</keycap></keycombo> tekla.</para>
+      	</tip>
+      		<para>Pista-zerrendan hautatutako pista batetik ere bila ditzakezu genero, artista nahiz album bera duten pista guztiak. Hautatu pista bat pista-zerrendan, egin klik eskuin-botoiarekin, eta aukeratu <guilabel>Arakatu genero/artista/album hau</guilabel>. Arakatzaileak aukeratutako irizpideak betetzen dituzten pistak iragaziko ditu orduan.</para>
+  	</sect2>
+  </sect1>
+  <sect1 id="radio">
+  	<title>Irrati-iturburua</title>
+    <para>Interneteko irrati-sintonizadorea erabil daiteke korrontean jarritako audio-fitxategiak sare lokal batean nahiz Internenen entzuteko.</para>
+    <figure id="fig-iradio">
+      <title>Interneteko irratua <application>Rhythmbox musika-erreproduzitzailean</application></title>
+      <screenshot>
+        <mediaobject>
+          <imageobject>
+	    <imagedata format="PNG" fileref="figures/rb-iradio-main.png"/>
+	  </imageobject>
+	</mediaobject>
+      </screenshot>
+    </figure>
+    <sect2 id="iradio-adding">
+      	<title>Estazio bat gehitzea</title>
+      	<para lang="en">
+			To add a new station to the Internet Radio tuner, select
+			<guibutton>Add</guibutton> in the tool bar. Then enter the URL of
+			the Internet radio, then press the button <guibutton>Add</guibutton>.
+		</para>
+    </sect2>
+    <sect2 id="iradio-modify">
+      	<title>Estazio baten ezarpenak ikustea eta aldatzea</title>
+      	<para lang="en">
+			You can view and edit the settings of an Internet Radio station by selecting the
+			station and right-click, then choose <guimenuitem>Properties</guimenuitem>.
+		</para>
+      	<para>Irrati-korronte baten propietateetan sartzean, titulua eta generoa alda ditzakezu, baita korrontearen kokalekua ere, eta balorazio bat eman.</para>
+    </sect2>
+    <sect2 id="iradio-delete">
+    	<title>Estazio bat kentzea</title>
+      	<para lang="en">
+			To remove a radio station from the radio stations list, right-click on the station and select
+			<guimenuitem>Remove</guimenuitem>.
+		</para>
+    </sect2>
+  </sect1>
+  <sect1 id="podcast">
+  	<title>Podcast-iturburua</title>
+    <para lang="en">
+		Podcasting is a new way to broadcast audio content over the web; when an
+		author publishes an episode, podcast subscribers are informed, through an
+		XML feed.
+	</para>
+    <para>Rhythmbox musika-erreproduzitzaileak aukera ematen dizu podcast-jarioetara harpidetzeko, eta, beraz, saio berri bat erabilgarri dagoenean horren berri jasoko duzu, saioa deskargatuko du eta erreproduzituko du.</para>
+    <tip>
+      	<para lang="en">
+		You can find more information about podcasts and podcasting by visiting the
+		definition of <ulink url="https://en.wikipedia.org/wiki/Podcast">Podcast</ulink> on the 
+		site <ulink url="https://en.wikipedia.org/">Wikipedia</ulink>.
+		</para>
+    </tip>
+    <para>
+      <figure>
+        <title>Podcast-interfazea</title>
+        <mediaobject lang="en">
+          <imageobject>
+            <imagedata fileref="figures/rb-podcast-main.png" format="PNG"/>
+          </imageobject>
+          <textobject>
+            <phrase>The Podcast interface with some registered podcasts</phrase>
+          </textobject>
+        </mediaobject>
+      </figure>
+    </para>
+    <sect2 id="podcast-management">
+      <title>Podcast-kudeaketa</title>
+      <sect3 id="podcast-feed-add">
+        <title>Gehitu podcast bat</title>
+        <para lang="en">
+			To register to a podcast, select <guibutton>Add</guibutton>
+			in the tool bar. Then in the new window, enter the URL of
+			the podcast feed. Rhythmbox will retrieve the list of episodes and the 
+			latest episode will be downloaded on your hard disk.
+			</para>
+      </sect3>
+      <sect3 id="podcast-feed-del">
+        <title>Ezabatu podcast bat</title>
+        <para lang="en">
+			To delete a podcast, right-click on the podcast feed's name in the browser, and choose
+			<menuchoice><guimenuitem>Delete Podcast
+			Feed</guimenuitem></menuchoice>, then choose
+			<menuchoice><guimenuitem>Delete Feed Only</guimenuitem></menuchoice> if you want to keep the
+			podcast's episodes, or choose <menuchoice><guimenuitem>Delete Feed And
+			Files</guimenuitem></menuchoice> if you want to delete the feed and all its
+			related episodes.
+			</para>
+      </sect3>
+      <sect3 id="podcast-feed-update">
+        <title>Eguneratu jarioak</title>
+        <para>Podcast baten saio berriak argitaratu ote diren jakiteko, egin klik eskuin-botoiarekin podcast-izenean arakatzailean, eta aukeratu <menuchoice><guimenuitem>Eguneratu podcast-jarioa</guimenuitem></menuchoice>. Saio berriak argitaratu badira, saioen zerrendan azalduko dira.</para>
+        <tip>
+          <para>Rhythmbox musika-erreproduzitzaileak erregulartasunez eta automatikoki begiratzen du podcast-jarioen zerrenda eguneratu ote diren ikusteko.</para>
+        </tip>
+        <para>Podcast guztiak begiratzeko, egin klik eskuin-botoiarekin <menuchoice><guimenuitem>Podcastak</guimenuitem></menuchoice> jarioaren gainean, eta aukeratu <menuchoice><guimenuitem>Eguneratu jario guztiak</guimenuitem></menuchoice>.</para>
+      </sect3>
+      <sect3 id="podcast-feed-show">
+        <title>Sartu podcast-jarioaren propietateetan</title>
+        <para lang="en">
+			To access to the Feed properties, right-click on the Feed name, and
+			choose
+			<menuchoice><guimenuitem>Properties</guimenuitem></menuchoice>.
+			<itemizedlist><listitem><para lang="en">
+					On the <guilabel>Basic</guilabel> tab you can view the
+					podcast <guilabel>Title</guilabel>, <guilabel>Author
+					</guilabel>, the <guilabel>Last Updated</guilabel>
+					date and the <guilabel>Description</guilabel>.
+				</para></listitem><listitem><para lang="en">
+					On the <guilabel>Details</guilabel> tab you can view the
+					feed <guilabel>Source</guilabel>, <guilabel>Language
+					</guilabel>and the <guilabel>Copyright</guilabel>
+					properties.
+				</para></listitem></itemizedlist>
+			You can view the properties, and also edit the rating.
+			</para>
+      </sect3>
+    </sect2>
+    <sect2 id="episode-management">
+      <title>Saioen kudeaketa</title>
+      <sect3 id="podcast-episode-download">
+        <title>Deskargatu podcast-saio bat</title>
+        <para>Saio bat zure diskora deskargatzeko, egin klik eskuin-botoiarekin saioan, eta aukeratu <menuchoice><guimenuitem>Deskargatu bidalketa</guimenuitem></menuchoice>. Rhythmbox saioa deskargatzen hasiko da, hobespenetan definitutako kokalekuan. Saioaren deskarga-aurrerapena <guilabel>Egoera</guilabel> zutabean azalduko da.</para>
+        <tip>
+          <para lang="en">
+			<!-- Update once https://gitlab.gnome.org/GNOME/rhythmbox/-/issues/1625 is fixed -->
+			By default, podcasts are downloaded in folder <filename class="directory">Music/</filename> in your home directory. To change location, 
+			see <xref linkend="prefs-podscast"/>.
+			</para>
+        </tip>
+      </sect3>
+      <sect3 id="podcast-episode-read">
+        <title>Irakurri podcast-saio bat</title>
+        <para lang="en">
+			To play a podcast episode, select the episode you want to read, and
+			press the button <guibutton>Play</guibutton>.</para>
+        <para>Irakurri ahal izateko lehenik deskargatu egin behar da saioa; ikus <xref linkend="podcast-episode-download"/> podcast-saio bat nola deskargatu jakiteko.</para>
+      </sect3>
+      <sect3 id="podcast-episode-delete">
+        <title>Ezabatu podcast-saio bat</title>
+        <para lang="en">
+			To delete an episode from a podcast, right-click on the episode, and
+			choose <menuchoice><guimenuitem>Delete</guimenuitem></menuchoice>,
+			then choose <menuchoice><guimenuitem>Delete Episode
+			Only</guimenuitem></menuchoice> if you want to keep the episode file on
+			your disk, <menuchoice><guimenuitem>Delete File Only</guimenuitem></menuchoice>
+			if you want to keep the episode in the list but remove the corresponding
+			downloaded podcast file, or choose <guibutton>Delete Episode And File</guibutton>
+			if you want to remove the episode from the list and delete the file from your disk.
+			</para>
+        <warning>
+          <para>Saio bat ezabatu ondoren, ez da berriro egongo erabilgarri saioen zerrendan, zuk podcasta eguneratu arren.</para>
+        </warning>
+      </sect3>
+      <sect3>
+        <title>Bistaratu podcast-saioaren propietateak</title>
+        <para lang="en">
+			To access to the episode properties, right-click on the episode, and
+			choose
+			<menuchoice><guimenuitem>Properties</guimenuitem></menuchoice>.
+			<itemizedlist><listitem><para lang="en">
+					On the <guilabel>Basic</guilabel> tab you can view the podcast
+					<guilabel>Title</guilabel>, <guilabel>Feed</guilabel>, the
+					publication <guilabel>Data</guilabel> and the
+					<guilabel>Description</guilabel>.
+				</para></listitem><listitem><para lang="en">
+					On the <guilabel>Details</guilabel> tab you can view the podcast
+					<guilabel>Source</guilabel>, <guilabel>Duration</guilabel>, the
+					<guilabel>Bitrate</guilabel>, the <guilabel>Last Played
+					Date</guilabel>, the <guilabel>Play count</guilabel> and
+					the <guilabel>Rating</guilabel>.
+				</para></listitem></itemizedlist>
+			</para>
+      </sect3>
+    </sect2>
+  </sect1>
+  <sect1 id="playqueue">
+  	<title>Erreprodukzio-ilararen iturburua</title>
+	<para>Erreprodukzio-ilara erreproduzitu nahi dituzun hurrengo pistak aldi baterako gordetzeko iturburua da. Pista bat gehitzen duzunean erreprodukzio-ilaran, <application>Rhythmbox musika-erreproduzitzailea</application> automatikoki aldatuko da iturburu honetara, behin pista erreproduzitutakoan.</para>
+	<para>Behin pista erreproduzituta, automatikoki kenduko da Erreprodukzio-ilararen iturburutik. Erreprodukzio-ilara hustutakoan, <application>Rhythmbox musika-erreproduzitzaileak</application> lehen erreproduzitutako iturburua erreproduzituko du.</para>
+		<sect2 id="playqueue-track-add">
+			<title>Gehitu pista bat erreprodukzio-zerrendan</title>
+			<para lang="en">To add a track:
+				<orderedlist>
+					<listitem>
+						<para lang="en">
+							Select the track you want to play, in any
+							source.
+						</para>
+					</listitem>
+					<listitem>
+						<para lang="en">Right-click and choose
+						<guimenuitem>Add to Queue</guimenuitem>.</para>
+					</listitem>
+				</orderedlist>
+			</para>
+		</sect2>
+		<sect2 id="playqueue-track-del">
+			<title>Kendu pista bat erreprodukzio-ilaratik</title>
+			<para lang="en">To remove a track stored in Play Queue:
+				<orderedlist>
+					<listitem>
+						<para lang="en">Select the track you want to remove in Play Queue
+						source.</para>
+					</listitem>
+					<listitem>
+						<para lang="en">Right-click and choose
+							<guimenuitem>Remove from Play Queue</guimenuitem>.
+						</para>
+					</listitem>
+				</orderedlist>
+			</para>
+		</sect2>
+  </sect1>
+  
+  <sect1 id="playlist">
+  	<title>Erreprodukzio-zerrenden iturburua</title>
+    <para>Erreprodukzio-zerrendak Liburutegiaren iturburuan erabilgarri dauden pistetatik sortzen diren iturburuak dira. Aukera ematen dizute pistak generoaren arabera, artista talde zehatz baten arabera, edo umore jakin baten arabera biltzeko. Nahi duzuna.</para>
+    <para lang="en">
+			Rhythmbox Music Player has 2 kinds of playlists:
+			<itemizedlist>
+				<listitem>
+					<para lang="en">Static Playlists</para>
+				</listitem>
+				<listitem>
+					<para lang="en">Smart Playlists</para>
+				</listitem>
+			</itemizedlist>
+		</para>
+    <para>Rhythmbox-ek aukera ematen dizu zure erreprodukzio-zerrenden pistak audio-CD batean grabatzeko.</para>
+    <sect2 id="playlist-static">
+    	<title>Erreprodukzio-zerrenda estatikoak</title>
+      	<para>Erreprodukzio-zerrenda estatikoak Liburutegitik jaregindako pistetatik eraikitako erreprodukzio-zerrendak dira.</para>
+      <sect3 id="playlist-static-new">
+        <title>Sortu erreprodukzio-zerrenda estatiko bat</title>
+        <para lang="en">
+			To create a new playlist, right-click on an item in the library. Select
+			<menuchoice><guimenu>Add to Playlist</guimenu><guimenuitem>Add to New Playlist
+			</guimenuitem></menuchoice>. An empty playlist without name 
+			appears in the side pane. Enter a name for the playlist and press
+			<keycombo><keycap>Enter</keycap></keycombo>.
+		</para>
+      </sect3>
+      <sect3 id="playlist-static-tracks-add">
+        <title>Gehitu pistak erreprodukzio-zerrenda batean</title>
+        <para>Pistak erreprodukzio-zerrenda batean gehitzeko, hautatu pistak liburutegiko pista zerrendan, eta arrastatu eta jaregin hautapena albo-paneleko erreprodukzio-zerrendaren ikonoaren gainean.</para>
+        <para>Era berean, generoak, artistak edo album-izenak jaregin ditzakezu erreprodukzio-zerrenda baten gainean, eta aukeratutako kategoriako pista guztiak gehituko dira erreprodukzio-zerrendan.</para>
+        <tip>
+          <para>Ekintza batean sor dezakezu pistak dituen erreprodukzio-zerrenda bat. Hautatu pistak <guilabel>Pista-zerrendan</guilabel>, edo, zuzenean, kategoria bat edo gehiago arakatzailetik (<guilabel>Generoa</guilabel>, <guilabel>Artista</guilabel> edo <guilabel>Albuma</guilabel>), eta jaregin hautapena <guilabel>Albo-panelaren</guilabel> gainean. Automatikoki sortuko da izena duen erreprodukzio-zerrenda bat.</para>
+        </tip>
+      </sect3>
+      <sect3 id="playlist-static-tracks-del">
+        <title>Kendu pistak erreprodukzio-zerrenda batetik</title>
+        <para lang="en">
+					To remove tracks from a playlist, first select the tracks to
+					remove. Then, right-click over the selection and choose <guimenuitem>Delete</guimenuitem>.
+					This operation deletes the track only from playlist and not
+					from the Library.
+				</para>
+      </sect3>
+<!--
+      <sect3 id="playlist-static-del">
+        <title>Delete a static playlist</title>
+        <para>
+					To delete a static playlist, select the playlist to delete,
+					then you have two ways to delete it:
+					<itemizedlist><listitem><para>
+								Choose
+								<menuchoice><guimenu>Edit</guimenu><guimenuitem>Delete</guimenuitem></menuchoice>.
+							</para></listitem><listitem><para>
+								Right-click over the playlist and choose <guimenuitem>Delete</guimenuitem>.
+							</para></listitem></itemizedlist>
+					This operation deletes only the playlist and not the tracks
+					stored in the playlist deleted.
+				</para>
+      </sect3>
+-->
+    </sect2>
+    <sect2 id="playlist-smart">
+      <title>Erreprodukzio-zerrenda azkarrak</title>
+      <para>Erreprodukzio-zerrenda azkarrak irizpideen arabera eraikitakoak dira, eta, beraz, pistak dinamikoki gehitzen dira zerrendan; irizpideak betetzen dituzten pista guztiak gehituko dira erreprodukzio-zerrendan.</para>
+      <para lang="en">
+				By default, the playlists <guimenuitem>My Top Rated</guimenuitem>,
+				<guimenuitem>Recently Added</guimenuitem>, and
+				<guimenuitem>Recently played</guimenuitem> are available.
+			</para>
+<!--
+      <sect3 id="playlist-smart-new">
+        <title>Create a smart playlist</title>
+        <para>
+					To create a new playlist:
+					<orderedlist><listitem><para>
+								Choose <menuchoice><guimenu>Music</guimenu><guisubmenu>Playlist</guisubmenu><guimenuitem>New
+								Automatic Playlist</guimenuitem></menuchoice>.
+							</para></listitem><listitem><para>
+								Edit the playlist criteria through the query editor.
+							</para></listitem><listitem><para>
+								Once your criteria have been chosen, click <guibutton>New</guibutton> to create the
+								query.
+							</para></listitem></orderedlist>
+				</para>
+      </sect3>
+      <sect3 id="playlist-smart-edit">
+        <title>Edit a smart playlist</title>
+        <para>
+					Editing a smart playlist lets you modify the criteria set
+					for this playlist. To edit a smart playlist, select the
+					smart playlist, choose
+					<menuchoice><guimenu>Music</guimenu><guisubmenu>Playlist</guisubmenu><guimenuitem>Edit</guimenuitem></menuchoice>, and edit the criteria.
+					Once done, choose <guibutton>Close</guibutton>.
+				</para>
+      </sect3>
+      <sect3 id="playlist-smart-del">
+        <title>Delete a smart playlist</title>
+        <para>
+					To delete a smart playlist, select the playlist to delete,
+					then you have two ways to delete it:
+					<itemizedlist><listitem><para>
+								Choose
+								<menuchoice><guimenu>Edit</guimenu><guimenuitem>Delete</guimenuitem></menuchoice>.
+							</para></listitem><listitem><para>
+								Right-click over the playlist and choose <guimenuitem>Delete</guimenuitem>.
+							</para></listitem></itemizedlist>
+				</para>
+      </sect3>
+      <sect3 id="playlist-smart-query-use">
+        <title>Use the query editor</title>
+        <para>
+		Choose the criteria to apply to the rule. If you need one
+		more criteria click on the button
+		<guibutton>Add</guibutton>, a new line appears, and you can
+		set a new criteria.
+		</para>
+        <para>
+		If you want to limit the number of tracks in the playlist,
+		tick <guilabel>Limit to:</guilabel>, and choose how to
+		limit. You can limit by tracks, by total size (in
+		<guilabel>MB</guilabel> or <guilabel>GB</guilabel>), or by
+		duration (expressed in <guilabel>Minutes</guilabel>).
+		</para>
+        <para>
+		Once you finish setting the criteria for the playlist, choose
+		<guibutton>New</guibutton>; the playlist query editor window
+		will close, and the playlist will display the tracks matched by your
+		criteria.
+		</para>
+      </sect3>
+-->
+    </sect2>
+  </sect1>
+  <sect1 id="AudioCD">
+    <title>Audio CDaren iturburua</title>
+	<para><application>Rhythmbox musika-erreproduzitzaileak</application> audio CDak ere erabiltzen ditu; CDak erreproduzi ditzake, baita zuri grabatzen utzi ere bai.</para>
+    <sect2 id="cd-playing">
+      <title>Erreproduzitzea</title>
+      <para>Audio CDa sartzean, albo-panelean azalduko da, eta bertako pistak <application>Rhythmbox musika-erreproduzitzailearen</application> leiho nagusian bistara daitezke. Internetekin konektatuta egonez gero, CDaren xehetasunak eskuratuko eta bistaratuko dira.</para>
+      <para>Erreproduzitzeko eta erreprodukzioa pausarazteko, edo aurrerantz nahiz atzerantz jauzi egiteko, erabili liburutegitik erreproduzitzeko erabiltzen dituzun kontrol berak.</para>
+    </sect2>
+    <sect2 id="cd-import">
+      <title>Audio CDa inportatzea</title>
+      <para>Zure Audio CDen pistak ordenagailuan gorde nahi badituzu, inporta ditzakezu.</para>
+      <para lang="en">To import Audio CD tracks, choose <guibutton>Extract</guibutton>
+	  in the tool bar.</para>
+    </sect2>
+    <sect2 id="cd-burning">
+      <title>Audio CDa sortzea</title>
+      <para>Rhythmbox-ek aukera ematen dizu zeure Audio CDak sortzeko Rhythmbox liburutegian gordetako musikarekin.</para>
+      <para lang="en">To create an Audio CD: 
+				<orderedlist><listitem><para lang="en">Create a playlist, static or smart
+				(see <xref linkend="playlist"/>) and add tracks.</para></listitem>
+                <listitem><para lang="en">Choose <guibutton>Playlist</guibutton> in the tool bar.</para></listitem>
+                <listitem><para lang="en">Select <guimenuitem>Create Audio CD</guimenuitem>.</para></listitem>
+                <listitem><para lang="en">Insert a blank CD.</para></listitem>
+                <listitem><para lang="en">Click the button <guibutton>Create</guibutton>, the burning process starts.</para></listitem>
+                </orderedlist>
+			</para>
+    </sect2>
+  </sect1>
+  <sect1 id="portable-audio-player">
+    <title>Audio-erreproduzigailu eramangarriaren iturburua</title>
+    <para><application>Rhythmbox</application>ek detektatzen du audio-erreproduzigailu eramangarri bat ordenagailuarekin konektatuta dagoela, eta bertan gordetako pistak irakur ditzake. <application>Rhythmbox musika-erreproduzitzaileak</application> audio-erreproduzigailu eramangarri gehienak kudea ditzake, Apple iPod, MTP erreproduzigailuak eta biltegiratze masiborako erreproduzigailuak, besteak beste.</para>
+    <para>Audio-erreproduzigailu eramangarri bat konektatzen duzunean, Audio-erreproduzigailu eramangarriaren ikonoa gehitzen da albo-panelean. Iturburu honen funtzionamendua liburutegiaren iturburuaren funtzionamendu bera da.</para>
+	<tip><para><application>Rhythmbox musika-erreproduzitzaileak</application> ez badu zure gailua detektatzen audio-erreproduzigailu eramangarri gisa,  <filename>.is_audio_player</filename> izeneko fitxategi huts bat sor dezakezu zure erreproduzigailuaren fitxategi-sistemaren goi-mailako hierarkian.</para></tip>
+  </sect1>
+  <sect1 id="daap">
+    <title>DAAP partekatze-iturburua</title>
+    <para>DAAP sare-protokoloak aukera ematen dizu Rhythmbox-en gordetako musika partekatzeko. Digital Audio Access Protocol-en akronimoa da DAAP.</para>
+    <para>DAAP musika partekatzeko protokolo estandarra da, eta musika entzun eta partekatu ahal izango duzu bai Rhythmbox-en beste erabiltzaileekin eta bai DAAPekin bateragarria den softwarea darabiltenekin, iTunes dutenekin, esate baterako.</para>
+    <para>Rhythmbox abiarazten duzunean, beste erabiltzaile batzuek zure sare lokalean argitaratutako DAAP partekatze guztiak bilatuko ditu (zure etxean edo lantokian, ez Interneten), eta albo-panelean bistaratuko ditu. Partekatzea gaituta badago, Rhythmbox-ek aldi berean argitaratuko ditu zure liburutegia eta zure erreprodukzio-zerrendak. Horrela, zure lagunen ordenagailuetan gordetako musika entzun ahal izango duzu, eta haiek zurea.</para>
+    <para>Rhythmbox DAAP partekatze-eginbidea desgaitzeko, ikus <xref linkend="prefs-sharing"/> hobespenetan.</para>
+  </sect1>
+  <sect1 id="notification">
+    <title>Jakinarazpen-area</title>
+    <sect2 id="notification-overview">
+      <title>Ikuspegi orokorra</title>
+      <para lang="en">The Notification Area allows you to control 
+      <application>Rhythmbox Music Player</application> and receive information 
+      when the <application>Rhythmbox Music Player</application> interface is not visible.
+		</para>
+      <figure id="fig-notification-zone">
+        <title><application>Rhythmbox musika-erreproduzitzailea</application> jakinarazpen-arean</title>
+        <screenshot>
+          <mediaobject>
+            <imageobject>
+              <imagedata format="PNG" fileref="figures/rb-notification-zone.png"/>
+	    </imageobject>
+	  </mediaobject>
+        </screenshot>
+      </figure>
+    </sect2>
+    <sect2 id="notification-control">
+      <title>Kontrolatu Rhythmbox</title>
+      <para>Jakinarazpen-areako <application>Rhythmbox musika-erreproduzitzailea</application> ikonoarekin, ondoko komandoak bidal daitezke aplikaziora:</para>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para lang="en"><guibutton>Play</guibutton> — If selected, plays the 
+            currently selected song.</para>
+          </listitem>
+          <listitem>
+            <para lang="en"><guibutton>Previous</guibutton> — Skip to previous song 
+            in the selected source.</para>
+          </listitem>
+          <listitem>
+            <para lang="en"><guibutton>Next</guibutton> — Skip to next song in the 
+            selected source.</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </sect2>
+  </sect1>
+  <sect1 id="customize">
+    <title>Rhythmbox musika-erreproduzitzailea pertsonalizatzea</title>
+    <para>Atal honetan azaltzen da <application>Rhythmbox musika-erreproduzitzailea</application> zure eskakizunei eta hobespenei nola egokitu.</para>
+    <sect2 id="prefs">
+      <title>Hobespenak ezartzea</title>
+      <para lang="en">
+		Using the <guilabel>Preferences</guilabel> dialog you can customize how
+		you want <application>Rhythmbox Music Player</application> to look and behave. To display
+		the <guilabel>Preferences</guilabel> dialog, press the menu button in the
+		top-right corner of the window and select <guimenuitem>Preferences</guimenuitem>.
+		</para>
+      <sect3 id="prefs-general">
+      	<title>Orokorra</title>
+		<para>Aukeratu nola bistaratu <guilabel>Arakatzailearen ikuspegia</guilabel>. Hiru edo bi panel erabiltzea hauta dezakezu, eta panel horietan zer bistaratu.</para>
+      	<para lang="en">
+			Choose the <guilabel>Visible Columns</guilabel> you want to
+			display in <application>Rhythmbox Music Player</application>. This option affects
+			the following sources:
+			<itemizedlist>
+				<listitem><para lang="en">Library</para></listitem>
+				<listitem><para lang="en">Audio CD</para></listitem>
+				<listitem><para lang="en">Portable Players</para></listitem>
+				<listitem><para lang="en">Playlists</para></listitem>
+				<listitem><para lang="en">DAAP Music shares</para></listitem>
+			</itemizedlist>
+		</para>
+      </sect3>
+      <sect3 id="prefs-library">
+        <title>Musika</title>
+        <itemizedlist>
+          <listitem>
+            <para><application>Rhythmbox musika-erreproduzitzaileak</application> kontrola dezake <guilabel>Liburutegiaren kokalekua</guilabel> karpeta abesti berriak aurkitzea. Karpeta honetan edo haren azpikarpetetan audio-fitxategi berri guztiak fitxategi-arakatzailearekin (Nautilus-ekin esate baterako) gehitzen dituzunean, <application>Rhythmbox musika-erreproduzitzaileak</application> detektatu egingo ditu, eta automatikoki gehituko ditu Liburutegian.</para>
+            <warning>
+            	<para>Saihestu zure karpeta <filename class="directory">nagusia</filename> liburutegi-kokaleku gisa ezartzea, eginbide honek PUZ kontsumo handia duelako.</para>
+            </warning>
+            <para>Behatzeko funtzionaltasuna desgaitzeko, desautatu <guilabel>Behatu nire liburutegia fitxategi berrien bila</guilabel>.</para>
+            <tip>
+            	<para lang="en">If you want to add more than one folder to watch, 
+            	use <application>dconf-editor</application> and add it to the list at
+            	/org/gnome/rhythmbox/rhythmboxdb/locations
+				</para>
+            </tip>
+          </listitem>
+        </itemizedlist>
+      </sect3>
+      <sect3 id="prefs-podscast">
+        <title>Podcastak</title>
+        <itemizedlist>
+          <listitem>
+            <para>Podcasten <guilabel>Deskargatzeko kokalekua</guilabel> zure direktorio nagusiko <filename class="directory">Podcastak/ </filename> karpeta izango da modu lehenetsian.</para>
+            <para>Kokaleku honek balio ez badizu, hautatu beste karpeta bat goitibeherako zerrendan, edo aukeratu <guilabel>Beste bat</guilabel> fitxategi-hautatzailea azaldu dadin.</para>
+          </listitem>
+          <listitem>
+            <para>Aukeratu <application>Rhythmbox musika-erreproduzitzaileak</application> podcast-saioak bilatzeko maiztasuna.</para>
+          </listitem>
+        </itemizedlist>
+      </sect3>
+      <sect3 id="prefs-sharing">
+        <title>Partekatzea</title>
+        <para><application>Rhythmbox musika-erreproduzitzaileak</application> zure liburutegiko edukia parteka dezake zure area lokalean, <application>Rhythmbox musika-erreproduzitzailea</application>ren eta Apple iTunes-en beste erabiltzaileekin.</para>
+        <itemizedlist>
+          <listitem>
+            <para>Hautatu <guilabel>Partekatu nire musika</guilabel> sareko erabiltzaileek zure abestiak ikusi eta irakurri ahal izan ditzaten.</para>
+          </listitem>
+          <listitem>
+            <para>Hautatu <guilabel>Musika partekatuaren izena</guilabel> eremuko sarean azaltzea nahi duzun izena.</para>
+          </listitem>
+        </itemizedlist>
+      </sect3>
+      <sect3 id="prefs-lastfm">
+        <title lang="en">Last.fm and Libre.fm profiles</title>
+        <para lang="en">
+			The Last.fm profile plugin collects information about the songs you listen to
+			and sends it to the <ulink url="https://www.last.fm/">Last.fm</ulink> or
+			<ulink url="https://www.libre.fm/">Libre.fm</ulink> website,
+			building up a profile of your listening habits.  With this profile, you can:
+			<itemizedlist>
+				<listitem>
+					<para lang="en">consult statistics, such as most played songs or most played artists.</para>
+				</listitem>
+				<listitem>
+					<para lang="en">receive recommendations about artists that you might like.</para>
+				</listitem>
+			</itemizedlist>
+		</para>
+        <warning>
+          <para lang="en">
+		    In order to use one of these plugins, you must have an account on one of these websites. Press the
+			menu button in the top-right corner of the window and select <guimenuitem>Preferences</guimenuitem>.
+			Select the <guilabel>Plugins</guilabel> tab. Select the <guimenuitem>Last.fm</guimenuitem> item
+			and press the <guibutton>Preferences</guibutton> button. Select a service and close the dialog.
+			In the sidebar, select the service. Press the <guibutton>Log in</guibutton> button in the upper
+			right corner and enter your account details in the web browser window.
+		  </para>
+        </warning>
+      </sect3>
+    </sect2>
+  </sect1>
+  <sect1 id="shortcuts">
+    <title>Lasterbideak</title>
+    <sect2 id="keyboard-keys">
+      <title>Laster-teklak</title>
+      <table frame="topbot" id="rb-shorcuts-1">
+	  	<title>erreproduzitzailearen laster-teklak</title>
+        <tgroup cols="2" colsep="0" rowsep="0">
+          <colspec colname="COLSPEC0" colwidth="30*"/>
+          <colspec colname="COLSPEC1" colwidth="70*"/>
+          <thead>
+            <row>
+              <entry>Lasterbideak</entry>
+              <entry>Ekintzak</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry lang="en">
+                <keycombo>
+                  <keycap>Ctrl</keycap>
+                  <keycap>P</keycap>
+                </keycombo>
+              </entry>
+              <entry>
+                <para>Erreproduzitu/Pausarazi</para>
+              </entry>
+            </row>
+            <row>
+              <entry lang="en">
+                <keycombo>
+                  <keycap>Ctrl</keycap>
+                  <keycap>Left</keycap>
+                </keycombo>
+              </entry>
+              <entry>
+                <para>Aurreko pistara jauzi egin/ Pistaren hasieraraino joan</para>
+              </entry>
+            </row>
+            <row>
+              <entry lang="en">
+                <keycombo>
+                  <keycap>Ctrl</keycap>
+                  <keycap>Right</keycap>
+                </keycombo>
+              </entry>
+              <entry>
+                <para>Hurrengo pistara jauzi egin</para>
+              </entry>
+            </row>
+            <row>
+              <entry lang="en">
+                <keycombo>
+                  <keycap>Ctrl</keycap>
+                  <keycap>Up</keycap>
+                </keycombo>
+              </entry>
+              <entry>
+                <para lang="en">Increase playback volume</para>
+              </entry>
+            </row>
+            <row>
+              <entry lang="en">
+                <keycombo>
+                  <keycap>Ctrl</keycap>
+                  <keycap>Down</keycap>
+                </keycombo>
+              </entry>
+              <entry>
+                <para lang="en">Decrease playback volume</para>
+              </entry>
+            </row>
+            <row>
+              <entry lang="en">
+                <keycombo>
+                  <keycap>Ctrl</keycap>
+                  <keycap>R</keycap>
+                </keycombo>
+              </entry>
+              <entry>
+                <para>Gaitu / Desgaitu erreprodukzioa errepikatzea</para>
+              </entry>
+            </row>
+            <row>
+              <entry lang="en">
+                <keycombo>
+                  <keycap>Ctrl</keycap>
+                  <keycap>U</keycap>
+                </keycombo>
+              </entry>
+              <entry>
+                <para>Gaitu / Desgaitu ausazko erreprodukzioa</para>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <table frame="topbot" id="rb-shorcuts-2">
+	  	<title>Laster-tekla nagusiak</title>
+		<tgroup cols="2" colsep="0" rowsep="0">
+          <colspec colname="COLSPEC0" colwidth="30*"/>
+          <colspec colname="COLSPEC1" colwidth="70*"/>
+          <thead>
+            <row>
+              <entry>Lasterbideak</entry>
+              <entry>Ekintzak</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry lang="en">
+                <keycombo>
+                  <keycap>Ctrl</keycap>
+                  <keycap>A</keycap>
+                </keycombo>
+              </entry>
+              <entry>
+                <para>Hautatu dena</para>
+              </entry>
+            </row>
+            <row>
+              <entry lang="en">
+                <keycombo>
+                  <keycap>Shift</keycap>
+                  <keycap>Ctrl</keycap>
+                  <keycap>A</keycap>
+                </keycombo>
+              </entry>
+              <entry>
+                <para>Desautatu denak</para>
+              </entry>
+            </row>
+            <row>
+              <entry lang="en">
+                <keycombo>
+                  <keycap>Ctrl</keycap>
+                  <keycap>J</keycap>
+                </keycombo>
+              </entry>
+              <entry>
+                <para>Jauzi egin erreproduzitzen ari den abestira</para>
+              </entry>
+	    </row>
+	    <!--
+            <row>
+              <entry>
+                <keycombo>
+                  <keycap>Ctrl</keycap>
+                  <keycap>Y</keycap>
+                </keycombo>
+              </entry>
+              <entry>
+                <para>Clear the search field text and remove all filters in the browser</para>
+              </entry>
+	    </row>
+            -->
+            <row>
+              <entry lang="en">
+                <keycombo>
+                  <keycap>Alt</keycap>
+                  <keycap>S</keycap>
+                </keycombo>
+              </entry>
+              <entry>
+                <para lang="en">Jump to search field</para>
+              </entry>
+            </row>
+            <row>
+              <entry lang="en">
+                <keycombo>
+                  <keycap>Alt</keycap>
+                  <keycap>Return</keycap>
+                </keycombo>
+              </entry>
+              <entry>
+                <para>Bistaratu pistaren propietateak</para>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <table frame="topbot" id="rb-shorcuts-3">
+	  	<title>Leihoaren laster-teklak</title>
+        <tgroup cols="2" colsep="0" rowsep="0">
+          <colspec colname="COLSPEC0" colwidth="30*"/>
+          <colspec colname="COLSPEC1" colwidth="70*"/>
+          <thead>
+            <row>
+              <entry>Lasterbideak</entry>
+              <entry>Ekintzak</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry lang="en">
+                <keycombo>
+                  <keycap>Ctrl</keycap>
+                  <keycap>Q</keycap>
+                </keycombo>
+              </entry>
+              <entry>
+                <para>Irten <application>Rhythmbox musika-erreproduzitzailetik</application></para>
+              </entry>
+            </row>
+            <row>
+              <entry lang="en">
+                <keycombo>
+                  <keycap>Ctrl</keycap>
+                  <keycap>B</keycap>
+                </keycombo>
+              </entry>
+              <entry>
+                <para>Erakutsi / Ezkutatu arakatzailea</para>
+              </entry>
+            </row>
+            <row>
+              <entry lang="en">
+                <keycombo>
+                  <keycap>F9</keycap>
+                </keycombo>
+              </entry>
+              <entry>
+                <para>Erakutsi / Ezkutatu albo-panela</para>
+              </entry>
+            </row>
+            <row>
+              <entry lang="en">
+                <keycombo>
+                  <keycap>Ctrl</keycap>
+                  <keycap>K</keycap>
+                </keycombo>
+              </entry>
+              <entry>
+                <para>Erakutsi / Ezkutatu ilararen alboko barra</para>
+              </entry>
+            </row>
+            <row>
+              <entry lang="en">
+                <keycombo>
+                  <keycap>F11</keycap>
+                </keycombo>
+              </entry>
+              <entry>
+                <para>Erakutsi / Ezkutatu pantaila osoko modua</para>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </sect2>
+    <sect2 id="multimedia-keys">
+      <title>Multimedia-teklak</title>
+      <para><application>Rhythmbox musika-erreproduzitzaileak</application> multimedia-teklatuetako teklak onartzen ditu, konfiguratuta badago zure mahaigainaren ingurunean.</para>
+      <table frame="none">
+	  	<title>Leihoaren laster-teklak</title>
+        <tgroup cols="2" colsep="0" rowsep="0">
+          <colspec colname="COLSPEC0"/>
+          <colspec colname="COLSPEC1"/>
+          <thead>
+            <row>
+              <entry>Lasterbideak</entry>
+              <entry>Ekintzak</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry lang="en">
+                <keycap>Stop</keycap>
+              </entry>
+              <entry>
+                <para>Gelditu</para>
+              </entry>
+            </row>
+            <row>
+              <entry lang="en">
+                <keycap>Pause / Play</keycap>
+              </entry>
+              <entry>
+                <para>Erreproduzitu / Pausarazi</para>
+              </entry>
+            </row>
+            <row>
+              <entry lang="en">
+                <keycap>Prev</keycap>
+              </entry>
+              <entry>
+                <para>Erreproduzitutako aurreko pista</para>
+              </entry>
+            </row>
+            <row>
+              <entry lang="en">
+                <keycap>Next</keycap>
+              </entry>
+              <entry>
+                <para>Hurrengo pista</para>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </sect2>
+    <sect2 id="lirc">
+      <title>Infragorrien urruneko kontrola Linux-en</title>
+      <para><application>Rhythmbox musika-erreproduzitzaileak</application> plugin bat du Linux-en infragorrien urruneko kontrolaren (LIRC) euskarrirako. Ondoko komando-kateak onartzen dira, 'rhythmbox' izeneko programa-izena erabiliz:</para>
+      <table frame="none">
+	  	<title>Leihoaren laster-teklak</title>
+        <tgroup cols="2" colsep="0" rowsep="0">
+          <colspec colname="COLSPEC0"/>
+          <colspec colname="COLSPEC1"/>
+          <thead>
+            <row>
+              <entry>Komando-katea</entry>
+              <entry>Ekintza</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry lang="en"> <keycap>play</keycap> </entry>
+              <entry> <para>Hasi erreproduzitzen</para> </entry>
+            </row>
+            <row>
+              <entry lang="en"> <keycap>pause</keycap> </entry>
+              <entry> <para>Pausarazi erreprodukzioa</para> </entry>
+            </row>
+	    <row>
+	      <entry lang="en"> <keycap>playpause</keycap> </entry>
+	      <entry> <para>Txandakatu erreproduzitzea eta pausaraztea</para> </entry>
+	    </row>
+            <row>
+              <entry lang="en"> <keycap>shuffle</keycap> </entry>
+              <entry> <para>Aktibatu eta desaktibatu ausazko ordena</para> </entry>
+            </row>
+            <row>
+              <entry lang="en"> <keycap>repeat</keycap> </entry>
+              <entry> <para>Aktibatu eta desaktibatu erreprodukzioa errepikatzeko ordena</para> </entry>
+            </row>
+            <row>
+              <entry lang="en"> <keycap>next</keycap> </entry>
+              <entry> <para>Jauzi egin hurrengo pistara</para> </entry>
+            </row>
+            <row>
+              <entry lang="en"> <keycap>previous</keycap> </entry>
+              <entry> <para>Jauzi egin aurreko pistara</para> </entry>
+            </row>
+            <row>
+              <entry lang="en"> <keycap>seek_forward</keycap> </entry>
+              <entry> <para>Jauzi egin 10 segundo aurrera erreproduzitzen ari den pistan</para> </entry>
+            </row>
+            <row>
+              <entry lang="en"> <keycap>seek_backward</keycap> </entry>
+              <entry> <para>Jauzi egin 10 segundo atzera erreproduzitzen ari den pistan</para> </entry>
+            </row>
+            <row>
+              <entry lang="en"> <keycap>volume_up</keycap> </entry>
+              <entry> <para>Igo erreproduzitzeko bolumena % 10</para> </entry>
+            </row>
+            <row>
+              <entry lang="en"> <keycap>volume_down</keycap> </entry>
+              <entry> <para>Jaitsi erreproduzitzeko bolumena % 10</para> </entry>
+            </row>
+            <row>
+              <entry lang="en"> <keycap>mute</keycap> </entry>
+              <entry> <para>Mututu erreprodukzioa</para> </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </sect2>
+  </sect1>
+</article>

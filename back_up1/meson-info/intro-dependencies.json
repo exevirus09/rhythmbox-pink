@@ -1,0 +1,1476 @@
+[
+  {
+    "name": "intl",
+    "type": "builtin",
+    "version": "unknown",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "intl"
+    ]
+  },
+  {
+    "name": "cairo",
+    "type": "pkgconfig",
+    "version": "1.18.4",
+    "compile_args": [
+      "-I/usr/include/cairo",
+      "-I/usr/include/libpng16",
+      "-I/usr/include/freetype2",
+      "-I/usr/include/pixman-1"
+    ],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libcairo.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "cairo"
+    ]
+  },
+  {
+    "name": "gdk-pixbuf-2.0",
+    "type": "pkgconfig",
+    "version": "2.42.12",
+    "compile_args": [
+      "-I/usr/include/gdk-pixbuf-2.0",
+      "-I/usr/include/glib-2.0",
+      "-I/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+      "-I/usr/include/sysprof-6",
+      "-I/usr/include/libpng16",
+      "-I/usr/include/x86_64-linux-gnu",
+      "-I/usr/include/webp",
+      "-I/usr/include/libmount",
+      "-I/usr/include/blkid",
+      "-pthread"
+    ],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgobject-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libglib-2.0.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "gdk_pixbuf"
+    ]
+  },
+  {
+    "name": "gio-2.0",
+    "type": "pkgconfig",
+    "version": "2.84.4",
+    "compile_args": [
+      "-I/usr/include/glib-2.0",
+      "-I/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+      "-I/usr/include/sysprof-6",
+      "-I/usr/include/libmount",
+      "-I/usr/include/blkid",
+      "-pthread"
+    ],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libgio-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgobject-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libglib-2.0.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "gio"
+    ]
+  },
+  {
+    "name": "gio-unix-2.0",
+    "type": "pkgconfig",
+    "version": "2.84.4",
+    "compile_args": [
+      "-I/usr/include/gio-unix-2.0",
+      "-I/usr/include/glib-2.0",
+      "-I/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+      "-I/usr/include/sysprof-6",
+      "-I/usr/include/libmount",
+      "-I/usr/include/blkid",
+      "-pthread"
+    ],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libgio-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgobject-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libglib-2.0.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "gio_unix"
+    ]
+  },
+  {
+    "name": "glib-2.0",
+    "type": "pkgconfig",
+    "version": "2.84.4",
+    "compile_args": [
+      "-I/usr/include/glib-2.0",
+      "-I/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+      "-I/usr/include/sysprof-6",
+      "-pthread"
+    ],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libglib-2.0.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "glib"
+    ]
+  },
+  {
+    "name": "gobject-2.0",
+    "type": "pkgconfig",
+    "version": "2.84.4",
+    "compile_args": [
+      "-I/usr/include/glib-2.0",
+      "-I/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+      "-I/usr/include/sysprof-6",
+      "-pthread"
+    ],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libgobject-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libglib-2.0.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "gobject"
+    ]
+  },
+  {
+    "name": "gobject-introspection-1.0",
+    "type": "pkgconfig",
+    "version": "1.84.0",
+    "compile_args": [
+      "-I/usr/include/gobject-introspection-1.0",
+      "-I/usr/include/glib-2.0",
+      "-I/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+      "-I/usr/include/sysprof-6",
+      "-pthread"
+    ],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libgirepository-1.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgobject-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libglib-2.0.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "gobject_introspection"
+    ]
+  },
+  {
+    "name": "gstreamer-1.0",
+    "type": "pkgconfig",
+    "version": "1.26.2",
+    "compile_args": [
+      "-I/usr/include/gstreamer-1.0",
+      "-I/usr/include/glib-2.0",
+      "-I/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+      "-I/usr/include/sysprof-6",
+      "-pthread"
+    ],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgobject-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libglib-2.0.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "gstreamer"
+    ]
+  },
+  {
+    "name": "gstreamer-audio-1.0",
+    "type": "pkgconfig",
+    "version": "1.26.2",
+    "compile_args": [
+      "-I/usr/include/gstreamer-1.0",
+      "-I/usr/include/glib-2.0",
+      "-I/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+      "-I/usr/include/sysprof-6",
+      "-pthread",
+      "-I/usr/include/orc-0.4"
+    ],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libgstaudio-1.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgstbase-1.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgobject-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libglib-2.0.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "gstreamer_audio"
+    ]
+  },
+  {
+    "name": "gstreamer-base-1.0",
+    "type": "pkgconfig",
+    "version": "1.26.2",
+    "compile_args": [
+      "-I/usr/include/gstreamer-1.0",
+      "-I/usr/include/glib-2.0",
+      "-I/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+      "-I/usr/include/sysprof-6",
+      "-pthread"
+    ],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libgstbase-1.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgobject-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libglib-2.0.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "gstreamer_base"
+    ]
+  },
+  {
+    "name": "gstreamer-controller-1.0",
+    "type": "pkgconfig",
+    "version": "1.26.2",
+    "compile_args": [
+      "-I/usr/include/gstreamer-1.0",
+      "-I/usr/include/glib-2.0",
+      "-I/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+      "-I/usr/include/sysprof-6",
+      "-pthread"
+    ],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libgstcontroller-1.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgobject-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libglib-2.0.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "gstreamer_controller"
+    ]
+  },
+  {
+    "name": "gstreamer-plugins-base-1.0",
+    "type": "pkgconfig",
+    "version": "1.26.2",
+    "compile_args": [
+      "-I/usr/include/gstreamer-1.0",
+      "-I/usr/include/glib-2.0",
+      "-I/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+      "-I/usr/include/sysprof-6",
+      "-pthread"
+    ],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgobject-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libglib-2.0.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "gstreamer_plugins_base"
+    ]
+  },
+  {
+    "name": "gstreamer-pbutils-1.0",
+    "type": "pkgconfig",
+    "version": "1.26.2",
+    "compile_args": [
+      "-I/usr/include/gstreamer-1.0",
+      "-I/usr/include/glib-2.0",
+      "-I/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+      "-I/usr/include/sysprof-6",
+      "-I/usr/include/orc-0.4",
+      "-pthread"
+    ],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libgstpbutils-1.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgstvideo-1.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgstaudio-1.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgstbase-1.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgobject-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libglib-2.0.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "gstreamer_pbutils"
+    ]
+  },
+  {
+    "name": "gstreamer-tag-1.0",
+    "type": "pkgconfig",
+    "version": "1.26.2",
+    "compile_args": [
+      "-I/usr/include/gstreamer-1.0",
+      "-I/usr/include/glib-2.0",
+      "-I/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+      "-I/usr/include/sysprof-6",
+      "-pthread"
+    ],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libgsttag-1.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgobject-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libglib-2.0.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "gstreamer_tag"
+    ]
+  },
+  {
+    "name": "gtk+-3.0",
+    "type": "pkgconfig",
+    "version": "3.24.49",
+    "compile_args": [
+      "-I/usr/include/gtk-3.0",
+      "-I/usr/include/pango-1.0",
+      "-I/usr/include/glib-2.0",
+      "-I/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+      "-I/usr/include/sysprof-6",
+      "-I/usr/include/harfbuzz",
+      "-I/usr/include/freetype2",
+      "-I/usr/include/libpng16",
+      "-I/usr/include/libmount",
+      "-I/usr/include/blkid",
+      "-I/usr/include/fribidi",
+      "-I/usr/include/cairo",
+      "-I/usr/include/pixman-1",
+      "-I/usr/include/gdk-pixbuf-2.0",
+      "-I/usr/include/x86_64-linux-gnu",
+      "-I/usr/include/webp",
+      "-I/usr/include/gio-unix-2.0",
+      "-I/usr/include/cloudproviders",
+      "-I/usr/include/atk-1.0",
+      "-I/usr/include/at-spi2-atk/2.0",
+      "-I/usr/include/at-spi-2.0",
+      "-I/usr/include/dbus-1.0",
+      "-I/usr/lib/x86_64-linux-gnu/dbus-1.0/include",
+      "-pthread"
+    ],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libgtk-3.so",
+      "/usr/lib/x86_64-linux-gnu/libgdk-3.so",
+      "/usr/lib/x86_64-linux-gnu/libz.so",
+      "/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so",
+      "/usr/lib/x86_64-linux-gnu/libpango-1.0.so",
+      "/usr/lib/x86_64-linux-gnu/libharfbuzz.so",
+      "/usr/lib/x86_64-linux-gnu/libatk-1.0.so",
+      "/usr/lib/x86_64-linux-gnu/libcairo-gobject.so",
+      "/usr/lib/x86_64-linux-gnu/libcairo.so",
+      "/usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgio-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgobject-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libglib-2.0.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "gtk"
+    ]
+  },
+  {
+    "name": "json-glib-1.0",
+    "type": "pkgconfig",
+    "version": "1.10.6",
+    "compile_args": [
+      "-I/usr/include/json-glib-1.0",
+      "-I/usr/include/glib-2.0",
+      "-I/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+      "-I/usr/include/sysprof-6",
+      "-I/usr/include/libmount",
+      "-I/usr/include/blkid",
+      "-pthread"
+    ],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libjson-glib-1.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgio-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgobject-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libglib-2.0.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "json_glib"
+    ]
+  },
+  {
+    "name": "libpeas-1.0",
+    "type": "pkgconfig",
+    "version": "1.36.0",
+    "compile_args": [
+      "-I/usr/include/libpeas-1.0",
+      "-I/usr/include/glib-2.0",
+      "-I/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+      "-I/usr/include/sysprof-6",
+      "-I/usr/include/libmount",
+      "-I/usr/include/blkid",
+      "-I/usr/include/gobject-introspection-1.0",
+      "-pthread"
+    ],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libpeas-1.0.so",
+      "-Wl,--export-dynamic",
+      "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so",
+      "-pthread",
+      "/usr/lib/x86_64-linux-gnu/libglib-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgio-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgirepository-1.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgobject-2.0.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "libpeas"
+    ]
+  },
+  {
+    "name": "libpeas-gtk-1.0",
+    "type": "pkgconfig",
+    "version": "1.36.0",
+    "compile_args": [
+      "-I/usr/include/libpeas-1.0",
+      "-I/usr/include/glib-2.0",
+      "-I/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+      "-I/usr/include/sysprof-6",
+      "-I/usr/include/gtk-3.0",
+      "-I/usr/include/pango-1.0",
+      "-I/usr/include/harfbuzz",
+      "-I/usr/include/freetype2",
+      "-I/usr/include/libpng16",
+      "-I/usr/include/libmount",
+      "-I/usr/include/blkid",
+      "-I/usr/include/fribidi",
+      "-I/usr/include/cairo",
+      "-I/usr/include/pixman-1",
+      "-I/usr/include/gdk-pixbuf-2.0",
+      "-I/usr/include/x86_64-linux-gnu",
+      "-I/usr/include/webp",
+      "-I/usr/include/gio-unix-2.0",
+      "-I/usr/include/cloudproviders",
+      "-I/usr/include/atk-1.0",
+      "-I/usr/include/at-spi2-atk/2.0",
+      "-I/usr/include/at-spi-2.0",
+      "-I/usr/include/dbus-1.0",
+      "-I/usr/lib/x86_64-linux-gnu/dbus-1.0/include",
+      "-I/usr/include/gobject-introspection-1.0",
+      "-pthread"
+    ],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libpeas-gtk-1.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgtk-3.so",
+      "/usr/lib/x86_64-linux-gnu/libgdk-3.so",
+      "/usr/lib/x86_64-linux-gnu/libz.so",
+      "/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so",
+      "/usr/lib/x86_64-linux-gnu/libpango-1.0.so",
+      "/usr/lib/x86_64-linux-gnu/libharfbuzz.so",
+      "/usr/lib/x86_64-linux-gnu/libatk-1.0.so",
+      "/usr/lib/x86_64-linux-gnu/libcairo-gobject.so",
+      "/usr/lib/x86_64-linux-gnu/libcairo.so",
+      "/usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libpeas-1.0.so",
+      "-Wl,--export-dynamic",
+      "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so",
+      "-pthread",
+      "/usr/lib/x86_64-linux-gnu/libglib-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgio-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgirepository-1.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgobject-2.0.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "libpeas_gtk"
+    ]
+  },
+  {
+    "name": "libsoup-3.0",
+    "type": "pkgconfig",
+    "version": "3.6.5",
+    "compile_args": [
+      "-I/usr/include/libsoup-3.0",
+      "-I/usr/include/glib-2.0",
+      "-I/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+      "-I/usr/include/sysprof-6",
+      "-I/usr/include/libmount",
+      "-I/usr/include/blkid",
+      "-pthread",
+      "-isystem",
+      "/usr/include/mit-krb5"
+    ],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libsoup-3.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so",
+      "-pthread",
+      "/usr/lib/x86_64-linux-gnu/libglib-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgio-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgobject-2.0.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "libsoup"
+    ]
+  },
+  {
+    "name": "libxml-2.0",
+    "type": "pkgconfig",
+    "version": "2.9.14",
+    "compile_args": [
+      "-I/usr/include/libxml2"
+    ],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libxml2.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "libxml"
+    ]
+  },
+  {
+    "name": "pango",
+    "type": "pkgconfig",
+    "version": "1.56.3",
+    "compile_args": [
+      "-I/usr/include/pango-1.0",
+      "-I/usr/include/glib-2.0",
+      "-I/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+      "-I/usr/include/sysprof-6",
+      "-I/usr/include/harfbuzz",
+      "-I/usr/include/freetype2",
+      "-I/usr/include/libpng16",
+      "-I/usr/include/libmount",
+      "-I/usr/include/blkid",
+      "-I/usr/include/fribidi",
+      "-I/usr/include/cairo",
+      "-I/usr/include/pixman-1",
+      "-pthread"
+    ],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libpango-1.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgobject-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libglib-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libharfbuzz.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "pango"
+    ]
+  },
+  {
+    "name": "tdb",
+    "type": "pkgconfig",
+    "version": "1.4.13",
+    "compile_args": [],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libtdb.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "tdb"
+    ]
+  },
+  {
+    "name": "totem-plparser",
+    "type": "pkgconfig",
+    "version": "3.26.6",
+    "compile_args": [
+      "-I/usr/include/totem-pl-parser/1/plparser",
+      "-I/usr/include/glib-2.0",
+      "-I/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+      "-I/usr/include/sysprof-6",
+      "-I/usr/include/libmount",
+      "-I/usr/include/blkid",
+      "-pthread",
+      "-I/usr/include/libxml2"
+    ],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libtotem-plparser.so",
+      "/usr/lib/x86_64-linux-gnu/libgio-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgobject-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libglib-2.0.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "totem_plparser"
+    ]
+  },
+  {
+    "name": "gudev-1.0",
+    "type": "pkgconfig",
+    "version": "238",
+    "compile_args": [
+      "-I/usr/include/gudev-1.0",
+      "-I/usr/include/glib-2.0",
+      "-I/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+      "-I/usr/include/sysprof-6",
+      "-pthread"
+    ],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libgudev-1.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgobject-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libglib-2.0.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "gudev"
+    ]
+  },
+  {
+    "name": "check",
+    "type": "pkgconfig",
+    "version": "0.15.2",
+    "compile_args": [
+      "-pthread"
+    ],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libcheck_pic.a",
+      "-lrt",
+      "-lm",
+      "/usr/lib/x86_64-linux-gnu/libsubunit.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "check"
+    ]
+  },
+  {
+    "name": "libsecret-1",
+    "type": "pkgconfig",
+    "version": "0.21.7",
+    "compile_args": [
+      "-I/usr/include/libsecret-1",
+      "-I/usr/include/glib-2.0",
+      "-I/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+      "-I/usr/include/sysprof-6",
+      "-I/usr/include/libmount",
+      "-I/usr/include/blkid",
+      "-I/usr/include/gio-unix-2.0",
+      "-pthread"
+    ],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libsecret-1.so",
+      "/usr/lib/x86_64-linux-gnu/libgio-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgobject-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libglib-2.0.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "libsecret"
+    ]
+  },
+  {
+    "name": "x11",
+    "type": "pkgconfig",
+    "version": "1.8.12",
+    "compile_args": [],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libX11.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": []
+  },
+  {
+    "name": "pygobject-3.0",
+    "type": "pkgconfig",
+    "version": "3.50.0",
+    "compile_args": [
+      "-I/usr/include/pygobject-3.0",
+      "-I/usr/include/glib-2.0",
+      "-I/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+      "-I/usr/include/sysprof-6",
+      "-pthread"
+    ],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libgobject-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libglib-2.0.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "pygobject"
+    ]
+  },
+  {
+    "name": "libgpod-1.0",
+    "type": "pkgconfig",
+    "version": "0.8.3",
+    "compile_args": [
+      "-I/usr/include/gpod-1.0",
+      "-I/usr/include/glib-2.0",
+      "-I/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+      "-I/usr/include/sysprof-6",
+      "-I/usr/include/gdk-pixbuf-2.0",
+      "-I/usr/include/libpng16",
+      "-I/usr/include/x86_64-linux-gnu",
+      "-I/usr/include/webp",
+      "-I/usr/include/libmount",
+      "-I/usr/include/blkid",
+      "-pthread"
+    ],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libgpod.so",
+      "/usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgobject-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libglib-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libimobiledevice-1.0.so",
+      "/usr/lib/x86_64-linux-gnu/libplist-2.0.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "libgpod"
+    ]
+  },
+  {
+    "name": "libmtp",
+    "type": "pkgconfig",
+    "version": "1.1.22",
+    "compile_args": [
+      "-I/usr/include/libusb-1.0"
+    ],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libmtp.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "libmtp"
+    ]
+  },
+  {
+    "name": "libnotify",
+    "type": "pkgconfig",
+    "version": "0.8.6",
+    "compile_args": [
+      "-I/usr/include/gdk-pixbuf-2.0",
+      "-I/usr/include/glib-2.0",
+      "-I/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+      "-I/usr/include/sysprof-6",
+      "-I/usr/include/libpng16",
+      "-I/usr/include/x86_64-linux-gnu",
+      "-I/usr/include/webp",
+      "-I/usr/include/libmount",
+      "-I/usr/include/blkid",
+      "-pthread"
+    ],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libnotify.so",
+      "/usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgio-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgobject-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libglib-2.0.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "libnotify"
+    ]
+  },
+  {
+    "name": "lirc",
+    "type": "pkgconfig",
+    "version": "0.10.2",
+    "compile_args": [],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/liblirc_client.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "lirc"
+    ]
+  },
+  {
+    "name": "libbrasero-media3",
+    "type": "pkgconfig",
+    "version": "3.12.3",
+    "compile_args": [
+      "-I/usr/include/brasero3",
+      "-I/usr/include/glib-2.0",
+      "-I/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+      "-I/usr/include/sysprof-6",
+      "-I/usr/include/gtk-3.0",
+      "-I/usr/include/pango-1.0",
+      "-I/usr/include/harfbuzz",
+      "-I/usr/include/freetype2",
+      "-I/usr/include/libpng16",
+      "-I/usr/include/libmount",
+      "-I/usr/include/blkid",
+      "-I/usr/include/fribidi",
+      "-I/usr/include/cairo",
+      "-I/usr/include/pixman-1",
+      "-I/usr/include/gdk-pixbuf-2.0",
+      "-I/usr/include/x86_64-linux-gnu",
+      "-I/usr/include/webp",
+      "-I/usr/include/gio-unix-2.0",
+      "-I/usr/include/cloudproviders",
+      "-I/usr/include/atk-1.0",
+      "-I/usr/include/at-spi2-atk/2.0",
+      "-I/usr/include/at-spi-2.0",
+      "-I/usr/include/dbus-1.0",
+      "-I/usr/lib/x86_64-linux-gnu/dbus-1.0/include",
+      "-pthread"
+    ],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libbrasero-media3.so",
+      "/usr/lib/x86_64-linux-gnu/libgthread-2.0.so",
+      "-pthread",
+      "/usr/lib/x86_64-linux-gnu/libglib-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgtk-3.so",
+      "/usr/lib/x86_64-linux-gnu/libgdk-3.so",
+      "/usr/lib/x86_64-linux-gnu/libz.so",
+      "/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so",
+      "/usr/lib/x86_64-linux-gnu/libpango-1.0.so",
+      "/usr/lib/x86_64-linux-gnu/libharfbuzz.so",
+      "/usr/lib/x86_64-linux-gnu/libatk-1.0.so",
+      "/usr/lib/x86_64-linux-gnu/libcairo-gobject.so",
+      "/usr/lib/x86_64-linux-gnu/libcairo.so",
+      "/usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgio-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgobject-2.0.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "brasero_media"
+    ]
+  },
+  {
+    "name": "grilo-0.3",
+    "type": "pkgconfig",
+    "version": "0.3.16",
+    "compile_args": [
+      "-I/usr/include/grilo-0.3",
+      "-I/usr/include/glib-2.0",
+      "-I/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+      "-I/usr/include/sysprof-6",
+      "-I/usr/include/libmount",
+      "-I/usr/include/blkid",
+      "-pthread",
+      "-I/usr/include/libxml2"
+    ],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libgrilo-0.3.so",
+      "-Wl,--export-dynamic",
+      "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so",
+      "-pthread",
+      "/usr/lib/x86_64-linux-gnu/libglib-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgio-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgobject-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libxml2.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "grilo"
+    ]
+  },
+  {
+    "name": "grilo-net-0.3",
+    "type": "pkgconfig",
+    "version": "0.3.16",
+    "compile_args": [
+      "-I/usr/include/grilo-0.3",
+      "-I/usr/include/glib-2.0",
+      "-I/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+      "-I/usr/include/sysprof-6",
+      "-I/usr/include/libmount",
+      "-I/usr/include/blkid",
+      "-pthread",
+      "-I/usr/include/libxml2"
+    ],
+    "link_args": [
+      "/usr/lib/x86_64-linux-gnu/libgrlnet-0.3.so",
+      "/usr/lib/x86_64-linux-gnu/libgrilo-0.3.so",
+      "-Wl,--export-dynamic",
+      "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so",
+      "-pthread",
+      "/usr/lib/x86_64-linux-gnu/libglib-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgio-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libgobject-2.0.so",
+      "/usr/lib/x86_64-linux-gnu/libxml2.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "grilonet"
+    ]
+  },
+  {
+    "name": "m",
+    "type": "library",
+    "version": "unknown",
+    "compile_args": [],
+    "link_args": [
+      "-lm"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "libmath"
+    ]
+  },
+  {
+    "name": "dep154690210504112136141408053715583716671",
+    "type": "internal",
+    "version": "3.5.1",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/.",
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/_build/.",
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/lib/.",
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/_build/lib/."
+    ],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [
+      "m",
+      "intl",
+      "glib-2.0",
+      "gobject-2.0",
+      "gio-2.0",
+      "gio-unix-2.0",
+      "cairo",
+      "pango",
+      "gdk-pixbuf-2.0",
+      "gtk+-3.0",
+      "gstreamer-1.0",
+      "gstreamer-audio-1.0",
+      "gstreamer-base-1.0",
+      "gstreamer-controller-1.0",
+      "gstreamer-plugins-base-1.0",
+      "gstreamer-pbutils-1.0",
+      "gstreamer-tag-1.0",
+      "json-glib-1.0",
+      "libsoup-3.0",
+      "libxml-2.0",
+      "tdb",
+      "totem-plparser",
+      "libpeas-1.0",
+      "libpeas-gtk-1.0",
+      "gudev-1.0",
+      "x11"
+    ],
+    "depends": [
+      "76b5a35@@rb@sta"
+    ],
+    "meson_variables": [
+      "librb_dep"
+    ]
+  },
+  {
+    "name": "dep132701360025280383942922813751401633082",
+    "type": "internal",
+    "version": "3.5.1",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/lib/libmediaplayerid/.",
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/_build/lib/libmediaplayerid/."
+    ],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [
+      "m",
+      "intl",
+      "glib-2.0",
+      "gobject-2.0",
+      "gio-2.0",
+      "gio-unix-2.0",
+      "cairo",
+      "pango",
+      "gdk-pixbuf-2.0",
+      "gtk+-3.0",
+      "gstreamer-1.0",
+      "gstreamer-audio-1.0",
+      "gstreamer-base-1.0",
+      "gstreamer-controller-1.0",
+      "gstreamer-plugins-base-1.0",
+      "gstreamer-pbutils-1.0",
+      "gstreamer-tag-1.0",
+      "json-glib-1.0",
+      "libsoup-3.0",
+      "libxml-2.0",
+      "tdb",
+      "totem-plparser",
+      "libpeas-1.0",
+      "libpeas-gtk-1.0",
+      "gudev-1.0",
+      "x11"
+    ],
+    "depends": [
+      "3c8f51a@@mediaplayerid@sta"
+    ],
+    "meson_variables": [
+      "mediaplayerid_dep"
+    ]
+  },
+  {
+    "name": "dep279033328803480396920822936122730915049",
+    "type": "internal",
+    "version": "3.5.1",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/metadata/.",
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/_build/metadata/."
+    ],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [
+      "m",
+      "intl",
+      "glib-2.0",
+      "gobject-2.0",
+      "gio-2.0",
+      "gio-unix-2.0",
+      "cairo",
+      "pango",
+      "gdk-pixbuf-2.0",
+      "gtk+-3.0",
+      "gstreamer-1.0",
+      "gstreamer-audio-1.0",
+      "gstreamer-base-1.0",
+      "gstreamer-controller-1.0",
+      "gstreamer-plugins-base-1.0",
+      "gstreamer-pbutils-1.0",
+      "gstreamer-tag-1.0",
+      "json-glib-1.0",
+      "libsoup-3.0",
+      "libxml-2.0",
+      "tdb",
+      "totem-plparser",
+      "libpeas-1.0",
+      "libpeas-gtk-1.0",
+      "gudev-1.0",
+      "x11"
+    ],
+    "depends": [
+      "45447b7@@rbmetadata@sta"
+    ],
+    "meson_variables": [
+      "rbmetadata_dep"
+    ]
+  },
+  {
+    "name": "dep261945072796238826685119738568242276081",
+    "type": "internal",
+    "version": "3.5.1",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/rhythmdb/.",
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/_build/rhythmdb/."
+    ],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [
+      "m",
+      "intl",
+      "glib-2.0",
+      "gobject-2.0",
+      "gio-2.0",
+      "gio-unix-2.0",
+      "cairo",
+      "pango",
+      "gdk-pixbuf-2.0",
+      "gtk+-3.0",
+      "gstreamer-1.0",
+      "gstreamer-audio-1.0",
+      "gstreamer-base-1.0",
+      "gstreamer-controller-1.0",
+      "gstreamer-plugins-base-1.0",
+      "gstreamer-pbutils-1.0",
+      "gstreamer-tag-1.0",
+      "json-glib-1.0",
+      "libsoup-3.0",
+      "libxml-2.0",
+      "tdb",
+      "totem-plparser",
+      "libpeas-1.0",
+      "libpeas-gtk-1.0",
+      "gudev-1.0",
+      "x11"
+    ],
+    "depends": [
+      "d769afe@@rhythmdb@sta"
+    ],
+    "meson_variables": [
+      "rhythmdb_dep"
+    ]
+  },
+  {
+    "name": "dep300859821213009163697774942031609956177",
+    "type": "internal",
+    "version": "3.5.1",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/backends",
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/_build/backends",
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/backends/gstreamer",
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/_build/backends/gstreamer"
+    ],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [
+      "m",
+      "intl",
+      "glib-2.0",
+      "gobject-2.0",
+      "gio-2.0",
+      "gio-unix-2.0",
+      "cairo",
+      "pango",
+      "gdk-pixbuf-2.0",
+      "gtk+-3.0",
+      "gstreamer-1.0",
+      "gstreamer-audio-1.0",
+      "gstreamer-base-1.0",
+      "gstreamer-controller-1.0",
+      "gstreamer-plugins-base-1.0",
+      "gstreamer-pbutils-1.0",
+      "gstreamer-tag-1.0",
+      "json-glib-1.0",
+      "libsoup-3.0",
+      "libxml-2.0",
+      "tdb",
+      "totem-plparser",
+      "libpeas-1.0",
+      "libpeas-gtk-1.0",
+      "gudev-1.0",
+      "x11"
+    ],
+    "depends": [
+      "d8f9b68@@rbbackends@sta"
+    ],
+    "meson_variables": [
+      "rbbackends_dep"
+    ]
+  },
+  {
+    "name": "dep124007192650473832433178774012101903491",
+    "type": "internal",
+    "version": "3.5.1",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/.",
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/_build/.",
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/podcast/.",
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/_build/podcast/."
+    ],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [
+      "m",
+      "intl",
+      "glib-2.0",
+      "gobject-2.0",
+      "gio-2.0",
+      "gio-unix-2.0",
+      "cairo",
+      "pango",
+      "gdk-pixbuf-2.0",
+      "gtk+-3.0",
+      "gstreamer-1.0",
+      "gstreamer-audio-1.0",
+      "gstreamer-base-1.0",
+      "gstreamer-controller-1.0",
+      "gstreamer-plugins-base-1.0",
+      "gstreamer-pbutils-1.0",
+      "gstreamer-tag-1.0",
+      "json-glib-1.0",
+      "libsoup-3.0",
+      "libxml-2.0",
+      "tdb",
+      "totem-plparser",
+      "libpeas-1.0",
+      "libpeas-gtk-1.0",
+      "gudev-1.0",
+      "x11"
+    ],
+    "depends": [
+      "f62a697@@rbpodcast@sta"
+    ],
+    "meson_variables": [
+      "rbpodcast_dep"
+    ]
+  },
+  {
+    "name": "dep284809088385838499900867290539663348718",
+    "type": "internal",
+    "version": "3.5.1",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/sources/.",
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/_build/sources/."
+    ],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [
+      "totem-plparser",
+      "gstreamer-pbutils-1.0",
+      "libxml-2.0",
+      "gtk+-3.0"
+    ],
+    "depends": [
+      "878a52f@@sources@sta"
+    ],
+    "meson_variables": [
+      "sources_dep"
+    ]
+  },
+  {
+    "name": "dep236084817443248805592490352921788714255",
+    "type": "internal",
+    "version": "3.5.1",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/widgets/.",
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/_build/widgets/."
+    ],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [
+      "gtk+-3.0",
+      "gdk-pixbuf-2.0",
+      "cairo",
+      "pango",
+      "gstreamer-pbutils-1.0",
+      "libsoup-3.0"
+    ],
+    "depends": [
+      "08c0705@@rbwidgets@sta"
+    ],
+    "meson_variables": [
+      "rbwidgets_dep"
+    ]
+  },
+  {
+    "name": "dep232655936858590305027449309284469502152",
+    "type": "internal",
+    "version": "3.5.1",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/.",
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/_build/.",
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/lib",
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/_build/lib",
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/lib/libmediaplayerid",
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/_build/lib/libmediaplayerid",
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/metadata",
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/_build/metadata",
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/rhythmdb",
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/_build/rhythmdb",
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/backends",
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/_build/backends",
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/backends/gstreamer",
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/_build/backends/gstreamer",
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/plugins",
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/_build/plugins",
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/podcast",
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/_build/podcast",
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/sources",
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/_build/sources",
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/sources/sync",
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/_build/sources/sync",
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/widgets",
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/_build/widgets",
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/shell/.",
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/_build/shell/."
+    ],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [
+      "m",
+      "intl",
+      "glib-2.0",
+      "gobject-2.0",
+      "gio-2.0",
+      "gio-unix-2.0",
+      "cairo",
+      "pango",
+      "gdk-pixbuf-2.0",
+      "gtk+-3.0",
+      "gstreamer-1.0",
+      "gstreamer-audio-1.0",
+      "gstreamer-base-1.0",
+      "gstreamer-controller-1.0",
+      "gstreamer-plugins-base-1.0",
+      "gstreamer-pbutils-1.0",
+      "gstreamer-tag-1.0",
+      "json-glib-1.0",
+      "libsoup-3.0",
+      "libxml-2.0",
+      "tdb",
+      "totem-plparser",
+      "libpeas-1.0",
+      "libpeas-gtk-1.0",
+      "gudev-1.0",
+      "x11"
+    ],
+    "depends": [
+      "ce635c4@@rhythmbox-core@sha"
+    ],
+    "meson_variables": [
+      "rhythmbox_core_dep"
+    ]
+  },
+  {
+    "name": "dep320390847489200183859261091420443422328",
+    "type": "internal",
+    "version": "3.5.1",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/plugins/audioscrobbler/.",
+      "/home/h4ydi/Downloads/rhythmbox-3.5.1/_build/plugins/audioscrobbler/."
+    ],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [
+      "a7a3ea0@@audioscrobbler-test@sha"
+    ],
+    "meson_variables": [
+      "audioscrobbler_test_dep"
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+ 0x000000000000000e (SONAME)             Library soname: [libaudioscrobbler-test.so]
+__bss_start B
+_edata D
+_end B
+rb_audioscrobbler_encoded_entry_free T
+rb_audioscrobbler_entry_create T
+rb_audioscrobbler_entry_debug T
+rb_audioscrobbler_entry_encode T
+rb_audioscrobbler_entry_free T
+rb_audioscrobbler_entry_init T
+rb_audioscrobbler_entry_load_from_string T
+rb_audioscrobbler_entry_save_to_string T
+rb_audioscrobbler_radio_entry_type_get_type T
+_rb_audioscrobbler_radio_track_entry_type_register_type T
+rb_audioscrobbler_radio_track_get_entry_type T
+rb_audioscrobbler_radio_track_register_entry_type T

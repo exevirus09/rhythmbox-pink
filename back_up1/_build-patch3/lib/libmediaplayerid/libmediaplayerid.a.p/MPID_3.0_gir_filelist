@@ -1,0 +1,5 @@
+../lib/libmediaplayerid/mpid-device.c
+../lib/libmediaplayerid/mpid-files.c
+../lib/libmediaplayerid/mpid-util.c
+../lib/libmediaplayerid/mpid-udev.c
+../lib/libmediaplayerid/mediaplayerid.h

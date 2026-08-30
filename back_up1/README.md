@@ -1,15 +1,3 @@
-# Rhythmbox
-
-Rhythmbox is your one-stop multimedia application, supporting
-a music library, multiple playlists, internet radio, and more.
-
-Rhythmbox is free software, licensed under the GNU GPL.
-
-Our IRC channel is `#gnome-rhythmbox` on [Libera Chat](irc.libera.chat).
-
-You can also post questions about Rhythmbox under the Applications
-category on [GNOME Discourse](https://discourse.gnome.org/).
-
 ## Installation
 
 Rhythmbox requires the following packages:
@@ -69,13 +57,3 @@ run `meson configure _build`.
 
 More detailed installation instructions can be found in [meson's
 website](https://mesonbuild.com/Quick-guide.html).
-
-## How to report bugs
-
-Bugs should be reported to the GitLab repository.
-(https://gitlab.gnome.org/GNOME/rhythmbox/issues) You will need to
-create an account for yourself.
-
-Please read the GNOME bug reporting guidelines, documented in the
-[GNOME Project Handbook](https://handbook.gnome.org/issues.html)
-
